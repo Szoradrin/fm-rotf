@@ -77,7 +77,7 @@
         }
       },
       "_id": "n2SXSbp6HIMApgwj",
-      "_key": "!items!n2SXSbp6HIMApgwj"
+      "_key": "!actors.items!N27ZGQIfexCs99yJ.n2SXSbp6HIMApgwj"
     },
     {
       "name": "Keen Smell",
@@ -88,7 +88,7 @@
         }
       },
       "_id": "BVixEPLGTfwQ7055",
-      "_key": "!items!BVixEPLGTfwQ7055"
+      "_key": "!actors.items!N27ZGQIfexCs99yJ.BVixEPLGTfwQ7055"
     },
     {
       "name": "Regeneration",
@@ -99,7 +99,7 @@
         }
       },
       "_id": "3P0DYWtQ50PZcvpd",
-      "_key": "!items!3P0DYWtQ50PZcvpd"
+      "_key": "!actors.items!N27ZGQIfexCs99yJ.3P0DYWtQ50PZcvpd"
     },
     {
       "name": "Multiattack",
@@ -110,7 +110,7 @@
         }
       },
       "_id": "9VSdhexu040erdHB",
-      "_key": "!items!9VSdhexu040erdHB"
+      "_key": "!actors.items!N27ZGQIfexCs99yJ.9VSdhexu040erdHB"
     },
     {
       "name": "Bite",
@@ -139,7 +139,7 @@
         }
       },
       "_id": "ZQv6aXuoanbpLCff",
-      "_key": "!items!ZQv6aXuoanbpLCff"
+      "_key": "!actors.items!N27ZGQIfexCs99yJ.ZQv6aXuoanbpLCff"
     },
     {
       "name": "Claw",
@@ -168,7 +168,7 @@
         }
       },
       "_id": "zKTgOTm030p2ptUX",
-      "_key": "!items!zKTgOTm030p2ptUX"
+      "_key": "!actors.items!N27ZGQIfexCs99yJ.zKTgOTm030p2ptUX"
     }
   ],
   "_id": "N27ZGQIfexCs99yJ",
