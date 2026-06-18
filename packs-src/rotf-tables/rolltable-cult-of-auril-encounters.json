@@ -8,7 +8,9 @@
   "displayRoll": true,
   "folder": null,
   "sort": 0,
-  "ownership": {"default": 0},
+  "ownership": {
+    "default": 0
+  },
   "flags": {},
   "_stats": {
     "compendiumSource": null,
@@ -19,79 +21,97 @@
   "results": [
     {
       "_id": "AurilCultResult001",
-      "_key": "!tables.results!AurilCultResult001",
-      "type": 2,
+      "_key": "!tables.results!AurilCultEncTable01.AurilCultResult001",
+      "type": "pack",
       "text": "Spite of Auril",
       "img": "icons/magic/water/ice-block-frozen-blue.webp",
       "documentCollection": "rime-of-the-frostmaiden.rotf-actors-cult",
       "documentId": "AurilCultSpite0001",
       "weight": 1,
-      "range": [1, 1],
+      "range": [
+        1,
+        1
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "AurilCultResult002",
-      "_key": "!tables.results!AurilCultResult002",
-      "type": 2,
+      "_key": "!tables.results!AurilCultEncTable01.AurilCultResult002",
+      "type": "pack",
       "text": "Tempest of Auril",
       "img": "icons/magic/air/air-burst-spiral-blue-white.webp",
       "documentCollection": "rime-of-the-frostmaiden.rotf-actors-cult",
       "documentId": "AurilCultTempst001",
       "weight": 1,
-      "range": [2, 2],
+      "range": [
+        2,
+        2
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "AurilCultResult003",
-      "_key": "!tables.results!AurilCultResult003",
-      "type": 2,
+      "_key": "!tables.results!AurilCultEncTable01.AurilCultResult003",
+      "type": "pack",
       "text": "Darkhand of Auril",
       "img": "icons/magic/unholy/strike-hand-black-explosion.webp",
       "documentCollection": "rime-of-the-frostmaiden.rotf-actors-cult",
       "documentId": "AurilCultDrkHnd001",
       "weight": 1,
-      "range": [3, 3],
+      "range": [
+        3,
+        3
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "AurilCultResult004",
-      "_key": "!tables.results!AurilCultResult004",
-      "type": 2,
+      "_key": "!tables.results!AurilCultEncTable01.AurilCultResult004",
+      "type": "pack",
       "text": "Coldwind of Auril",
       "img": "icons/magic/air/wind-tornado-blue-white.webp",
       "documentCollection": "rime-of-the-frostmaiden.rotf-actors-cult",
       "documentId": "AurilCultCldWnd001",
       "weight": 1,
-      "range": [4, 4],
+      "range": [
+        4,
+        4
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "AurilCultResult005",
-      "_key": "!tables.results!AurilCultResult005",
-      "type": 2,
+      "_key": "!tables.results!AurilCultEncTable01.AurilCultResult005",
+      "type": "pack",
       "text": "Icebringer of Auril",
       "img": "icons/magic/water/snowflake-ice-crystals-blue.webp",
       "documentCollection": "rime-of-the-frostmaiden.rotf-actors-cult",
       "documentId": "AurilCultIceBrng01",
       "weight": 1,
-      "range": [5, 5],
+      "range": [
+        5,
+        5
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "AurilCultResult006",
-      "_key": "!tables.results!AurilCultResult006",
-      "type": 2,
+      "_key": "!tables.results!AurilCultEncTable01.AurilCultResult006",
+      "type": "pack",
       "text": "Nix Mater (Snow Mother)",
       "img": "icons/magic/unholy/orb-glowing-purple-blue.webp",
       "documentCollection": "rime-of-the-frostmaiden.rotf-actors-cult",
       "documentId": "AurilCultNixMtr001",
       "weight": 1,
-      "range": [6, 6],
+      "range": [
+        6,
+        6
+      ],
       "drawn": false,
       "flags": {}
     }
