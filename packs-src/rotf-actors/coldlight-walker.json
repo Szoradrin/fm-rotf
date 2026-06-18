@@ -88,7 +88,7 @@
         }
       },
       "_id": "ma7wz7UBLFN5yCxX",
-      "_key": "!items!ma7wz7UBLFN5yCxX"
+      "_key": "!actors.items!0npY6lRhj031vaod.ma7wz7UBLFN5yCxX"
     },
     {
       "name": "Icy Doom",
@@ -99,7 +99,7 @@
         }
       },
       "_id": "BVFrW2l6KqqOTLMl",
-      "_key": "!items!BVFrW2l6KqqOTLMl"
+      "_key": "!actors.items!0npY6lRhj031vaod.BVFrW2l6KqqOTLMl"
     },
     {
       "name": "Unusual Nature",
@@ -110,7 +110,7 @@
         }
       },
       "_id": "GsHsrYOR4ooePqRe",
-      "_key": "!items!GsHsrYOR4ooePqRe"
+      "_key": "!actors.items!0npY6lRhj031vaod.GsHsrYOR4ooePqRe"
     },
     {
       "name": "Multiattack",
@@ -121,7 +121,7 @@
         }
       },
       "_id": "zVAiT7B3zLQzIkiU",
-      "_key": "!items!zVAiT7B3zLQzIkiU"
+      "_key": "!actors.items!0npY6lRhj031vaod.zVAiT7B3zLQzIkiU"
     },
     {
       "name": "Slam",
@@ -150,7 +150,7 @@
         }
       },
       "_id": "GZXtg1HVj4BspBqU",
-      "_key": "!items!GZXtg1HVj4BspBqU"
+      "_key": "!actors.items!0npY6lRhj031vaod.GZXtg1HVj4BspBqU"
     },
     {
       "name": "Cold Ray",
@@ -175,7 +175,7 @@
         }
       },
       "_id": "Knt8PsKzJabygEMu",
-      "_key": "!items!Knt8PsKzJabygEMu"
+      "_key": "!actors.items!0npY6lRhj031vaod.Knt8PsKzJabygEMu"
     }
   ],
   "_id": "0npY6lRhj031vaod",
