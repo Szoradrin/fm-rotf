@@ -1,0 +1,4 @@
+./packs-src/*
+./node_modules/*
+*.git*
+*.vscode*
