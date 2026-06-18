@@ -1,0 +1,106 @@
+{
+  "_id": "RotFCh1LakeEvents01",
+  "_key": "!tables!RotFCh1LakeEvents01",
+  "name": "Chapter 1: Lake Events (Maer Dualdon)",
+  "description": "<p>Roll 1d20 at the end of each hour while the party is out on Maer Dualdon during the Bremen \"Lake Monster\" quest. Source: <em>Rime of the Frostmaiden</em> p. 34.</p>",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  },
+  "results": [
+    {
+      "_id": "RotFCh1LakeEvents01R001",
+      "_key": "!tables.results!RotFCh1LakeEvents01.RotFCh1LakeEvents01R001",
+      "type": "text",
+      "text": "The lake is still and quiet for the next hour. A fine time for some fishing.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        10
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1LakeEvents01R002",
+      "_key": "!tables.results!RotFCh1LakeEvents01.RotFCh1LakeEvents01R002",
+      "type": "text",
+      "text": "The characters spot a rowboat from Lonelywood or Termalaine. It has 1d4 fishers (commoners) aboard and keeps its distance. The fishers are antisocial but nonthreatening. They fish in the vicinity for the better part of an hour, then head back with their catch.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        11,
+        12
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1LakeEvents01R003",
+      "_key": "!tables.results!RotFCh1LakeEvents01.RotFCh1LakeEvents01R003",
+      "type": "text",
+      "text": "The characters encounter a keelboat flying the Targos flag. It has 1d6 fishers (commoners) and a captain (scout) aboard. They don't believe the lake monster is real and try to badger the characters into fishing elsewhere. They trawl in the vicinity for the better part of an hour, then head back toward Targos.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1LakeEvents01R004",
+      "_key": "!tables.results!RotFCh1LakeEvents01.RotFCh1LakeEvents01R004",
+      "type": "text",
+      "text": "A cold wind blows across the lake for the next hour. The lake's normally still waters become choppy. Until the wind abates, ability checks to steer the boat and fish for trout have disadvantage, as do saving throws against the effects of extreme cold.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1LakeEvents01R005",
+      "_key": "!tables.results!RotFCh1LakeEvents01.RotFCh1LakeEvents01R005",
+      "type": "text",
+      "text": "A knucklehead trout (see appendix C) leaps out of the lake, makes a tail attack against one random character in the boat, and dives back into the frigid water. A character with a passive Perception of 13 or higher is not surprised and can use their reaction to make an opportunity attack or try to grapple the fish.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1LakeEvents01R006",
+      "_key": "!tables.results!RotFCh1LakeEvents01.RotFCh1LakeEvents01R006",
+      "type": "text",
+      "text": "The awakened plesiosaurus makes its presence known. Run the \"Clever Beast\" encounter and roll on the Plesiosaurus Behavior table.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        16,
+        20
+      ],
+      "drawn": false,
+      "flags": {}
+    }
+  ]
+}
