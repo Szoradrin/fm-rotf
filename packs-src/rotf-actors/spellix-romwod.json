@@ -86,7 +86,7 @@
         }
       },
       "_id": "lE8IApbMJvmhxkys",
-      "_key": "!items!lE8IApbMJvmhxkys"
+      "_key": "!actors.items!8ZCVUWWyrA8wigGo.lE8IApbMJvmhxkys"
     },
     {
       "name": "Innate Spellcasting",
@@ -97,7 +97,7 @@
         }
       },
       "_id": "JsPZD9M4eOGrdxIP",
-      "_key": "!items!JsPZD9M4eOGrdxIP"
+      "_key": "!actors.items!8ZCVUWWyrA8wigGo.JsPZD9M4eOGrdxIP"
     },
     {
       "name": "Shocking Grasp",
@@ -122,7 +122,7 @@
         }
       },
       "_id": "g79xMlLohgptGI2n",
-      "_key": "!items!g79xMlLohgptGI2n"
+      "_key": "!actors.items!8ZCVUWWyrA8wigGo.g79xMlLohgptGI2n"
     },
     {
       "name": "Fire Bolt",
@@ -147,7 +147,7 @@
         }
       },
       "_id": "Gh5JSz3YjdTMbVF0",
-      "_key": "!items!Gh5JSz3YjdTMbVF0"
+      "_key": "!actors.items!8ZCVUWWyrA8wigGo.Gh5JSz3YjdTMbVF0"
     }
   ],
   "_id": "8ZCVUWWyrA8wigGo",
