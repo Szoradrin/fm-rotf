@@ -94,7 +94,7 @@
           "cost": 1
         }
       },
-      "_key": "!actors.items!TempestItem000001",
+      "_key": "!actors.items!AurilCultTempst001.TempestItem000001",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -130,7 +130,7 @@
         "actionType": "mwak",
         "attackBonus": "2"
       },
-      "_key": "!actors.items!TempestItem000002",
+      "_key": "!actors.items!AurilCultTempst001.TempestItem000002",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -171,7 +171,7 @@
           "units": "ft"
         }
       },
-      "_key": "!actors.items!TempestItem000003",
+      "_key": "!actors.items!AurilCultTempst001.TempestItem000003",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -197,7 +197,7 @@
           "value": "monster"
         }
       },
-      "_key": "!actors.items!TempestItem000004",
+      "_key": "!actors.items!AurilCultTempst001.TempestItem000004",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -223,7 +223,7 @@
           "value": "monster"
         }
       },
-      "_key": "!actors.items!TempestItem000005",
+      "_key": "!actors.items!AurilCultTempst001.TempestItem000005",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -253,7 +253,7 @@
           "cost": 1
         }
       },
-      "_key": "!actors.items!TempestItem000006",
+      "_key": "!actors.items!AurilCultTempst001.TempestItem000006",
       "flags": {},
       "sort": 0,
       "ownership": {
