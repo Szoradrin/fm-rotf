@@ -1,0 +1,90 @@
+{
+  "_id": "RotFIntroduction01",
+  "_key": "!journal!RotFIntroduction01",
+  "name": "Introduction: Icewind Dale",
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  },
+  "pages": [
+    {
+      "_id": "RotFIntroP001",
+      "_key": "!journal.pages!RotFIntroP001",
+      "name": "Welcome to the Far North",
+      "type": "text",
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Welcome to the Far North</h2>\n<p>North of the Spine of the World and west of the towering Reghed Glacier is a frigid expanse few dare to explore, let alone inhabit. This icy land of windswept tundra recently became locked in a perpetual, dark winter without reprieve. <strong>Auril the Frostmaiden</strong>, the divine embodiment of winter's fury, has withdrawn to this cold corner of the world to live among mortals and has cast a terrible spell over Icewind Dale.</p>\n<p>Each night before midnight, Auril takes to the sky on the back of a white roc and weaves her spell, which manifests as a shimmering curtain of light — a beautiful aurora that illuminates the night sky and fades before dawn. This powerful magic prevents the next day's sun from rising above the horizon, turning midday into twilight and trapping Icewind Dale in winter's dark embrace. Each casting of the spell leaves the Frostmaiden weakened, with just enough divine power left to barricade the mountain pass with blizzards and churn the Sea of Moving Ice with blistering winds.</p>\n<p>The people of Icewind Dale know Auril's wrath when they feel it, and they have a name for the unending winter she has inflicted on them. They call it the <strong>Everlasting Rime</strong>. No one understands why the Frostmaiden has imposed her will in this way or why the other gods refuse to challenge her. This prolonged winter, which has gone on for more than two years, threatens to doom not just the flickering lights of civilization known as Ten-Towns but also the indigenous flora and fauna that need sunlight and the change of seasons to survive.</p>"
+      }
+    },
+    {
+      "_id": "RotFIntroP002",
+      "_key": "!journal.pages!RotFIntroP002",
+      "name": "Adventure Summary",
+      "type": "text",
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Adventure Summary</h2>\n<p>Three plot elements, woven together, form this adventure:</p>\n<h3>Duergar Despot</h3>\n<p><strong>Xardorok Sunblight</strong>, a duergar warlock formerly of the Underdark, has taken advantage of Auril's magic and raised a fortress amid the dark shadows of the mountains. His patron, Deep Duerra, has urged him to fulfill his destiny and become the first duergar to rule a kingdom on the surface. His underlings strike out across the tundra in search of <strong>chardalyn</strong> — a crystalline substance known to exist only in Icewind Dale — to construct a chardalyn dragon and unleash it upon Ten-Towns.</p>\n<h3>Lost City of Magic</h3>\n<p>Four wizards of the <strong>Arcane Brotherhood</strong>, a powerful society of spellcasters based in Luskan, have come to Icewind Dale chasing rumors of a lost city buried under the Reghed Glacier — a fragment of the long-gone Empire of Netheril. These floating cities wielded magic that terrified the gods. Nearly two thousand years ago, this floating city crashed during the fall of the empire. It is, arguably, Icewind Dale's greatest secret.</p>\n<h3>The Frostmaiden's Wrath</h3>\n<p>At the heart of the adventure is <strong>Auril the Frostmaiden</strong> herself, who must be confronted and defeated if Icewind Dale is ever to see summer again. Her island lair in the Sea of Moving Ice holds the secret to ending the Everlasting Rime.</p>"
+      }
+    },
+    {
+      "_id": "RotFIntroP003",
+      "_key": "!journal.pages!RotFIntroP003",
+      "name": "Running the Adventure",
+      "type": "text",
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Running the Adventure</h2>\n<h3>Flowchart</h3>\n<p>The adventure unfolds in seven chapters:</p>\n<ul>\n<li><strong>Chapter 1: Ten-Towns</strong> — The party explores the settlements of Ten-Towns, completing quests and rising to 4th level.</li>\n<li><strong>Chapter 2: Icewind Dale</strong> — The party ventures into the frozen wilderness, investigating tall tales and rising to 5th or 6th level.</li>\n<li><strong>Chapter 3: Sunblight</strong> — The party assaults Xardorok Sunblight's fortress. Recommended level: 4–5.</li>\n<li><strong>Chapter 4: Destruction's Light</strong> — The chardalyn dragon ravages Ten-Towns. Recommended level: 5–6.</li>\n<li><strong>Chapter 5: Auril's Abode</strong> — The party travels to the Island of Solstice. Recommended level: 6–8.</li>\n<li><strong>Chapter 6: Caves of Hunger</strong> — The party enters the glacier. Recommended level: 8–9.</li>\n<li><strong>Chapter 7: Doom of Ythryn</strong> — The party explores the lost Netherese city. Recommended level: 9–11.</li>\n</ul>\n<h3>Wilderness Survival</h3>\n<p>The following rules apply when traveling through Icewind Dale:</p>\n<ul>\n<li><strong>Extreme Cold:</strong> Creatures exposed to temperatures at or below 0°F must succeed on a DC 10 Constitution saving throw at the end of each hour or gain one level of exhaustion. Creatures with resistance or immunity to cold automatically succeed.</li>\n<li><strong>Overland Travel:</strong> Travel through open tundra is 1 mile per hour on foot, or up to 2 mph by dogsled. Travel along roads or trails is slightly faster.</li>\n<li><strong>Blizzards:</strong> When a blizzard strikes, visibility drops to 0 and all travel stops. Each blizzard lasts 1d4+1 hours.</li>\n<li><strong>Avalanches:</strong> In the mountains, there is a 10% chance per hour of travel that an avalanche occurs. Each creature in the avalanche's path must make a DC 15 Dexterity saving throw or be buried.</li>\n</ul>"
+      }
+    }
+  ]
+}
