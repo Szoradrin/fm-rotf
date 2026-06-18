@@ -118,7 +118,7 @@
         "actionType": "mwak",
         "attackBonus": "3"
       },
-      "_key": "!actors.items!NixMtrItem0000001",
+      "_key": "!actors.items!AurilCultNixMtr001.NixMtrItem0000001",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -144,7 +144,7 @@
           "value": "monster"
         }
       },
-      "_key": "!actors.items!NixMtrItem0000002",
+      "_key": "!actors.items!AurilCultNixMtr001.NixMtrItem0000002",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -170,7 +170,7 @@
           "value": "monster"
         }
       },
-      "_key": "!actors.items!NixMtrItem0000003",
+      "_key": "!actors.items!AurilCultNixMtr001.NixMtrItem0000003",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -196,7 +196,7 @@
           "value": "monster"
         }
       },
-      "_key": "!actors.items!NixMtrItem0000004",
+      "_key": "!actors.items!AurilCultNixMtr001.NixMtrItem0000004",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -226,7 +226,7 @@
           "cost": 1
         }
       },
-      "_key": "!actors.items!NixMtrItem0000005",
+      "_key": "!actors.items!AurilCultNixMtr001.NixMtrItem0000005",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -256,7 +256,7 @@
           "cost": 1
         }
       },
-      "_key": "!actors.items!NixMtrItem0000006",
+      "_key": "!actors.items!AurilCultNixMtr001.NixMtrItem0000006",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -282,7 +282,7 @@
           "value": "monster"
         }
       },
-      "_key": "!actors.items!NixMtrItem0000007",
+      "_key": "!actors.items!AurilCultNixMtr001.NixMtrItem0000007",
       "flags": {},
       "sort": 0,
       "ownership": {
