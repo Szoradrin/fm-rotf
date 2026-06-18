@@ -108,7 +108,7 @@
           "cost": 1
         }
       },
-      "_key": "!actors.items!IceBrngItem000001",
+      "_key": "!actors.items!AurilCultIceBrng01.IceBrngItem000001",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -144,7 +144,7 @@
         "actionType": "mwak",
         "attackBonus": "4"
       },
-      "_key": "!actors.items!IceBrngItem000002",
+      "_key": "!actors.items!AurilCultIceBrng01.IceBrngItem000002",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -170,7 +170,7 @@
           "value": "monster"
         }
       },
-      "_key": "!actors.items!IceBrngItem000003",
+      "_key": "!actors.items!AurilCultIceBrng01.IceBrngItem000003",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -200,7 +200,7 @@
           "cost": 1
         }
       },
-      "_key": "!actors.items!IceBrngItem000004",
+      "_key": "!actors.items!AurilCultIceBrng01.IceBrngItem000004",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -226,7 +226,7 @@
           "value": "monster"
         }
       },
-      "_key": "!actors.items!IceBrngItem000005",
+      "_key": "!actors.items!AurilCultIceBrng01.IceBrngItem000005",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -256,7 +256,7 @@
           "cost": 1
         }
       },
-      "_key": "!actors.items!IceBrngItem000006",
+      "_key": "!actors.items!AurilCultIceBrng01.IceBrngItem000006",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -282,7 +282,7 @@
           "value": "monster"
         }
       },
-      "_key": "!actors.items!IceBrngItem000007",
+      "_key": "!actors.items!AurilCultIceBrng01.IceBrngItem000007",
       "flags": {},
       "sort": 0,
       "ownership": {
