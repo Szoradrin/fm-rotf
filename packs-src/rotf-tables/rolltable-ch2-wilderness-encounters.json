@@ -2,13 +2,15 @@
   "_id": "RotFCh2WildernessEnc01",
   "_key": "!tables!RotFCh2WildernessEnc01",
   "name": "Chapter 2: Wilderness Random Encounters",
-  "description": "<p>Random encounter table for Chapter 2 wilderness travel in Icewind Dale. Sourced from RotF pg. 105 and the Arctic Encounters (5e 2014) supplement by Duncan Thomson. Roll 1d20; results 9–13 are weighted to appear more often via range width. Reroll a 1 or treat as 11.</p><p><strong>Threat Ratings:</strong> Low (CR 1/4–1), Moderate (CR 2–5), Dangerous (CR 6–10), Deadly (CR 11+).</p>",
+  "description": "<p>Random encounter table for Chapter 2 wilderness travel in Icewind Dale. Sourced from RotF pg. 105 and the Arctic Encounters (5e 2014) supplement by Duncan Thomson. Roll 1d20; results 9\u201313 are weighted to appear more often via range width. Reroll a 1 or treat as 11.</p><p><strong>Threat Ratings:</strong> Low (CR 1/4\u20131), Moderate (CR 2\u20135), Dangerous (CR 6\u201310), Deadly (CR 11+).</p>",
   "formula": "1d20",
   "replacement": true,
   "displayRoll": true,
   "folder": null,
   "sort": 0,
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "flags": {},
   "_stats": {
     "compendiumSource": null,
@@ -19,221 +21,281 @@
   "results": [
     {
       "_id": "RotFCh2Result0001",
-      "_key": "!tables.results!RotFCh2Result0001",
-      "type": 0,
-      "text": "<strong>Reroll / Crevasse</strong> — The party nearly steps into a hidden snow-covered crevasse (DC 13 Perception or fall 2d6×10 ft). Treat as 11 if preferred. | <em>Hazard — no CR</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0001",
+      "type": "text",
+      "text": "<strong>Reroll / Crevasse</strong> \u2014 The party nearly steps into a hidden snow-covered crevasse (DC 13 Perception or fall 2d6\u00d710 ft). Treat as 11 if preferred. | <em>Hazard \u2014 no CR</em>",
       "img": "icons/magic/water/ice-block-frozen-blue.webp",
       "weight": 1,
-      "range": [1, 1],
+      "range": [
+        1,
+        1
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0002",
-      "_key": "!tables.results!RotFCh2Result0002",
-      "type": 0,
-      "text": "<strong>Young Remorhaz</strong> — A juvenile remorhaz erupts from beneath the snow, drawn by the vibrations of the party's movement. It attacks the nearest creature relentlessly. | <em>CR 5 — Dangerous</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0002",
+      "type": "text",
+      "text": "<strong>Young Remorhaz</strong> \u2014 A juvenile remorhaz erupts from beneath the snow, drawn by the vibrations of the party's movement. It attacks the nearest creature relentlessly. | <em>CR 5 \u2014 Dangerous</em>",
       "img": "icons/creatures/invertebrates/worm-segmented-red.webp",
       "weight": 1,
-      "range": [2, 2],
+      "range": [
+        2,
+        2
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0003",
-      "_key": "!tables.results!RotFCh2Result0003",
-      "type": 0,
-      "text": "<strong>Frost Giant & Ice Mephits</strong> — A frost giant trudges through the tundra trailed by 1d4+2 ice mephits that swirl around its shoulders like living snowflakes. The giant ignores small creatures unless provoked. | <em>CR 8 (giant) / CR 1/2 (mephits) — Deadly</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0003",
+      "type": "text",
+      "text": "<strong>Frost Giant & Ice Mephits</strong> \u2014 A frost giant trudges through the tundra trailed by 1d4+2 ice mephits that swirl around its shoulders like living snowflakes. The giant ignores small creatures unless provoked. | <em>CR 8 (giant) / CR 1/2 (mephits) \u2014 Deadly</em>",
       "img": "icons/creatures/magical/spirit-undead-horned-blue.webp",
       "weight": 1,
-      "range": [3, 3],
+      "range": [
+        3,
+        3
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0004",
-      "_key": "!tables.results!RotFCh2Result0004",
-      "type": 0,
-      "text": "<strong>Abominable Yeti</strong> — The massive white silhouette of an abominable yeti emerges from the blizzard wall. Its paralyzing gaze sweeps toward the party. | <em>CR 9 — Deadly</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0004",
+      "type": "text",
+      "text": "<strong>Abominable Yeti</strong> \u2014 The massive white silhouette of an abominable yeti emerges from the blizzard wall. Its paralyzing gaze sweeps toward the party. | <em>CR 9 \u2014 Deadly</em>",
       "img": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
       "weight": 1,
-      "range": [4, 4],
+      "range": [
+        4,
+        4
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0005",
-      "_key": "!tables.results!RotFCh2Result0005",
-      "type": 0,
-      "text": "<strong>Reghed Nomads</strong> — 2d6 Reghed tribal warriors on reindeer-drawn sleds cross the party's path. They may be hostile (Elk Tribe) or wary but tradeable (Bear/Wolf Tribe). Roll disposition: 1–2 hostile, 3–4 suspicious, 5–6 cautious neutral. | <em>CR 1/8 each — Low</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0005",
+      "type": "text",
+      "text": "<strong>Reghed Nomads</strong> \u2014 2d6 Reghed tribal warriors on reindeer-drawn sleds cross the party's path. They may be hostile (Elk Tribe) or wary but tradeable (Bear/Wolf Tribe). Roll disposition: 1\u20132 hostile, 3\u20134 suspicious, 5\u20136 cautious neutral. | <em>CR 1/8 each \u2014 Low</em>",
       "img": "icons/environment/people/group-standing.webp",
       "weight": 1,
-      "range": [5, 5],
+      "range": [
+        5,
+        5
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0006",
-      "_key": "!tables.results!RotFCh2Result0006",
-      "type": 0,
-      "text": "<strong>Polar Bear (hunting)</strong> — 1d2 polar bears are aggressively hunting. If the party has food smells or makes noise, the bears charge. A druid or ranger may attempt to calm one (DC 15 Animal Handling). | <em>CR 2 — Moderate</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0006",
+      "type": "text",
+      "text": "<strong>Polar Bear (hunting)</strong> \u2014 1d2 polar bears are aggressively hunting. If the party has food smells or makes noise, the bears charge. A druid or ranger may attempt to calm one (DC 15 Animal Handling). | <em>CR 2 \u2014 Moderate</em>",
       "img": "icons/creatures/mammals/bear-walking-tan.webp",
       "weight": 1,
-      "range": [6, 6],
+      "range": [
+        6,
+        6
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0007",
-      "_key": "!tables.results!RotFCh2Result0007",
-      "type": 0,
-      "text": "<strong>Wolves</strong> — A pack of 3d6 wolves follows the party at distance for 1d4 hours before closing in, emboldened by hunger. If a wolf is killed, the rest retreat. | <em>CR 1/4 each — Low to Moderate</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0007",
+      "type": "text",
+      "text": "<strong>Wolves</strong> \u2014 A pack of 3d6 wolves follows the party at distance for 1d4 hours before closing in, emboldened by hunger. If a wolf is killed, the rest retreat. | <em>CR 1/4 each \u2014 Low to Moderate</em>",
       "img": "icons/creatures/mammals/wolf-shadow-black.webp",
       "weight": 1,
-      "range": [7, 7],
+      "range": [
+        7,
+        7
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0008",
-      "_key": "!tables.results!RotFCh2Result0008",
-      "type": 0,
-      "text": "<strong>Ice Mephits</strong> — 2d4 ice mephits cavort in a swirling snow devil, pelting travelers with sleet and shards. They flee if more than half are destroyed, cackling. | <em>CR 1/2 each — Low</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0008",
+      "type": "text",
+      "text": "<strong>Ice Mephits</strong> \u2014 2d4 ice mephits cavort in a swirling snow devil, pelting travelers with sleet and shards. They flee if more than half are destroyed, cackling. | <em>CR 1/2 each \u2014 Low</em>",
       "img": "icons/magic/air/air-burst-spiral-blue-white.webp",
       "weight": 1,
-      "range": [8, 8],
+      "range": [
+        8,
+        8
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0009",
-      "_key": "!tables.results!RotFCh2Result0009",
-      "type": 0,
-      "text": "<strong>Orcs of the Many-Arrows</strong> — 1d4+2 orcs led by an orc eye of Gruumsh patrol a scavenging route, looking for survivors or loot from the eternal night. They attack on sight unless the party outnumbers them visibly. | <em>CR 1/2 (orcs) / CR 2 (eye) — Moderate</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0009",
+      "type": "text",
+      "text": "<strong>Orcs of the Many-Arrows</strong> \u2014 1d4+2 orcs led by an orc eye of Gruumsh patrol a scavenging route, looking for survivors or loot from the eternal night. They attack on sight unless the party outnumbers them visibly. | <em>CR 1/2 (orcs) / CR 2 (eye) \u2014 Moderate</em>",
       "img": "icons/creatures/humanoids/humanoid-orc-warrior.webp",
       "weight": 1,
-      "range": [9, 9],
+      "range": [
+        9,
+        9
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0010",
-      "_key": "!tables.results!RotFCh2Result0010",
-      "type": 0,
-      "text": "<strong>Reindeer Herd</strong> — 3d6 reindeer (elk stats) cross a frozen lake, spooked by something behind them. DC 12 Perception reveals 1d2 winter wolves shadowing the herd's flank. | <em>CR 1/4 (elk) / CR 3 (winter wolves) — Low to Moderate</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0010",
+      "type": "text",
+      "text": "<strong>Reindeer Herd</strong> \u2014 3d6 reindeer (elk stats) cross a frozen lake, spooked by something behind them. DC 12 Perception reveals 1d2 winter wolves shadowing the herd's flank. | <em>CR 1/4 (elk) / CR 3 (winter wolves) \u2014 Low to Moderate</em>",
       "img": "icons/creatures/mammals/deer-moose-marked-brown.webp",
       "weight": 1,
-      "range": [10, 10],
+      "range": [
+        10,
+        10
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0011",
-      "_key": "!tables.results!RotFCh2Result0011",
-      "type": 0,
-      "text": "<strong>Yetis</strong> — 1d3 yetis have been shadowing the party since their last campsite. They charge when the party crosses open ground with no cover. | <em>CR 3 each — Moderate</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0011",
+      "type": "text",
+      "text": "<strong>Yetis</strong> \u2014 1d3 yetis have been shadowing the party since their last campsite. They charge when the party crosses open ground with no cover. | <em>CR 3 each \u2014 Moderate</em>",
       "img": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
       "weight": 1,
-      "range": [11, 11],
+      "range": [
+        11,
+        11
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0012",
-      "_key": "!tables.results!RotFCh2Result0012",
-      "type": 0,
-      "text": "<strong>Winter Wolves</strong> — 1d3 winter wolves fan out to flank, their breath crystallizing in the air. They coordinate intelligently, herding prey toward a snowdrift or ice shelf. | <em>CR 3 each — Moderate to Dangerous</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0012",
+      "type": "text",
+      "text": "<strong>Winter Wolves</strong> \u2014 1d3 winter wolves fan out to flank, their breath crystallizing in the air. They coordinate intelligently, herding prey toward a snowdrift or ice shelf. | <em>CR 3 each \u2014 Moderate to Dangerous</em>",
       "img": "icons/creatures/mammals/wolf-shadow-black.webp",
       "weight": 1,
-      "range": [12, 12],
+      "range": [
+        12,
+        12
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0013",
-      "_key": "!tables.results!RotFCh2Result0013",
-      "type": 0,
-      "text": "<strong>Saber-Toothed Tiger</strong> — A massive white-furred saber-toothed tiger crouches on a ridge, watching from above. It pounces on the smallest or most isolated party member. | <em>CR 2 — Moderate</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0013",
+      "type": "text",
+      "text": "<strong>Saber-Toothed Tiger</strong> \u2014 A massive white-furred saber-toothed tiger crouches on a ridge, watching from above. It pounces on the smallest or most isolated party member. | <em>CR 2 \u2014 Moderate</em>",
       "img": "icons/creatures/mammals/cat-lynx-stalking-white.webp",
       "weight": 1,
-      "range": [13, 13],
+      "range": [
+        13,
+        13
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0014",
-      "_key": "!tables.results!RotFCh2Result0014",
-      "type": 0,
-      "text": "<strong>Gnolls</strong> — 2d4 gnolls from a wandering pack cackle as they crest a snowbank, already bloodied from a recent kill. They attack in a frenzy. | <em>CR 1/2 each — Low to Moderate</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0014",
+      "type": "text",
+      "text": "<strong>Gnolls</strong> \u2014 2d4 gnolls from a wandering pack cackle as they crest a snowbank, already bloodied from a recent kill. They attack in a frenzy. | <em>CR 1/2 each \u2014 Low to Moderate</em>",
       "img": "icons/creatures/mammals/hyena-striped-tan.webp",
       "weight": 1,
-      "range": [14, 14],
+      "range": [
+        14,
+        14
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0015",
-      "_key": "!tables.results!RotFCh2Result0015",
-      "type": 0,
-      "text": "<strong>Revenant</strong> — A figure in frozen traveler's clothes stands motionless on the trail. This revenant was betrayed by a party member it is now hunting — or so it believes. It ignores everyone else unless attacked. | <em>CR 5 — Dangerous</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0015",
+      "type": "text",
+      "text": "<strong>Revenant</strong> \u2014 A figure in frozen traveler's clothes stands motionless on the trail. This revenant was betrayed by a party member it is now hunting \u2014 or so it believes. It ignores everyone else unless attacked. | <em>CR 5 \u2014 Dangerous</em>",
       "img": "icons/magic/death/undead-ghost-strike-white.webp",
       "weight": 1,
-      "range": [15, 15],
+      "range": [
+        15,
+        15
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0016",
-      "_key": "!tables.results!RotFCh2Result0016",
-      "type": 0,
-      "text": "<strong>Mammoth</strong> — A lone mammoth, maddened by hunger and Auril's endless winter, charges anything that crosses its territory. Tusks sweep 10-foot arcs. | <em>CR 6 — Dangerous</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0016",
+      "type": "text",
+      "text": "<strong>Mammoth</strong> \u2014 A lone mammoth, maddened by hunger and Auril's endless winter, charges anything that crosses its territory. Tusks sweep 10-foot arcs. | <em>CR 6 \u2014 Dangerous</em>",
       "img": "icons/creatures/mammals/elephant-mammoth-wooly-brown.webp",
       "weight": 1,
-      "range": [16, 16],
+      "range": [
+        16,
+        16
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0017",
-      "_key": "!tables.results!RotFCh2Result0017",
-      "type": 0,
-      "text": "<strong>Axe Beaks</strong> — 2d4 axe beaks race single-file across the tundra in a migratory column. They are panicked rather than aggressive — but will slash anything that blocks their path. | <em>CR 1/4 each — Low</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0017",
+      "type": "text",
+      "text": "<strong>Axe Beaks</strong> \u2014 2d4 axe beaks race single-file across the tundra in a migratory column. They are panicked rather than aggressive \u2014 but will slash anything that blocks their path. | <em>CR 1/4 each \u2014 Low</em>",
       "img": "icons/creatures/birds/bird-phoenix-orange.webp",
       "weight": 1,
-      "range": [17, 17],
+      "range": [
+        17,
+        17
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0018",
-      "_key": "!tables.results!RotFCh2Result0018",
-      "type": 0,
-      "text": "<strong>White Dragon Wyrmling</strong> — A white dragon wyrmling circles overhead, practicing its breath. It may offer a cruel bargain (tribute for passage) before attacking. | <em>CR 2 — Moderate</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0018",
+      "type": "text",
+      "text": "<strong>White Dragon Wyrmling</strong> \u2014 A white dragon wyrmling circles overhead, practicing its breath. It may offer a cruel bargain (tribute for passage) before attacking. | <em>CR 2 \u2014 Moderate</em>",
       "img": "icons/creatures/reptiles/dragon-horned-white.webp",
       "weight": 1,
-      "range": [18, 18],
+      "range": [
+        18,
+        18
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0019",
-      "_key": "!tables.results!RotFCh2Result0019",
-      "type": 0,
-      "text": "<strong>Werebear (Lone Guardian)</strong> — A werebear in hybrid form blocks the trail, arms spread. It is territorial but not immediately hostile. It tests the party's intent, driving off those who seem dangerous. May become an ally if the party aids it or respects its territory. | <em>CR 5 — Dangerous (but potentially neutral)</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0019",
+      "type": "text",
+      "text": "<strong>Werebear (Lone Guardian)</strong> \u2014 A werebear in hybrid form blocks the trail, arms spread. It is territorial but not immediately hostile. It tests the party's intent, driving off those who seem dangerous. May become an ally if the party aids it or respects its territory. | <em>CR 5 \u2014 Dangerous (but potentially neutral)</em>",
       "img": "icons/creatures/mammals/bear-standing-brown.webp",
       "weight": 1,
-      "range": [19, 19],
+      "range": [
+        19,
+        19
+      ],
       "drawn": false,
       "flags": {}
     },
     {
       "_id": "RotFCh2Result0020",
-      "_key": "!tables.results!RotFCh2Result0020",
-      "type": 0,
-      "text": "<strong>Remorhaz</strong> — A full-grown remorhaz erupts from below the snow, its heat-radiating carapace melting a crater around it. It swallows a creature whole on a hit of 20+. Flee or fight. | <em>CR 11 — Deadly</em>",
+      "_key": "!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0020",
+      "type": "text",
+      "text": "<strong>Remorhaz</strong> \u2014 A full-grown remorhaz erupts from below the snow, its heat-radiating carapace melting a crater around it. It swallows a creature whole on a hit of 20+. Flee or fight. | <em>CR 11 \u2014 Deadly</em>",
       "img": "icons/creatures/invertebrates/worm-segmented-orange.webp",
       "weight": 1,
-      "range": [20, 20],
+      "range": [
+        20,
+        20
+      ],
       "drawn": false,
       "flags": {}
     }
