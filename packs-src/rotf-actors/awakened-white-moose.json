@@ -67,7 +67,7 @@
         }
       },
       "_id": "AegLxGMdiFwHlBys",
-      "_key": "!items!AegLxGMdiFwHlBys"
+      "_key": "!actors.items!hbuiNQlN6U11i9Ru.AegLxGMdiFwHlBys"
     },
     {
       "name": "Sure-Footed",
@@ -78,7 +78,7 @@
         }
       },
       "_id": "Rt6eMzs5v74g01dU",
-      "_key": "!items!Rt6eMzs5v74g01dU"
+      "_key": "!actors.items!hbuiNQlN6U11i9Ru.Rt6eMzs5v74g01dU"
     },
     {
       "name": "Multiattack",
@@ -89,7 +89,7 @@
         }
       },
       "_id": "wSIZqX4gVh0yONwx",
-      "_key": "!items!wSIZqX4gVh0yONwx"
+      "_key": "!actors.items!hbuiNQlN6U11i9Ru.wSIZqX4gVh0yONwx"
     },
     {
       "name": "Antlers",
@@ -114,7 +114,7 @@
         }
       },
       "_id": "CtytDLso6n25tGFu",
-      "_key": "!items!CtytDLso6n25tGFu"
+      "_key": "!actors.items!hbuiNQlN6U11i9Ru.CtytDLso6n25tGFu"
     },
     {
       "name": "Hooves",
@@ -139,7 +139,7 @@
         }
       },
       "_id": "LOJEKldHGqpHns26",
-      "_key": "!items!LOJEKldHGqpHns26"
+      "_key": "!actors.items!hbuiNQlN6U11i9Ru.LOJEKldHGqpHns26"
     }
   ],
   "_id": "hbuiNQlN6U11i9Ru",
