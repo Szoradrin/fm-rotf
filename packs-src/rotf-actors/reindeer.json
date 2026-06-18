@@ -4,12 +4,24 @@
   "img": "modules/rime-of-the-frostmaiden/assets/images/art-02-004-reindeer-herd.webp",
   "system": {
     "abilities": {
-      "str": { "value": 16 },
-      "dex": { "value": 10 },
-      "con": { "value": 12 },
-      "int": { "value": 2 },
-      "wis": { "value": 10 },
-      "cha": { "value": 6 }
+      "str": {
+        "value": 16
+      },
+      "dex": {
+        "value": 10
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 2
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 6
+      }
     },
     "attributes": {
       "ac": {
@@ -47,9 +59,11 @@
         }
       },
       "_id": "ReindeerFeat001AB",
-      "_key": "!actors.items!ReindeerFeat001AB",
+      "_key": "!actors.items!ReindeerActorROTF1.ReindeerFeat001AB",
       "sort": 100,
-      "ownership": { "default": 0 },
+      "ownership": {
+        "default": 0
+      },
       "_stats": {
         "coreVersion": "14.363",
         "systemId": "dnd5e",
@@ -63,19 +77,32 @@
         "description": {
           "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage."
         },
-        "activation": { "type": "action", "cost": 1 },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
         "actionType": "mwak",
         "attackBonus": "5",
         "damage": {
-          "parts": [["1d6 + 3", "bludgeoning"]]
+          "parts": [
+            [
+              "1d6 + 3",
+              "bludgeoning"
+            ]
+          ]
         },
-        "range": { "value": 5, "units": "ft" },
+        "range": {
+          "value": 5,
+          "units": "ft"
+        },
         "ability": "str"
       },
       "_id": "ReindeerWeap001CD",
-      "_key": "!actors.items!ReindeerWeap001CD",
+      "_key": "!actors.items!ReindeerActorROTF1.ReindeerWeap001CD",
       "sort": 200,
-      "ownership": { "default": 0 },
+      "ownership": {
+        "default": 0
+      },
       "_stats": {
         "coreVersion": "14.363",
         "systemId": "dnd5e",
@@ -89,19 +116,32 @@
         "description": {
           "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage."
         },
-        "activation": { "type": "action", "cost": 1 },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
         "actionType": "mwak",
         "attackBonus": "5",
         "damage": {
-          "parts": [["2d4 + 3", "bludgeoning"]]
+          "parts": [
+            [
+              "2d4 + 3",
+              "bludgeoning"
+            ]
+          ]
         },
-        "range": { "value": 5, "units": "ft" },
+        "range": {
+          "value": 5,
+          "units": "ft"
+        },
         "ability": "str"
       },
       "_id": "ReindeerWeap002EF",
-      "_key": "!actors.items!ReindeerWeap002EF",
+      "_key": "!actors.items!ReindeerActorROTF1.ReindeerWeap002EF",
       "sort": 300,
-      "ownership": { "default": 0 },
+      "ownership": {
+        "default": 0
+      },
       "_stats": {
         "coreVersion": "14.363",
         "systemId": "dnd5e",
@@ -124,7 +164,9 @@
   "_id": "ReindeerActorROTF1",
   "_key": "!actors!ReindeerActorROTF1",
   "sort": 0,
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "_stats": {
     "coreVersion": "14.363",
     "systemId": "dnd5e",
