@@ -1,0 +1,173 @@
+{
+  "name": "Crag Cat",
+  "type": "npc",
+  "img": "modules/rime-of-the-frostmaiden/assets/images/art-01-003-crag-cat.webp",
+  "system": {
+    "abilities": {
+      "str": { "value": 16 },
+      "dex": { "value": 17 },
+      "con": { "value": 16 },
+      "int": { "value": 4 },
+      "wis": { "value": 14 },
+      "cha": { "value": 8 }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 34,
+        "max": 34,
+        "formula": "4d10 + 12"
+      },
+      "speed": {
+        "value": 40,
+        "climb": 30
+      }
+    },
+    "details": {
+      "type": {
+        "value": "monstrosity"
+      },
+      "alignment": "unaligned",
+      "cr": 1,
+      "source": "Rime of the Frostmaiden"
+    },
+    "traits": {
+      "senses": "darkvision 60 ft., passive Perception 14"
+    },
+    "skills": {
+      "prc": { "value": 2 },
+      "ste": { "value": 2 }
+    }
+  },
+  "items": [
+    {
+      "name": "Nondetection",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "The cat can't be targeted or detected by any divination magic or perceived through magical scrying sensors."
+        }
+      },
+      "_id": "CragCatFeat001AB",
+      "_key": "!actors.items!CragCatFeat001AB",
+      "sort": 100,
+      "ownership": { "default": 0 },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Pounce",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "If the cat moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the cat can make one bite attack against it as a bonus action."
+        }
+      },
+      "_id": "CragCatFeat002CD",
+      "_key": "!actors.items!CragCatFeat002CD",
+      "sort": 200,
+      "ownership": { "default": 0 },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Spell Turning",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "The cat has advantage on saving throws against any spell that targets only the cat (not an area). If the cat's saving throw succeeds and the spell is of 7th level or lower, the spell has no effect on the cat and instead targets the caster."
+        }
+      },
+      "_id": "CragCatFeat003EF",
+      "_key": "!actors.items!CragCatFeat003EF",
+      "sort": 300,
+      "ownership": { "default": 0 },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage."
+        },
+        "activation": { "type": "action", "cost": 1 },
+        "actionType": "mwak",
+        "attackBonus": "5",
+        "damage": {
+          "parts": [["1d10 + 3", "piercing"]]
+        },
+        "range": { "value": 5, "units": "ft" },
+        "ability": "str"
+      },
+      "_id": "CragCatWeap001GH",
+      "_key": "!actors.items!CragCatWeap001GH",
+      "sort": 400,
+      "ownership": { "default": 0 },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Claw",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage."
+        },
+        "activation": { "type": "action", "cost": 1 },
+        "actionType": "mwak",
+        "attackBonus": "5",
+        "damage": {
+          "parts": [["1d8 + 3", "slashing"]]
+        },
+        "range": { "value": 5, "units": "ft" },
+        "ability": "str"
+      },
+      "_id": "CragCatWeap002IJ",
+      "_key": "!actors.items!CragCatWeap002IJ",
+      "sort": 500,
+      "ownership": { "default": 0 },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    }
+  ],
+  "flags": {
+    "rotf": {
+      "source": "Appendix C",
+      "chapter": "various"
+    }
+  },
+  "prototypeToken": {
+    "texture": {
+      "src": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/IDRotF/Crag%20Cat.webp"
+    }
+  },
+  "_id": "CragCatActorROTF1",
+  "_key": "!actors!CragCatActorROTF1",
+  "sort": 0,
+  "ownership": { "default": 0 },
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  }
+}
