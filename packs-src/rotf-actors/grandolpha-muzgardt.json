@@ -78,7 +78,7 @@
         }
       },
       "_id": "XOvya21s2L2RQcU8",
-      "_key": "!items!XOvya21s2L2RQcU8"
+      "_key": "!actors.items!OKkXh8X8CDh5iFT3.XOvya21s2L2RQcU8"
     },
     {
       "name": "Sunlight Sensitivity",
@@ -89,7 +89,7 @@
         }
       },
       "_id": "4EVbkD1hbHXnzn14",
-      "_key": "!items!4EVbkD1hbHXnzn14"
+      "_key": "!actors.items!OKkXh8X8CDh5iFT3.4EVbkD1hbHXnzn14"
     },
     {
       "name": "Innate Spellcasting (Psionics)",
@@ -100,7 +100,7 @@
         }
       },
       "_id": "Ehhwl8qgpnvhPQ3K",
-      "_key": "!items!Ehhwl8qgpnvhPQ3K"
+      "_key": "!actors.items!OKkXh8X8CDh5iFT3.Ehhwl8qgpnvhPQ3K"
     },
     {
       "name": "Poison Spray",
@@ -124,7 +124,7 @@
         }
       },
       "_id": "bxFa1HiHpbxB4SgJ",
-      "_key": "!items!bxFa1HiHpbxB4SgJ"
+      "_key": "!actors.items!OKkXh8X8CDh5iFT3.bxFa1HiHpbxB4SgJ"
     }
   ],
   "_id": "OKkXh8X8CDh5iFT3",
