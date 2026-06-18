@@ -109,7 +109,7 @@
           "units": "ft"
         }
       },
-      "_key": "!actors.items!SpiteItem0000001",
+      "_key": "!actors.items!AurilCultSpite0001.SpiteItem0000001",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -135,7 +135,7 @@
           "value": "monster"
         }
       },
-      "_key": "!actors.items!SpiteItem0000002",
+      "_key": "!actors.items!AurilCultSpite0001.SpiteItem0000002",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -161,7 +161,7 @@
           "value": "monster"
         }
       },
-      "_key": "!actors.items!SpiteItem0000003",
+      "_key": "!actors.items!AurilCultSpite0001.SpiteItem0000003",
       "flags": {},
       "sort": 0,
       "ownership": {
