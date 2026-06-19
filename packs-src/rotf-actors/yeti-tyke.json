@@ -1,7 +1,7 @@
 {
   "name": "Yeti Tyke",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Yeti Tyke.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -147,7 +147,20 @@
   "prototypeToken": {
     "texture": {
       "src": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/IDRotF/Yeti%20Tyke.webp"
-    }
+    },
+    "name": "Yeti Tyke",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
   },
   "_id": "nb2r0S78m5r0Gu2i",
   "_key": "!actors!nb2r0S78m5r0Gu2i",

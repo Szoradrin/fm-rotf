@@ -3,7 +3,7 @@
   "_key": "!actors!AurilCultCldWnd001",
   "name": "Coldwind of Auril",
   "type": "npc",
-  "img": "icons/magic/air/wind-tornado-blue-white.webp",
+  "img": "modules/rotf/assets/images/art-05-006-frostmaiden-mounted.webp",
   "system": {
     "abilities": {
       "str": {
@@ -284,7 +284,7 @@
   "effects": [],
   "prototypeToken": {
     "name": "Coldwind of Auril",
-    "img": "icons/magic/air/wind-tornado-blue-white.webp",
+    "img": "modules/rotf/assets/images/art-05-006-frostmaiden-mounted.webp",
     "displayName": 0,
     "displayBars": 0,
     "actorLink": false,

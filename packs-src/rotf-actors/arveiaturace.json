@@ -1,7 +1,7 @@
 {
   "name": "Arveiaturace",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Arveiaturace.webp",
+  "img": "modules/rotf/assets/images/art-02-002-dragon.webp",
   "system": {
     "abilities": {
       "str": {
@@ -217,7 +217,7 @@
   "sort": 0,
   "prototypeToken": {
     "name": "Arveiaturace",
-    "img": "modules/rotf/assets/actors/Arveiaturace.webp",
+    "img": "modules/rotf/assets/images/art-02-002-dragon.webp",
     "displayName": 0,
     "displayBars": 0,
     "actorLink": false,
@@ -229,5 +229,6 @@
       "attribute": null
     },
     "flags": {}
-  }
+  },
+  "flags": {}
 }

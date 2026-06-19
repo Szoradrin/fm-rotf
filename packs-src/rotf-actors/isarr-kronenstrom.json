@@ -1,7 +1,7 @@
 {
   "name": "Isarr Kronenstrom",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Isarr Kronenstrom.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -247,7 +247,7 @@
   "folder": null,
   "prototypeToken": {
     "name": "Isarr Kronenstrom",
-    "img": "modules/rotf/assets/actors/Isarr Kronenstrom.webp",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
     "displayName": 0,
     "displayBars": 0,
     "actorLink": false,

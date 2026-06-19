@@ -1,7 +1,7 @@
 {
   "name": "Dzaan's Simulacrum",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Dzaans Simulacrum.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -161,7 +161,20 @@
   "prototypeToken": {
     "texture": {
       "src": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/IDRotF/Dzaans%20Simulacrum.webp"
-    }
+    },
+    "name": "Dzaan's Simulacrum",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
   },
   "_id": "x1Y1rfBddjHbT64f",
   "_key": "!actors!x1Y1rfBddjHbT64f",

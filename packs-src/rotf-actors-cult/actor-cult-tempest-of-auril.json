@@ -3,7 +3,7 @@
   "_key": "!actors!AurilCultTempst001",
   "name": "Tempest of Auril",
   "type": "npc",
-  "img": "icons/magic/air/air-burst-spiral-blue-white.webp",
+  "img": "modules/rotf/assets/images/art-05-006-frostmaiden-mounted.webp",
   "system": {
     "abilities": {
       "str": {
@@ -281,7 +281,7 @@
   "effects": [],
   "prototypeToken": {
     "name": "Tempest of Auril",
-    "img": "icons/magic/air/air-burst-spiral-blue-white.webp",
+    "img": "modules/rotf/assets/images/art-05-006-frostmaiden-mounted.webp",
     "displayName": 0,
     "displayBars": 0,
     "actorLink": false,

@@ -1,7 +1,7 @@
 {
   "name": "Vellynne Harpell",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Vellynne Harpell.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -176,7 +176,20 @@
   "prototypeToken": {
     "texture": {
       "src": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/IDRotF/Vellynne%20Harpell.webp"
-    }
+    },
+    "name": "Vellynne Harpell",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
   },
   "_id": "fSaO3O349WY2j9tC",
   "_key": "!actors!fSaO3O349WY2j9tC",

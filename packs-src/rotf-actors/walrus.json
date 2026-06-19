@@ -1,7 +1,7 @@
 {
   "name": "Walrus",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Walrus.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -124,7 +124,7 @@
   "folder": null,
   "prototypeToken": {
     "name": "Walrus",
-    "img": "modules/rotf/assets/actors/Walrus.webp",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
     "displayName": 0,
     "displayBars": 0,
     "actorLink": false,

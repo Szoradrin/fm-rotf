@@ -1,7 +1,7 @@
 {
   "name": "Young Griffon (Small)",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Young Griffon (Small).webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -155,7 +155,7 @@
   "sort": 0,
   "prototypeToken": {
     "name": "Young Griffon (Small)",
-    "img": "modules/rotf/assets/actors/Young Griffon (Small).webp",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
     "displayName": 0,
     "displayBars": 0,
     "actorLink": false,

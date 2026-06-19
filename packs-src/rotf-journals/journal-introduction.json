@@ -16,7 +16,7 @@
   "pages": [
     {
       "_id": "RotFIntroP001",
-      "_key": "!journal.pages!RotFIntroP001",
+      "_key": "!journal.pages!RotFIntroduction01.RotFIntroP001",
       "name": "Welcome to the Far North",
       "type": "text",
       "sort": 100,
@@ -48,7 +48,7 @@
     },
     {
       "_id": "RotFIntroP002",
-      "_key": "!journal.pages!RotFIntroP002",
+      "_key": "!journal.pages!RotFIntroduction01.RotFIntroP002",
       "name": "Adventure Summary",
       "type": "text",
       "sort": 200,
@@ -80,7 +80,7 @@
     },
     {
       "_id": "RotFIntroP003",
-      "_key": "!journal.pages!RotFIntroP003",
+      "_key": "!journal.pages!RotFIntroduction01.RotFIntroP003",
       "name": "Running the Adventure",
       "type": "text",
       "sort": 300,

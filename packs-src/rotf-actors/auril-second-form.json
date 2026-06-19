@@ -1,7 +1,7 @@
 {
   "name": "Auril (Second Form)",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Auril (Second Form).webp",
+  "img": "modules/rotf/assets/images/art-05-006-frostmaiden-mounted.webp",
   "system": {
     "abilities": {
       "str": {
@@ -468,7 +468,20 @@
   "prototypeToken": {
     "texture": {
       "src": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/IDRotF/Auril%20(Second%20Form).webp"
-    }
+    },
+    "name": "Auril (Second Form)",
+    "img": "modules/rotf/assets/images/art-05-006-frostmaiden-mounted.webp",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
   },
   "_id": "vBqmmtmUBQ0uIpQE",
   "_key": "!actors!vBqmmtmUBQ0uIpQE",

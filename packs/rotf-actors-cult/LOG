@@ -1,5 +1,5 @@
-2026/06/19-02:15:43.261369 7f2e5ebfd6c0 Delete type=3 #1
-2026/06/19-02:15:43.264303 7f2e5dbfb6c0 Level-0 table #5: started
-2026/06/19-02:15:43.271094 7f2e5dbfb6c0 Level-0 table #5: 13677 bytes OK
-2026/06/19-02:15:43.271853 7f2e5dbfb6c0 Delete type=0 #3
-2026/06/19-02:15:43.271911 7f2e5dbfb6c0 Manual compaction at level-0 from '!actors!AurilCultCldWnd001' @ 72057594037927935 : 1 .. '!actors.items!AurilCultTempst001.TempestItem000006' @ 0 : 0; will stop at (end)
+2026/06/19-02:22:46.963589 7f422b7fe6c0 Delete type=3 #1
+2026/06/19-02:22:46.966513 7f422a7fc6c0 Level-0 table #5: started
+2026/06/19-02:22:46.968837 7f422a7fc6c0 Level-0 table #5: 13622 bytes OK
+2026/06/19-02:22:46.969658 7f422a7fc6c0 Delete type=0 #3
+2026/06/19-02:22:46.969713 7f422a7fc6c0 Manual compaction at level-0 from '!actors!AurilCultCldWnd001' @ 72057594037927935 : 1 .. '!actors.items!AurilCultTempst001.TempestItem000006' @ 0 : 0; will stop at (end)

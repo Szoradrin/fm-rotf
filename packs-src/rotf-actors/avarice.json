@@ -1,7 +1,7 @@
 {
   "name": "Avarice",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Avarice.webp",
+  "img": "modules/rotf/assets/images/art-01-025-easthaven-wizard.webp",
   "system": {
     "abilities": {
       "str": {
@@ -180,7 +180,20 @@
   "prototypeToken": {
     "texture": {
       "src": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/IDRotF/Avarice.webp"
-    }
+    },
+    "name": "Avarice",
+    "img": "modules/rotf/assets/images/art-01-025-easthaven-wizard.webp",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
   },
   "_id": "02AA0mnRHBLfEe5d",
   "_key": "!actors!02AA0mnRHBLfEe5d",

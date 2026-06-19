@@ -1,7 +1,7 @@
 {
   "name": "Spitting Mimic",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Spitting Mimic.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -307,7 +307,20 @@
   "prototypeToken": {
     "texture": {
       "src": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/IDRotF/Spitting%20Mimic.webp"
-    }
+    },
+    "name": "Spitting Mimic",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
   },
   "_id": "gS6Jlu3Ziap7ES1q",
   "_key": "!actors!gS6Jlu3Ziap7ES1q",

@@ -1,7 +1,7 @@
 {
   "name": "Ice Troll",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Ice Troll.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -186,7 +186,7 @@
   "sort": 0,
   "prototypeToken": {
     "name": "Ice Troll",
-    "img": "modules/rotf/assets/actors/Ice Troll.webp",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
     "displayName": 0,
     "displayBars": 0,
     "actorLink": false,
@@ -198,5 +198,6 @@
       "attribute": null
     },
     "flags": {}
-  }
+  },
+  "flags": {}
 }

@@ -1,7 +1,7 @@
 {
   "name": "Coldlight Walker",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Coldlight Walker.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -193,7 +193,7 @@
   "sort": 0,
   "prototypeToken": {
     "name": "Coldlight Walker",
-    "img": "modules/rotf/assets/actors/Coldlight Walker.webp",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
     "displayName": 0,
     "displayBars": 0,
     "actorLink": false,
@@ -205,5 +205,6 @@
       "attribute": null
     },
     "flags": {}
-  }
+  },
+  "flags": {}
 }

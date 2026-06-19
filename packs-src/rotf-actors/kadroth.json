@@ -1,7 +1,7 @@
 {
   "name": "Kadroth",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Kadroth.webp",
+  "img": "modules/rotf/assets/images/art-01-014-kadroth.webp",
   "system": {
     "abilities": {
       "str": {
@@ -153,7 +153,7 @@
   "sort": 0,
   "prototypeToken": {
     "name": "Kadroth",
-    "img": "modules/rotf/assets/actors/Kadroth.webp",
+    "img": "modules/rotf/assets/images/art-01-014-kadroth.webp",
     "displayName": 0,
     "displayBars": 0,
     "actorLink": false,
@@ -165,5 +165,6 @@
       "attribute": null
     },
     "flags": {}
-  }
+  },
+  "flags": {}
 }

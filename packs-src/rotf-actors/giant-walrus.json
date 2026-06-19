@@ -1,7 +1,7 @@
 {
   "name": "Giant Walrus",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Giant Walrus.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -169,7 +169,20 @@
   "prototypeToken": {
     "texture": {
       "src": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/IDRotF/Giant%20Walrus.webp"
-    }
+    },
+    "name": "Giant Walrus",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
   },
   "_id": "mtzVNj8aggagzsnQ",
   "_key": "!actors!mtzVNj8aggagzsnQ",

@@ -1,7 +1,7 @@
 {
   "name": "Tomb Tapper",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Tomb Tapper.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -270,7 +270,20 @@
   "prototypeToken": {
     "texture": {
       "src": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/IDRotF/Tomb%20Tapper.webp"
-    }
+    },
+    "name": "Tomb Tapper",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
   },
   "_id": "yymuowroHwBt77Rp",
   "_key": "!actors!yymuowroHwBt77Rp",

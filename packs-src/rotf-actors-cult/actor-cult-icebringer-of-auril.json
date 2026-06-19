@@ -3,7 +3,7 @@
   "_key": "!actors!AurilCultIceBrng01",
   "name": "Icebringer of Auril",
   "type": "npc",
-  "img": "icons/magic/water/snowflake-ice-crystals-blue.webp",
+  "img": "modules/rotf/assets/images/art-05-006-frostmaiden-mounted.webp",
   "system": {
     "abilities": {
       "str": {
@@ -310,7 +310,7 @@
   "effects": [],
   "prototypeToken": {
     "name": "Icebringer of Auril",
-    "img": "icons/magic/water/snowflake-ice-crystals-blue.webp",
+    "img": "modules/rotf/assets/images/art-05-006-frostmaiden-mounted.webp",
     "displayName": 0,
     "displayBars": 0,
     "actorLink": false,

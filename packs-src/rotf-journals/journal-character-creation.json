@@ -16,7 +16,7 @@
   "pages": [
     {
       "_id": "RotFCharP001",
-      "_key": "!journal.pages!RotFCharP001",
+      "_key": "!journal.pages!RotFCharCreation01.RotFCharP001",
       "name": "Character Backgrounds",
       "type": "text",
       "sort": 100,
@@ -48,7 +48,7 @@
     },
     {
       "_id": "RotFCharP002",
-      "_key": "!journal.pages!RotFCharP002",
+      "_key": "!journal.pages!RotFCharCreation01.RotFCharP002",
       "name": "Goliath Player Characters",
       "type": "text",
       "sort": 200,
@@ -80,7 +80,7 @@
     },
     {
       "_id": "RotFCharP003",
-      "_key": "!journal.pages!RotFCharP003",
+      "_key": "!journal.pages!RotFCharCreation01.RotFCharP003",
       "name": "Character Secrets (Appendix B)",
       "type": "text",
       "sort": 300,

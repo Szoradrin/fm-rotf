@@ -3,7 +3,7 @@
   "_key": "!actors!AurilCultNixMtr001",
   "name": "Nix Mater (Snow Mother)",
   "type": "npc",
-  "img": "icons/magic/unholy/orb-glowing-purple-blue.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -310,7 +310,7 @@
   "effects": [],
   "prototypeToken": {
     "name": "Nix Mater (Snow Mother)",
-    "img": "icons/magic/unholy/orb-glowing-purple-blue.webp",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
     "displayName": 0,
     "displayBars": 0,
     "actorLink": false,

@@ -1,7 +1,7 @@
 {
   "name": "Nass Lantomir's Ghost",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Nass Lantomirs Ghost.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -272,7 +272,20 @@
   "prototypeToken": {
     "texture": {
       "src": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/IDRotF/Nass%20Lantomirs%20Ghost.webp"
-    }
+    },
+    "name": "Nass Lantomir's Ghost",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
   },
   "_id": "gMmv7feGZnedXGmz",
   "_key": "!actors!gMmv7feGZnedXGmz",

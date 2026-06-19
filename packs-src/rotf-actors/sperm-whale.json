@@ -1,7 +1,7 @@
 {
   "name": "Sperm Whale",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Sperm Whale.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -210,7 +210,20 @@
   "prototypeToken": {
     "texture": {
       "src": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/IDRotF/Sperm%20Whale.webp"
-    }
+    },
+    "name": "Sperm Whale",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
   },
   "_id": "2B1boUNsMXunswhm",
   "_key": "!actors!2B1boUNsMXunswhm",

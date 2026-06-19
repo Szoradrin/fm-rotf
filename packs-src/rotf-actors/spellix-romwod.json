@@ -1,7 +1,7 @@
 {
   "name": "Spellix Romwod",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Spellix Romwod.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -165,7 +165,7 @@
   "sort": 0,
   "prototypeToken": {
     "name": "Spellix Romwod",
-    "img": "modules/rotf/assets/actors/Spellix Romwod.webp",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
     "displayName": 0,
     "displayBars": 0,
     "actorLink": false,
@@ -177,5 +177,6 @@
       "attribute": null
     },
     "flags": {}
-  }
+  },
+  "flags": {}
 }

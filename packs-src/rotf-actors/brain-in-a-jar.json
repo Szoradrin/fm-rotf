@@ -1,7 +1,7 @@
 {
   "name": "Brain in a Jar",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Brain in a Jar.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -224,7 +224,7 @@
   "folder": null,
   "prototypeToken": {
     "name": "Brain in a Jar",
-    "img": "modules/rotf/assets/actors/Brain in a Jar.webp",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
     "displayName": 0,
     "displayBars": 0,
     "actorLink": false,

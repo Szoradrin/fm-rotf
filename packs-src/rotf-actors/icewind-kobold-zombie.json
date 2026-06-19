@@ -1,7 +1,7 @@
 {
   "name": "Icewind Kobold Zombie",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Icewind Kobold Zombie.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -164,7 +164,7 @@
   "folder": null,
   "prototypeToken": {
     "name": "Icewind Kobold Zombie",
-    "img": "modules/rotf/assets/actors/Icewind Kobold Zombie.webp",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
     "displayName": 0,
     "displayBars": 0,
     "actorLink": false,

@@ -1,7 +1,7 @@
 {
   "name": "Lonelywood Banshee",
   "type": "npc",
-  "img": "modules/rotf/assets/actors/Lonelywood Banshee.webp",
+  "img": "systems/dnd5e/icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -202,7 +202,7 @@
   "sort": 0,
   "prototypeToken": {
     "name": "Lonelywood Banshee",
-    "img": "modules/rotf/assets/actors/Lonelywood Banshee.webp",
+    "img": "systems/dnd5e/icons/svg/mystery-man.svg",
     "displayName": 0,
     "displayBars": 0,
     "actorLink": false,
