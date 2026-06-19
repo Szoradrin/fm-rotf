@@ -1,0 +1,159 @@
+{
+  "_id": "CragCatActor001",
+  "name": "Crag Cat",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/token-crag-cat.webp",
+  "system": {
+    "abilities": {
+      "str": { "value": 16 },
+      "dex": { "value": 17 },
+      "con": { "value": 16 },
+      "int": { "value": 4 },
+      "wis": { "value": 14 },
+      "cha": { "value": 8 }
+    },
+    "attributes": {
+      "ac": { "flat": 13, "calc": "flat", "formula": "" },
+      "hp": { "value": 34, "max": 34, "temp": 0, "formula": "4d10+12" },
+      "speed": { "value": 40, "climb": 30, "special": "" },
+      "prof": 2
+    },
+    "details": {
+      "biography": { "value": "<p>Known in Northlander lore as the Hunter of Men, the crag cat is a sure-footed predator found anywhere except deep forest, preferring to patrol ledges and cliffs in the mountains. Its cry resembles a human scream of terror. During winter, its fur turns white to blend in with the snow; at other times it is gray, enabling it to hide among the rocks.</p>", "public": "" },
+      "alignment": "Unaligned",
+      "race": "",
+      "type": { "value": "monstrosity", "subtype": "", "swarm": "", "custom": "" },
+      "cr": 1,
+      "spellLevel": 0,
+      "source": { "custom": "ROTF" }
+    },
+    "traits": {
+      "size": "lg",
+      "languages": { "value": [], "custom": "" },
+      "senses": { "darkvision": 60, "blindsight": 0, "tremorsense": 0, "truesight": 0, "units": "ft", "special": "" }
+    },
+    "skills": {
+      "prc": { "value": 1 },
+      "ste": { "value": 1 }
+    },
+    "saves": {}
+  },
+  "items": [
+    {
+      "_id": "CragCatItem001",
+      "name": "Nondetection",
+      "type": "feat",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+      "system": {
+        "description": { "value": "<p>The cat can't be targeted or detected by any divination magic or perceived through magical scrying sensors.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "", "value": null },
+        "activities": {}
+      },
+      "_key": "!actors.items!CragCatActor001.CragCatItem001"
+    },
+    {
+      "_id": "CragCatItem002",
+      "name": "Pounce",
+      "type": "feat",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "system": {
+        "description": { "value": "<p>If the cat moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the cat can make one bite attack against it as a bonus action.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "", "value": null },
+        "activities": {}
+      },
+      "_key": "!actors.items!CragCatActor001.CragCatItem002"
+    },
+    {
+      "_id": "CragCatItem003",
+      "name": "Spell Turning",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
+      "system": {
+        "description": { "value": "<p>The cat has advantage on saving throws against any spell that targets only the cat (not an area). If the cat's saving throw succeeds and the spell is of 7th level or lower, the spell has no effect on the cat and instead targets the caster.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "", "value": null },
+        "activities": {}
+      },
+      "_key": "!actors.items!CragCatActor001.CragCatItem003"
+    },
+    {
+      "_id": "CragCatItem004",
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "system": {
+        "description": { "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.</p>", "chat": "" },
+        "quantity": 1, "equipped": true, "proficient": 1,
+        "activation": { "type": "action", "value": 1 },
+        "range": { "value": 5, "units": "ft" },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": false, "type": { "value": "melee", "classification": "weapon" } },
+            "damage": { "parts": [{ "number": 1, "denomination": "10", "bonus": "3", "types": ["piercing"] }] }
+          }
+        }
+      },
+      "_key": "!actors.items!CragCatActor001.CragCatItem004"
+    },
+    {
+      "_id": "CragCatItem005",
+      "name": "Claw",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": { "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</p>", "chat": "" },
+        "quantity": 1, "equipped": true, "proficient": 1,
+        "activation": { "type": "action", "value": 1 },
+        "range": { "value": 5, "units": "ft" },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": false, "type": { "value": "melee", "classification": "weapon" } },
+            "damage": { "parts": [{ "number": 1, "denomination": "8", "bonus": "3", "types": ["slashing"] }] }
+          }
+        }
+      },
+      "_key": "!actors.items!CragCatActor001.CragCatItem005"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Crag Cat",
+    "displayName": 0, "actorLink": false, "appendNumber": false, "prependAdjective": false,
+    "width": 2, "height": 2,
+    "texture": {
+      "src": "modules/rotf/assets/images/token-crag-cat.webp",
+      "anchorX": 0.5, "anchorY": 0.5, "fit": "contain",
+      "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75
+    },
+    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1,
+    "displayBars": 0, "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
+    "light": {
+      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
+      "bright": 0, "color": null, "coloration": 1, "dim": 0,
+      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
+    "detectionModes": {}, "occludable": { "radius": 0 },
+    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
+    "flags": {}, "randomImg": false
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14.364",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!CragCatActor001"
+}
