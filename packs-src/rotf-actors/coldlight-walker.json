@@ -1,7 +1,7 @@
 {
   "name": "Coldlight Walker",
   "type": "npc",
-  "img": "modules/rime-of-the-frostmaiden/assets/actors/Coldlight Walker.webp",
+  "img": "modules/rotf/assets/actors/Coldlight Walker.webp",
   "system": {
     "abilities": {
       "str": {
@@ -179,5 +179,31 @@
     }
   ],
   "_id": "0npY6lRhj031vaod",
-  "_key": "!actors!0npY6lRhj031vaod"
+  "_key": "!actors!0npY6lRhj031vaod",
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Coldlight Walker",
+    "img": "modules/rotf/assets/actors/Coldlight Walker.webp",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
+  }
 }

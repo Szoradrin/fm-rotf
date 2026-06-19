@@ -1,7 +1,7 @@
 {
   "name": "Arveiaturace",
   "type": "npc",
-  "img": "modules/rime-of-the-frostmaiden/assets/actors/Arveiaturace.webp",
+  "img": "modules/rotf/assets/actors/Arveiaturace.webp",
   "system": {
     "abilities": {
       "str": {
@@ -203,5 +203,31 @@
     }
   ],
   "_id": "1ymZ9rGxMKFH6cks",
-  "_key": "!actors!1ymZ9rGxMKFH6cks"
+  "_key": "!actors!1ymZ9rGxMKFH6cks",
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Arveiaturace",
+    "img": "modules/rotf/assets/actors/Arveiaturace.webp",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
+  }
 }

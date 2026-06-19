@@ -277,5 +277,21 @@
     "coreVersion": "14.363",
     "systemId": "dnd5e",
     "systemVersion": "5.0.3"
+  },
+  "effects": [],
+  "prototypeToken": {
+    "name": "Tempest of Auril",
+    "img": "icons/magic/air/air-burst-spiral-blue-white.webp",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
   }
 }

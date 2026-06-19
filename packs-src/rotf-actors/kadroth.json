@@ -1,7 +1,7 @@
 {
   "name": "Kadroth",
   "type": "npc",
-  "img": "modules/rime-of-the-frostmaiden/assets/actors/Kadroth.webp",
+  "img": "modules/rotf/assets/actors/Kadroth.webp",
   "system": {
     "abilities": {
       "str": {
@@ -139,5 +139,31 @@
     }
   ],
   "_id": "qFr4K8qKvZa6COR2",
-  "_key": "!actors!qFr4K8qKvZa6COR2"
+  "_key": "!actors!qFr4K8qKvZa6COR2",
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Kadroth",
+    "img": "modules/rotf/assets/actors/Kadroth.webp",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
+  }
 }

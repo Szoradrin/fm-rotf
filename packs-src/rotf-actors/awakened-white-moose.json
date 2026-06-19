@@ -1,7 +1,7 @@
 {
   "name": "Awakened White Moose",
   "type": "npc",
-  "img": "modules/rime-of-the-frostmaiden/assets/actors/Awakened White Moose.webp",
+  "img": "modules/rotf/assets/actors/Awakened White Moose.webp",
   "system": {
     "abilities": {
       "str": {
@@ -143,5 +143,31 @@
     }
   ],
   "_id": "hbuiNQlN6U11i9Ru",
-  "_key": "!actors!hbuiNQlN6U11i9Ru"
+  "_key": "!actors!hbuiNQlN6U11i9Ru",
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Awakened White Moose",
+    "img": "modules/rotf/assets/actors/Awakened White Moose.webp",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
+  }
 }

@@ -1,5 +1,5 @@
-2026/06/19-01:43:17.209743 7ff6409fd6c0 Delete type=3 #1
-2026/06/19-01:43:17.212373 7ff60b7fe6c0 Level-0 table #5: started
-2026/06/19-01:43:17.214445 7ff60b7fe6c0 Level-0 table #5: 14078 bytes OK
-2026/06/19-01:43:17.215216 7ff60b7fe6c0 Delete type=0 #3
-2026/06/19-01:43:17.215270 7ff60b7fe6c0 Manual compaction at level-0 from '!journal!RotFCh1Overview001' @ 72057594037927935 : 1 .. '!journal.pages!RotFIntroP003' @ 0 : 0; will stop at (end)
+2026/06/19-02:12:23.967864 7f2820fbd6c0 Delete type=3 #1
+2026/06/19-02:12:23.970903 7f28137fe6c0 Level-0 table #5: started
+2026/06/19-02:12:23.973348 7f28137fe6c0 Level-0 table #5: 15009 bytes OK
+2026/06/19-02:12:23.974121 7f28137fe6c0 Delete type=0 #3
+2026/06/19-02:12:23.974183 7f28137fe6c0 Manual compaction at level-0 from '!journal!RotFCh1Overview001' @ 72057594037927935 : 1 .. '!journal.pages!RotFIntroP003' @ 0 : 0; will stop at (end)

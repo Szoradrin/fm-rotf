@@ -1,7 +1,7 @@
 {
   "name": "Spitting Mimic",
   "type": "npc",
-  "img": "modules/rime-of-the-frostmaiden/assets/actors/Spitting Mimic.webp",
+  "img": "modules/rotf/assets/actors/Spitting Mimic.webp",
   "system": {
     "abilities": {
       "str": {
@@ -319,5 +319,7 @@
     "coreVersion": "14.363",
     "systemId": "dnd5e",
     "systemVersion": "5.0.3"
-  }
+  },
+  "effects": [],
+  "folder": null
 }

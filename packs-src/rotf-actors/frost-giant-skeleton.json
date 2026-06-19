@@ -1,7 +1,7 @@
 {
   "name": "Frost Giant Skeleton",
   "type": "npc",
-  "img": "modules/rime-of-the-frostmaiden/assets/actors/Frost Giant Skeleton.webp",
+  "img": "modules/rotf/assets/actors/Frost Giant Skeleton.webp",
   "system": {
     "abilities": {
       "str": {
@@ -206,5 +206,7 @@
     "coreVersion": "14.363",
     "systemId": "dnd5e",
     "systemVersion": "5.0.3"
-  }
+  },
+  "effects": [],
+  "folder": null
 }

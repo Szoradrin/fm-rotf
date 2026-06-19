@@ -1,7 +1,7 @@
 {
   "name": "Chwinga",
   "type": "npc",
-  "img": "modules/rime-of-the-frostmaiden/assets/actors/Chwinga.webp",
+  "img": "modules/rotf/assets/actors/Chwinga.webp",
   "system": {
     "abilities": {
       "str": {
@@ -193,5 +193,7 @@
     "coreVersion": "14.363",
     "systemId": "dnd5e",
     "systemVersion": "5.0.3"
-  }
+  },
+  "effects": [],
+  "folder": null
 }

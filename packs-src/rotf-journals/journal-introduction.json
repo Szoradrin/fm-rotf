@@ -35,8 +35,16 @@
       },
       "text": {
         "format": 1,
-        "content": "<h2>Welcome to the Far North</h2>\n<figure class=\"right\"><img src=\"modules/rotf/assets/images/art-00-000-intro-splash.webp\" alt=\"Icewind Dale intro splash\" /></figure>\n<p>North of the Spine of the World and west of the towering Reghed Glacier is a frigid expanse few dare to explore, let alone inhabit. This icy land of windswept tundra recently became locked in a perpetual, dark winter without reprieve. <strong>Auril the Frostmaiden</strong>, the divine embodiment of winter's fury, has withdrawn to this cold corner of the world to live among mortals and has cast a terrible spell over Icewind Dale.</p>\n<p>Each night before midnight, Auril takes to the sky on the back of a white roc and weaves her spell, which manifests as a shimmering curtain of light — a beautiful aurora that illuminates the night sky and fades before dawn. This powerful magic prevents the next day's sun from rising above the horizon, turning midday into twilight and trapping Icewind Dale in winter's dark embrace. The people of Icewind Dale call this the <strong>Everlasting Rime</strong>.</p>\n<figure><img src=\"modules/rotf/assets/images/art-00-icewind-dale-illustrated.webp\" alt=\"Icewind Dale illustrated map\" /></figure>"
-      }
+        "content": "<h2>Welcome to the Far North</h2>\n<figure class=\"right\"><img src=\"modules/rotf/assets/images/art-00-000-intro-splash.webp\" alt=\"Icewind Dale intro splash\" /></figure>\n<p>North of the Spine of the World and west of the towering Reghed Glacier is a frigid expanse few dare to explore, let alone inhabit. This icy land of windswept tundra recently became locked in a perpetual, dark winter without reprieve. <strong>Auril the Frostmaiden</strong>, the divine embodiment of winter's fury, has withdrawn to this cold corner of the world to live among mortals and has cast a terrible spell over Icewind Dale.</p>\n<p>Each night before midnight, Auril takes to the sky on the back of a white roc and weaves her spell, which manifests as a shimmering curtain of light \u2014 a beautiful aurora that illuminates the night sky and fades before dawn. This powerful magic prevents the next day's sun from rising above the horizon, turning midday into twilight and trapping Icewind Dale in winter's dark embrace. The people of Icewind Dale call this the <strong>Everlasting Rime</strong>.</p>\n<figure><img src=\"modules/rotf/assets/images/art-00-icewind-dale-illustrated.webp\" alt=\"Icewind Dale illustrated map\" /></figure>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "system": {},
+      "src": null,
+      "category": null
     },
     {
       "_id": "RotFIntroP002",
@@ -59,8 +67,16 @@
       },
       "text": {
         "format": 1,
-        "content": "<h2>Adventure Summary</h2>\n<p>Three plot elements, woven together, form this adventure:</p>\n<h3>Duergar Despot</h3>\n<p>@UUID[Compendium.rotf.rotf-actors.Actor.XardorokSunblt001]{Xardorok Sunblight}, a duergar warlock formerly of the Underdark, has raised a fortress in the mountains and is constructing a <strong>chardalyn dragon</strong> to unleash upon Ten-Towns. See @UUID[Compendium.rotf.rotf-journals.JournalEntry.RotFCh1Overview001]{Chapter 1: Ten-Towns Overview} for how the party first encounters his influence.</p>\n<h3>Lost City of Magic</h3>\n<p>Four wizards of the <strong>Arcane Brotherhood</strong> — @UUID[Compendium.rotf.rotf-actors.Actor.AvariceActorROTF1]{Avarice}, @UUID[Compendium.rotf.rotf-actors.Actor.DzaanSimulacrum01]{Dzaan's Simulacrum}, @UUID[Compendium.rotf.rotf-actors.Actor.NassLantomirGh01]{Nass Lantomir}, and @UUID[Compendium.rotf.rotf-actors.Actor.VellynneHarpell1]{Vellynne Harpell} — have come chasing rumors of a lost Netherese city buried under the Reghed Glacier.</p>\n<h3>The Frostmaiden's Wrath</h3>\n<p>At the heart of the adventure is @UUID[Compendium.rotf.rotf-actors.Actor.AurilFirstForm01]{Auril the Frostmaiden} herself, who must be confronted and defeated if Icewind Dale is ever to see summer again.</p>"
-      }
+        "content": "<h2>Adventure Summary</h2>\n<p>Three plot elements, woven together, form this adventure:</p>\n<h3>Duergar Despot</h3>\n<p>@UUID[Compendium.rotf.rotf-actors.Actor.XardorokSunblt001]{Xardorok Sunblight}, a duergar warlock formerly of the Underdark, has raised a fortress in the mountains and is constructing a <strong>chardalyn dragon</strong> to unleash upon Ten-Towns. See @UUID[Compendium.rotf.rotf-journals.JournalEntry.RotFCh1Overview001]{Chapter 1: Ten-Towns Overview} for how the party first encounters his influence.</p>\n<h3>Lost City of Magic</h3>\n<p>Four wizards of the <strong>Arcane Brotherhood</strong> \u2014 @UUID[Compendium.rotf.rotf-actors.Actor.AvariceActorROTF1]{Avarice}, @UUID[Compendium.rotf.rotf-actors.Actor.DzaanSimulacrum01]{Dzaan's Simulacrum}, @UUID[Compendium.rotf.rotf-actors.Actor.NassLantomirGh01]{Nass Lantomir}, and @UUID[Compendium.rotf.rotf-actors.Actor.VellynneHarpell1]{Vellynne Harpell} \u2014 have come chasing rumors of a lost Netherese city buried under the Reghed Glacier.</p>\n<h3>The Frostmaiden's Wrath</h3>\n<p>At the heart of the adventure is @UUID[Compendium.rotf.rotf-actors.Actor.AurilFirstForm01]{Auril the Frostmaiden} herself, who must be confronted and defeated if Icewind Dale is ever to see summer again.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "system": {},
+      "src": null,
+      "category": null
     },
     {
       "_id": "RotFIntroP003",
@@ -83,8 +99,17 @@
       },
       "text": {
         "format": 1,
-        "content": "<h2>Running the Adventure</h2>\n<h3>Chapter Flow</h3>\n<ul>\n<li><strong>Chapter 1: Ten-Towns</strong> — Explore the settlements, complete quests, reach 4th level.</li>\n<li><strong>Chapter 2: Icewind Dale</strong> — Venture into the frozen wilderness, reach 5th–6th level.</li>\n<li><strong>Chapter 3: Sunblight</strong> — Assault Xardorok's fortress. Recommended: 4th–5th level.</li>\n<li><strong>Chapter 4: Destruction's Light</strong> — The chardalyn dragon ravages Ten-Towns. Recommended: 5th–6th level.</li>\n<li><strong>Chapter 5: Auril's Abode</strong> — Travel to the Island of Solstice. Recommended: 6th–8th level.</li>\n<li><strong>Chapter 6: Caves of Hunger</strong> — Enter the glacier. Recommended: 8th–9th level.</li>\n<li><strong>Chapter 7: Doom of Ythryn</strong> — Explore the lost Netherese city. Recommended: 9th–11th level.</li>\n</ul>\n<h3>Wilderness Survival Rules</h3>\n<ul>\n<li><strong>Extreme Cold:</strong> Temperatures at or below 0°F require a DC 10 Constitution save at the end of each hour or gain one level of exhaustion. Cold resistance or immunity grants automatic success.</li>\n<li><strong>Overland Travel:</strong> 1 mile per hour on foot through open tundra; up to 2 mph by dogsled. Roads are slightly faster.</li>\n<li><strong>Blizzards:</strong> Visibility drops to 0, all travel halts. Duration: 1d4+1 hours.</li>\n<li><strong>Avalanches:</strong> 10% chance per hour of mountain travel. DC 15 Dexterity save or be buried (takes 4d6 bludgeoning damage and is restrained).</li>\n</ul>"
-      }
+        "content": "<h2>Running the Adventure</h2>\n<h3>Chapter Flow</h3>\n<ul>\n<li><strong>Chapter 1: Ten-Towns</strong> \u2014 Explore the settlements, complete quests, reach 4th level.</li>\n<li><strong>Chapter 2: Icewind Dale</strong> \u2014 Venture into the frozen wilderness, reach 5th\u20136th level.</li>\n<li><strong>Chapter 3: Sunblight</strong> \u2014 Assault Xardorok's fortress. Recommended: 4th\u20135th level.</li>\n<li><strong>Chapter 4: Destruction's Light</strong> \u2014 The chardalyn dragon ravages Ten-Towns. Recommended: 5th\u20136th level.</li>\n<li><strong>Chapter 5: Auril's Abode</strong> \u2014 Travel to the Island of Solstice. Recommended: 6th\u20138th level.</li>\n<li><strong>Chapter 6: Caves of Hunger</strong> \u2014 Enter the glacier. Recommended: 8th\u20139th level.</li>\n<li><strong>Chapter 7: Doom of Ythryn</strong> \u2014 Explore the lost Netherese city. Recommended: 9th\u201311th level.</li>\n</ul>\n<h3>Wilderness Survival Rules</h3>\n<ul>\n<li><strong>Extreme Cold:</strong> Temperatures at or below 0\u00b0F require a DC 10 Constitution save at the end of each hour or gain one level of exhaustion. Cold resistance or immunity grants automatic success.</li>\n<li><strong>Overland Travel:</strong> 1 mile per hour on foot through open tundra; up to 2 mph by dogsled. Roads are slightly faster.</li>\n<li><strong>Blizzards:</strong> Visibility drops to 0, all travel halts. Duration: 1d4+1 hours.</li>\n<li><strong>Avalanches:</strong> 10% chance per hour of mountain travel. DC 15 Dexterity save or be buried (takes 4d6 bludgeoning damage and is restrained).</li>\n</ul>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "system": {},
+      "src": null,
+      "category": null
     }
-  ]
+  ],
+  "categories": []
 }

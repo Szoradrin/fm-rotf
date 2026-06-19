@@ -1,7 +1,7 @@
 {
   "name": "Young Griffon (Medium)",
   "type": "npc",
-  "img": "modules/rime-of-the-frostmaiden/assets/actors/Young Griffon (Medium).webp",
+  "img": "modules/rotf/assets/actors/Young Griffon (Medium).webp",
   "system": {
     "abilities": {
       "str": {
@@ -141,5 +141,31 @@
     }
   },
   "_id": "younggriffonmedi",
-  "_key": "!actors!younggriffonmedi"
+  "_key": "!actors!younggriffonmedi",
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Young Griffon (Medium)",
+    "img": "modules/rotf/assets/actors/Young Griffon (Medium).webp",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
+  }
 }

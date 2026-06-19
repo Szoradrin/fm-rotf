@@ -22,7 +22,7 @@
       "_id": "RotFCh1StartingTown01R001",
       "_key": "!tables.results!RotFCh1StartingTown01.RotFCh1StartingTown01R001",
       "type": "text",
-      "text": "<strong>Bremen</strong> — \"Lake Monster\": Hunt for a monster terrorizing Bremen's fishers.",
+      "text": "<strong>Bremen</strong> \u2014 \"Lake Monster\": Hunt for a monster terrorizing Bremen's fishers.",
       "img": "icons/dice/d20black.svg",
       "weight": 1,
       "range": [
@@ -36,7 +36,7 @@
       "_id": "RotFCh1StartingTown01R002",
       "_key": "!tables.results!RotFCh1StartingTown01.RotFCh1StartingTown01R002",
       "type": "text",
-      "text": "<strong>Bryn Shander</strong> — \"Foaming Mugs\": Search for a missing supply of iron ingots.",
+      "text": "<strong>Bryn Shander</strong> \u2014 \"Foaming Mugs\": Search for a missing supply of iron ingots.",
       "img": "icons/dice/d20black.svg",
       "weight": 1,
       "range": [
@@ -50,7 +50,7 @@
       "_id": "RotFCh1StartingTown01R003",
       "_key": "!tables.results!RotFCh1StartingTown01.RotFCh1StartingTown01R003",
       "type": "text",
-      "text": "<strong>Caer-Dineval</strong> — \"Black Swords\": Confront devil-worshiping cultists in a clifftop castle.",
+      "text": "<strong>Caer-Dineval</strong> \u2014 \"Black Swords\": Confront devil-worshiping cultists in a clifftop castle.",
       "img": "icons/dice/d20black.svg",
       "weight": 1,
       "range": [
@@ -64,7 +64,7 @@
       "_id": "RotFCh1StartingTown01R004",
       "_key": "!tables.results!RotFCh1StartingTown01.RotFCh1StartingTown01R004",
       "type": "text",
-      "text": "<strong>Caer-Konig</strong> — \"The Unseen\": Solve the mystery behind a number of petty thefts.",
+      "text": "<strong>Caer-Konig</strong> \u2014 \"The Unseen\": Solve the mystery behind a number of petty thefts.",
       "img": "icons/dice/d20black.svg",
       "weight": 1,
       "range": [
@@ -78,7 +78,7 @@
       "_id": "RotFCh1StartingTown01R005",
       "_key": "!tables.results!RotFCh1StartingTown01.RotFCh1StartingTown01R005",
       "type": "text",
-      "text": "<strong>Dougan's Hole</strong> — \"Holed Up\": Cross paths with a pair of winter wolves and rescue two missing youngsters.",
+      "text": "<strong>Dougan's Hole</strong> \u2014 \"Holed Up\": Cross paths with a pair of winter wolves and rescue two missing youngsters.",
       "img": "icons/dice/d20black.svg",
       "weight": 1,
       "range": [
@@ -92,7 +92,7 @@
       "_id": "RotFCh1StartingTown01R006",
       "_key": "!tables.results!RotFCh1StartingTown01.RotFCh1StartingTown01R006",
       "type": "text",
-      "text": "<strong>Easthaven</strong> — \"Toil and Trouble\": Search for missing fishers in a hag's lair.",
+      "text": "<strong>Easthaven</strong> \u2014 \"Toil and Trouble\": Search for missing fishers in a hag's lair.",
       "img": "icons/dice/d20black.svg",
       "weight": 1,
       "range": [
@@ -106,7 +106,7 @@
       "_id": "RotFCh1StartingTown01R007",
       "_key": "!tables.results!RotFCh1StartingTown01.RotFCh1StartingTown01R007",
       "type": "text",
-      "text": "<strong>Good Mead</strong> — \"The Mead Must Flow\": Retrieve several stolen casks of honey mead.",
+      "text": "<strong>Good Mead</strong> \u2014 \"The Mead Must Flow\": Retrieve several stolen casks of honey mead.",
       "img": "icons/dice/d20black.svg",
       "weight": 1,
       "range": [
@@ -120,7 +120,7 @@
       "_id": "RotFCh1StartingTown01R008",
       "_key": "!tables.results!RotFCh1StartingTown01.RotFCh1StartingTown01R008",
       "type": "text",
-      "text": "<strong>Lonelywood</strong> — \"The White Moose\": Hunt an evil white moose terrorizing local hunters and loggers.",
+      "text": "<strong>Lonelywood</strong> \u2014 \"The White Moose\": Hunt an evil white moose terrorizing local hunters and loggers.",
       "img": "icons/dice/d20black.svg",
       "weight": 1,
       "range": [
@@ -134,7 +134,7 @@
       "_id": "RotFCh1StartingTown01R009",
       "_key": "!tables.results!RotFCh1StartingTown01.RotFCh1StartingTown01R009",
       "type": "text",
-      "text": "<strong>Targos</strong> — \"Mountain Climb\": Search for an expedition that went missing on the slopes of Kelvin's Cairn.",
+      "text": "<strong>Targos</strong> \u2014 \"Mountain Climb\": Search for an expedition that went missing on the slopes of Kelvin's Cairn.",
       "img": "icons/dice/d20black.svg",
       "weight": 1,
       "range": [
@@ -148,7 +148,7 @@
       "_id": "RotFCh1StartingTown01R010",
       "_key": "!tables.results!RotFCh1StartingTown01.RotFCh1StartingTown01R010",
       "type": "text",
-      "text": "<strong>Termalaine</strong> — \"A Beautiful Mine\": Go looking for trouble in a nearby gem mine.",
+      "text": "<strong>Termalaine</strong> \u2014 \"A Beautiful Mine\": Go looking for trouble in a nearby gem mine.",
       "img": "icons/dice/d20black.svg",
       "weight": 1,
       "range": [

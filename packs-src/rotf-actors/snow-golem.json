@@ -1,7 +1,7 @@
 {
   "name": "Snow Golem",
   "type": "npc",
-  "img": "modules/rime-of-the-frostmaiden/assets/actors/Snow Golem.webp",
+  "img": "modules/rotf/assets/actors/Snow Golem.webp",
   "system": {
     "abilities": {
       "str": {
@@ -248,5 +248,7 @@
     "coreVersion": "14.363",
     "systemId": "dnd5e",
     "systemVersion": "5.0.3"
-  }
+  },
+  "effects": [],
+  "folder": null
 }

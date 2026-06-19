@@ -186,5 +186,21 @@
     "coreVersion": "14.363",
     "systemId": "dnd5e",
     "systemVersion": "5.0.3"
+  },
+  "effects": [],
+  "prototypeToken": {
+    "name": "Spite of Auril",
+    "img": "icons/magic/water/ice-block-frozen-blue.webp",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
   }
 }

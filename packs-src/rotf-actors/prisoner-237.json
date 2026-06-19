@@ -1,7 +1,7 @@
 {
   "name": "Prisoner 237",
   "type": "npc",
-  "img": "modules/rime-of-the-frostmaiden/assets/actors/Prisoner 237.webp",
+  "img": "modules/rotf/assets/actors/Prisoner 237.webp",
   "system": {
     "abilities": {
       "str": {
@@ -111,5 +111,31 @@
     }
   ],
   "_id": "FPI8Mztw8ozvHLXS",
-  "_key": "!actors!FPI8Mztw8ozvHLXS"
+  "_key": "!actors!FPI8Mztw8ozvHLXS",
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Prisoner 237",
+    "img": "modules/rotf/assets/actors/Prisoner 237.webp",
+    "displayName": 0,
+    "displayBars": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {}
+  }
 }

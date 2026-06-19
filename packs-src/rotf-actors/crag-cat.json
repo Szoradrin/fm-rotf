@@ -1,7 +1,7 @@
 {
   "name": "Crag Cat",
   "type": "npc",
-  "img": "modules/rime-of-the-frostmaiden/assets/images/art-01-003-crag-cat.webp",
+  "img": "modules/rotf/assets/images/art-01-003-crag-cat.webp",
   "system": {
     "abilities": {
       "str": {
@@ -219,5 +219,7 @@
     "coreVersion": "14.363",
     "systemId": "dnd5e",
     "systemVersion": "5.0.3"
-  }
+  },
+  "effects": [],
+  "folder": null
 }

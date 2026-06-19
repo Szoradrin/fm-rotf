@@ -1,7 +1,7 @@
 {
   "name": "Verbeeg Marauder",
   "type": "npc",
-  "img": "modules/rime-of-the-frostmaiden/assets/actors/Verbeeg Marauder.webp",
+  "img": "modules/rotf/assets/actors/Verbeeg Marauder.webp",
   "system": {
     "abilities": {
       "str": {
@@ -175,5 +175,7 @@
     "coreVersion": "14.363",
     "systemId": "dnd5e",
     "systemVersion": "5.0.3"
-  }
+  },
+  "effects": [],
+  "folder": null
 }
