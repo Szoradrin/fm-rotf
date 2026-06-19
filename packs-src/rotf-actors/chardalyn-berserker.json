@@ -1,0 +1,210 @@
+{
+  "_id": "ChrdlynBrskr001",
+  "name": "Chardalyn Berserker",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/token-chardalyn-berserker.webp",
+  "system": {
+    "abilities": {
+      "str": { "value": 16 },
+      "dex": { "value": 12 },
+      "con": { "value": 17 },
+      "int": { "value": 9 },
+      "wis": { "value": 11 },
+      "cha": { "value": 9 }
+    },
+    "attributes": {
+      "ac": { "flat": 13, "calc": "flat", "formula": "" },
+      "hp": { "value": 90, "max": 90, "temp": 0, "formula": "12d8+36" },
+      "speed": { "value": 30, "special": "" },
+      "prof": 2
+    },
+    "details": {
+      "biography": { "value": "<p>Chardalyn berserkers are Reghed nomads who wield weapons made of chardalyn suffused with demonic magic. This exposure has transformed them into fiends. They shed their heavier protective clothing and embrace the frigid cold, allowing frostbite to ravage the exposed parts of their bodies, with only their faith in the Frostmaiden keeping them alive.</p>", "public": "" },
+      "alignment": "Chaotic Evil",
+      "race": "",
+      "type": { "value": "fiend", "subtype": "", "swarm": "", "custom": "" },
+      "cr": 4,
+      "spellLevel": 0,
+      "source": { "custom": "ROTF" }
+    },
+    "traits": {
+      "size": "med",
+      "languages": { "value": [], "custom": "any one language (usually Common)" },
+      "senses": { "darkvision": 0, "blindsight": 0, "tremorsense": 0, "truesight": 0, "units": "ft", "special": "" }
+    },
+    "skills": {
+      "sur": { "value": 1 }
+    },
+    "saves": {}
+  },
+  "items": [
+    {
+      "_id": "ChrdBrskItem001",
+      "name": "Chardalyn Madness",
+      "type": "feat",
+      "img": "icons/magic/unholy/strike-beam-blood-red-purple.webp",
+      "system": {
+        "description": { "value": "<p>The berserker must roll a d6 at the start of each of its turns. On a 1, the berserker does nothing on its turn except speak to a nonexistent, evil master whom it has pledged to serve.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "", "value": null },
+        "activities": {}
+      },
+      "_key": "!actors.items!ChrdlynBrskr001.ChrdBrskItem001"
+    },
+    {
+      "_id": "ChrdBrskItem002",
+      "name": "Reckless",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": { "value": "<p>At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "", "value": null },
+        "activities": {}
+      },
+      "_key": "!actors.items!ChrdlynBrskr001.ChrdBrskItem002"
+    },
+    {
+      "_id": "ChrdBrskItem003",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "system": {
+        "description": { "value": "<p>The berserker attacks three times with a melee weapon.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "action", "value": 1 },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false }
+          }
+        }
+      },
+      "_key": "!actors.items!ChrdlynBrskr001.ChrdBrskItem003"
+    },
+    {
+      "_id": "ChrdBrskItem004",
+      "name": "Chardalyn Flail",
+      "type": "weapon",
+      "img": "icons/weapons/maces/flail-ball-grey.webp",
+      "system": {
+        "description": { "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn.</p>", "chat": "" },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "activation": { "type": "action", "value": 1 },
+        "range": { "value": 5, "units": "ft" },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": { "threshold": null },
+              "flat": false,
+              "type": { "value": "melee", "classification": "weapon" }
+            },
+            "damage": {
+              "parts": [{ "number": 1, "denomination": "8", "bonus": "3", "types": ["bludgeoning"] }]
+            }
+          }
+        }
+      },
+      "_key": "!actors.items!ChrdlynBrskr001.ChrdBrskItem004"
+    },
+    {
+      "_id": "ChrdBrskItem005",
+      "name": "Chardalyn Javelin",
+      "type": "weapon",
+      "img": "icons/weapons/thrown/javelin.webp",
+      "system": {
+        "description": { "value": "<p>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn.</p>", "chat": "" },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "activation": { "type": "action", "value": 1 },
+        "range": { "value": 30, "long": 120, "units": "ft" },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": { "threshold": null },
+              "flat": false,
+              "type": { "value": "melee", "classification": "weapon" }
+            },
+            "damage": {
+              "parts": [{ "number": 1, "denomination": "6", "bonus": "3", "types": ["piercing"] }]
+            }
+          }
+        }
+      },
+      "_key": "!actors.items!ChrdlynBrskr001.ChrdBrskItem005"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Chardalyn Berserker",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/rotf/assets/images/token-chardalyn-berserker.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": {
+      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
+      "bright": 0, "color": null, "coloration": 1, "dim": 0,
+      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
+      "contrast": 0, "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": {
+      "enabled": false, "range": 0, "angle": 360,
+      "visionMode": "basic", "color": null, "attenuation": 0.1,
+      "brightness": 0, "saturation": 0, "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": { "radius": 0 },
+    "ring": {
+      "enabled": false,
+      "colors": { "ring": null, "background": null },
+      "effects": 1,
+      "subject": { "scale": 1, "texture": null }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14.364",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ChrdlynBrskr001"
+}
