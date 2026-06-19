@@ -1,0 +1,241 @@
+{
+  "_id": "GoliathWerebear01",
+  "name": "Goliath Werebear",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/token-goliath-werebear.webp",
+  "system": {
+    "abilities": {
+      "str": { "value": 20 },
+      "dex": { "value": 10 },
+      "con": { "value": 18 },
+      "int": { "value": 10 },
+      "wis": { "value": 15 },
+      "cha": { "value": 10 }
+    },
+    "attributes": {
+      "ac": { "flat": 10, "calc": "flat" },
+      "hp": { "value": 161, "min": 0, "max": 161, "formula": "19d8+76" },
+      "speed": { "value": "30 ft. (40 ft., swim 30 ft. in bear or hybrid form)" },
+      "cr": 8,
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": { "value": "<p>A goliath werebear is a lycanthrope who can transform into a Large polar bear or a bear-humanoid hybrid. In humanoid form, it appears as a powerfully built goliath. It retains its Stone's Endurance reaction in all forms.</p>" },
+      "alignment": "neutral good",
+      "race": "",
+      "type": { "value": "humanoid", "subtype": "goliath, shapechanger", "swarm": "", "custom": "" },
+      "environment": "",
+      "cr": 8,
+      "spellLevel": 0,
+      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "289" }
+    },
+    "skills": {
+      "ath": { "value": 1 },
+      "per": { "value": 1 },
+      "sur": { "value": 1 }
+    },
+    "traits": {
+      "size": "med",
+      "di": { "value": ["bludgeoning", "piercing", "slashing"] },
+      "dr": { "value": ["cold"] },
+      "dv": { "value": [] },
+      "ci": { "value": [] },
+      "languages": { "value": ["common", "giant"] },
+      "special": "Immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren't silvered"
+    },
+    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 }
+  },
+  "prototypeToken": {
+    "name": "Goliath Werebear",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/rotf/assets/images/token-goliath-werebear.webp",
+      "anchorX": 0.5, "anchorY": 0.5, "fit": "contain",
+      "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75
+    },
+    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1, "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
+    "light": { "negative": false, "priority": 0, "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 } },
+    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
+    "detectionModes": {}, "occludable": { "radius": 0 },
+    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
+    "flags": {}, "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "GolWbrTrait01SC",
+      "name": "Shapechanger",
+      "type": "feat",
+      "img": "icons/magic/control/debuff-chains-blue.webp",
+      "system": {
+        "description": { "value": "<p>The goliath can use its action to polymorph into a Large polar bear, into a Large bear-humanoid hybrid, or back into its true form (a Medium humanoid). Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "action", "value": 1, "condition": "" },
+        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+      },
+      "sort": 100000,
+      "_key": "!actors.items!GoliathWerebear01.GolWbrTrait01SC"
+    },
+    {
+      "_id": "GolWbrTrait02KS",
+      "name": "Keen Smell",
+      "type": "feat",
+      "img": "icons/magic/perception/eye-ringed-green.webp",
+      "system": {
+        "description": { "value": "<p>The goliath has advantage on Wisdom (Perception) checks that rely on smell.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+      },
+      "sort": 150000,
+      "_key": "!actors.items!GoliathWerebear01.GolWbrTrait02KS"
+    },
+    {
+      "_id": "GolWbrTrait03MB",
+      "name": "Mountain Born",
+      "type": "feat",
+      "img": "icons/magic/earth/stone-boulder-grey.webp",
+      "system": {
+        "description": { "value": "<p>The goliath is acclimated to high altitude, including elevations above 20,000 feet. The goliath also naturally adapted to cold climates.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+      },
+      "sort": 175000,
+      "_key": "!actors.items!GoliathWerebear01.GolWbrTrait03MB"
+    },
+    {
+      "_id": "GolWbrTrait04PB",
+      "name": "Powerful Build (Humanoid Form Only)",
+      "type": "feat",
+      "img": "icons/magic/control/buff-strength-muscle-blue.webp",
+      "system": {
+        "description": { "value": "<p>The goliath counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+      },
+      "sort": 190000,
+      "_key": "!actors.items!GoliathWerebear01.GolWbrTrait04PB"
+    },
+    {
+      "_id": "GolWbrAction01MA",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-slashing-large.webp",
+      "system": {
+        "description": { "value": "<p>The goliath makes two melee attacks.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "action", "value": 1, "condition": "" },
+        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+      },
+      "sort": 200000,
+      "_key": "!actors.items!GoliathWerebear01.GolWbrAction01MA"
+    },
+    {
+      "_id": "GolWbrAction02BI",
+      "name": "Bite (Bear or Hybrid Form Only)",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-slashing-large.webp",
+      "system": {
+        "description": { "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10+5) piercing damage. If the target is a humanoid, it must succeed on a DC 15 Constitution saving throw or be cursed with goliath werebear lycanthropy.</p>", "chat": "" },
+        "quantity": 1, "equipped": true, "proficient": true,
+        "type": { "value": "natural", "baseItem": "" },
+        "activation": { "type": "action", "value": 1, "condition": "" },
+        "range": { "value": 5, "long": null, "units": "ft" },
+        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "8", "type": { "value": "melee", "classification": "weapon" } },
+            "damage": { "parts": [{ "number": 2, "denomination": 10, "bonus": "5", "types": ["piercing"] }] }
+          }
+        }
+      },
+      "sort": 300000,
+      "_key": "!actors.items!GoliathWerebear01.GolWbrAction02BI"
+    },
+    {
+      "_id": "GolWbrAction03CL",
+      "name": "Claw (Bear or Hybrid Form Only)",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-slashing-large.webp",
+      "system": {
+        "description": { "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8+5) slashing damage.</p>", "chat": "" },
+        "quantity": 1, "equipped": true, "proficient": true,
+        "type": { "value": "natural", "baseItem": "" },
+        "activation": { "type": "action", "value": 1, "condition": "" },
+        "range": { "value": 5, "long": null, "units": "ft" },
+        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "8", "type": { "value": "melee", "classification": "weapon" } },
+            "damage": { "parts": [{ "number": 2, "denomination": 8, "bonus": "5", "types": ["slashing"] }] }
+          }
+        }
+      },
+      "sort": 400000,
+      "_key": "!actors.items!GoliathWerebear01.GolWbrAction03CL"
+    },
+    {
+      "_id": "GolWbrAction04GA",
+      "name": "Greataxe (Humanoid or Hybrid Form Only)",
+      "type": "weapon",
+      "img": "icons/weapons/axes/axe-double-black.webp",
+      "system": {
+        "description": { "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (1d12+5) slashing damage.</p>", "chat": "" },
+        "quantity": 1, "equipped": true, "proficient": true,
+        "type": { "value": "martialM", "baseItem": "greataxe" },
+        "activation": { "type": "action", "value": 1, "condition": "" },
+        "range": { "value": 5, "long": null, "units": "ft" },
+        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "8", "type": { "value": "melee", "classification": "weapon" } },
+            "damage": { "parts": [{ "number": 1, "denomination": 12, "bonus": "5", "types": ["slashing"] }] }
+          }
+        }
+      },
+      "sort": 500000,
+      "_key": "!actors.items!GoliathWerebear01.GolWbrAction04GA"
+    },
+    {
+      "_id": "GolWbrReact01SE",
+      "name": "Stone's Endurance (Recharges after a Short or Long Rest)",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-glowing-triangle.webp",
+      "system": {
+        "description": { "value": "<p>When the goliath takes damage, it can use its reaction to roll a d12. Add its Constitution modifier to the number rolled and reduce the damage by that total (minimum 0 damage).</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "reaction", "value": 1, "condition": "when the goliath takes damage" },
+        "uses": { "value": 1, "max": "1", "per": "sr", "recovery": "" }
+      },
+      "sort": 600000,
+      "_key": "!actors.items!GoliathWerebear01.GolWbrReact01SE"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14.364",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!GoliathWerebear01"
+}

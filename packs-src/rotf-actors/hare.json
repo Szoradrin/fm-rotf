@@ -1,0 +1,94 @@
+{
+  "_id": "HareAppendixC001",
+  "name": "Hare",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/token-hare.webp",
+  "system": {
+    "abilities": {
+      "str": { "value": 1 },
+      "dex": { "value": 17 },
+      "con": { "value": 9 },
+      "int": { "value": 2 },
+      "wis": { "value": 11 },
+      "cha": { "value": 4 }
+    },
+    "attributes": {
+      "ac": { "flat": 13, "calc": "flat" },
+      "hp": { "value": 1, "min": 0, "max": 1, "formula": "1d4-1" },
+      "speed": { "value": "20 ft., burrow 5 ft." },
+      "cr": 0,
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": { "value": "<p>Hares are small, fleet-footed creatures common throughout Icewind Dale. They are preyed upon by foxes, wolves, and other predators, and rely on their speed and evasiveness to survive.</p>" },
+      "alignment": "unaligned",
+      "race": "",
+      "type": { "value": "beast", "subtype": "", "swarm": "", "custom": "" },
+      "environment": "",
+      "cr": 0,
+      "spellLevel": 0,
+      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "289" }
+    },
+    "skills": {
+      "per": { "value": 1 },
+      "ste": { "value": 1 }
+    },
+    "traits": {
+      "size": "tiny",
+      "di": { "value": [] },
+      "dr": { "value": [] },
+      "dv": { "value": [] },
+      "ci": { "value": [] },
+      "languages": { "value": [] }
+    },
+    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 }
+  },
+  "prototypeToken": {
+    "name": "Hare",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/rotf/assets/images/token-hare.webp",
+      "anchorX": 0.5, "anchorY": 0.5, "fit": "contain",
+      "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75
+    },
+    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1, "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
+    "light": { "negative": false, "priority": 0, "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 } },
+    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
+    "detectionModes": {}, "occludable": { "radius": 0 },
+    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
+    "flags": {}, "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "HareTrait001Esc",
+      "name": "Escape",
+      "type": "feat",
+      "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+      "system": {
+        "description": { "value": "<p>The hare can take the Dash, Disengage, or Hide action as a bonus action on each of its turns.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "bonus", "value": 1, "condition": "" },
+        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+      },
+      "sort": 100000,
+      "_key": "!actors.items!HareAppendixC001.HareTrait001Esc"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14.364",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!HareAppendixC001"
+}

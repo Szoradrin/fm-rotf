@@ -1,0 +1,148 @@
+{
+  "_id": "HypnosMagen00001",
+  "name": "Hypnos Magen",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/token-hypnos-magen.webp",
+  "system": {
+    "abilities": {
+      "str": { "value": 10 },
+      "dex": { "value": 14 },
+      "con": { "value": 18 },
+      "int": { "value": 14 },
+      "wis": { "value": 10 },
+      "cha": { "value": 7 }
+    },
+    "attributes": {
+      "ac": { "flat": 12, "calc": "flat" },
+      "hp": { "value": 34, "min": 0, "max": 34, "formula": "4d8+16" },
+      "speed": { "value": "30 ft." },
+      "cr": 1,
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": { "value": "<p>Hypnos magen can communicate telepathically with creatures within 30 feet. They use this ability to implant suggestions in the minds of others. Magen are magical, humanlike beings created by a wizard spell or by other arcane methods.</p>" },
+      "alignment": "unaligned",
+      "race": "",
+      "type": { "value": "construct", "subtype": "", "swarm": "", "custom": "" },
+      "environment": "",
+      "cr": 1,
+      "spellLevel": 0,
+      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "291" }
+    },
+    "skills": {},
+    "traits": {
+      "size": "med",
+      "di": { "value": ["poison"] },
+      "dr": { "value": [] },
+      "dv": { "value": [] },
+      "ci": { "value": ["charmed", "exhaustion", "frightened", "paralyzed", "poisoned"] },
+      "languages": { "value": [] },
+      "special": "Telepathy 30 ft. Understands languages of its creator but can't speak"
+    },
+    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 }
+  },
+  "prototypeToken": {
+    "name": "Hypnos Magen",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/rotf/assets/images/token-hypnos-magen.webp",
+      "anchorX": 0.5, "anchorY": 0.5, "fit": "contain",
+      "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75
+    },
+    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1, "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
+    "light": { "negative": false, "priority": 0, "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 } },
+    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
+    "detectionModes": {}, "occludable": { "radius": 0 },
+    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
+    "flags": {}, "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "HypnosTrait01FE",
+      "name": "Fiery End",
+      "type": "feat",
+      "img": "icons/magic/fire/explosion-fireball-medium-orange.webp",
+      "system": {
+        "description": { "value": "<p>If the magen dies, its body disintegrates in a harmless burst of fire and smoke, leaving behind anything it was wearing or carrying.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+      },
+      "sort": 100000,
+      "_key": "!actors.items!HypnosMagen00001.HypnosTrait01FE"
+    },
+    {
+      "_id": "HypnosTrait02MR",
+      "name": "Magic Resistance",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "description": { "value": "<p>The magen has advantage on saving throws against spells and other magical effects.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+      },
+      "sort": 150000,
+      "_key": "!actors.items!HypnosMagen00001.HypnosTrait02MR"
+    },
+    {
+      "_id": "HypnosTrait03UN",
+      "name": "Unusual Nature",
+      "type": "feat",
+      "img": "icons/magic/symbols/cog-green.webp",
+      "system": {
+        "description": { "value": "<p>The magen doesn't require air, food, drink, or sleep.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+      },
+      "sort": 175000,
+      "_key": "!actors.items!HypnosMagen00001.HypnosTrait03UN"
+    },
+    {
+      "_id": "HypnosAction01PL",
+      "name": "Psychic Lash",
+      "type": "feat",
+      "img": "icons/magic/light/explosion-star-small-purple.webp",
+      "system": {
+        "description": { "value": "<p>The magen targets one creature it can see within 60 feet of it. The target must make a DC 12 Wisdom saving throw, taking 11 (2d10) psychic damage on a failed save, or half as much on a successful one.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "action", "value": 1, "condition": "" },
+        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+      },
+      "sort": 200000,
+      "_key": "!actors.items!HypnosMagen00001.HypnosAction01PL"
+    },
+    {
+      "_id": "HypnosAction02SU",
+      "name": "Suggestion",
+      "type": "feat",
+      "img": "icons/magic/control/hypnosis-beams-purple.webp",
+      "system": {
+        "description": { "value": "<p>The magen casts the suggestion spell (DC 12) on one creature within 30 feet of it with which the magen has telepathic contact. The magen doesn't need to speak to the target to communicate the suggested course of action. A creature that succeeds on its saving throw against this effect is immune to the magen's Suggestion for 24 hours.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "action", "value": 1, "condition": "" },
+        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+      },
+      "sort": 300000,
+      "_key": "!actors.items!HypnosMagen00001.HypnosAction02SU"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14.364",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!HypnosMagen00001"
+}
