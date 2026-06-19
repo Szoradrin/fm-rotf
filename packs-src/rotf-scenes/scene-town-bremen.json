@@ -36,16 +36,21 @@
   },
   "tokenVision": false,
   "fog": {
-    "exploration": false,
-    "overlay": ""
+    "mode": 0,
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    },
+    "reset": null
   },
   "environment": {
     "darknessLevel": 0,
-    "darknessLock": false,
+    "darknessLevelLock": false,
+    "cycle": false,
     "globalLight": {
-      "enabled": true,
-      "alpha": 0.5,
+      "enabled": 1,
       "bright": false,
+      "alpha": 0.5,
       "color": null,
       "coloration": 1,
       "luminosity": 0,
@@ -58,6 +63,15 @@
       }
     }
   },
+  "initial": {
+    "x": null,
+    "y": null,
+    "scale": null
+  },
+  "journal": null,
+  "journalEntryPage": null,
+  "playlist": null,
+  "playlistSound": null,
   "ownership": {
     "default": 0
   },
