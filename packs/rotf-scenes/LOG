@@ -1,0 +1,5 @@
+2026/06/19-01:27:52.320777 7fb4a1fbd6c0 Delete type=3 #1
+2026/06/19-01:27:52.323890 7fb4a0fbb6c0 Level-0 table #5: started
+2026/06/19-01:27:52.325755 7fb4a0fbb6c0 Level-0 table #5: 1066 bytes OK
+2026/06/19-01:27:52.326611 7fb4a0fbb6c0 Delete type=0 #3
+2026/06/19-01:27:52.326657 7fb4a0fbb6c0 Manual compaction at level-0 from '!scenes!BremenTownSc01' @ 72057594037927935 : 1 .. '!scenes!BremenTownSc01' @ 0 : 0; will stop at (end)
