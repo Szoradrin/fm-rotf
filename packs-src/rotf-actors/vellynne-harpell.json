@@ -1,0 +1,577 @@
+{
+  "_id": "ROTFVellynne0001",
+  "name": "Vellynne Harpell",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/token-vellynne-harpell.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": { "check": "", "save": "" },
+        "max": null
+      },
+      "dex": {
+        "value": 12,
+        "proficient": 0,
+        "bonuses": { "check": "", "save": "" },
+        "max": null
+      },
+      "con": {
+        "value": 17,
+        "proficient": 0,
+        "bonuses": { "check": "", "save": "" },
+        "max": null
+      },
+      "int": {
+        "value": 18,
+        "proficient": 1,
+        "bonuses": { "check": "", "save": "" },
+        "max": null
+      },
+      "wis": {
+        "value": 15,
+        "proficient": 1,
+        "bonuses": { "check": "", "save": "" },
+        "max": null
+      },
+      "cha": {
+        "value": 13,
+        "proficient": 0,
+        "bonuses": { "check": "", "save": "" },
+        "max": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "natural",
+        "formula": ""
+      },
+      "hp": {
+        "value": 67,
+        "max": 67,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "9d8 + 27"
+      },
+      "init": {
+        "ability": "",
+        "bonus": "0",
+        "roll": { "mode": 0 }
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 20,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "exhaustion": 0,
+      "hd": { "spent": 0 },
+      "death": { "success": 0, "failure": 0 }
+    },
+    "details": {
+      "biography": { "value": "", "public": "" },
+      "alignment": "Neutral",
+      "type": {
+        "value": "humanoid",
+        "subtype": "human",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 4,
+      "spellLevel": 0,
+      "source": {
+        "custom": "",
+        "book": "ROTF",
+        "page": "",
+        "license": "",
+        "rules": "2014",
+        "revision": 1
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": { "value": [], "bypasses": [], "custom": "" },
+      "dr": { "value": [], "bypasses": [], "custom": "" },
+      "dv": { "value": [], "bypasses": [], "custom": "" },
+      "ci": { "value": [], "custom": "" },
+      "languages": {
+        "value": ["common", "draconic", "dwarvish", "elvish", "orc"],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "acr": { "value": 0, "ability": "dex", "bonuses": { "check": "", "passive": "" } },
+      "ani": { "value": 0, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
+      "arc": { "value": 1, "ability": "int", "bonuses": { "check": "", "passive": "" } },
+      "ath": { "value": 0, "ability": "str", "bonuses": { "check": "", "passive": "" } },
+      "dec": { "value": 0, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
+      "his": { "value": 1, "ability": "int", "bonuses": { "check": "", "passive": "" } },
+      "ins": { "value": 0, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
+      "itm": { "value": 0, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
+      "inv": { "value": 0, "ability": "int", "bonuses": { "check": "", "passive": "" } },
+      "med": { "value": 0, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
+      "nat": { "value": 0, "ability": "int", "bonuses": { "check": "", "passive": "" } },
+      "prc": { "value": 0, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
+      "prf": { "value": 0, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
+      "per": { "value": 0, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
+      "rel": { "value": 0, "ability": "int", "bonuses": { "check": "", "passive": "" } },
+      "slt": { "value": 0, "ability": "dex", "bonuses": { "check": "", "passive": "" } },
+      "ste": { "value": 0, "ability": "dex", "bonuses": { "check": "", "passive": "" } },
+      "sur": { "value": 0, "ability": "wis", "bonuses": { "check": "", "passive": "" } }
+    },
+    "resources": {
+      "legact": { "value": 0, "max": 0 },
+      "legres": { "value": 0, "max": 0 },
+      "lair": { "value": false, "initiative": null }
+    },
+    "bonuses": {
+      "mwak": { "attack": "", "damage": "" },
+      "rwak": { "attack": "", "damage": "" },
+      "msak": { "attack": "", "damage": "" },
+      "rsak": { "attack": "", "damage": "" },
+      "abilities": { "check": "", "save": "", "skill": "" },
+      "spell": { "dc": "" }
+    },
+    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+    "spells": {
+      "spell0": { "value": 0, "override": null },
+      "spell1": { "value": 4, "override": null },
+      "spell2": { "value": 3, "override": null },
+      "spell3": { "value": 3, "override": null },
+      "spell4": { "value": 2, "override": null },
+      "spell5": { "value": 0, "override": null },
+      "spell6": { "value": 0, "override": null },
+      "spell7": { "value": 0, "override": null },
+      "spell8": { "value": 0, "override": null },
+      "spell9": { "value": 0, "override": null },
+      "pact": { "value": 0, "override": null }
+    },
+    "tools": {}
+  },
+  "prototypeToken": {
+    "name": "Vellynne Harpell",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/rotf/assets/images/token-vellynne-harpell.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" },
+    "flags": {},
+    "randomImg": false,
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": { "radius": 0 },
+    "ring": {
+      "enabled": false,
+      "colors": {},
+      "effects": 1,
+      "subject": { "scale": 1 }
+    }
+  },
+  "items": [
+    {
+      "_id": "VeSpecEq000001",
+      "name": "Special Equipment",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": {
+          "value": "<p>Vellynne wears bracers of defense and carries a wand of magic missiles with 7 charges. The wand regains 1d6+1 expended charges daily at dawn.</p>",
+          "chat": ""
+        },
+        "source": { "custom": "", "book": "ROTF", "page": "", "license": "", "rules": "2014", "revision": 1 },
+        "uses": { "max": "", "recovery": [], "spent": 0 },
+        "type": { "value": "", "subtype": "" },
+        "requirements": "",
+        "properties": ["trait"],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": { "type": "passive", "value": null, "condition": "", "override": false },
+            "consumption": { "targets": [], "scaling": { "allowed": false, "max": "" }, "spellSlot": true },
+            "description": { "chatFlavor": "" },
+            "duration": { "concentration": false, "value": "", "units": "", "special": "", "override": false },
+            "effects": [],
+            "range": { "units": "", "special": "", "override": false },
+            "target": {
+              "template": { "count": "", "contiguous": false, "type": "", "size": "", "width": "", "height": "", "units": "" },
+              "affects": { "count": "", "type": "", "choice": false, "special": "" },
+              "prompt": true,
+              "override": false
+            },
+            "uses": { "spent": 0, "max": "", "recovery": [] },
+            "sort": 0
+          }
+        },
+        "enchant": {},
+        "prerequisites": { "level": null },
+        "identifier": "special-equipment"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": { "default": 0 },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ROTFVellynne0001.VeSpecEq000001"
+    },
+    {
+      "_id": "VeSpellcast002",
+      "name": "Spellcasting",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": {
+          "value": "<p>Vellynne is an 8th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14; +6 to hit with spell attacks). She has the following wizard spells prepared:</p><p>Cantrips (at will): chill touch, light, mage hand, message, prestidigitation</p><p>1st level (4 slots): comprehend languages, detect magic, ray of sickness, Tasha's hideous laughter</p><p>2nd level (3 slots): darkvision, hold person, ray of enfeeblement</p><p>3rd level (3 slots): animate dead, Leomund's tiny hut, vampiric touch</p><p>4th level (2 slots): arcane eye, blight</p>",
+          "chat": ""
+        },
+        "source": { "custom": "", "book": "ROTF", "page": "", "license": "", "rules": "2014", "revision": 1 },
+        "uses": { "max": "", "recovery": [], "spent": 0 },
+        "type": { "value": "", "subtype": "" },
+        "requirements": "",
+        "properties": ["trait"],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": { "type": "passive", "value": null, "condition": "", "override": false },
+            "consumption": { "targets": [], "scaling": { "allowed": false, "max": "" }, "spellSlot": true },
+            "description": { "chatFlavor": "" },
+            "duration": { "concentration": false, "value": "", "units": "", "special": "", "override": false },
+            "effects": [],
+            "range": { "units": "", "special": "", "override": false },
+            "target": {
+              "template": { "count": "", "contiguous": false, "type": "", "size": "", "width": "", "height": "", "units": "" },
+              "affects": { "count": "", "type": "", "choice": false, "special": "" },
+              "prompt": true,
+              "override": false
+            },
+            "uses": { "spent": 0, "max": "", "recovery": [] },
+            "sort": 0
+          }
+        },
+        "enchant": {},
+        "prerequisites": { "level": null },
+        "identifier": "spellcasting"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": { "default": 0 },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ROTFVellynne0001.VeSpellcast002"
+    },
+    {
+      "_id": "VeVampTouch003",
+      "name": "Vampiric Touch",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p>Melee Spell Attack: +6 to hit, reach 5 ft., one creature. Hit: 10 (3d6) necrotic damage. Vellynne regains hit points equal to half the amount of necrotic damage dealt.</p>",
+          "chat": ""
+        },
+        "source": { "custom": "", "book": "ROTF", "page": "", "license": "", "rules": "2014", "revision": 1 },
+        "quantity": 1,
+        "weight": { "value": 0, "units": "lb" },
+        "price": { "value": 0, "denomination": "gp" },
+        "attunement": "",
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "damage": {
+          "base": {
+            "number": 3,
+            "denomination": "6",
+            "bonus": "",
+            "types": ["necrotic"],
+            "custom": { "enabled": false, "formula": "" },
+            "scaling": { "mode": "", "number": null, "formula": "" }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": { "enabled": false, "formula": "" },
+            "scaling": { "mode": "", "number": null, "formula": "" }
+          }
+        },
+        "properties": [],
+        "proficient": 1,
+        "type": { "value": "natural", "baseItem": "" },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "consumption": { "targets": [], "scaling": { "allowed": false, "max": "" }, "spellSlot": true },
+            "description": { "chatFlavor": "" },
+            "duration": { "concentration": false, "value": "", "units": "", "special": "", "override": false },
+            "effects": [],
+            "range": { "value": "5", "units": "ft", "special": "", "override": false },
+            "target": {
+              "template": { "count": "", "contiguous": false, "type": "", "size": "", "width": "", "height": "", "units": "" },
+              "affects": { "count": "1", "type": "creature", "choice": false, "special": "" },
+              "prompt": true,
+              "override": false
+            },
+            "uses": { "spent": 0, "max": "", "recovery": [] },
+            "attack": {
+              "ability": "int",
+              "bonus": "",
+              "critical": { "threshold": null },
+              "flat": true,
+              "type": { "value": "melee", "classification": "spell" }
+            },
+            "damage": {
+              "critical": { "bonus": "" },
+              "includeBase": true,
+              "parts": []
+            },
+            "sort": 0
+          }
+        },
+        "uses": { "max": "", "recovery": [], "spent": 0 },
+        "enchant": {},
+        "identifier": "vampiric-touch"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": { "default": 0 },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ROTFVellynne0001.VeVampTouch003"
+    },
+    {
+      "_id": "VeChillTouch04",
+      "name": "Chill Touch",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p>Ranged Spell Attack: +6 to hit, range 120 ft., one creature. Hit: 9 (2d8) necrotic damage, and the target can't regain hit points until the start of Vellynne's next turn.</p>",
+          "chat": ""
+        },
+        "source": { "custom": "", "book": "ROTF", "page": "", "license": "", "rules": "2014", "revision": 1 },
+        "quantity": 1,
+        "weight": { "value": 0, "units": "lb" },
+        "price": { "value": 0, "denomination": "gp" },
+        "attunement": "",
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": "8",
+            "bonus": "",
+            "types": ["necrotic"],
+            "custom": { "enabled": false, "formula": "" },
+            "scaling": { "mode": "", "number": null, "formula": "" }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": { "enabled": false, "formula": "" },
+            "scaling": { "mode": "", "number": null, "formula": "" }
+          }
+        },
+        "properties": [],
+        "proficient": 1,
+        "type": { "value": "natural", "baseItem": "" },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "consumption": { "targets": [], "scaling": { "allowed": false, "max": "" }, "spellSlot": true },
+            "description": { "chatFlavor": "" },
+            "duration": { "concentration": false, "value": "", "units": "", "special": "", "override": false },
+            "effects": [],
+            "range": { "value": "120", "units": "ft", "special": "", "override": false },
+            "target": {
+              "template": { "count": "", "contiguous": false, "type": "", "size": "", "width": "", "height": "", "units": "" },
+              "affects": { "count": "1", "type": "creature", "choice": false, "special": "" },
+              "prompt": true,
+              "override": false
+            },
+            "uses": { "spent": 0, "max": "", "recovery": [] },
+            "attack": {
+              "ability": "int",
+              "bonus": "",
+              "critical": { "threshold": null },
+              "flat": true,
+              "type": { "value": "ranged", "classification": "spell" }
+            },
+            "damage": {
+              "critical": { "bonus": "" },
+              "includeBase": true,
+              "parts": []
+            },
+            "sort": 0
+          }
+        },
+        "uses": { "max": "", "recovery": [], "spent": 0 },
+        "enchant": {},
+        "identifier": "chill-touch"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": { "default": 0 },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ROTFVellynne0001.VeChillTouch04"
+    },
+    {
+      "_id": "VeWandMM00005",
+      "name": "Wand of Magic Missiles",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": {
+          "value": "<p>Vellynne can expend 1 to 7 charges from this wand to cast magic missile. For each charge expended beyond the first, the spell's level increases by one. The wand regains 1d6+1 expended charges daily at dawn.</p>",
+          "chat": ""
+        },
+        "source": { "custom": "", "book": "ROTF", "page": "", "license": "", "rules": "2014", "revision": 1 },
+        "uses": { "max": "7", "recovery": [], "spent": 0 },
+        "type": { "value": "", "subtype": "" },
+        "requirements": "",
+        "properties": ["trait"],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "consumption": { "targets": [], "scaling": { "allowed": false, "max": "" }, "spellSlot": true },
+            "description": { "chatFlavor": "" },
+            "duration": { "concentration": false, "value": "", "units": "", "special": "", "override": false },
+            "effects": [],
+            "range": { "units": "", "special": "", "override": false },
+            "target": {
+              "template": { "count": "", "contiguous": false, "type": "", "size": "", "width": "", "height": "", "units": "" },
+              "affects": { "count": "", "type": "", "choice": false, "special": "" },
+              "prompt": true,
+              "override": false
+            },
+            "uses": { "spent": 0, "max": "", "recovery": [] },
+            "sort": 0
+          }
+        },
+        "enchant": {},
+        "prerequisites": { "level": null },
+        "identifier": "wand-of-magic-missiles"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": { "default": 0 },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ROTFVellynne0001.VeWandMM00005"
+    }
+  ],
+  "effects": [],
+  "ownership": { "default": 0 },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ROTFVellynne0001"
+}
