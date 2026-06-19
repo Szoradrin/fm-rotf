@@ -1,0 +1,208 @@
+{
+  "_id": "AwkWhtMoos001001",
+  "name": "Awakened White Moose",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/token-awakened-white-moose.webp",
+  "system": {
+    "abilities": {
+      "str": { "value": 19 },
+      "dex": { "value": 11 },
+      "con": { "value": 16 },
+      "int": { "value": 10 },
+      "wis": { "value": 12 },
+      "cha": { "value": 6 }
+    },
+    "attributes": {
+      "ac": { "flat": 11, "calc": "flat", "formula": "" },
+      "hp": { "value": 68, "max": 68, "temp": 0, "formula": "8d10+24" },
+      "speed": { "value": 40, "special": "" },
+      "prof": 2
+    },
+    "details": {
+      "biography": { "value": "<p>A white moose is attacking loggers in the forest near Lonelywood. The town's logging industry is essential to the growth and survival of Ten-Towns, and Speaker Nimsy Huddle has assured the other speakers that Lonelywood's \"moose problem\" will be dealt with in short order. Hunters have been dispatched to kill the moose, but it has eluded them so far. From what the hunters have seen, their prey is smarter than the average moose, and its white hide makes it hard to spot in the snow.</p>", "public": "" },
+      "alignment": "Neutral Evil",
+      "race": "",
+      "type": { "value": "beast", "subtype": "", "swarm": "", "custom": "" },
+      "cr": 3,
+      "spellLevel": 0,
+      "source": { "custom": "ROTF" }
+    },
+    "traits": {
+      "size": "lg",
+      "languages": { "value": [], "custom": "Druidic" },
+      "senses": { "darkvision": 0, "blindsight": 0, "tremorsense": 0, "truesight": 0, "units": "ft", "special": "" }
+    },
+    "skills": {},
+    "saves": {}
+  },
+  "items": [
+    {
+      "_id": "AwkMoosItem0001",
+      "name": "Charge",
+      "type": "feat",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "system": {
+        "description": { "value": "<p>If the moose moves at least 20 feet straight toward a target and then hits it with an antlers attack on the same turn, the target takes an extra 9 (2d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "", "value": null },
+        "activities": {}
+      },
+      "_key": "!actors.items!AwkWhtMoos001001.AwkMoosItem0001"
+    },
+    {
+      "_id": "AwkMoosItem0002",
+      "name": "Sure-Footed",
+      "type": "feat",
+      "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+      "system": {
+        "description": { "value": "<p>The moose has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "", "value": null },
+        "activities": {}
+      },
+      "_key": "!actors.items!AwkWhtMoos001001.AwkMoosItem0002"
+    },
+    {
+      "_id": "AwkMoosItem0003",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "system": {
+        "description": { "value": "<p>The moose makes two attacks: one with its antlers and one with its hooves.</p>", "chat": "" },
+        "type": { "value": "monster" },
+        "activation": { "type": "action", "value": 1 },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false }
+          }
+        }
+      },
+      "_key": "!actors.items!AwkWhtMoos001001.AwkMoosItem0003"
+    },
+    {
+      "_id": "AwkMoosItem0004",
+      "name": "Antlers",
+      "type": "weapon",
+      "img": "icons/weapons/polearms/spear-hooked-brown.webp",
+      "system": {
+        "description": { "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.</p>", "chat": "" },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "activation": { "type": "action", "value": 1 },
+        "range": { "value": 5, "units": "ft" },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": { "threshold": null },
+              "flat": false,
+              "type": { "value": "melee", "classification": "weapon" }
+            },
+            "damage": {
+              "parts": [{ "number": 2, "denomination": "8", "bonus": "4", "types": ["piercing"] }]
+            }
+          }
+        }
+      },
+      "_key": "!actors.items!AwkWhtMoos001001.AwkMoosItem0004"
+    },
+    {
+      "_id": "AwkMoosItem0005",
+      "name": "Hooves",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "system": {
+        "description": { "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) bludgeoning damage.</p>", "chat": "" },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "activation": { "type": "action", "value": 1 },
+        "range": { "value": 5, "units": "ft" },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": { "threshold": null },
+              "flat": false,
+              "type": { "value": "melee", "classification": "weapon" }
+            },
+            "damage": {
+              "parts": [{ "number": 2, "denomination": "4", "bonus": "4", "types": ["bludgeoning"] }]
+            }
+          }
+        }
+      },
+      "_key": "!actors.items!AwkWhtMoos001001.AwkMoosItem0005"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Awakened White Moose",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/rotf/assets/images/token-awakened-white-moose.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": {
+      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
+      "bright": 0, "color": null, "coloration": 1, "dim": 0,
+      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
+      "contrast": 0, "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": {
+      "enabled": false, "range": 0, "angle": 360,
+      "visionMode": "basic", "color": null, "attenuation": 0.1,
+      "brightness": 0, "saturation": 0, "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": { "radius": 0 },
+    "ring": {
+      "enabled": false,
+      "colors": { "ring": null, "background": null },
+      "effects": 1,
+      "subject": { "scale": 1, "texture": null }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14.364",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!AwkWhtMoos001001"
+}
