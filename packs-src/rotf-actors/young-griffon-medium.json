@@ -1,0 +1,124 @@
+{
+  "_id": "YngGrfMedRotf14No",
+  "name": "Young Griffon (Medium)",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/token-young-griffon-medium.webp",
+  "system": {
+    "abilities": {
+      "str": { "value": 12 },
+      "dex": { "value": 15 },
+      "con": { "value": 16 },
+      "int": { "value": 2 },
+      "wis": { "value": 13 },
+      "cha": { "value": 8 }
+    },
+    "attributes": {
+      "ac": { "flat": 12 },
+      "hp": { "value": 32, "max": 32, "formula": "5d8+15" },
+      "speed": { "value": 30, "fly": 80, "units": "ft" },
+      "prof": 2
+    },
+    "details": {
+      "biography": { "value": "<p>A griffon is a ferocious avian carnivore with the muscular body of a lion and the head, forelegs, and wings of an eagle.</p>" },
+      "alignment": "unaligned",
+      "race": "",
+      "type": { "value": "monstrosity", "subtype": "", "swarm": "", "custom": "" },
+      "environment": "",
+      "cr": 1,
+      "spellLevel": 0,
+      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "163" }
+    },
+    "traits": {
+      "size": "med",
+      "di": { "value": [] },
+      "dr": { "value": [] },
+      "ci": { "value": [] },
+      "languages": { "value": [] }
+    },
+    "skills": { "prc": { "value": 1 } },
+    "saves": {}
+  },
+  "items": [
+    {
+      "_id": "YngGrfMedItem01a",
+      "name": "Keen Sight",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "The griffon has advantage on Wisdom (Perception) checks that rely on sight.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "163" }
+      },
+      "_key": "!actors.items!YngGrfMedRotf14No.YngGrfMedItem01a"
+    },
+    {
+      "_id": "YngGrfMedItem02b",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "The griffon makes two attacks: one with its beak and one with its claws.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "163" }
+      },
+      "_key": "!actors.items!YngGrfMedRotf14No.YngGrfMedItem02b"
+    },
+    {
+      "_id": "YngGrfMedItem03c",
+      "name": "Beak",
+      "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.", "chat": "" },
+        "equipped": true,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": false, "type": { "value": "melee", "classification": "weapon" } },
+            "damage": { "parts": [{ "number": 1, "denomination": "6", "bonus": "1", "types": ["piercing"] }] },
+            "range": { "value": 5, "units": "ft" }
+          }
+        },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "163" }
+      },
+      "_key": "!actors.items!YngGrfMedRotf14No.YngGrfMedItem03c"
+    },
+    {
+      "_id": "YngGrfMedItem04d",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage.", "chat": "" },
+        "equipped": true,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": false, "type": { "value": "melee", "classification": "weapon" } },
+            "damage": { "parts": [{ "number": 2, "denomination": "4", "bonus": "1", "types": ["slashing"] }] },
+            "range": { "value": 5, "units": "ft" }
+          }
+        },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "163" }
+      },
+      "_key": "!actors.items!YngGrfMedRotf14No.YngGrfMedItem04d"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Young Griffon (Medium)", "displayName": 0, "actorLink": false, "appendNumber": false, "prependAdjective": false,
+    "width": 1, "height": 1,
+    "texture": { "src": "modules/rotf/assets/images/token-young-griffon-medium.webp", "anchorX": 0.5, "anchorY": 0.5, "fit": "contain", "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75 },
+    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1, "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
+    "light": { "negative": false, "priority": 0, "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 } },
+    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
+    "detectionModes": {}, "occludable": { "radius": 0 },
+    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
+    "flags": {}, "randomImg": false
+  },
+  "flags": {},
+  "_stats": { "systemId": "dnd5e", "systemVersion": "5.3.3", "coreVersion": "14.364", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+  "_key": "!actors!YngGrfMedRotf14No"
+}
