@@ -1,0 +1,154 @@
+{
+  "_id": "MtnGoatRotf002Bc",
+  "name": "Mountain Goat",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/token-mountain-goat.webp",
+  "system": {
+    "abilities": {
+      "str": { "value": 12 },
+      "dex": { "value": 11 },
+      "con": { "value": 11 },
+      "int": { "value": 2 },
+      "wis": { "value": 10 },
+      "cha": { "value": 5 }
+    },
+    "attributes": {
+      "ac": { "flat": 10 },
+      "hp": { "value": 5, "max": 5, "formula": "1d8+1" },
+      "speed": { "value": 40, "units": "ft" },
+      "prof": 2
+    },
+    "details": {
+      "biography": { "value": "" },
+      "alignment": "unaligned",
+      "race": "",
+      "type": { "value": "beast", "subtype": "", "swarm": "", "custom": "" },
+      "environment": "",
+      "cr": 0.125,
+      "spellLevel": 0,
+      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "290" }
+    },
+    "traits": {
+      "size": "med",
+      "di": { "value": [] },
+      "dr": { "value": [] },
+      "ci": { "value": [] },
+      "languages": { "value": [] }
+    },
+    "skills": {},
+    "saves": {}
+  },
+  "items": [
+    {
+      "_id": "MtnGoatItem001a",
+      "name": "Charge",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength saving throw or be knocked prone.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "290" }
+      },
+      "_key": "!actors.items!MtnGoatRotf002Bc.MtnGoatItem001a"
+    },
+    {
+      "_id": "MtnGoatItem002b",
+      "name": "Sure-Footed",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "290" }
+      },
+      "_key": "!actors.items!MtnGoatRotf002Bc.MtnGoatItem002b"
+    },
+    {
+      "_id": "MtnGoatItem003c",
+      "name": "Ram",
+      "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.", "chat": "" },
+        "equipped": true,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": { "threshold": null },
+              "flat": false,
+              "type": { "value": "melee", "classification": "weapon" }
+            },
+            "damage": {
+              "parts": [{ "number": 1, "denomination": "4", "bonus": "1", "types": ["bludgeoning"] }]
+            },
+            "range": { "value": 5, "units": "ft" }
+          }
+        },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "290" }
+      },
+      "_key": "!actors.items!MtnGoatRotf002Bc.MtnGoatItem003c"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Mountain Goat",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/rotf/assets/images/token-mountain-goat.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": {
+      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
+      "bright": 0, "color": null, "coloration": 1, "dim": 0,
+      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
+      "contrast": 0, "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": {
+      "enabled": false, "range": 0, "angle": 360,
+      "visionMode": "basic", "color": null, "attenuation": 0.1,
+      "brightness": 0, "saturation": 0, "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": { "radius": 0 },
+    "ring": {
+      "enabled": false,
+      "colors": { "ring": null, "background": null },
+      "effects": 1,
+      "subject": { "scale": 1, "texture": null }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14.364",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!MtnGoatRotf002Bc"
+}

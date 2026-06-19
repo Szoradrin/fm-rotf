@@ -1,0 +1,206 @@
+{
+  "_id": "SprmWhaleRotf06Fg",
+  "name": "Sperm Whale",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/token-sperm-whale.webp",
+  "system": {
+    "abilities": {
+      "str": { "value": 26 },
+      "dex": { "value": 8 },
+      "con": { "value": 17 },
+      "int": { "value": 3 },
+      "wis": { "value": 12 },
+      "cha": { "value": 5 }
+    },
+    "attributes": {
+      "ac": { "flat": 13 },
+      "hp": { "value": 189, "max": 189, "formula": "14d20+42" },
+      "speed": { "value": 0, "swim": 60, "units": "ft" },
+      "prof": 3
+    },
+    "details": {
+      "biography": { "value": "<p>Sperm whales are toothed aquatic mammals that can grow to be up to 70 feet long. Their natural predators include whalers and fellow leviathans, such as dragon turtles and krakens.</p>" },
+      "alignment": "unaligned",
+      "race": "",
+      "type": { "value": "beast", "subtype": "", "swarm": "", "custom": "" },
+      "environment": "",
+      "cr": 8,
+      "spellLevel": 0,
+      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "309" }
+    },
+    "traits": {
+      "size": "grg",
+      "di": { "value": [] },
+      "dr": { "value": [] },
+      "ci": { "value": [] },
+      "languages": { "value": [] }
+    },
+    "skills": {},
+    "saves": {}
+  },
+  "items": [
+    {
+      "_id": "SprmWhaleItem001a",
+      "name": "Echolocation",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "The whale can't use its blindsight while deafened.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "309" }
+      },
+      "_key": "!actors.items!SprmWhaleRotf06Fg.SprmWhaleItem001a"
+    },
+    {
+      "_id": "SprmWhaleItem002b",
+      "name": "Hold Breath",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "The whale can hold its breath for 90 minutes.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "309" }
+      },
+      "_key": "!actors.items!SprmWhaleRotf06Fg.SprmWhaleItem002b"
+    },
+    {
+      "_id": "SprmWhaleItem003c",
+      "name": "Keen Hearing",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "The whale has advantage on Wisdom (Perception) checks that rely on hearing.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "309" }
+      },
+      "_key": "!actors.items!SprmWhaleRotf06Fg.SprmWhaleItem003c"
+    },
+    {
+      "_id": "SprmWhaleItem004d",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "The whale makes two attacks: one with its bite and one with its tail.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "309" }
+      },
+      "_key": "!actors.items!SprmWhaleRotf06Fg.SprmWhaleItem004d"
+    },
+    {
+      "_id": "SprmWhaleItem005e",
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 21 (3d8 + 8) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 14 Dexterity saving throw or be swallowed by the whale. A swallowed creature has total cover against attacks and other effects outside the whale, and it takes 3 (1d6) acid damage at the start of each of the whale's turns. If the whale takes 30 damage or more on a single turn from a creature inside it, the whale must succeed on a DC 16 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the whale. If the whale dies, a swallowed creature can escape from the corpse by using 20 feet of movement, exiting prone.", "chat": "" },
+        "equipped": true,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": { "threshold": null },
+              "flat": false,
+              "type": { "value": "melee", "classification": "weapon" }
+            },
+            "damage": {
+              "parts": [{ "number": 3, "denomination": "8", "bonus": "8", "types": ["piercing"] }]
+            },
+            "range": { "value": 5, "units": "ft" }
+          }
+        },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "309" }
+      },
+      "_key": "!actors.items!SprmWhaleRotf06Fg.SprmWhaleItem005e"
+    },
+    {
+      "_id": "SprmWhaleItem006f",
+      "name": "Tail",
+      "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 18 (3d6 + 8) bludgeoning damage, or 37 (6d6 + 16) bludgeoning damage if the target is an object.", "chat": "" },
+        "equipped": true,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": { "threshold": null },
+              "flat": false,
+              "type": { "value": "melee", "classification": "weapon" }
+            },
+            "damage": {
+              "parts": [{ "number": 3, "denomination": "6", "bonus": "8", "types": ["bludgeoning"] }]
+            },
+            "range": { "value": 15, "units": "ft" }
+          }
+        },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "309" }
+      },
+      "_key": "!actors.items!SprmWhaleRotf06Fg.SprmWhaleItem006f"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Sperm Whale",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "modules/rotf/assets/images/token-sperm-whale.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": {
+      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
+      "bright": 0, "color": null, "coloration": 1, "dim": 0,
+      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
+      "contrast": 0, "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": {
+      "enabled": false, "range": 0, "angle": 360,
+      "visionMode": "basic", "color": null, "attenuation": 0.1,
+      "brightness": 0, "saturation": 0, "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": { "radius": 0 },
+    "ring": {
+      "enabled": false,
+      "colors": { "ring": null, "background": null },
+      "effects": 1,
+      "subject": { "scale": 1, "texture": null }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14.364",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!SprmWhaleRotf06Fg"
+}

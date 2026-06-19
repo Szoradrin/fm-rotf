@@ -1,0 +1,186 @@
+{
+  "_id": "SnowyOwlbRotf05Ef",
+  "name": "Snowy Owlbear",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/token-snowy-owlbear.webp",
+  "system": {
+    "abilities": {
+      "str": { "value": 18 },
+      "dex": { "value": 12 },
+      "con": { "value": 16 },
+      "int": { "value": 3 },
+      "wis": { "value": 12 },
+      "cha": { "value": 5 }
+    },
+    "attributes": {
+      "ac": { "flat": 13 },
+      "hp": { "value": 59, "max": 59, "formula": "7d10+21" },
+      "speed": { "value": 40, "units": "ft" },
+      "prof": 2
+    },
+    "details": {
+      "biography": { "value": "" },
+      "alignment": "unaligned",
+      "race": "",
+      "type": { "value": "monstrosity", "subtype": "", "swarm": "", "custom": "" },
+      "environment": "",
+      "cr": 3,
+      "spellLevel": 0,
+      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "293" }
+    },
+    "traits": {
+      "size": "lg",
+      "di": { "value": ["cold"] },
+      "dr": { "value": [] },
+      "ci": { "value": [] },
+      "languages": { "value": [] }
+    },
+    "skills": {
+      "prc": { "value": 1 }
+    },
+    "saves": {}
+  },
+  "items": [
+    {
+      "_id": "SnowyOwlbItem001a",
+      "name": "Keen Sight and Smell",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "The owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "293" }
+      },
+      "_key": "!actors.items!SnowyOwlbRotf05Ef.SnowyOwlbItem001a"
+    },
+    {
+      "_id": "SnowyOwlbItem002b",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "The owlbear makes two attacks: one with its beak and one with its claws.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "293" }
+      },
+      "_key": "!actors.items!SnowyOwlbRotf05Ef.SnowyOwlbItem002b"
+    },
+    {
+      "_id": "SnowyOwlbItem003c",
+      "name": "Beak",
+      "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 11 (2d6 + 4) piercing damage.", "chat": "" },
+        "equipped": true,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": { "threshold": null },
+              "flat": false,
+              "type": { "value": "melee", "classification": "weapon" }
+            },
+            "damage": {
+              "parts": [{ "number": 2, "denomination": "6", "bonus": "4", "types": ["piercing"] }]
+            },
+            "range": { "value": 5, "units": "ft" }
+          }
+        },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "293" }
+      },
+      "_key": "!actors.items!SnowyOwlbRotf05Ef.SnowyOwlbItem003c"
+    },
+    {
+      "_id": "SnowyOwlbItem004d",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) slashing damage.", "chat": "" },
+        "equipped": true,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": { "threshold": null },
+              "flat": false,
+              "type": { "value": "melee", "classification": "weapon" }
+            },
+            "damage": {
+              "parts": [{ "number": 3, "denomination": "6", "bonus": "4", "types": ["slashing"] }]
+            },
+            "range": { "value": 5, "units": "ft" }
+          }
+        },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "293" }
+      },
+      "_key": "!actors.items!SnowyOwlbRotf05Ef.SnowyOwlbItem004d"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Snowy Owlbear",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/rotf/assets/images/token-snowy-owlbear.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": {
+      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
+      "bright": 0, "color": null, "coloration": 1, "dim": 0,
+      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
+      "contrast": 0, "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": {
+      "enabled": false, "range": 0, "angle": 360,
+      "visionMode": "basic", "color": null, "attenuation": 0.1,
+      "brightness": 0, "saturation": 0, "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": { "radius": 0 },
+    "ring": {
+      "enabled": false,
+      "colors": { "ring": null, "background": null },
+      "effects": 1,
+      "subject": { "scale": 1, "texture": null }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14.364",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!SnowyOwlbRotf05Ef"
+}

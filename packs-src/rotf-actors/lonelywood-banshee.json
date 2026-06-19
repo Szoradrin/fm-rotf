@@ -1,0 +1,217 @@
+{
+  "_id": "LBansheRotf001Ab",
+  "name": "Lonelywood Banshee",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/token-lonelywood-banshee.webp",
+  "system": {
+    "abilities": {
+      "str": { "value": 1 },
+      "dex": { "value": 14 },
+      "con": { "value": 10 },
+      "int": { "value": 12 },
+      "wis": { "value": 11 },
+      "cha": { "value": 17 }
+    },
+    "attributes": {
+      "ac": { "flat": 12 },
+      "hp": { "value": 58, "max": 58, "formula": "13d8" },
+      "speed": { "value": 40, "units": "ft" },
+      "prof": 2
+    },
+    "details": {
+      "biography": { "value": "" },
+      "alignment": "chaotic evil",
+      "race": "",
+      "type": { "value": "undead", "subtype": "", "swarm": "", "custom": "" },
+      "environment": "",
+      "cr": 4,
+      "spellLevel": 0,
+      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "289" }
+    },
+    "traits": {
+      "size": "med",
+      "di": { "value": ["cold", "lightning", "necrotic"] },
+      "dr": { "value": ["acid", "fire", "thunder", "bludgeoning", "piercing", "slashing"] },
+      "ci": { "value": ["charmed", "exhaustion", "frightened", "grappled", "paralyzed", "petrified", "poisoned", "prone", "restrained"] },
+      "languages": { "value": ["common", "elvish"] }
+    },
+    "skills": {},
+    "saves": {}
+  },
+  "items": [
+    {
+      "_id": "LBansheeItem001a",
+      "name": "Detect Life",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "The banshee magically senses the presence of creatures up to 5 miles away that aren't undead or constructs. She knows the general direction they're in but not their exact locations.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "289" }
+      },
+      "_key": "!actors.items!LBansheRotf001Ab.LBansheeItem001a"
+    },
+    {
+      "_id": "LBansheeItem002b",
+      "name": "Incorporeal Movement",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "The banshee can move through other creatures and objects as if they were difficult terrain. She takes 5 (1d10) force damage if she ends her turn inside an object.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "289" }
+      },
+      "_key": "!actors.items!LBansheRotf001Ab.LBansheeItem002b"
+    },
+    {
+      "_id": "LBansheeItem003c",
+      "name": "Horrifying Visage",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Each non-undead creature within 60 feet of the banshee that can see her must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, with disadvantage if the banshee is within line of sight, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the banshee's Horrifying Visage for the next 24 hours.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "289" }
+      },
+      "_key": "!actors.items!LBansheRotf001Ab.LBansheeItem003c"
+    },
+    {
+      "_id": "LBansheeItem004d",
+      "name": "Spectral Longbow",
+      "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) necrotic damage.", "chat": "" },
+        "equipped": true,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "dex",
+              "bonus": "",
+              "critical": { "threshold": null },
+              "flat": false,
+              "type": { "value": "ranged", "classification": "weapon" }
+            },
+            "damage": {
+              "parts": [{ "number": 1, "denomination": "8", "bonus": "2", "types": ["necrotic"] }]
+            },
+            "range": { "value": 150, "long": 600, "units": "ft" }
+          }
+        },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "289" }
+      },
+      "_key": "!actors.items!LBansheRotf001Ab.LBansheeItem004d"
+    },
+    {
+      "_id": "LBansheeItem005e",
+      "name": "Corrupting Touch",
+      "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Melee Spell Attack: +4 to hit, reach 5 ft., one target. Hit: 12 (3d6 + 2) necrotic damage.", "chat": "" },
+        "equipped": true,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "cha",
+              "bonus": "",
+              "critical": { "threshold": null },
+              "flat": false,
+              "type": { "value": "melee", "classification": "spell" }
+            },
+            "damage": {
+              "parts": [{ "number": 3, "denomination": "6", "bonus": "2", "types": ["necrotic"] }]
+            },
+            "range": { "value": 5, "units": "ft" }
+          }
+        },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "289" }
+      },
+      "_key": "!actors.items!LBansheRotf001Ab.LBansheeItem005e"
+    },
+    {
+      "_id": "LBansheeItem006f",
+      "name": "Wail (1/Day)",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "The banshee releases a mournful wail, provided that she isn't in sunlight. This wail has no effect on constructs and undead. All other creatures within 30 feet of her that can hear her must make a DC 13 Constitution saving throw. On a failure, a creature drops to 0 hit points. On a success, a creature takes 10 (3d6) psychic damage.", "chat": "" },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "save",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "save": { "ability": "con", "dc": { "value": 13, "calculation": "" } },
+            "damage": {
+              "parts": [{ "number": 3, "denomination": "6", "bonus": "", "types": ["psychic"] }]
+            }
+          }
+        },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "289" }
+      },
+      "_key": "!actors.items!LBansheRotf001Ab.LBansheeItem006f"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Lonelywood Banshee",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/rotf/assets/images/token-lonelywood-banshee.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": {
+      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
+      "bright": 0, "color": null, "coloration": 1, "dim": 0,
+      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
+      "contrast": 0, "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": {
+      "enabled": false, "range": 0, "angle": 360,
+      "visionMode": "basic", "color": null, "attenuation": 0.1,
+      "brightness": 0, "saturation": 0, "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": { "radius": 0 },
+    "ring": {
+      "enabled": false,
+      "colors": { "ring": null, "background": null },
+      "effects": 1,
+      "subject": { "scale": 1, "texture": null }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14.364",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!LBansheRotf001Ab"
+}

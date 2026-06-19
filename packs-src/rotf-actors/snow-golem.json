@@ -1,0 +1,197 @@
+{
+  "_id": "SnowGolmRotf04De",
+  "name": "Snow Golem",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/token-snow-golem.webp",
+  "system": {
+    "abilities": {
+      "str": { "value": 14 },
+      "dex": { "value": 7 },
+      "con": { "value": 14 },
+      "int": { "value": 3 },
+      "wis": { "value": 6 },
+      "cha": { "value": 1 }
+    },
+    "attributes": {
+      "ac": { "flat": 11 },
+      "hp": { "value": 52, "max": 52, "formula": "7d10+14" },
+      "speed": { "value": 30, "units": "ft" },
+      "prof": 2
+    },
+    "details": {
+      "biography": { "value": "" },
+      "alignment": "unaligned",
+      "race": "",
+      "type": { "value": "construct", "subtype": "", "swarm": "", "custom": "" },
+      "environment": "",
+      "cr": 3,
+      "spellLevel": 0,
+      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "293" }
+    },
+    "traits": {
+      "size": "lg",
+      "di": { "value": ["cold", "poison", "psychic", "bludgeoning", "piercing", "slashing"] },
+      "dr": { "value": [] },
+      "ci": { "value": ["charmed", "exhaustion", "frightened", "paralyzed", "petrified", "poisoned"] },
+      "languages": { "value": [] }
+    },
+    "skills": {},
+    "saves": {}
+  },
+  "items": [
+    {
+      "_id": "SnowGolmItem001a",
+      "name": "Cold Absorption",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Whenever the golem is subjected to cold damage, it takes no damage and instead regains a number of hit points equal to the cold damage dealt.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "293" }
+      },
+      "_key": "!actors.items!SnowGolmRotf04De.SnowGolmItem001a"
+    },
+    {
+      "_id": "SnowGolmItem002b",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "The snow golem makes two slam attacks.", "chat": "" },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false }
+          }
+        },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "293" }
+      },
+      "_key": "!actors.items!SnowGolmRotf04De.SnowGolmItem002b"
+    },
+    {
+      "_id": "SnowGolmItem003c",
+      "name": "Slam",
+      "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage plus 3 (1d6) cold damage.", "chat": "" },
+        "equipped": true,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": { "threshold": null },
+              "flat": false,
+              "type": { "value": "melee", "classification": "weapon" }
+            },
+            "damage": {
+              "parts": [
+                { "number": 2, "denomination": "6", "bonus": "2", "types": ["bludgeoning"] },
+                { "number": 1, "denomination": "6", "bonus": "", "types": ["cold"] }
+              ]
+            },
+            "range": { "value": 5, "units": "ft" }
+          }
+        },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "293" }
+      },
+      "_key": "!actors.items!SnowGolmRotf04De.SnowGolmItem003c"
+    },
+    {
+      "_id": "SnowGolmItem004d",
+      "name": "Snowball",
+      "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage plus 3 (1d6) cold damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw or be blinded until the end of its next turn.", "chat": "" },
+        "equipped": true,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": { "threshold": null },
+              "flat": false,
+              "type": { "value": "ranged", "classification": "weapon" }
+            },
+            "damage": {
+              "parts": [
+                { "number": 1, "denomination": "4", "bonus": "2", "types": ["bludgeoning"] },
+                { "number": 1, "denomination": "6", "bonus": "", "types": ["cold"] }
+              ]
+            },
+            "range": { "value": 20, "long": 60, "units": "ft" }
+          }
+        },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "293" }
+      },
+      "_key": "!actors.items!SnowGolmRotf04De.SnowGolmItem004d"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Snow Golem",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/rotf/assets/images/token-snow-golem.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": {
+      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
+      "bright": 0, "color": null, "coloration": 1, "dim": 0,
+      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
+      "contrast": 0, "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": {
+      "enabled": false, "range": 0, "angle": 360,
+      "visionMode": "basic", "color": null, "attenuation": 0.1,
+      "brightness": 0, "saturation": 0, "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": { "radius": 0 },
+    "ring": {
+      "enabled": false,
+      "colors": { "ring": null, "background": null },
+      "effects": 1,
+      "subject": { "scale": 1, "texture": null }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14.364",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!SnowGolmRotf04De"
+}
