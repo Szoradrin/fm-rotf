@@ -1,0 +1,322 @@
+{
+  "_id": "aurilsecondform01",
+  "_key": "!actors!aurilsecondform01",
+  "name": "Auril (Second Form)",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/art-05-006-frostmaiden-mounted.webp",
+  "system": {
+    "description": { "value": "", "chat": "" },
+    "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "", "custom": "" },
+    "attributes": {
+      "ac": { "flat": 16, "calc": "natural", "formula": "" },
+      "hp": { "value": 136, "min": 0, "max": 136, "temp": 0, "tempmax": 0, "formula": "13d10+65" },
+      "init": { "ability": "dex", "bonus": "" },
+      "movement": { "burrow": 0, "climb": 0, "fly": 0, "swim": 0, "walk": 30, "units": "ft", "hover": false }
+    },
+    "abilities": {
+      "str": { "value": 16, "proficient": 0, "bonuses": { "check": "", "save": "" } },
+      "dex": { "value": 16, "proficient": 0, "bonuses": { "check": "", "save": "" } },
+      "con": { "value": 21, "proficient": 1, "bonuses": { "check": "", "save": "" } },
+      "int": { "value": 24, "proficient": 0, "bonuses": { "check": "", "save": "" } },
+      "wis": { "value": 26, "proficient": 1, "bonuses": { "check": "", "save": "" } },
+      "cha": { "value": 28, "proficient": 0, "bonuses": { "check": "", "save": "" } }
+    },
+    "details": {
+      "biography": { "value": "", "public": "" },
+      "alignment": "ne",
+      "race": "",
+      "type": { "value": "elemental", "subtype": "", "swarm": "", "custom": "" },
+      "environment": "",
+      "cr": 10,
+      "spellLevel": 0,
+      "source": { "book": "Icewind Dale: Rime of the Frostmaiden" }
+    },
+    "traits": {
+      "size": "lg",
+      "di": { "value": ["cold", "poison"], "bypasses": [], "custom": "" },
+      "dv": { "value": ["fire"], "bypasses": [], "custom": "" },
+      "dr": { "value": [], "bypasses": [], "custom": "" },
+      "ci": { "value": ["charmed", "exhaustion", "frightened", "paralyzed", "petrified", "poisoned", "stunned"], "custom": "" },
+      "languages": { "value": [], "communication": ["telepathy"], "custom": "All languages, Telepathy 1000 ft." }
+    },
+    "skills": {
+      "dec": { "value": 1, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
+      "ins": { "value": 1, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
+      "itm": { "value": 1, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
+      "prc": { "value": 1, "ability": "wis", "bonuses": { "check": "", "passive": "" } }
+    },
+    "senses": {
+      "darkvision": 120,
+      "truesight": 120,
+      "units": "ft",
+      "special": ""
+    },
+    "spellcasting": ""
+  },
+  "prototypeToken": {
+    "name": "Auril (Second Form)",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/rotf/assets/images/art-05-006-frostmaiden-mounted.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": {
+      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
+      "bright": 0, "color": null, "coloration": 1, "dim": 0,
+      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
+      "contrast": 0, "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": {
+      "enabled": false, "range": 0, "angle": 360,
+      "visionMode": "basic", "color": null, "attenuation": 0.1,
+      "brightness": 0, "saturation": 0, "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": { "radius": 0 },
+    "ring": {
+      "enabled": false,
+      "colors": { "ring": null, "background": null },
+      "effects": 1,
+      "subject": { "scale": 1, "texture": null }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "aurilf2trait001",
+      "_key": "!actors.items!aurilsecondform01.aurilf2trait001",
+      "name": "Divine Being",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Auril can't be surprised and can't be changed into another form against her will.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    },
+    {
+      "_id": "aurilf2trait002",
+      "_key": "!actors.items!aurilsecondform01.aurilf2trait002",
+      "name": "Divine Rejuvenation",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "When Auril drops to 0 hit points in this form, her body dissipates in a burst of sleet and freezing wind. She then adopts her third form and gains all the hit points of that form.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    },
+    {
+      "_id": "aurilf2trait003",
+      "_key": "!actors.items!aurilsecondform01.aurilf2trait003",
+      "name": "Legendary Resistance (2/Day)",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "If Auril fails a saving throw, she can choose to succeed instead.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    },
+    {
+      "_id": "aurilf2trait004",
+      "_key": "!actors.items!aurilsecondform01.aurilf2trait004",
+      "name": "Magic Resistance",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Auril has advantage on saving throws against spells and other magical effects.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    },
+    {
+      "_id": "aurilf2trait005",
+      "_key": "!actors.items!aurilsecondform01.aurilf2trait005",
+      "name": "Unusual Nature",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Auril doesn't require food or drink.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    },
+    {
+      "_id": "aurilf2action001",
+      "_key": "!actors.items!aurilsecondform01.aurilf2action001",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Auril makes two Ice Morningstar attacks, or three Ice Dart attacks.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "action", "value": 1, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    },
+    {
+      "_id": "aurilf2action002",
+      "_key": "!actors.items!aurilsecondform01.aurilf2action002",
+      "name": "Ice Morningstar",
+      "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 9 (2d8) cold damage.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "str", "bonus": "",
+              "critical": { "threshold": null },
+              "flat": false,
+              "type": { "value": "melee", "classification": "weapon" }
+            },
+            "damage": {
+              "parts": [
+                { "number": 1, "denomination": "8", "bonus": "3", "types": ["piercing"] },
+                { "number": 2, "denomination": "8", "bonus": "", "types": ["cold"] }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "aurilf2action003",
+      "_key": "!actors.items!aurilsecondform01.aurilf2action003",
+      "name": "Ice Dart",
+      "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Ranged Weapon Attack: +7 to hit, range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 3 (1d6) cold damage.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "str", "bonus": "",
+              "critical": { "threshold": null },
+              "flat": false,
+              "type": { "value": "ranged", "classification": "weapon" }
+            },
+            "damage": {
+              "parts": [
+                { "number": 1, "denomination": "4", "bonus": "3", "types": ["piercing"] },
+                { "number": 1, "denomination": "6", "bonus": "", "types": ["cold"] }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "aurilf2action004",
+      "_key": "!actors.items!aurilsecondform01.aurilf2action004",
+      "name": "Cone of Cold (Recharges after a Short or Long Rest)",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Auril exhales a blast of freezing wind in a 60-foot cone. Each creature in that area must make a DC 21 Constitution saving throw, taking 36 (8d8) cold damage on a failed save, or half as much damage on a successful one.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "action", "value": 1, "condition": "" },
+        "type": { "value": "monster", "subtype": "" },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "save",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "save": { "ability": "con", "dc": { "formula": "21", "calculation": "" } },
+            "damage": {
+              "parts": [
+                { "number": 8, "denomination": "8", "bonus": "", "types": ["cold"] }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "aurilf2action005",
+      "_key": "!actors.items!aurilsecondform01.aurilf2action005",
+      "name": "Create Ice Mephit (3/Day)",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Auril touches an icicle, which becomes an ice mephit that appears in an unoccupied space within 20 feet of her. The mephit acts immediately after Auril in the initiative order and obeys her commands.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "action", "value": 1, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    },
+    {
+      "_id": "aurilf2action006",
+      "_key": "!actors.items!aurilsecondform01.aurilf2action006",
+      "name": "Ice Stasis (Recharge 5–6)",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Auril targets one gem crystal within 5 feet of herself and one creature she can see within 60 feet of herself. The target must succeed on a DC 21 Charisma saving throw or become trapped in the gem crystal: the target is stunned, has total cover against attacks and other effects outside the crystal, and takes 21 (6d6) cold damage at the start of each of its turns. The trapped creature can repeat the saving throw at the end of each of its turns, escaping on a success. The gem crystal can also be destroyed (AC 18, 9 hit points, immunity to all damage except fire damage), which frees the creature without harming it.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "action", "value": 1, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    },
+    {
+      "_id": "aurilf2leg001",
+      "_key": "!actors.items!aurilsecondform01.aurilf2leg001",
+      "name": "Legendary Actions",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Auril can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Auril regains spent legendary actions at the start of her turn.\n\n<strong>Attack.</strong> Auril makes one weapon attack.\n<strong>Ice Flurry (Costs 2 Actions).</strong> Shards of ice whirl around Auril. Each creature within 30 feet of her takes 5 (2d4) piercing damage, and all nonmagical flames within 30 feet of Auril are extinguished.\n<strong>Splinter (Costs 3 Actions).</strong> Auril uses Create Ice Mephit, or she causes one ice mephit she can see within 60 feet of her to explode. Each creature within 10 feet of the exploding mephit must succeed on a DC 21 Dexterity saving throw or take 13 (3d8) piercing damage. The mephit is destroyed but doesn't use its Death Burst.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemVersion": "5.3.3",
+    "systemId": "dnd5e"
+  }
+}
