@@ -1,0 +1,312 @@
+{
+  "_id": "aurilfirstform001",
+  "_key": "!actors!aurilfirstform001",
+  "name": "Auril (First Form)",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/art-05-006-frostmaiden-mounted.webp",
+  "system": {
+    "description": { "value": "", "chat": "" },
+    "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "", "custom": "" },
+    "attributes": {
+      "ac": { "flat": 13, "calc": "flat", "formula": "" },
+      "hp": { "value": 95, "min": 0, "max": 95, "temp": 0, "tempmax": 0, "formula": "10d8+50" },
+      "init": { "ability": "dex", "bonus": "" },
+      "movement": { "burrow": 0, "climb": 0, "fly": 60, "swim": 0, "walk": 30, "units": "ft", "hover": false }
+    },
+    "abilities": {
+      "str": { "value": 14, "proficient": 0, "bonuses": { "check": "", "save": "" } },
+      "dex": { "value": 16, "proficient": 0, "bonuses": { "check": "", "save": "" } },
+      "con": { "value": 21, "proficient": 1, "bonuses": { "check": "", "save": "" } },
+      "int": { "value": 24, "proficient": 0, "bonuses": { "check": "", "save": "" } },
+      "wis": { "value": 26, "proficient": 1, "bonuses": { "check": "", "save": "" } },
+      "cha": { "value": 28, "proficient": 0, "bonuses": { "check": "", "save": "" } }
+    },
+    "details": {
+      "biography": { "value": "", "public": "" },
+      "alignment": "ne",
+      "race": "",
+      "type": { "value": "monstrosity", "subtype": "", "swarm": "", "custom": "" },
+      "environment": "",
+      "cr": 9,
+      "spellLevel": 0,
+      "source": { "book": "Icewind Dale: Rime of the Frostmaiden" }
+    },
+    "traits": {
+      "size": "med",
+      "di": { "value": ["cold", "poison"], "bypasses": [], "custom": "" },
+      "dv": { "value": ["radiant"], "bypasses": [], "custom": "" },
+      "dr": { "value": [], "bypasses": [], "custom": "" },
+      "ci": { "value": ["charmed", "exhaustion", "frightened", "paralyzed", "petrified", "poisoned", "stunned"], "custom": "" },
+      "languages": { "value": [], "communication": ["telepathy"], "custom": "All languages, Telepathy 1000 ft." }
+    },
+    "skills": {
+      "dec": { "value": 1, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
+      "ins": { "value": 1, "ability": "wis", "bonuses": { "check": "", "passive": "" } },
+      "itm": { "value": 1, "ability": "cha", "bonuses": { "check": "", "passive": "" } },
+      "prc": { "value": 1, "ability": "wis", "bonuses": { "check": "", "passive": "" } }
+    },
+    "senses": {
+      "darkvision": 120,
+      "truesight": 120,
+      "units": "ft",
+      "special": ""
+    },
+    "spellcasting": ""
+  },
+  "prototypeToken": {
+    "name": "Auril (First Form)",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/rotf/assets/images/art-05-006-frostmaiden-mounted.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": {
+      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
+      "bright": 0, "color": null, "coloration": 1, "dim": 0,
+      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
+      "contrast": 0, "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": {
+      "enabled": false, "range": 0, "angle": 360,
+      "visionMode": "basic", "color": null, "attenuation": 0.1,
+      "brightness": 0, "saturation": 0, "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": { "radius": 0 },
+    "ring": {
+      "enabled": false,
+      "colors": { "ring": null, "background": null },
+      "effects": 1,
+      "subject": { "scale": 1, "texture": null }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "aurilf1trait001",
+      "_key": "!actors.items!aurilfirstform001.aurilf1trait001",
+      "name": "Divine Being",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Auril can't be surprised and can't be changed into another form against her will.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    },
+    {
+      "_id": "aurilf1trait002",
+      "_key": "!actors.items!aurilfirstform001.aurilf1trait002",
+      "name": "Divine Rejuvenation",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "When Auril drops to 0 hit points in this form, her body dissipates in a flurry of snow and ice. She then adopts her second form and gains all the hit points of that form.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    },
+    {
+      "_id": "aurilf1trait003",
+      "_key": "!actors.items!aurilfirstform001.aurilf1trait003",
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Auril's innate spellcasting ability is Charisma (spell save DC 21, +13 to hit with spell attacks). She can innately cast the following spells, requiring no material components:\n\nAt will: chromatic orb (cold damage only), detect magic, misty step\n2/day each: control weather, detect thoughts, ice storm", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    },
+    {
+      "_id": "aurilf1trait004",
+      "_key": "!actors.items!aurilfirstform001.aurilf1trait004",
+      "name": "Legendary Resistance (2/Day)",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "If Auril fails a saving throw, she can choose to succeed instead.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    },
+    {
+      "_id": "aurilf1trait005",
+      "_key": "!actors.items!aurilfirstform001.aurilf1trait005",
+      "name": "Magic Resistance",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Auril has advantage on saving throws against spells and other magical effects.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    },
+    {
+      "_id": "aurilf1trait006",
+      "_key": "!actors.items!aurilfirstform001.aurilf1trait006",
+      "name": "Unusual Nature",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Auril doesn't require food or drink.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    },
+    {
+      "_id": "aurilf1action001",
+      "_key": "!actors.items!aurilfirstform001.aurilf1action001",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Auril makes two Talons attacks.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "action", "value": 1, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    },
+    {
+      "_id": "aurilf1action002",
+      "_key": "!actors.items!aurilfirstform001.aurilf1action002",
+      "name": "Talons",
+      "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 3 (1d6) cold damage.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "str", "bonus": "",
+              "critical": { "threshold": null },
+              "flat": false,
+              "type": { "value": "melee", "classification": "weapon" }
+            },
+            "damage": {
+              "parts": [
+                { "number": 1, "denomination": "8", "bonus": "3", "types": ["piercing"] },
+                { "number": 1, "denomination": "6", "bonus": "", "types": ["cold"] }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "aurilf1action003",
+      "_key": "!actors.items!aurilfirstform001.aurilf1action003",
+      "name": "Touch of Frost",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Melee Spell Attack: +13 to hit, reach 5 ft., one target. Hit: 13 (3d8) cold damage, and the target can't take reactions until the start of Auril's next turn.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "action", "value": 1, "condition": "" },
+        "type": { "value": "monster", "subtype": "" },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "cha", "bonus": "",
+              "critical": { "threshold": null },
+              "flat": true,
+              "type": { "value": "melee", "classification": "spell" }
+            },
+            "damage": {
+              "parts": [
+                { "number": 3, "denomination": "8", "bonus": "", "types": ["cold"] }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "aurilf1action004",
+      "_key": "!actors.items!aurilfirstform001.aurilf1action004",
+      "name": "Chromatic Orb (Cold)",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Ranged Spell Attack: +13 to hit, range 90 ft., one target. Hit: 13 (3d8) cold damage.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "action", "value": 1, "condition": "" },
+        "type": { "value": "monster", "subtype": "" },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "attack": {
+              "ability": "cha", "bonus": "",
+              "critical": { "threshold": null },
+              "flat": true,
+              "type": { "value": "ranged", "classification": "spell" }
+            },
+            "damage": {
+              "parts": [
+                { "number": 3, "denomination": "8", "bonus": "", "types": ["cold"] }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "aurilf1leg001",
+      "_key": "!actors.items!aurilfirstform001.aurilf1leg001",
+      "name": "Legendary Actions",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "description": { "value": "Auril can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Auril regains spent legendary actions at the start of her turn.\n\n<strong>Talons.</strong> Auril makes one Talons attack.\n<strong>Teleport.</strong> Auril teleports to an unoccupied space she can see within 30 feet of herself.\n<strong>Touch of Frost (Costs 2 Actions).</strong> Auril uses Touch of Frost.", "chat": "" },
+        "source": { "book": "Icewind Dale: Rime of the Frostmaiden" },
+        "activation": { "type": "", "value": null, "condition": "" },
+        "type": { "value": "monster", "subtype": "" }
+      }
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemVersion": "5.3.3",
+    "systemId": "dnd5e"
+  }
+}
