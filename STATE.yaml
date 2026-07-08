@@ -1,0 +1,115 @@
+# STATE.yaml — Rime of the Frostmaiden Foundry Module
+# This is a commit log, not a state mirror.
+# Full module standards: callinl/ai-ops/foundry-modules/START-PROMPT.md
+# Session state: callinl/ai-ops/foundry-modules/rime-of-the-frostmaiden/HANDOFF.md
+# Actor standards: Szoradrin/fm-template/STANDARDS-ACTORS.md
+# Journal standards: Szoradrin/fm-template/STANDARDS-JOURNALS.md
+# Scene standards: Szoradrin/fm-template/STANDARDS-SCENES.md
+# This file: what changed, why, when, which session.
+
+meta:
+  product: Rime of the Frostmaiden — Foundry VTT Module
+  repo: Szoradrin/fm-rotf
+  ops_repo: callinl/ai-ops
+  bootstrap: callinl/ai-ops/foundry-modules/START-PROMPT.md
+  handoff: callinl/ai-ops/foundry-modules/rime-of-the-frostmaiden/HANDOFF.md
+  foundry_version: "14.364"
+  system: dnd5e
+  system_version: "5.3.3"
+  module_id: rotf
+  sqyre: https://icewind-dale-rime-of-the-frostma-5d8b5fc8.us.sqyre.app/game
+
+tracks:
+  module_building:
+    status: active
+    last_session: Session 20 — 2026-07-08
+    agent: Sage (Claude)
+
+current_release: 1.0.12 (partial test — NOT the final actor pack)
+
+current_blockers:
+  - Chrome access needed for D&D Beyond pulls (11 NPCs remaining)
+  - Journals not yet built for Dougan's Hole or remaining towns
+  - Scenes not yet built for remaining towns
+  - Compile + release gated on Reed approval
+
+do_first:
+  - Chrome first — open D&D Beyond tab 572143689
+  - Pull + write Dzaan's Simulacrum (ID 1123081)
+  - Pull + write Nass Lantomir's Ghost (ID 1123115)
+  - Pull + write Xardorok Sunblight (ID 1123135)
+  - Search + pull remaining 8 NPCs (Kadroth, Duvessa, Markham, Naerth, Grandolpha, Kingsport, Spellix, Prisoner 237)
+  - Build Dougan's Hole journal + Twenty Stones encounter (Creed of Auril integration)
+  - Build Dougan's Hole scene
+  - Verify one journal end-to-end in Foundry before building more
+
+campaign_state:
+  party_level: 5-6
+  current_location: Dougan's Hole — mid-combat Holed Up quest (winter wolves)
+  next_encounter: Twenty Stones of Thruun — Savaa Rubyeye cult ceremony
+  completed_quests:
+    - The Mead Must Flow (Good Mead)
+    - Good Mead Speaker Election — Olivessa Untapoor
+    - A Beautiful Mine (Termalaine)
+    - Mountain Climb (Kelvin's Cairn)
+    - The Unseen (Caer-Konig)
+    - Foaming Mugs (Bryn Shander)
+    - Black Swords (Caer-Dineval)
+    - Black Cabin (Macreadus dead, Summer Star in party possession)
+
+changelog:
+  # Append-only. Newest entry at top.
+  # Format:
+  # - date: YYYY-MM-DD
+  #   session: Session XX
+  #   change: one line what changed
+  #   why: one line why
+  #   commit: sha (if applicable)
+
+  - date: 2026-07-08
+    session: Session 20
+    change: STATE.yaml created
+    why: Operating model adopted — commit log now tracks all module changes cross-session
+
+  - date: 2026-07-08
+    session: Session 20
+    change: vellynne-harpell.json committed to packs-src/rotf-actors/
+    why: CR 4 wizard NPC, 8th-level spellcaster, bracers of defense + wand of magic missiles
+    commit: d4d51125
+
+  - date: 2026-07-08
+    session: Session 20
+    change: HANDOFF.md updated in callinl/ai-ops
+    why: Session 20 checkpoint — 78 actors total, Chrome-first rule burned in
+    commit: 31327cb6
+
+  - date: 2026-07-07
+    session: Session 19
+    change: auril-first-form, auril-second-form, auril-third-form, arveiaturace committed
+    why: Final boss actors — Auril three forms + Arveiaturace the white dragon (cataracts mod)
+    commit: 42f85739-f9555569
+
+  - date: 2026-06-19
+    session: Session 19 (prior)
+    change: Appendix C complete — all creatures committed
+    why: All 56 Appendix C actors written from D&D Beyond and committed to packs-src/rotf-actors/
+    commit: various
+
+  - date: 2026-06-19
+    session: Sessions 15-18
+    change: Standard monsters (22) and ROTF NPCs (5) committed
+    why: Core actor pack population — avarice, bjornhild, gunvald, isarr, sephek + 22 standard monsters
+    commit: various
+
+  - date: 2026-06-18
+    session: Session 9 (pre-repo-move)
+    change: Module moved from callinl/foundry-modules to Szoradrin/fm-rotf
+    why: Canonical repo established under Szoradrin org for all Foundry output modules
+    commit: various
+
+  - date: 2026-06-12
+    session: Sessions 1-9
+    change: Journals, scenes, assets built for Good Mead, Dougan's Hole, Lonelywood, Bryn Shander, Bremen, Chapter 1 overview
+    why: Initial module content build — pre-operating-model
+    commit: various
+    notes: These journals were wiped and need rebuild. Scenes may need audit. Assets in assets/images/ are clean (78 files).
