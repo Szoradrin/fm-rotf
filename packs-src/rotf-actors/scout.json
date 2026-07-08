@@ -415,47 +415,41 @@
     "tools": {},
     "spells": {
       "spell1": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell2": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell3": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell4": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell5": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell6": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell7": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell8": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell9": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "pact": {
-        "value": 0,
-        "override": null
+        "value": 0
       }
     },
     "attributes": {
+      "ac": {
+        "calc": "natural",
+        "flat": 13
+      },
       "init": {
         "ability": "",
         "roll": {
@@ -466,26 +460,29 @@
         "bonus": ""
       },
       "movement": {
-        "burrow": "0",
-        "fly": "0",
-        "swim": "0",
-        "walk": "30",
-        "units": null,
+        "units": "ft",
         "hover": false,
-        "ignoredDifficultTerrain": []
+        "ignoredDifficultTerrain": [],
+        "walk": "30",
+        "burrow": "",
+        "climb": "",
+        "fly": "",
+        "swim": "",
+        "bonus": "",
+        "special": ""
       },
       "attunement": {
         "max": 3
       },
       "senses": {
-        "units": null,
-        "special": "",
         "ranges": {
-          "darkvision": null,
           "blindsight": null,
+          "darkvision": null,
           "tremorsense": null,
           "truesight": null
-        }
+        },
+        "units": "ft",
+        "special": ""
       },
       "spellcasting": "",
       "exhaustion": 0,
@@ -501,10 +498,7 @@
         },
         "limit": 1
       },
-      "ac": {
-        "flat": 13,
-        "calc": "natural"
-      },
+      "loyalty": {},
       "hd": {
         "spent": 0
       },
@@ -513,7 +507,8 @@
         "max": 16,
         "temp": null,
         "tempmax": null,
-        "formula": "3d8 + 3"
+        "formula": "3d8 + 3",
+        "dt": null
       },
       "death": {
         "roll": {
@@ -527,13 +522,12 @@
           "save": ""
         }
       },
-      "spell": {
-        "level": 0
-      },
-      "loyalty": {},
       "price": {
         "value": null,
         "denomination": "gp"
+      },
+      "spell": {
+        "level": 0
       }
     },
     "details": {
@@ -586,15 +580,7 @@
         "custom": ""
       },
       "treasure": {
-        "value": []
-      },
-      "source": {
-        "revision": 1,
-        "rules": "2024",
-        "book": "",
-        "page": "",
-        "custom": "",
-        "license": ""
+        "value": {}
       }
     },
     "resources": {
@@ -612,22 +598,30 @@
         "inside": false
       }
     },
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
     "traits": {
       "size": "med",
       "di": {
-        "bypasses": [],
         "value": [],
-        "custom": ""
+        "custom": "",
+        "bypasses": []
       },
       "dr": {
-        "bypasses": [],
         "value": [],
-        "custom": ""
+        "custom": "",
+        "bypasses": []
       },
       "dv": {
-        "bypasses": [],
         "value": [],
-        "custom": ""
+        "custom": "",
+        "bypasses": []
       },
       "dm": {
         "amount": {},
@@ -655,6 +649,7 @@
     "prependAdjective": false,
     "width": 1,
     "height": 1,
+    "depth": 1,
     "texture": {
       "src": "icons/svg/mystery-man.svg",
       "anchorX": 0.5,
@@ -736,25 +731,22 @@
       "src": null,
       "disposition": true
     },
-    "movementAction": null,
-    "depth": 1
+    "movementAction": null
   },
   "items": [
     {
       "_id": "ScoutKeenHS001",
       "name": "Keen Hearing and Sight",
       "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
       "system": {
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
         "activities": {},
         "uses": {
           "spent": 0,
           "recovery": [],
           "max": ""
         },
+        "advancement": {},
         "description": {
           "value": "<p>The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight.</p>",
           "chat": ""
@@ -762,38 +754,43 @@
         "identifier": "keen-hearing-and-sight",
         "source": {
           "revision": 1,
-          "rules": "2024"
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
+        "crewed": false,
         "enchant": {},
         "prerequisites": {
-          "level": null,
+          "items": [],
           "repeatable": false,
-          "items": []
+          "level": null
         },
         "properties": [
           "trait"
         ],
         "requirements": "",
-        "advancement": {},
-        "cover": null,
-        "crewed": false
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
       },
-      "folder": null,
-      "img": "icons/svg/mystery-man.svg",
       "effects": [],
+      "folder": null,
+      "sort": 0,
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "sort": 0,
       "ownership": {
         "default": 0
       }
@@ -802,17 +799,15 @@
       "_id": "ScoutMultiatt0",
       "name": "Multiattack",
       "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
       "system": {
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
         "activities": {},
         "uses": {
           "spent": 0,
           "recovery": [],
           "max": ""
         },
+        "advancement": {},
         "description": {
           "value": "<p>The scout makes two melee attacks or two ranged attacks.</p>",
           "chat": ""
@@ -820,38 +815,43 @@
         "identifier": "multiattack",
         "source": {
           "revision": 1,
-          "rules": "2024"
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
+        "crewed": false,
         "enchant": {},
         "prerequisites": {
-          "level": null,
+          "items": [],
           "repeatable": false,
-          "items": []
+          "level": null
         },
         "properties": [
           "monster"
         ],
         "requirements": "",
-        "advancement": {},
-        "cover": null,
-        "crewed": false
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
       },
-      "folder": null,
-      "img": "icons/svg/mystery-man.svg",
       "effects": [],
+      "folder": null,
+      "sort": 0,
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "sort": 0,
       "ownership": {
         "default": 0
       }
@@ -860,18 +860,15 @@
       "_id": "ScoutShortsw01",
       "name": "Shortsword",
       "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
       "system": {
-        "type": {
-          "value": "natural",
-          "baseItem": ""
-        },
         "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
+          "4dlso4Kuo9W2QLhF": {
+            "_id": "4dlso4Kuo9W2QLhF",
             "type": "attack",
             "activation": {
               "type": "action",
-              "value": 1,
+              "value": null,
               "override": false
             },
             "consumption": {
@@ -900,8 +897,6 @@
                 "stationary": false
               },
               "affects": {
-                "count": "1",
-                "type": "creature",
                 "choice": false
               },
               "override": false,
@@ -912,8 +907,6 @@
               "recovery": []
             },
             "attack": {
-              "ability": "",
-              "bonus": "4",
               "critical": {
                 "threshold": null
               },
@@ -921,7 +914,9 @@
               "type": {
                 "value": "melee",
                 "classification": "weapon"
-              }
+              },
+              "ability": "",
+              "bonus": "4"
             },
             "damage": {
               "critical": {
@@ -930,6 +925,97 @@
               "includeBase": true,
               "parts": []
             },
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false,
+              "identifier": ""
+            },
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "triggeredActivityConsume": true,
+              "triggeredActivityConfigure": true,
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "skipConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "rollAs": "target",
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "regionBehavior": {
+              "enabled": false,
+              "dispositionFilter": -1,
+              "excludeSource": true,
+              "oncePerTurn": true,
+              "wallRestriction": "none",
+              "regionVisibility": 2,
+              "rules": [],
+              "attachToken": "default"
+            },
+            "regionLight": {
+              "enabled": false,
+              "dim": 0,
+              "bright": 0,
+              "color": null,
+              "alpha": 0.5,
+              "luminosity": 0.5,
+              "animationType": "",
+              "animationSpeed": 5,
+              "animationIntensity": 5
+            },
+            "otherActivityId": "",
+            "otherActivityAsParentType": true,
+            "attackMode": "oneHanded",
+            "ammunition": "",
+            "otherActivityUuid": "",
+            "attackRollPerTarget": "default",
+            "fumbleThreshold": 1,
+            "name": "",
             "sort": 0
           }
         },
@@ -938,6 +1024,7 @@
           "recovery": [],
           "max": ""
         },
+        "advancement": {},
         "description": {
           "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</p>",
           "chat": ""
@@ -945,8 +1032,17 @@
         "identifier": "shortsword",
         "source": {
           "revision": 1,
-          "rules": "2024"
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
         "quantity": 1,
         "weight": {
           "value": 0,
@@ -956,49 +1052,71 @@
           "value": 0,
           "denomination": "gp"
         },
-        "equipped": true,
         "rarity": "",
-        "identified": true,
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "crew": {
+          "value": []
+        },
+        "ammunition": {},
+        "armor": {},
         "damage": {
           "base": {
-            "number": 1,
-            "denomination": "6",
-            "bonus": "+2",
             "types": [
               "piercing"
             ],
             "custom": {
-              "enabled": false,
-              "formula": ""
+              "enabled": false
             },
             "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
+              "number": 1
+            },
+            "number": 1,
+            "denomination": 6,
+            "bonus": "+2"
+          },
+          "versatile": {
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
             }
           }
         },
-        "properties": [],
-        "proficient": 1,
-        "enchant": {},
-        "advancement": {}
+        "properties": [
+          "gear"
+        ],
+        "proficient": null,
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": null
+        },
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "mastery": ""
       },
-      "folder": null,
-      "img": "icons/svg/mystery-man.svg",
       "effects": [],
+      "folder": null,
+      "sort": 100000,
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "sort": 100000,
       "ownership": {
         "default": 0
       }
@@ -1007,18 +1125,15 @@
       "_id": "ScoutLongbow01",
       "name": "Longbow",
       "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
       "system": {
-        "type": {
-          "value": "natural",
-          "baseItem": ""
-        },
         "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
+          "IACJKq6WA31YTgbC": {
+            "_id": "IACJKq6WA31YTgbC",
             "type": "attack",
             "activation": {
               "type": "action",
-              "value": 1,
+              "value": null,
               "override": false
             },
             "consumption": {
@@ -1047,8 +1162,6 @@
                 "stationary": false
               },
               "affects": {
-                "count": "1",
-                "type": "creature",
                 "choice": false
               },
               "override": false,
@@ -1059,8 +1172,6 @@
               "recovery": []
             },
             "attack": {
-              "ability": "",
-              "bonus": "4",
               "critical": {
                 "threshold": null
               },
@@ -1068,7 +1179,9 @@
               "type": {
                 "value": "ranged",
                 "classification": "weapon"
-              }
+              },
+              "ability": "",
+              "bonus": "4"
             },
             "damage": {
               "critical": {
@@ -1077,6 +1190,97 @@
               "includeBase": true,
               "parts": []
             },
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false,
+              "identifier": ""
+            },
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "triggeredActivityConsume": true,
+              "triggeredActivityConfigure": true,
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "skipConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "rollAs": "target",
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "regionBehavior": {
+              "enabled": false,
+              "dispositionFilter": -1,
+              "excludeSource": true,
+              "oncePerTurn": true,
+              "wallRestriction": "none",
+              "regionVisibility": 2,
+              "rules": [],
+              "attachToken": "default"
+            },
+            "regionLight": {
+              "enabled": false,
+              "dim": 0,
+              "bright": 0,
+              "color": null,
+              "alpha": 0.5,
+              "luminosity": 0.5,
+              "animationType": "",
+              "animationSpeed": 5,
+              "animationIntensity": 5
+            },
+            "otherActivityId": "",
+            "otherActivityAsParentType": true,
+            "attackMode": "oneHanded",
+            "ammunition": "",
+            "otherActivityUuid": "",
+            "attackRollPerTarget": "default",
+            "fumbleThreshold": 1,
+            "name": "",
             "sort": 0
           }
         },
@@ -1085,6 +1289,7 @@
           "recovery": [],
           "max": ""
         },
+        "advancement": {},
         "description": {
           "value": "<p>Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</p>",
           "chat": ""
@@ -1092,8 +1297,17 @@
         "identifier": "longbow",
         "source": {
           "revision": 1,
-          "rules": "2024"
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
         "quantity": 1,
         "weight": {
           "value": 0,
@@ -1103,49 +1317,71 @@
           "value": 0,
           "denomination": "gp"
         },
-        "equipped": true,
         "rarity": "",
-        "identified": true,
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "crew": {
+          "value": []
+        },
+        "ammunition": {},
+        "armor": {},
         "damage": {
           "base": {
-            "number": 1,
-            "denomination": "8",
-            "bonus": "+2",
             "types": [
               "piercing"
             ],
             "custom": {
-              "enabled": false,
-              "formula": ""
+              "enabled": false
             },
             "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
+              "number": 1
+            },
+            "number": 1,
+            "denomination": 8,
+            "bonus": "+2"
+          },
+          "versatile": {
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
             }
           }
         },
-        "properties": [],
-        "proficient": 1,
-        "enchant": {},
-        "advancement": {}
+        "properties": [
+          "gear"
+        ],
+        "proficient": null,
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": null
+        },
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "mastery": ""
       },
-      "folder": null,
-      "img": "icons/svg/mystery-man.svg",
       "effects": [],
+      "folder": null,
+      "sort": 200000,
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "sort": 200000,
       "ownership": {
         "default": 0
       }
@@ -1157,15 +1393,15 @@
     "dnd5e": {}
   },
   "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
     "coreVersion": "14.364",
     "systemId": "dnd5e",
     "systemVersion": "5.3.3",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
   },
   "ownership": {
     "default": 0
