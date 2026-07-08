@@ -415,47 +415,41 @@
     "tools": {},
     "spells": {
       "spell1": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell2": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell3": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell4": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell5": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell6": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell7": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell8": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell9": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "pact": {
-        "value": 0,
-        "override": null
+        "value": 0
       }
     },
     "attributes": {
+      "ac": {
+        "calc": "natural",
+        "flat": 13
+      },
       "init": {
         "ability": "",
         "roll": {
@@ -466,26 +460,29 @@
         "bonus": ""
       },
       "movement": {
-        "burrow": "0",
-        "fly": "0",
-        "swim": "0",
-        "walk": "50",
-        "units": null,
+        "units": "ft",
         "hover": false,
-        "ignoredDifficultTerrain": []
+        "ignoredDifficultTerrain": [],
+        "walk": "50",
+        "burrow": "",
+        "climb": "",
+        "fly": "",
+        "swim": "",
+        "bonus": "",
+        "special": ""
       },
       "attunement": {
         "max": 3
       },
       "senses": {
-        "units": null,
-        "special": "",
         "ranges": {
-          "darkvision": null,
           "blindsight": null,
+          "darkvision": null,
           "tremorsense": null,
           "truesight": null
-        }
+        },
+        "units": "ft",
+        "special": ""
       },
       "spellcasting": "",
       "exhaustion": 0,
@@ -501,10 +498,7 @@
         },
         "limit": 1
       },
-      "ac": {
-        "flat": 13,
-        "calc": "natural"
-      },
+      "loyalty": {},
       "hd": {
         "spent": 0
       },
@@ -513,7 +507,8 @@
         "max": 75,
         "temp": null,
         "tempmax": null,
-        "formula": "10d10 + 20"
+        "formula": "10d10 + 20",
+        "dt": null
       },
       "death": {
         "roll": {
@@ -527,13 +522,12 @@
           "save": ""
         }
       },
-      "spell": {
-        "level": 0
-      },
-      "loyalty": {},
       "price": {
         "value": null,
         "denomination": "gp"
+      },
+      "spell": {
+        "level": 0
       }
     },
     "details": {
@@ -562,15 +556,7 @@
         "custom": ""
       },
       "treasure": {
-        "value": []
-      },
-      "source": {
-        "revision": 1,
-        "rules": "2024",
-        "book": "",
-        "page": "",
-        "custom": "",
-        "license": ""
+        "value": {}
       }
     },
     "resources": {
@@ -588,24 +574,32 @@
         "inside": false
       }
     },
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
     "traits": {
       "size": "lg",
       "di": {
-        "bypasses": [],
         "value": [
           "cold"
         ],
-        "custom": ""
+        "custom": "",
+        "bypasses": []
       },
       "dr": {
-        "bypasses": [],
         "value": [],
-        "custom": ""
+        "custom": "",
+        "bypasses": []
       },
       "dv": {
-        "bypasses": [],
         "value": [],
-        "custom": ""
+        "custom": "",
+        "bypasses": []
       },
       "dm": {
         "amount": {},
@@ -634,6 +628,7 @@
     "prependAdjective": false,
     "width": 2,
     "height": 2,
+    "depth": 1,
     "texture": {
       "src": "icons/svg/mystery-man.svg",
       "anchorX": 0.5,
@@ -715,25 +710,22 @@
       "src": null,
       "disposition": true
     },
-    "movementAction": null,
-    "depth": 2
+    "movementAction": null
   },
   "items": [
     {
       "_id": "WWKeenHS00001",
       "name": "Keen Hearing and Smell",
       "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
       "system": {
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
         "activities": {},
         "uses": {
           "spent": 0,
           "recovery": [],
           "max": ""
         },
+        "advancement": {},
         "description": {
           "value": "<p>The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>",
           "chat": ""
@@ -741,38 +733,43 @@
         "identifier": "keen-hearing-and-smell",
         "source": {
           "revision": 1,
-          "rules": "2024"
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
+        "crewed": false,
         "enchant": {},
         "prerequisites": {
-          "level": null,
+          "items": [],
           "repeatable": false,
-          "items": []
+          "level": null
         },
         "properties": [
           "trait"
         ],
         "requirements": "",
-        "advancement": {},
-        "cover": null,
-        "crewed": false
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
       },
-      "folder": null,
-      "img": "icons/svg/mystery-man.svg",
       "effects": [],
+      "folder": null,
+      "sort": 0,
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "sort": 0,
       "ownership": {
         "default": 0
       }
@@ -781,17 +778,15 @@
       "_id": "WWPackTact0001",
       "name": "Pack Tactics",
       "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
       "system": {
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
         "activities": {},
         "uses": {
           "spent": 0,
           "recovery": [],
           "max": ""
         },
+        "advancement": {},
         "description": {
           "value": "<p>The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.</p>",
           "chat": ""
@@ -799,38 +794,43 @@
         "identifier": "pack-tactics",
         "source": {
           "revision": 1,
-          "rules": "2024"
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
+        "crewed": false,
         "enchant": {},
         "prerequisites": {
-          "level": null,
+          "items": [],
           "repeatable": false,
-          "items": []
+          "level": null
         },
         "properties": [
           "trait"
         ],
         "requirements": "",
-        "advancement": {},
-        "cover": null,
-        "crewed": false
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
       },
-      "folder": null,
-      "img": "icons/svg/mystery-man.svg",
       "effects": [],
+      "folder": null,
+      "sort": 0,
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "sort": 0,
       "ownership": {
         "default": 0
       }
@@ -839,17 +839,15 @@
       "_id": "WWSnowCamo0001",
       "name": "Snow Camouflage",
       "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
       "system": {
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
         "activities": {},
         "uses": {
           "spent": 0,
           "recovery": [],
           "max": ""
         },
+        "advancement": {},
         "description": {
           "value": "<p>The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.</p>",
           "chat": ""
@@ -857,38 +855,43 @@
         "identifier": "snow-camouflage",
         "source": {
           "revision": 1,
-          "rules": "2024"
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
+        "crewed": false,
         "enchant": {},
         "prerequisites": {
-          "level": null,
+          "items": [],
           "repeatable": false,
-          "items": []
+          "level": null
         },
         "properties": [
           "trait"
         ],
         "requirements": "",
-        "advancement": {},
-        "cover": null,
-        "crewed": false
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
       },
-      "folder": null,
-      "img": "icons/svg/mystery-man.svg",
       "effects": [],
+      "folder": null,
+      "sort": 0,
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "sort": 0,
       "ownership": {
         "default": 0
       }
@@ -897,18 +900,15 @@
       "_id": "WWBite0000001",
       "name": "Bite",
       "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
       "system": {
-        "type": {
-          "value": "natural",
-          "baseItem": ""
-        },
         "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
+          "jIW6YJnLi32Tx6zX": {
+            "_id": "jIW6YJnLi32Tx6zX",
             "type": "attack",
             "activation": {
               "type": "action",
-              "value": 1,
+              "value": null,
               "override": false
             },
             "consumption": {
@@ -937,8 +937,6 @@
                 "stationary": false
               },
               "affects": {
-                "count": "1",
-                "type": "creature",
                 "choice": false
               },
               "override": false,
@@ -949,8 +947,6 @@
               "recovery": []
             },
             "attack": {
-              "ability": "",
-              "bonus": "6",
               "critical": {
                 "threshold": null
               },
@@ -958,7 +954,9 @@
               "type": {
                 "value": "melee",
                 "classification": "weapon"
-              }
+              },
+              "ability": "",
+              "bonus": "6"
             },
             "damage": {
               "critical": {
@@ -967,6 +965,97 @@
               "includeBase": true,
               "parts": []
             },
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false,
+              "identifier": ""
+            },
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "triggeredActivityConsume": true,
+              "triggeredActivityConfigure": true,
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "skipConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "rollAs": "target",
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "regionBehavior": {
+              "enabled": false,
+              "dispositionFilter": -1,
+              "excludeSource": true,
+              "oncePerTurn": true,
+              "wallRestriction": "none",
+              "regionVisibility": 2,
+              "rules": [],
+              "attachToken": "default"
+            },
+            "regionLight": {
+              "enabled": false,
+              "dim": 0,
+              "bright": 0,
+              "color": null,
+              "alpha": 0.5,
+              "luminosity": 0.5,
+              "animationType": "",
+              "animationSpeed": 5,
+              "animationIntensity": 5
+            },
+            "otherActivityId": "",
+            "otherActivityAsParentType": true,
+            "attackMode": "oneHanded",
+            "ammunition": "",
+            "otherActivityUuid": "",
+            "attackRollPerTarget": "default",
+            "fumbleThreshold": 1,
+            "name": "",
             "sort": 0
           }
         },
@@ -975,6 +1064,7 @@
           "recovery": [],
           "max": ""
         },
+        "advancement": {},
         "description": {
           "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</p>",
           "chat": ""
@@ -982,8 +1072,17 @@
         "identifier": "bite",
         "source": {
           "revision": 1,
-          "rules": "2024"
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
         "quantity": 1,
         "weight": {
           "value": 0,
@@ -993,49 +1092,71 @@
           "value": 0,
           "denomination": "gp"
         },
-        "equipped": true,
         "rarity": "",
-        "identified": true,
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "crew": {
+          "value": []
+        },
+        "ammunition": {},
+        "armor": {},
         "damage": {
           "base": {
-            "number": 2,
-            "denomination": "6",
-            "bonus": "+4",
             "types": [
               "piercing"
             ],
             "custom": {
-              "enabled": false,
-              "formula": ""
+              "enabled": false
             },
             "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
+              "number": 1
+            },
+            "number": 2,
+            "denomination": 6,
+            "bonus": "+4"
+          },
+          "versatile": {
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
             }
           }
         },
-        "properties": [],
-        "proficient": 1,
-        "enchant": {},
-        "advancement": {}
+        "properties": [
+          "gear"
+        ],
+        "proficient": null,
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": null
+        },
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "mastery": ""
       },
-      "folder": null,
-      "img": "icons/svg/mystery-man.svg",
       "effects": [],
+      "folder": null,
+      "sort": 100000,
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "sort": 100000,
       "ownership": {
         "default": 0
       }
@@ -1044,17 +1165,15 @@
       "_id": "WWColdBreath01",
       "name": "Cold Breath (Recharge 5-6)",
       "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
       "system": {
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
         "activities": {},
         "uses": {
           "spent": 0,
           "recovery": [],
           "max": ""
         },
+        "advancement": {},
         "description": {
           "value": "<p>The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 18 (4d8) cold damage on a failed save, or half as much on a successful one.</p>",
           "chat": ""
@@ -1062,38 +1181,43 @@
         "identifier": "cold-breath",
         "source": {
           "revision": 1,
-          "rules": "2024"
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
+        "crewed": false,
         "enchant": {},
         "prerequisites": {
-          "level": null,
+          "items": [],
           "repeatable": false,
-          "items": []
+          "level": null
         },
         "properties": [
           "monster"
         ],
         "requirements": "",
-        "advancement": {},
-        "cover": null,
-        "crewed": false
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
       },
-      "folder": null,
-      "img": "icons/svg/mystery-man.svg",
       "effects": [],
+      "folder": null,
+      "sort": 0,
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "sort": 0,
       "ownership": {
         "default": 0
       }
@@ -1105,15 +1229,15 @@
     "dnd5e": {}
   },
   "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
     "coreVersion": "14.364",
     "systemId": "dnd5e",
     "systemVersion": "5.3.3",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
   },
   "ownership": {
     "default": 0
