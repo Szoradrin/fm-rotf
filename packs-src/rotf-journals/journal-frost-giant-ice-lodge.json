@@ -1,0 +1,86 @@
+{
+  "name": "Frost Giant Ice Lodge",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Overview",
+      "type": "text",
+      "_id": "FGILOverview001",
+      "system": {},
+      "title": { "show": false, "level": 1 },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Frost Giant Ice Lodge</h1><p>Jutting up out of the vast tundra is a towering edifice built entirely of ice. The domed structure is easily three times the height and width of any building found in Ten-Towns. The lodge was where Garagai the frost giant lived and entertained other frost giants. Everything inside is built for giants — ceilings soar to 30 feet.</p><p>The lodge has three tall openings on the east side. On the southern side is a tunnel left behind by a remorhaz that raided the lodge's food stores.</p><section class=\"secret\"><h3>DM Notes</h3><p>The winter wolves <strong>Koran</strong> and <strong>Kanan</strong> expect Norsu to slaughter the characters. They wait outside in area L1 to attack any characters who flee. If one wolf is slain, the other flees.</p><p>If the wolves are with the party, they sniff the air and claim Garagai isn't home — DC 15 Wisdom (Insight) reveals they're lying. The frost giant is in fact inside (it's Norsu, not Garagai — Garagai is dead).</p></section>"
+      },
+      "video": { "controls": true, "volume": 0.5 },
+      "src": null,
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "category": null,
+      "ownership": { "default": -1 }
+    },
+    {
+      "sort": 200000,
+      "name": "L1–L4: Entrances",
+      "type": "text",
+      "_id": "FGILL1L400001",
+      "system": {},
+      "title": { "show": true, "level": 1 },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>L1. Exterior</h2><p>Three entrances on the east side lead to areas L2, L3, and L4. If the winter wolves are present, they nudge the characters toward the tunnel leading to L4.</p><h2>L2. Flensing Chamber</h2><blockquote><p>A sour stench of decay fills your nostrils. Lying on the ice-packed ground is the frozen corpse of a whale, crudely butchered. Beside it is a blade in the shape of a paring knife the size of a longsword.</p></blockquote><p>Garagai used this room to carve up whales and harvest their oil.</p><section class=\"secret\"><p><strong>Treasure:</strong> An alcove west of the carcass contains a 6-foot-long stone chest half buried under ice. Takes 1 hour to chip free. Contains giant-sized flensing tools and a scrimshaw goat worth <strong>25 gp</strong>.</p></section><h2>L3. Caged Townsfolk</h2><blockquote><p>A huge, slatted animal cage with a locked gate stands against the west wall. Trapped inside are two shivering humans in cold weather clothing. They look fearfully at you.</p></blockquote><p><strong>Silja Dejarr</strong> — spindly girl with pointy teeth and long braids. The more proactive of the two siblings.</p><p><strong>Finn Dejarr</strong> — piebald face, small malformed ears, frostbitten hands, teeth chattering. Examining cage brackets for escape.</p><section class=\"secret\"><p><strong>Escape options:</strong></p><ul><li>Apply heat to slats to make them pliable, then DC 15 Strength (Athletics) to pull them apart.</li><li>Pick the gate lock: DC 15 Dexterity (thieves' tools), takes 1 minute. Gate squeals loudly unless oiled — if Norsu is alive, it hears and investigates from L5.</li></ul></section><h2>L4. Entrance Corridor</h2><blockquote><p>This passageway is choked with ice. Above you, icicles are densely clustered, their points sharp as daggers.</p></blockquote><p>Moving through quietly: DC 15 Dexterity (Stealth). On failure, the noise alerts Norsu in L5.</p>"
+      },
+      "video": { "controls": true, "volume": 0.5 },
+      "src": null,
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "category": null,
+      "ownership": { "default": -1 }
+    },
+    {
+      "sort": 300000,
+      "name": "L5: Garagai's Icy Tomb",
+      "type": "text",
+      "_id": "FGILL500000001",
+      "system": {},
+      "title": { "show": true, "level": 1 },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>L5. Garagai's Icy Tomb</h2><blockquote><p>This oval chamber with high walls of glittering ice resembles a sepulcher. The frozen, hacked-up corpse of a frost giant lies on the floor, entombed in translucent ice, and looming next to it is a woolly mammoth.</p><p>Not far from the mammoth, carved from a single block of ice, is a giant-sized throne atop a circular dais. Chiseled into the throne's backrest is a large rune.</p></blockquote><blockquote><p><em>If Norsu is aware of the party:</em> The mammoth stares down at you with hate in its eyes. \"You are to blame for all of this!\" It lowers its head and assumes a threatening posture.</p></blockquote><section class=\"secret\"><h3>DM — Norsu</h3><p><strong>Norsu</strong> is an awakened neutral evil mammoth with Intelligence 10 who speaks Common. She grieves for Garagai and treats the party's presence as a desecration of his tomb.</p><p><strong>Calming Norsu</strong> (must act before Norsu's first turn):</p><ul><li>Claim to be Garagai's friend: DC 12 Charisma (Deception)</li><li>Vow to avenge Garagai's death: DC 12 Charisma (Persuasion)</li></ul><p>If calmed, Norsu allows characters to honor Garagai with a prayer or gift, then expects them to withdraw. If the party fails or flees, Norsu pursues up to 100 feet beyond the lodge before turning back.</p><h3>Ice Throne</h3><p>The rune carved into the throne is the Giant rune for \"ice\" — DC 15 Intelligence (Arcana) to identify. Detect magic reveals conjuration aura.</p><p><strong>Power:</strong> A creature seated in the throne can use an action to summon a blizzard (1 minute to form, engulfs lodge and extends 1 mile, lasts 8 hours). Recharges after a tenday.</p><p><strong>Stats if destroyed:</strong> AC 13, 80 HP, resistance to piercing and slashing, immunity to cold/poison/psychic, vulnerability to fire.</p></section>"
+      },
+      "video": { "controls": true, "volume": 0.5 },
+      "src": null,
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "category": null,
+      "ownership": { "default": -1 }
+    },
+    {
+      "sort": 400000,
+      "name": "L6–L8: War Room, Bedroll, Whale Oil",
+      "type": "text",
+      "_id": "FGILL6L800001",
+      "system": {},
+      "title": { "show": true, "level": 1 },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>L6. War Room</h2><blockquote><p>A massive table hewn from a single block of ice stands in the middle of this chamber, surrounded by chairs also made of ice. Many of the chairs are chipped and cracked.</p></blockquote><p>Lying on the floor under the table is a 1-foot-tall stone statuette of a chwinga — it is in fact an actual chwinga that turned to stone when it died.</p><p>Hiding behind chairs: <strong>Holgi, Snorp, and Zilbo</strong> — three Icewind Kobolds. They killed the chwinga when it startled them and now they're trapped, afraid of Norsu and the winter wolves. They petition the party for help escaping. If the party obliges, they follow until they're outdoors, then either part ways or remain with the party (DM discretion).</p><h2>L7. Garagai's Bedroll</h2><blockquote><p>The only furniture in this cavernous chamber is a big fur bedroll. The fur is matted and musty.</p></blockquote><p>Garagai's former bedroom. Now unoccupied.</p><h2>L8. Whale Oil Storage</h2><p>A remorhaz has burrowed a tunnel into this room from the southern wall — an alternate entrance and <strong>escape route</strong> (the winter wolves don't watch this exit).</p><p>The room contains five barrels of whale oil. Each intact barrel weighs 500 pounds and can be sold for <strong>50 gp</strong> in Ten-Towns.</p><section class=\"secret\"><p><strong>Treasure:</strong> The remorhaz is long gone, but a frosted white residue (thrym) coats a 5-foot section of wall — enough to fill a small bottle. Remorhazes exude thrym before giving birth. Alchemists use it to craft potions of resistance (cold). Sells for <strong>250 gp</strong>. A character proficient with alchemist's supplies can identify it with DC 11 Intelligence (Arcana).</p></section><h2>Sneaking Out</h2><p>With Silja and Finn in tow, the party can sneak out by avoiding L5. The remorhaz tunnel in L8 provides an alternate escape route the wolves aren't watching.</p><p>If the winter wolves are still alive, they attack the party as soon as any random encounter ends on the return trip. Killing one wolf causes the other to flee.</p>"
+      },
+      "video": { "controls": true, "volume": 0.5 },
+      "src": null,
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "category": null,
+      "ownership": { "default": -1 }
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "categories": [],
+  "ownership": { "default": 0 },
+  "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+}
