@@ -1,0 +1,67 @@
+{
+  "name": "Dougan's Hole",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Overview",
+      "type": "text",
+      "_id": "DHOverview00001",
+      "system": {},
+      "title": { "show": false, "level": 1 },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Dougan's Hole</h1><p><em>Friendliness ❄ &nbsp; Services ❄ &nbsp; Comfort ❄</em></p><p>Dougan's Hole is the smallest and most insular of the ten towns. Its residents aren't fond of visitors, and inbreeding has caused the population to dwindle in recent years, giving rise to common physical traits: small, misshapen ears and slightly pointed teeth.</p><p>The town is a small cluster of dwellings perched on the edge of Redwaters. It's too small to support any industry — not even scrimshaw. Ice has buckled the shorter of its two piers. The longer pier has two icebound keelboats tethered to it, immobile since Auril's winter froze the lake. Local fishers resort to cutting holes in the ice for knucklehead trout. Visitors are often struck by dark, humanoid shapes out on the ice — still and silent as the wind howls around them.</p><table><thead><tr><th>Detail</th><th></th></tr></thead><tbody><tr><td><strong>Population</strong></td><td>50</td></tr><tr><td><strong>Leader</strong></td><td>Speaker Edgra Durmoot (neutral human scout) — plainspoken trapper, seldom attends Council of Speakers</td></tr><tr><td><strong>Militia</strong></td><td>12 tribal warriors + 1 veteran</td></tr><tr><td><strong>Sacrifice to Auril</strong></td><td>Warmth — no fires from dusk to dawn on new moon nights</td></tr><tr><td><strong>Rival</strong></td><td>Good Mead</td></tr><tr><td><strong>Available Quest</strong></td><td>Holed Up</td></tr></tbody></table><h2>Overland Travel</h2><p>A six-mile-long, snow-covered path connects Dougan's Hole to Good Mead. Characters on foot can walk this path in 4 hours; mounts and dogsleds can shorten this by as much as 50 percent.</p><h2>Heraldry</h2><p>A gray, pillar-like monolith set against a sky-blue field above two crossed silver fish. The monolith signifies local mystery; the fish represent the bounty of Redwaters.</p>"
+      },
+      "video": { "controls": true, "volume": 0.5 },
+      "src": null,
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "category": null,
+      "ownership": { "default": -1 }
+    },
+    {
+      "sort": 200000,
+      "name": "Twenty Stones of Thruun",
+      "type": "text",
+      "_id": "DHTwentyStones1",
+      "system": {},
+      "title": { "show": true, "level": 1 },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Twenty Stones of Thruun</h2><p>The only truly interesting feature in Dougan's Hole is the ring of megaliths known as the Twenty Stones of Thruun. Standing at the southern edge of town, nineteen of these crudely fashioned granite menhirs are arranged in a rough triangle, with a single stone at the formation's center.</p><p>No one knows who built this structure or why. The townsfolk maintain the stones were there when the town's founder, Dougan Dubrace, first happened upon this fishing spot. Scholars have found only allusions to a creature named Thruun in the oldest legends of the northern folk — some believe it was a god, others an elemental spirit bound here by ancient druidic magic.</p><section class=\"secret\"><h3>DM — Cult of Auril Connection</h3><p>The Church of Auril has surreptitiously been using the Twenty Stones of Thruun as an Ice Temple in Auril's honor. Icebringer <strong>Savaa Rubyeye</strong> has recently become more open about the ceremonies taking place here and plans to officiate the Midwinter Celebration at this location.</p><p>Speaker Edgra Durmoot has protested this to the Council of Speakers — her appeals have gone unheard. As a result, Edgra no longer attends council meetings and has taken to leading Dougan's Hole as an independent village. She is a potential ally to the party.</p><h3>The Twenty Stones Ceremony</h3><p>On new moon nights, Savaa Rubyeye leads a warmth sacrifice here. Townsfolk gather at the stones, extinguish all fires, and stand in silence until dawn, sharing body heat. Savaa presides in ceremonial vestments bearing Auril's six-pointed snowflake symbol, leading quiet prayers to the Frostmaiden.</p><p>The four tenets visible in the ceremony:</p><ul><li><strong>Cruelty</strong> — Savaa's cold indifference to the suffering of the townsfolk</li><li><strong>Endurance</strong> — Standing through the night in freezing cold without fire</li><li><strong>Isolation</strong> — Each person endures alone even while standing together</li><li><strong>Preservation</strong> — The phrase spoken as the sacrifice ends: <em>\"Every flake of snow is unique, and that which is unique must be preserved.\"</em></li></ul><h3>Savaa Rubyeye — Icebringer Stats</h3><p>Savaa is a CR 6 Icebringer of Auril. Her eyes are solid blue orbs (Blessing of the Frostmaiden). She has immunity to cold damage and can cast cone of cold once per day. If the party confronts her, she will attempt to flee before fighting — she is a priestess, not a warrior. If cornered, she is dangerous.</p><p>Cult greeting if party members approach covertly: <em>\"The frigid veil persists\"</em> — correct response: <em>\"All the world in winter's white.\"</em></p></section>"
+      },
+      "video": { "controls": true, "volume": 0.5 },
+      "src": null,
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "category": null,
+      "ownership": { "default": -1 }
+    },
+    {
+      "sort": 300000,
+      "name": "Holed Up",
+      "type": "text",
+      "_id": "DHHoledUp00001",
+      "system": {},
+      "title": { "show": true, "level": 1 },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Holed Up</h2><p>Two winter wolves are extorting the people of Dougan's Hole for food and treasure on behalf of an awakened woolly mammoth named Norsu. Years ago, a frost druid awakened Norsu. Last year, adventurers killed Garagai, the mammoth's frost giant master. Norsu has never recovered from the loss and watches over its master's frozen corpse, unwilling to leave its side. The winter wolves — Koran and Kanan — look after the mammoth.</p><p>Held captive in the frost giant's ice lodge are <strong>Silja and Finn Dejarr</strong>, two teenaged siblings from Dougan's Hole who have been missing for four days. The wolves are holding them in a cage, feeding them raw meat, until Dougan's Hole pays a ransom.</p><h3>Getting the Quest</h3><p>Speaker Edgra Durmoot is stubborn to a fault. She believes the missing teenagers are dead and won't give food to the winter wolves when her own people barely have enough. She lets the characters deal with the wolves as they see fit but offers no assistance.</p><p>Hilda Dejarr stands in the snow outside her home. She begs the party to find her children.</p><h3>Good Wolf, Bad Wolf</h3><p>The party encounters <strong>Koran</strong> and <strong>Kanan</strong> at the outskirts of town.</p><ul><li><strong>Koran</strong> limps on one back leg, acting pitiful. DC 15 Wisdom (Insight) to see through it — he sometimes forgets which leg he's supposedly limping on. He claims Garagai kidnapped two townsfolk and offers to lead the party to the lodge to free them.</li><li><strong>Kanan</strong> stays hidden nearby. If Koran's act fails, Kanan plays the \"bad wolf,\" threatening to eat the characters unless they comply.</li><li>If both acts fail, the wolves appeal to the party's conscience: <em>\"It's awfully cold in that lodge,\"</em> then bolt toward the lodge leaving tracks.</li></ul><p><strong>DC 15 Wisdom (Insight)</strong> reveals either wolf is lying.</p><h3>Crossing the Tundra</h3><p>The ice lodge is 13 miles west of Dougan's Hole. 50% chance of blizzard en route. If the wolves accompany the party, they protect characters from the worst of the storm and prevent the party from getting lost.</p><p>Also crossing the tundra: 1d6+1 wolves prowling for food (gaunt from starvation). If the winter wolves are present, Koran and Kanan growl and bare their teeth, deterring them.</p><h3>Treasure / Reward</h3><p>If one or both children are returned safely, Hilda gives the characters her late husband's <strong>boots of the winterlands</strong> — won from a wayward adventurer in a drinking contest.</p>"
+      },
+      "video": { "controls": true, "volume": 0.5 },
+      "src": null,
+      "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "category": null,
+      "ownership": { "default": -1 }
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "categories": [],
+  "ownership": { "default": 0 },
+  "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+}
