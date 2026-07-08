@@ -415,47 +415,41 @@
     "tools": {},
     "spells": {
       "spell1": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell2": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell3": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell4": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell5": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell6": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell7": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell8": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "spell9": {
-        "value": 0,
-        "override": null
+        "value": 0
       },
       "pact": {
-        "value": 0,
-        "override": null
+        "value": 0
       }
     },
     "attributes": {
+      "ac": {
+        "calc": "natural",
+        "flat": 11
+      },
       "init": {
         "ability": "",
         "roll": {
@@ -466,26 +460,29 @@
         "bonus": ""
       },
       "movement": {
-        "burrow": "0",
-        "fly": "0",
-        "swim": "0",
-        "walk": "0",
-        "units": null,
+        "units": "ft",
         "hover": false,
-        "ignoredDifficultTerrain": []
+        "ignoredDifficultTerrain": [],
+        "walk": "0",
+        "burrow": "",
+        "climb": "",
+        "fly": "40",
+        "swim": "",
+        "bonus": "",
+        "special": ""
       },
       "attunement": {
         "max": 3
       },
       "senses": {
-        "units": null,
-        "special": "",
         "ranges": {
-          "darkvision": 60,
           "blindsight": null,
+          "darkvision": 60,
           "tremorsense": null,
           "truesight": null
-        }
+        },
+        "units": "ft",
+        "special": ""
       },
       "spellcasting": "",
       "exhaustion": 0,
@@ -501,10 +498,7 @@
         },
         "limit": 1
       },
-      "ac": {
-        "flat": 11,
-        "calc": "natural"
-      },
+      "loyalty": {},
       "hd": {
         "spent": 0
       },
@@ -513,7 +507,8 @@
         "max": 45,
         "temp": null,
         "tempmax": null,
-        "formula": "10d8"
+        "formula": "10d8",
+        "dt": null
       },
       "death": {
         "roll": {
@@ -527,13 +522,12 @@
           "save": ""
         }
       },
-      "spell": {
-        "level": 0
-      },
-      "loyalty": {},
       "price": {
         "value": null,
         "denomination": "gp"
+      },
+      "spell": {
+        "level": 0
       }
     },
     "details": {
@@ -558,15 +552,7 @@
         "custom": ""
       },
       "treasure": {
-        "value": []
-      },
-      "source": {
-        "revision": 1,
-        "rules": "2024",
-        "book": "",
-        "page": "",
-        "custom": "",
-        "license": ""
+        "value": {}
       }
     },
     "resources": {
@@ -584,19 +570,26 @@
         "inside": false
       }
     },
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
     "traits": {
       "size": "med",
       "di": {
-        "bypasses": [],
         "value": [
           "cold",
           "necrotic",
           "poison"
         ],
-        "custom": ""
+        "custom": "",
+        "bypasses": []
       },
       "dr": {
-        "bypasses": [],
         "value": [
           "acid",
           "fire",
@@ -606,12 +599,13 @@
           "piercing",
           "slashing"
         ],
-        "custom": ""
+        "custom": "",
+        "bypasses": []
       },
       "dv": {
-        "bypasses": [],
         "value": [],
-        "custom": ""
+        "custom": "",
+        "bypasses": []
       },
       "dm": {
         "amount": {},
@@ -652,6 +646,7 @@
     "prependAdjective": false,
     "width": 1,
     "height": 1,
+    "depth": 1,
     "texture": {
       "src": "icons/svg/mystery-man.svg",
       "anchorX": 0.5,
@@ -733,25 +728,22 @@
       "src": null,
       "disposition": true
     },
-    "movementAction": null,
-    "depth": 1
+    "movementAction": null
   },
   "items": [
     {
       "_id": "NLEtherSight1",
       "name": "Ethereal Sight",
       "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
       "system": {
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
         "activities": {},
         "uses": {
           "spent": 0,
           "recovery": [],
           "max": ""
         },
+        "advancement": {},
         "description": {
           "value": "<p>The ghost can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa.</p>",
           "chat": ""
@@ -759,38 +751,43 @@
         "identifier": "ethereal-sight",
         "source": {
           "revision": 1,
-          "rules": "2024"
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
+        "crewed": false,
         "enchant": {},
         "prerequisites": {
-          "level": null,
+          "items": [],
           "repeatable": false,
-          "items": []
+          "level": null
         },
         "properties": [
           "trait"
         ],
         "requirements": "",
-        "advancement": {},
-        "cover": null,
-        "crewed": false
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
       },
-      "folder": null,
-      "img": "icons/svg/mystery-man.svg",
       "effects": [],
+      "folder": null,
+      "sort": 0,
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "sort": 0,
       "ownership": {
         "default": 0
       }
@@ -799,17 +796,15 @@
       "_id": "NLIncorpMove1",
       "name": "Incorporeal Movement",
       "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
       "system": {
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
         "activities": {},
         "uses": {
           "spent": 0,
           "recovery": [],
           "max": ""
         },
+        "advancement": {},
         "description": {
           "value": "<p>The ghost can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</p>",
           "chat": ""
@@ -817,38 +812,43 @@
         "identifier": "incorporeal-movement",
         "source": {
           "revision": 1,
-          "rules": "2024"
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
+        "crewed": false,
         "enchant": {},
         "prerequisites": {
-          "level": null,
+          "items": [],
           "repeatable": false,
-          "items": []
+          "level": null
         },
         "properties": [
           "trait"
         ],
         "requirements": "",
-        "advancement": {},
-        "cover": null,
-        "crewed": false
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
       },
-      "folder": null,
-      "img": "icons/svg/mystery-man.svg",
       "effects": [],
+      "folder": null,
+      "sort": 0,
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "sort": 0,
       "ownership": {
         "default": 0
       }
@@ -857,56 +857,59 @@
       "_id": "NLSpellcast01",
       "name": "Spellcasting",
       "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
       "system": {
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
         "activities": {},
         "uses": {
           "spent": 0,
           "recovery": [],
           "max": ""
         },
+        "advancement": {},
         "description": {
-          "value": "<p>The ghost is a 6th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14). It has the following wizard spells prepared:</p><p>Cantrips (at will): mage hand, message, prestidigitation, ray of frost</p><p>1st level (4 slots): detect magic, thunderwave</p><p>2nd level (3 slots): \u2014</p><p>3rd level (3 slots): counterspell</p>",
+          "value": "<p>The ghost is a 6th-level spellcaster. Spellcasting ability is Intelligence (spell save DC 14). Spells prepared:</p><p>Cantrips: mage hand, message, prestidigitation, ray of frost</p><p>1st level (4 slots): detect magic, thunderwave</p><p>3rd level (3 slots): counterspell</p>",
           "chat": ""
         },
         "identifier": "spellcasting",
         "source": {
           "revision": 1,
-          "rules": "2024"
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
+        "crewed": false,
         "enchant": {},
         "prerequisites": {
-          "level": null,
+          "items": [],
           "repeatable": false,
-          "items": []
+          "level": null
         },
         "properties": [
           "trait"
         ],
         "requirements": "",
-        "advancement": {},
-        "cover": null,
-        "crewed": false
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
       },
-      "folder": null,
-      "img": "icons/svg/mystery-man.svg",
       "effects": [],
+      "folder": null,
+      "sort": 0,
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "sort": 0,
       "ownership": {
         "default": 0
       }
@@ -915,18 +918,15 @@
       "_id": "NLWitherTouch",
       "name": "Withering Touch",
       "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
       "system": {
-        "type": {
-          "value": "natural",
-          "baseItem": ""
-        },
         "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
+          "t9PoIYNpaQuRyx55": {
+            "_id": "t9PoIYNpaQuRyx55",
             "type": "attack",
             "activation": {
               "type": "action",
-              "value": 1,
+              "value": null,
               "override": false
             },
             "consumption": {
@@ -955,8 +955,6 @@
                 "stationary": false
               },
               "affects": {
-                "count": "1",
-                "type": "creature",
                 "choice": false
               },
               "override": false,
@@ -967,8 +965,6 @@
               "recovery": []
             },
             "attack": {
-              "ability": "",
-              "bonus": "6",
               "critical": {
                 "threshold": null
               },
@@ -976,7 +972,9 @@
               "type": {
                 "value": "melee",
                 "classification": "weapon"
-              }
+              },
+              "ability": "",
+              "bonus": "6"
             },
             "damage": {
               "critical": {
@@ -985,6 +983,97 @@
               "includeBase": true,
               "parts": []
             },
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false,
+              "identifier": ""
+            },
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "triggeredActivityConsume": true,
+              "triggeredActivityConfigure": true,
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "skipConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "rollAs": "target",
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "regionBehavior": {
+              "enabled": false,
+              "dispositionFilter": -1,
+              "excludeSource": true,
+              "oncePerTurn": true,
+              "wallRestriction": "none",
+              "regionVisibility": 2,
+              "rules": [],
+              "attachToken": "default"
+            },
+            "regionLight": {
+              "enabled": false,
+              "dim": 0,
+              "bright": 0,
+              "color": null,
+              "alpha": 0.5,
+              "luminosity": 0.5,
+              "animationType": "",
+              "animationSpeed": 5,
+              "animationIntensity": 5
+            },
+            "otherActivityId": "",
+            "otherActivityAsParentType": true,
+            "attackMode": "oneHanded",
+            "ammunition": "",
+            "otherActivityUuid": "",
+            "attackRollPerTarget": "default",
+            "fumbleThreshold": 1,
+            "name": "",
             "sort": 0
           }
         },
@@ -993,6 +1082,7 @@
           "recovery": [],
           "max": ""
         },
+        "advancement": {},
         "description": {
           "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (4d6 + 3) necrotic damage.</p>",
           "chat": ""
@@ -1000,8 +1090,17 @@
         "identifier": "withering-touch",
         "source": {
           "revision": 1,
-          "rules": "2024"
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
         "quantity": 1,
         "weight": {
           "value": 0,
@@ -1011,49 +1110,71 @@
           "value": 0,
           "denomination": "gp"
         },
-        "equipped": true,
         "rarity": "",
-        "identified": true,
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "crew": {
+          "value": []
+        },
+        "ammunition": {},
+        "armor": {},
         "damage": {
           "base": {
-            "number": 4,
-            "denomination": "6",
-            "bonus": "+3",
             "types": [
               "necrotic"
             ],
             "custom": {
-              "enabled": false,
-              "formula": ""
+              "enabled": false
             },
             "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
+              "number": 1
+            },
+            "number": 4,
+            "denomination": 6,
+            "bonus": "+3"
+          },
+          "versatile": {
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
             }
           }
         },
-        "properties": [],
-        "proficient": 1,
-        "enchant": {},
-        "advancement": {}
+        "properties": [
+          "gear"
+        ],
+        "proficient": null,
+        "range": {
+          "units": "ft",
+          "value": null,
+          "long": null,
+          "reach": null
+        },
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "mastery": ""
       },
-      "folder": null,
-      "img": "icons/svg/mystery-man.svg",
       "effects": [],
+      "folder": null,
+      "sort": 100000,
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "sort": 100000,
       "ownership": {
         "default": 0
       }
@@ -1062,17 +1183,15 @@
       "_id": "NLEtherealns1",
       "name": "Etherealness",
       "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
       "system": {
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
         "activities": {},
         "uses": {
           "spent": 0,
           "recovery": [],
           "max": ""
         },
+        "advancement": {},
         "description": {
           "value": "<p>The ghost enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane.</p>",
           "chat": ""
@@ -1080,38 +1199,43 @@
         "identifier": "etherealness",
         "source": {
           "revision": 1,
-          "rules": "2024"
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
+        "crewed": false,
         "enchant": {},
         "prerequisites": {
-          "level": null,
+          "items": [],
           "repeatable": false,
-          "items": []
+          "level": null
         },
         "properties": [
           "monster"
         ],
         "requirements": "",
-        "advancement": {},
-        "cover": null,
-        "crewed": false
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
       },
-      "folder": null,
-      "img": "icons/svg/mystery-man.svg",
       "effects": [],
+      "folder": null,
+      "sort": 0,
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "sort": 0,
       "ownership": {
         "default": 0
       }
@@ -1120,56 +1244,59 @@
       "_id": "NLHorrVisage1",
       "name": "Horrifying Visage",
       "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
       "system": {
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
         "activities": {},
         "uses": {
           "spent": 0,
           "recovery": [],
           "max": ""
         },
+        "advancement": {},
         "description": {
-          "value": "<p>Each non-undead creature within 60 feet of the ghost that can see it must succeed on a DC 14 Wisdom saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 \u00d7 10 years. A frightened target can repeat the saving throw at the end of each of its turns. The aging effect can be reversed by a greater restoration spell cast within 24 hours.</p>",
+          "value": "<p>Each non-undead creature within 60 feet of the ghost that can see it must succeed on a DC 14 Wisdom saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 x 10 years.</p>",
           "chat": ""
         },
         "identifier": "horrifying-visage",
         "source": {
           "revision": 1,
-          "rules": "2024"
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
+        "crewed": false,
         "enchant": {},
         "prerequisites": {
-          "level": null,
+          "items": [],
           "repeatable": false,
-          "items": []
+          "level": null
         },
         "properties": [
           "monster"
         ],
         "requirements": "",
-        "advancement": {},
-        "cover": null,
-        "crewed": false
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
       },
-      "folder": null,
-      "img": "icons/svg/mystery-man.svg",
       "effects": [],
+      "folder": null,
+      "sort": 0,
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "sort": 0,
       "ownership": {
         "default": 0
       }
@@ -1178,56 +1305,59 @@
       "_id": "NLPossession1",
       "name": "Possession (Recharge 6)",
       "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
       "system": {
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
         "activities": {},
         "uses": {
           "spent": 0,
           "recovery": [],
           "max": ""
         },
+        "advancement": {},
         "description": {
-          "value": "<p>One humanoid the ghost can see within 5 feet must succeed on a DC 14 Charisma saving throw or be possessed. The ghost then disappears and the target is incapacitated and loses control of its body. The ghost can't be targeted by attacks or spells while possessing a target. The possession lasts until the body drops to 0 hp, the ghost ends it as a bonus action, or the ghost is turned or forced out.</p>",
+          "value": "<p>One humanoid the ghost can see within 5 feet must succeed on a DC 14 Charisma saving throw or be possessed. The ghost then disappears and the target is incapacitated and loses control of its body. The possession lasts until the body drops to 0 hp, the ghost ends it as a bonus action, or the ghost is turned or forced out.</p>",
           "chat": ""
         },
         "identifier": "possession",
         "source": {
           "revision": 1,
-          "rules": "2024"
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
+        "crewed": false,
         "enchant": {},
         "prerequisites": {
-          "level": null,
+          "items": [],
           "repeatable": false,
-          "items": []
+          "level": null
         },
         "properties": [
           "monster"
         ],
         "requirements": "",
-        "advancement": {},
-        "cover": null,
-        "crewed": false
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
       },
-      "folder": null,
-      "img": "icons/svg/mystery-man.svg",
       "effects": [],
+      "folder": null,
+      "sort": 0,
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
       },
-      "sort": 0,
       "ownership": {
         "default": 0
       }
@@ -1239,15 +1369,15 @@
     "dnd5e": {}
   },
   "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
     "coreVersion": "14.364",
     "systemId": "dnd5e",
     "systemVersion": "5.3.3",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
   },
   "ownership": {
     "default": 0
