@@ -1,0 +1,5 @@
+2026/07/09-00:51:10.815151 7f41f2bfd6c0 Delete type=3 #1
+2026/07/09-00:51:10.820646 7f41f1bfb6c0 Level-0 table #5: started
+2026/07/09-00:51:10.822459 7f41f1bfb6c0 Level-0 table #5: 12917 bytes OK
+2026/07/09-00:51:10.823122 7f41f1bfb6c0 Delete type=0 #3
+2026/07/09-00:51:10.823166 7f41f1bfb6c0 Manual compaction at level-0 from '!tables!AurilCultEncTable01' @ 72057594037927935 : 1 .. '!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0020' @ 0 : 0; will stop at (end)

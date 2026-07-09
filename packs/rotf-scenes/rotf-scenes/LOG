@@ -1,5 +1,0 @@
-2026/07/09-00:36:47.821910 7f7394fbd6c0 Delete type=3 #1
-2026/07/09-00:36:47.826185 7f73877fe6c0 Level-0 table #5: started
-2026/07/09-00:36:47.828526 7f73877fe6c0 Level-0 table #5: 3216 bytes OK
-2026/07/09-00:36:47.829228 7f73877fe6c0 Delete type=0 #3
-2026/07/09-00:36:47.829272 7f73877fe6c0 Manual compaction at level-0 from '!scenes!BremenTownSc01' @ 72057594037927935 : 1 .. '!scenes.levels!TwentyStonesOfTh.defaultLevel0000' @ 0 : 0; will stop at (end)
