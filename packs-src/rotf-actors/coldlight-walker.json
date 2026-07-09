@@ -5,38 +5,101 @@
   "img": "modules/rotf/assets/images/token-coldlight-walker.webp",
   "system": {
     "abilities": {
-      "str": { "value": 15 },
-      "dex": { "value": 10 },
-      "con": { "value": 17 },
-      "int": { "value": 8 },
-      "wis": { "value": 10 },
-      "cha": { "value": 8 }
+      "str": {
+        "value": 15
+      },
+      "dex": {
+        "value": 10
+      },
+      "con": {
+        "value": 17
+      },
+      "int": {
+        "value": 8
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 8
+      }
     },
     "attributes": {
-      "ac": { "flat": 13, "calc": "flat", "formula": "" },
-      "hp": { "value": 82, "max": 82, "temp": 0, "formula": "11d8+33" },
-      "speed": { "value": 30, "special": "" },
+      "ac": {
+        "flat": 13,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 82,
+        "max": 82,
+        "temp": 0,
+        "formula": "11d8+33"
+      },
+      "speed": {
+        "value": 30,
+        "special": ""
+      },
       "prof": 3
     },
     "details": {
-      "biography": { "value": "<p>Some humanoids who died from extreme cold but whose spirits languish in the mortal world become coldlight walkers, burning with frigid fury at the meaninglessness of life. Their frostbitten corpses emit a spectral light so intense that mortal eyes can barely stand to look at them. When a coldlight walker dies, its light goes out, leaving behind a frozen, inanimate corpse that can never be raised from the dead.</p>", "public": "" },
+      "biography": {
+        "value": "<p>Some humanoids who died from extreme cold but whose spirits languish in the mortal world become coldlight walkers, burning with frigid fury at the meaninglessness of life. Their frostbitten corpses emit a spectral light so intense that mortal eyes can barely stand to look at them. When a coldlight walker dies, its light goes out, leaving behind a frozen, inanimate corpse that can never be raised from the dead.</p>",
+        "public": ""
+      },
       "alignment": "Chaotic Evil",
       "race": "",
-      "type": { "value": "undead", "subtype": "", "swarm": "", "custom": "" },
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "cr": 5,
       "spellLevel": 0,
-      "source": { "custom": "ROTF" }
+      "source": {
+        "custom": "ROTF"
+      }
     },
     "traits": {
       "size": "med",
-      "languages": { "value": [], "custom": "" },
-      "senses": { "darkvision": 60, "blindsight": 0, "tremorsense": 0, "truesight": 0, "units": "ft", "special": "" },
-      "di": { "value": ["cold"], "custom": "" },
-      "ci": { "value": ["blinded", "charmed", "exhaustion", "paralyzed", "petrified", "poisoned"], "custom": "" }
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "di": {
+        "value": [
+          "cold"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "blinded",
+          "charmed",
+          "exhaustion",
+          "paralyzed",
+          "petrified",
+          "poisoned"
+        ],
+        "custom": ""
+      }
     },
     "saves": {
-      "int": { "proficient": 1 },
-      "wis": { "proficient": 1 }
+      "int": {
+        "proficient": 1
+      },
+      "wis": {
+        "proficient": 1
+      }
     },
     "skills": {}
   },
@@ -47,16 +110,37 @@
       "type": "feat",
       "img": "icons/magic/light/explosion-star-glow-yellow.webp",
       "system": {
-        "description": { "value": "<p>The walker sheds bright light in a 20-foot radius and dim light for an additional 20 feet. As a bonus action, the walker can target one creature in its bright light that it can see and force it to succeed on a DC 14 Constitution saving throw or be blinded until the start of the walker's next turn.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "bonus", "value": 1 },
+        "description": {
+          "value": "<p>The walker sheds bright light in a 20-foot radius and dim light for an additional 20 feet. As a bonus action, the walker can target one creature in its bright light that it can see and force it to succeed on a DC 14 Constitution saving throw or be blinded until the start of the walker's next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "bonus",
+          "value": 1
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "save",
-            "activation": { "type": "bonus", "value": 1, "condition": "", "override": false },
-            "save": { "ability": "con", "dc": { "formula": "14", "calculation": "" } },
-            "damage": { "parts": [] }
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "save": {
+              "ability": "con",
+              "dc": {
+                "formula": "14",
+                "calculation": ""
+              }
+            },
+            "damage": {
+              "parts": []
+            }
           }
         }
       },
@@ -68,9 +152,17 @@
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-spike-purple.webp",
       "system": {
-        "description": { "value": "<p>Any creature killed by the walker freezes for 9 days, during which time it can't be thawed, harmed by fire, animated, or raised from the dead.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null },
+        "description": {
+          "value": "<p>Any creature killed by the walker freezes for 9 days, during which time it can't be thawed, harmed by fire, animated, or raised from the dead.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null
+        },
         "activities": {}
       },
       "_key": "!actors.items!CldlghtWlkr001.CldWlkrItem002"
@@ -81,9 +173,17 @@
       "type": "feat",
       "img": "icons/magic/nature/elemental-air-humanoid.webp",
       "system": {
-        "description": { "value": "<p>The walker doesn't require air, food, drink, or sleep.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null },
+        "description": {
+          "value": "<p>The walker doesn't require air, food, drink, or sleep.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null
+        },
         "activities": {}
       },
       "_key": "!actors.items!CldlghtWlkr001.CldWlkrItem003"
@@ -94,14 +194,27 @@
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
-        "description": { "value": "<p>The walker makes two attacks.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1 },
+        "description": {
+          "value": "<p>The walker makes two attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "utility",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            }
           }
         }
       },
@@ -113,20 +226,61 @@
       "type": "weapon",
       "img": "icons/skills/melee/strike-fist-yellow-red.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) bludgeoning damage plus 14 (4d6) cold damage.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": 1,
-        "activation": { "type": "action", "value": 1 },
-        "range": { "value": 5, "units": "ft" },
+        "description": {
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) bludgeoning damage plus 14 (4d6) cold damage.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "activation": {
+          "type": "action",
+          "value": 1
+        },
+        "range": {
+          "value": 5,
+          "units": "ft"
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": false, "type": { "value": "melee", "classification": "weapon" } },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
             "damage": {
               "parts": [
-                { "number": 2, "denomination": "8", "bonus": "2", "types": ["bludgeoning"] },
-                { "number": 4, "denomination": "6", "bonus": "", "types": ["cold"] }
+                {
+                  "number": 2,
+                  "denomination": "8",
+                  "bonus": "2",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                },
+                {
+                  "number": 4,
+                  "denomination": "6",
+                  "bonus": "",
+                  "types": [
+                    "cold"
+                  ]
+                }
               ]
             }
           }
@@ -140,17 +294,55 @@
       "type": "weapon",
       "img": "icons/magic/water/ice-crystal-spike-blue.webp",
       "system": {
-        "description": { "value": "<p>Ranged Spell Attack: +3 to hit, range 60 ft., one target. Hit: 25 (4d10 + 3) cold damage.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": 1,
-        "activation": { "type": "action", "value": 1 },
-        "range": { "value": 60, "units": "ft" },
+        "description": {
+          "value": "<p>Ranged Spell Attack: +3 to hit, range 60 ft., one target. Hit: 25 (4d10 + 3) cold damage.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "activation": {
+          "type": "action",
+          "value": 1
+        },
+        "range": {
+          "value": 60,
+          "units": "ft"
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "attack": { "ability": "wis", "bonus": "", "critical": { "threshold": null }, "flat": true, "type": { "value": "ranged", "classification": "spell" } },
-            "damage": { "parts": [{ "number": 4, "denomination": "10", "bonus": "3", "types": ["cold"] }] }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "wis",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "ranged",
+                "classification": "spell"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 4,
+                  "denomination": "10",
+                  "bonus": "3",
+                  "types": [
+                    "cold"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
@@ -159,26 +351,87 @@
   ],
   "prototypeToken": {
     "name": "Coldlight Walker",
-    "displayName": 0, "actorLink": false, "appendNumber": false, "prependAdjective": false,
-    "width": 1, "height": 1,
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
     "texture": {
       "src": "modules/rotf/assets/images/token-coldlight-walker.webp",
-      "anchorX": 0.5, "anchorY": 0.5, "fit": "contain",
-      "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
-    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1,
-    "displayBars": 0, "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 20, "color": "#aaddff", "coloration": 1, "dim": 20,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 20,
+      "color": "#aaddff",
+      "coloration": 1,
+      "dim": 20,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
-    "detectionModes": {}, "occludable": { "radius": 0 },
-    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
-    "flags": {}, "randomImg": false
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
   },
   "flags": {},
   "_stats": {

@@ -5,38 +5,91 @@
   "img": "modules/rotf/assets/images/token-tomb-tapper.webp",
   "system": {
     "abilities": {
-      "str": { "value": 22 },
-      "dex": { "value": 10 },
-      "con": { "value": 21 },
-      "int": { "value": 14 },
-      "wis": { "value": 14 },
-      "cha": { "value": 11 }
+      "str": {
+        "value": 22
+      },
+      "dex": {
+        "value": 10
+      },
+      "con": {
+        "value": 21
+      },
+      "int": {
+        "value": 14
+      },
+      "wis": {
+        "value": 14
+      },
+      "cha": {
+        "value": 11
+      }
     },
     "attributes": {
-      "ac": { "flat": 17 },
-      "hp": { "value": 207, "max": 207, "formula": "18d12+90" },
-      "speed": { "value": 30, "burrow": 10, "units": "ft" },
+      "ac": {
+        "flat": 17
+      },
+      "hp": {
+        "value": 207,
+        "max": 207,
+        "formula": "18d12+90"
+      },
+      "speed": {
+        "value": 30,
+        "burrow": 10,
+        "units": "ft"
+      },
       "prof": 4
     },
     "details": {
-      "biography": { "value": "<p>The Netherese arcanists who created these creatures called them \"thaluud,\" which means \"faceless.\" Wrought from the fusion of magic and elemental earth, each of these sexless, hairless warriors stands 15 to 21 feet tall and possesses a lust for magic, an inherited memory, and an insane hatred for nonhuman spellcasting creatures.</p>" },
+      "biography": {
+        "value": "<p>The Netherese arcanists who created these creatures called them \"thaluud,\" which means \"faceless.\" Wrought from the fusion of magic and elemental earth, each of these sexless, hairless warriors stands 15 to 21 feet tall and possesses a lust for magic, an inherited memory, and an insane hatred for nonhuman spellcasting creatures.</p>"
+      },
       "alignment": "lawful neutral",
       "race": "",
-      "type": { "value": "construct", "subtype": "", "swarm": "", "custom": "" },
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "environment": "",
       "cr": 10,
       "spellLevel": 0,
-      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "302" }
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "302"
+      }
     },
     "traits": {
       "size": "huge",
-      "di": { "value": ["cold", "fire"] },
-      "dr": { "value": ["lightning"] },
-      "ci": { "value": ["charmed", "frightened"] },
-      "languages": { "value": ["common", "undercommon"] }
+      "di": {
+        "value": [
+          "cold",
+          "fire"
+        ]
+      },
+      "dr": {
+        "value": [
+          "lightning"
+        ]
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "frightened"
+        ]
+      },
+      "languages": {
+        "value": [
+          "common",
+          "undercommon"
+        ]
+      }
     },
     "skills": {
-      "prc": { "value": 1 }
+      "prc": {
+        "value": 1
+      }
     },
     "saves": {}
   },
@@ -47,8 +100,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "A tomb tapper reduced to 0 hit points turns into a lifeless stone statue. Anything it's wearing or carrying is not transformed.", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "302" }
+        "description": {
+          "value": "A tomb tapper reduced to 0 hit points turns into a lifeless stone statue. Anything it's wearing or carrying is not transformed.",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "302"
+        }
       },
       "_key": "!actors.items!TombTaprRotf08Hi.TombTaprItem001a"
     },
@@ -58,8 +117,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "The tomb tapper senses magic within 30 feet of it and can use an action to pinpoint the location of any creature, object, or area in that range that bears magic. This sense penetrates barriers but is blocked by a thin sheet of lead.", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "302" }
+        "description": {
+          "value": "The tomb tapper senses magic within 30 feet of it and can use an action to pinpoint the location of any creature, object, or area in that range that bears magic. This sense penetrates barriers but is blocked by a thin sheet of lead.",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "302"
+        }
       },
       "_key": "!actors.items!TombTaprRotf08Hi.TombTaprItem002b"
     },
@@ -69,8 +134,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "The tomb tapper can burrow through solid rock at half its burrowing speed and leaves a 10-foot-wide, 20-foot-tall tunnel in its wake.", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "302" }
+        "description": {
+          "value": "The tomb tapper can burrow through solid rock at half its burrowing speed and leaves a 10-foot-wide, 20-foot-tall tunnel in its wake.",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "302"
+        }
       },
       "_key": "!actors.items!TombTaprRotf08Hi.TombTaprItem003c"
     },
@@ -80,8 +151,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "The tomb tapper doesn't require air or sleep.", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "302" }
+        "description": {
+          "value": "The tomb tapper doesn't require air or sleep.",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "302"
+        }
       },
       "_key": "!actors.items!TombTaprRotf08Hi.TombTaprItem004d"
     },
@@ -91,8 +168,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "The tomb tapper makes two melee attacks with its sledgehammer or with its claws. If it hits the same creature with both claws, it can pull that creature within 5 feet of its mouth and make a bite attack against it.", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "302" }
+        "description": {
+          "value": "The tomb tapper makes two melee attacks with its sledgehammer or with its claws. If it hits the same creature with both claws, it can pull that creature within 5 feet of its mouth and make a bite attack against it.",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "302"
+        }
       },
       "_key": "!actors.items!TombTaprRotf08Hi.TombTaprItem005e"
     },
@@ -102,27 +185,55 @@
       "type": "weapon",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) slashing damage.", "chat": "" },
+        "description": {
+          "value": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) slashing damage.",
+          "chat": ""
+        },
         "equipped": true,
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
             "attack": {
               "ability": "str",
               "bonus": "",
-              "critical": { "threshold": null },
+              "critical": {
+                "threshold": null
+              },
               "flat": false,
-              "type": { "value": "melee", "classification": "weapon" }
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
             },
             "damage": {
-              "parts": [{ "number": 3, "denomination": "10", "bonus": "6", "types": ["slashing"] }]
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": "10",
+                  "bonus": "6",
+                  "types": [
+                    "slashing"
+                  ]
+                }
+              ]
             },
-            "range": { "value": 5, "units": "ft" }
+            "range": {
+              "value": 5,
+              "units": "ft"
+            }
           }
         },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "302" }
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "302"
+        }
       },
       "_key": "!actors.items!TombTaprRotf08Hi.TombTaprItem006f"
     },
@@ -132,27 +243,55 @@
       "type": "weapon",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 16 (3d6 + 6) slashing damage.", "chat": "" },
+        "description": {
+          "value": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 16 (3d6 + 6) slashing damage.",
+          "chat": ""
+        },
         "equipped": true,
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
             "attack": {
               "ability": "str",
               "bonus": "",
-              "critical": { "threshold": null },
+              "critical": {
+                "threshold": null
+              },
               "flat": false,
-              "type": { "value": "melee", "classification": "weapon" }
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
             },
             "damage": {
-              "parts": [{ "number": 3, "denomination": "6", "bonus": "6", "types": ["slashing"] }]
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": "6",
+                  "bonus": "6",
+                  "types": [
+                    "slashing"
+                  ]
+                }
+              ]
             },
-            "range": { "value": 10, "units": "ft" }
+            "range": {
+              "value": 10,
+              "units": "ft"
+            }
           }
         },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "302" }
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "302"
+        }
       },
       "_key": "!actors.items!TombTaprRotf08Hi.TombTaprItem007g"
     },
@@ -162,27 +301,56 @@
       "type": "weapon",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "Melee or Ranged Weapon Attack: +10 to hit, reach 15 ft. or range 30/120 ft., one target. Hit: 27 (6d6 + 6) bludgeoning or force damage (tomb tapper's choice). If thrown, the hammer returns to the tomb tapper at the end of its turn, landing at the tomb tapper's feet if it doesn't have a hand free to catch the weapon.", "chat": "" },
+        "description": {
+          "value": "Melee or Ranged Weapon Attack: +10 to hit, reach 15 ft. or range 30/120 ft., one target. Hit: 27 (6d6 + 6) bludgeoning or force damage (tomb tapper's choice). If thrown, the hammer returns to the tomb tapper at the end of its turn, landing at the tomb tapper's feet if it doesn't have a hand free to catch the weapon.",
+          "chat": ""
+        },
         "equipped": true,
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
             "attack": {
               "ability": "str",
               "bonus": "",
-              "critical": { "threshold": null },
+              "critical": {
+                "threshold": null
+              },
               "flat": false,
-              "type": { "value": "melee", "classification": "weapon" }
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
             },
             "damage": {
-              "parts": [{ "number": 6, "denomination": "6", "bonus": "6", "types": ["bludgeoning"] }]
+              "parts": [
+                {
+                  "number": 6,
+                  "denomination": "6",
+                  "bonus": "6",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
             },
-            "range": { "value": 15, "long": 120, "units": "ft" }
+            "range": {
+              "value": 15,
+              "long": 120,
+              "units": "ft"
+            }
           }
         },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "302" }
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "302"
+        }
       },
       "_key": "!actors.items!TombTaprRotf08Hi.TombTaprItem008h"
     }
@@ -210,28 +378,63 @@
     "alpha": 1,
     "disposition": -1,
     "displayBars": 0,
-    "bar1": { "attribute": "attributes.hp" },
-    "bar2": { "attribute": null },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 0, "color": null, "coloration": 1, "dim": 0,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
-      "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "sight": {
-      "enabled": false, "range": 0, "angle": 360,
-      "visionMode": "basic", "color": null, "attenuation": 0.1,
-      "brightness": 0, "saturation": 0, "contrast": 0
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
     },
     "detectionModes": {},
-    "occludable": { "radius": 0 },
+    "occludable": {
+      "radius": 0
+    },
     "ring": {
       "enabled": false,
-      "colors": { "ring": null, "background": null },
+      "colors": {
+        "ring": null,
+        "background": null
+      },
       "effects": 1,
-      "subject": { "scale": 1, "texture": null }
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     },
     "flags": {},
     "randomImg": false

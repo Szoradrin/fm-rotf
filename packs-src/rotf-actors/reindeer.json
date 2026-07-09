@@ -5,35 +5,74 @@
   "img": "modules/rotf/assets/images/token-reindeer.webp",
   "system": {
     "abilities": {
-      "str": { "value": 16 },
-      "dex": { "value": 10 },
-      "con": { "value": 12 },
-      "int": { "value": 2 },
-      "wis": { "value": 10 },
-      "cha": { "value": 6 }
+      "str": {
+        "value": 16
+      },
+      "dex": {
+        "value": 10
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 2
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 6
+      }
     },
     "attributes": {
-      "ac": { "flat": 10 },
-      "hp": { "value": 13, "max": 13, "formula": "2d10+2" },
-      "speed": { "value": 50, "units": "ft" },
+      "ac": {
+        "flat": 10
+      },
+      "hp": {
+        "value": 13,
+        "max": 13,
+        "formula": "2d10+2"
+      },
+      "speed": {
+        "value": 50,
+        "units": "ft"
+      },
       "prof": 2
     },
     "details": {
-      "biography": { "value": "" },
+      "biography": {
+        "value": ""
+      },
       "alignment": "unaligned",
       "race": "",
-      "type": { "value": "beast", "subtype": "", "swarm": "", "custom": "" },
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "environment": "",
       "cr": 0.25,
       "spellLevel": 0,
-      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "" }
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": ""
+      }
     },
     "traits": {
       "size": "lg",
-      "di": { "value": [] },
-      "dr": { "value": [] },
-      "ci": { "value": [] },
-      "languages": { "value": [] }
+      "di": {
+        "value": []
+      },
+      "dr": {
+        "value": []
+      },
+      "ci": {
+        "value": []
+      },
+      "languages": {
+        "value": []
+      }
     },
     "skills": {},
     "saves": {}
@@ -45,8 +84,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "If the reindeer moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.", "chat": "" },
-        "source": { "book": "Basic Rules (2014)", "page": "125" }
+        "description": {
+          "value": "If the reindeer moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
+          "chat": ""
+        },
+        "source": {
+          "book": "Basic Rules (2014)",
+          "page": "125"
+        }
       },
       "_key": "!actors.items!ReindeerRotf13Mn.ReindeerItem001a"
     },
@@ -56,27 +101,55 @@
       "type": "weapon",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.", "chat": "" },
+        "description": {
+          "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
+          "chat": ""
+        },
         "equipped": true,
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
             "attack": {
               "ability": "str",
               "bonus": "",
-              "critical": { "threshold": null },
+              "critical": {
+                "threshold": null
+              },
               "flat": false,
-              "type": { "value": "melee", "classification": "weapon" }
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
             },
             "damage": {
-              "parts": [{ "number": 1, "denomination": "6", "bonus": "3", "types": ["bludgeoning"] }]
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": "6",
+                  "bonus": "3",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
             },
-            "range": { "value": 5, "units": "ft" }
+            "range": {
+              "value": 5,
+              "units": "ft"
+            }
           }
         },
-        "source": { "book": "Basic Rules (2014)", "page": "125" }
+        "source": {
+          "book": "Basic Rules (2014)",
+          "page": "125"
+        }
       },
       "_key": "!actors.items!ReindeerRotf13Mn.ReindeerItem002b"
     },
@@ -86,27 +159,55 @@
       "type": "weapon",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage.", "chat": "" },
+        "description": {
+          "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage.",
+          "chat": ""
+        },
         "equipped": true,
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
             "attack": {
               "ability": "str",
               "bonus": "",
-              "critical": { "threshold": null },
+              "critical": {
+                "threshold": null
+              },
               "flat": false,
-              "type": { "value": "melee", "classification": "weapon" }
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
             },
             "damage": {
-              "parts": [{ "number": 2, "denomination": "4", "bonus": "3", "types": ["bludgeoning"] }]
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": "4",
+                  "bonus": "3",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
             },
-            "range": { "value": 5, "units": "ft" }
+            "range": {
+              "value": 5,
+              "units": "ft"
+            }
           }
         },
-        "source": { "book": "Basic Rules (2014)", "page": "125" }
+        "source": {
+          "book": "Basic Rules (2014)",
+          "page": "125"
+        }
       },
       "_key": "!actors.items!ReindeerRotf13Mn.ReindeerItem003c"
     }
@@ -134,28 +235,63 @@
     "alpha": 1,
     "disposition": -1,
     "displayBars": 0,
-    "bar1": { "attribute": "attributes.hp" },
-    "bar2": { "attribute": null },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 0, "color": null, "coloration": 1, "dim": 0,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
-      "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "sight": {
-      "enabled": false, "range": 0, "angle": 360,
-      "visionMode": "basic", "color": null, "attenuation": 0.1,
-      "brightness": 0, "saturation": 0, "contrast": 0
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
     },
     "detectionModes": {},
-    "occludable": { "radius": 0 },
+    "occludable": {
+      "radius": 0
+    },
     "ring": {
       "enabled": false,
-      "colors": { "ring": null, "background": null },
+      "colors": {
+        "ring": null,
+        "background": null
+      },
       "effects": 1,
-      "subject": { "scale": 1, "texture": null }
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     },
     "flags": {},
     "randomImg": false

@@ -1,6 +1,5 @@
 {
   "_id": "RotFCharCreation01",
-  "_key": "!journal!RotFCharCreation01",
   "name": "Character Creation",
   "folder": null,
   "sort": 200,
@@ -16,7 +15,6 @@
   "pages": [
     {
       "_id": "RotFCharP001",
-      "_key": "!journal.pages!RotFCharCreation01.RotFCharP001",
       "name": "Character Backgrounds",
       "type": "text",
       "sort": 100,
@@ -44,11 +42,11 @@
       },
       "system": {},
       "src": null,
-      "category": null
+      "category": null,
+      "_key": "!journal.pages!RotFCharCreation01.RotFCharP001"
     },
     {
       "_id": "RotFCharP002",
-      "_key": "!journal.pages!RotFCharCreation01.RotFCharP002",
       "name": "Goliath Player Characters",
       "type": "text",
       "sort": 200,
@@ -76,11 +74,11 @@
       },
       "system": {},
       "src": null,
-      "category": null
+      "category": null,
+      "_key": "!journal.pages!RotFCharCreation01.RotFCharP002"
     },
     {
       "_id": "RotFCharP003",
-      "_key": "!journal.pages!RotFCharCreation01.RotFCharP003",
       "name": "Character Secrets (Appendix B)",
       "type": "text",
       "sort": 300,
@@ -108,8 +106,10 @@
       },
       "system": {},
       "src": null,
-      "category": null
+      "category": null,
+      "_key": "!journal.pages!RotFCharCreation01.RotFCharP003"
     }
   ],
-  "categories": []
+  "categories": [],
+  "_key": "!journal!RotFCharCreation01"
 }

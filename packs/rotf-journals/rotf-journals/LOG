@@ -1,0 +1,5 @@
+2026/07/09-00:36:47.587501 7f985e7bd6c0 Delete type=3 #1
+2026/07/09-00:36:47.592804 7f985d7bb6c0 Level-0 table #5: started
+2026/07/09-00:36:47.594879 7f985d7bb6c0 Level-0 table #5: 33977 bytes OK
+2026/07/09-00:36:47.595521 7f985d7bb6c0 Delete type=0 #3
+2026/07/09-00:36:47.595572 7f985d7bb6c0 Manual compaction at level-0 from '!journal!CreedOfAurilJrn0' @ 72057594037927935 : 1 .. '!journal.pages!RotFIntroduction01.RotFIntroP003' @ 0 : 0; will stop at (end)

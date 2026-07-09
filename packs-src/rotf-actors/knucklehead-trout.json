@@ -5,54 +5,173 @@
   "img": "modules/rotf/assets/images/token-knucklehead-trout.webp",
   "system": {
     "abilities": {
-      "str": { "value": 14 },
-      "dex": { "value": 14 },
-      "con": { "value": 11 },
-      "int": { "value": 1 },
-      "wis": { "value": 6 },
-      "cha": { "value": 1 }
+      "str": {
+        "value": 14
+      },
+      "dex": {
+        "value": 14
+      },
+      "con": {
+        "value": 11
+      },
+      "int": {
+        "value": 1
+      },
+      "wis": {
+        "value": 6
+      },
+      "cha": {
+        "value": 1
+      }
     },
     "attributes": {
-      "ac": { "flat": 12, "calc": "flat" },
-      "hp": { "value": 7, "min": 0, "max": 7, "formula": "2d6" },
-      "speed": { "value": "0 ft., swim 30 ft." },
+      "ac": {
+        "flat": 12,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 7,
+        "min": 0,
+        "max": 7,
+        "formula": "2d6"
+      },
+      "speed": {
+        "value": "0 ft., swim 30 ft."
+      },
       "cr": 0,
       "spellcasting": ""
     },
     "details": {
-      "biography": { "value": "<p>The tasty and tenacious knucklehead trout can't easily be caught in nets. A male knucklehead trout can weigh 70 pounds or more. Both males and females are prized for their ivory-like bones, which Ten-Towns artisans use to carve scrimshaw.</p>" },
+      "biography": {
+        "value": "<p>The tasty and tenacious knucklehead trout can't easily be caught in nets. A male knucklehead trout can weigh 70 pounds or more. Both males and females are prized for their ivory-like bones, which Ten-Towns artisans use to carve scrimshaw.</p>"
+      },
       "alignment": "unaligned",
       "race": "",
-      "type": { "value": "beast", "subtype": "", "swarm": "", "custom": "" },
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "environment": "",
       "cr": 0,
       "spellLevel": 0,
-      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "296" }
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "296"
+      }
     },
     "skills": {},
     "traits": {
       "size": "sm",
-      "di": { "value": [] },
-      "dr": { "value": [] },
-      "dv": { "value": [] },
-      "ci": { "value": [] },
-      "languages": { "value": [] },
+      "di": {
+        "value": []
+      },
+      "dr": {
+        "value": []
+      },
+      "dv": {
+        "value": []
+      },
+      "ci": {
+        "value": []
+      },
+      "languages": {
+        "value": []
+      },
       "senses": "darkvision 60 ft."
     },
-    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 }
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   "prototypeToken": {
     "name": "Knucklehead Trout",
-    "displayName": 0, "actorLink": false, "appendNumber": false, "prependAdjective": false,
-    "width": 1, "height": 1,
-    "texture": { "src": "modules/rotf/assets/images/token-knucklehead-trout.webp", "anchorX": 0.5, "anchorY": 0.5, "fit": "contain", "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75 },
-    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1, "displayBars": 0,
-    "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
-    "light": { "negative": false, "priority": 0, "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 } },
-    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
-    "detectionModes": {}, "occludable": { "radius": 0 },
-    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
-    "flags": {}, "randomImg": false
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/rotf/assets/images/token-knucklehead-trout.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
   },
   "items": [
     {
@@ -60,8 +179,28 @@
       "name": "Water Breathing",
       "type": "feat",
       "img": "icons/magic/water/wave-water-blue.webp",
-      "system": { "description": { "value": "<p>The trout can breathe only underwater.</p>", "chat": "" }, "type": { "value": "monster" }, "activation": { "type": "", "value": null, "condition": "" }, "uses": { "value": null, "max": "", "per": null, "recovery": "" } },
-      "sort": 100000, "_key": "!actors.items!KnuckleheadTrout1.KTroutTrait01WB"
+      "system": {
+        "description": {
+          "value": "<p>The trout can breathe only underwater.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
+      },
+      "sort": 100000,
+      "_key": "!actors.items!KnuckleheadTrout1.KTroutTrait01WB"
     },
     {
       "_id": "KTroutAction01BI",
@@ -69,15 +208,73 @@
       "type": "weapon",
       "img": "icons/skills/melee/strike-slashing-large.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": true,
-        "type": { "value": "natural", "baseItem": "" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "range": { "value": 5, "long": null, "units": "ft" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
-        "activities": { "dnd5eactivity000": { "_id": "dnd5eactivity000", "type": "attack", "activation": { "type": "action", "value": 1, "condition": "", "override": false }, "attack": { "ability": "dex", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "4", "type": { "value": "melee", "classification": "weapon" } }, "damage": { "parts": [{ "number": 1, "denomination": 4, "bonus": "2", "types": ["piercing"] }] } } }
+        "description": {
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": true,
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "dex",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "flatBonus": "4",
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 4,
+                  "bonus": "2",
+                  "types": [
+                    "piercing"
+                  ]
+                }
+              ]
+            }
+          }
+        }
       },
-      "sort": 200000, "_key": "!actors.items!KnuckleheadTrout1.KTroutAction01BI"
+      "sort": 200000,
+      "_key": "!actors.items!KnuckleheadTrout1.KTroutAction01BI"
     },
     {
       "_id": "KTroutAction02TL",
@@ -85,18 +282,84 @@
       "type": "weapon",
       "img": "icons/skills/melee/strike-slashing-large.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) bludgeoning damage.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": true,
-        "type": { "value": "natural", "baseItem": "" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "range": { "value": 5, "long": null, "units": "ft" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
-        "activities": { "dnd5eactivity000": { "_id": "dnd5eactivity000", "type": "attack", "activation": { "type": "action", "value": 1, "condition": "", "override": false }, "attack": { "ability": "dex", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "4", "type": { "value": "melee", "classification": "weapon" } }, "damage": { "parts": [{ "number": 1, "denomination": 4, "bonus": "2", "types": ["bludgeoning"] }] } } }
+        "description": {
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": true,
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "dex",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "flatBonus": "4",
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 4,
+                  "bonus": "2",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
+            }
+          }
+        }
       },
-      "sort": 300000, "_key": "!actors.items!KnuckleheadTrout1.KTroutAction02TL"
+      "sort": 300000,
+      "_key": "!actors.items!KnuckleheadTrout1.KTroutAction02TL"
     }
   ],
-  "effects": [], "flags": {},
-  "_stats": { "systemId": "dnd5e", "systemVersion": "5.3.3", "coreVersion": "14.364", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14.364",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
   "_key": "!actors!KnuckleheadTrout1"
 }

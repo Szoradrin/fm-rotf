@@ -4,29 +4,388 @@
   "type": "npc",
   "img": "modules/rotf/assets/images/token-living-blade-of-disaster.webp",
   "system": {
-    "abilities": { "str": { "value": 10 }, "dex": { "value": 16 }, "con": { "value": 19 }, "int": { "value": 6 }, "wis": { "value": 10 }, "cha": { "value": 3 } },
-    "attributes": { "ac": { "flat": 14, "calc": "flat" }, "hp": { "value": 67, "min": 0, "max": 67, "formula": "9d6+36" }, "speed": { "value": "0 ft., fly 30 ft. (hover)" }, "cr": 8, "spellcasting": "" },
-    "details": { "biography": { "value": "<p>A living blade of disaster is a blade of disaster spell with a wicked will of its own. It looks like a floating, black planar rift in the shape of a sword. Like a demon, it craves destruction.</p>" }, "alignment": "chaotic evil", "race": "", "type": { "value": "construct", "subtype": "", "swarm": "", "custom": "" }, "environment": "", "cr": 8, "spellLevel": 0, "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "299" } },
+    "abilities": {
+      "str": {
+        "value": 10
+      },
+      "dex": {
+        "value": 16
+      },
+      "con": {
+        "value": 19
+      },
+      "int": {
+        "value": 6
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 14,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 67,
+        "min": 0,
+        "max": 67,
+        "formula": "9d6+36"
+      },
+      "speed": {
+        "value": "0 ft., fly 30 ft. (hover)"
+      },
+      "cr": 8,
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>A living blade of disaster is a blade of disaster spell with a wicked will of its own. It looks like a floating, black planar rift in the shape of a sword. Like a demon, it craves destruction.</p>"
+      },
+      "alignment": "chaotic evil",
+      "race": "",
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 8,
+      "spellLevel": 0,
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "299"
+      }
+    },
     "skills": {},
-    "traits": { "size": "sm", "di": { "value": ["poison", "bludgeoning", "piercing", "slashing"] }, "dr": { "value": [] }, "dv": { "value": [] }, "ci": { "value": ["blinded", "deafened", "exhaustion", "grappled", "paralyzed", "petrified", "poisoned", "restrained", "unconscious"] }, "languages": { "value": [] }, "special": "Immune to B/P/S from nonmagical attacks", "senses": "darkvision 60 ft." },
-    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 }
+    "traits": {
+      "size": "sm",
+      "di": {
+        "value": [
+          "poison",
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ]
+      },
+      "dr": {
+        "value": []
+      },
+      "dv": {
+        "value": []
+      },
+      "ci": {
+        "value": [
+          "blinded",
+          "deafened",
+          "exhaustion",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "restrained",
+          "unconscious"
+        ]
+      },
+      "languages": {
+        "value": []
+      },
+      "special": "Immune to B/P/S from nonmagical attacks",
+      "senses": "darkvision 60 ft."
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   "prototypeToken": {
-    "name": "Living Blade of Disaster", "displayName": 0, "actorLink": false, "appendNumber": false, "prependAdjective": false, "width": 1, "height": 1,
-    "texture": { "src": "modules/rotf/assets/images/token-living-blade-of-disaster.webp", "anchorX": 0.5, "anchorY": 0.5, "fit": "contain", "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75 },
-    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1, "displayBars": 0, "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
-    "light": { "negative": false, "priority": 0, "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 } },
-    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
-    "detectionModes": {}, "occludable": { "radius": 0 }, "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } }, "flags": {}, "randomImg": false
+    "name": "Living Blade of Disaster",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/rotf/assets/images/token-living-blade-of-disaster.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
   },
   "items": [
-    { "_id": "LBDTrait01MR", "name": "Magic Resistance", "type": "feat", "img": "icons/magic/defensive/shield-barrier-blue.webp", "system": { "description": { "value": "<p>The living spell has advantage on saving throws against spells and other magical effects.</p>", "chat": "" }, "type": { "value": "monster" }, "activation": { "type": "", "value": null, "condition": "" }, "uses": { "value": null, "max": "", "per": null, "recovery": "" } }, "sort": 100000, "_key": "!actors.items!LivingBladeDisas1.LBDTrait01MR" },
-    { "_id": "LBDTrait02UF", "name": "Unfettered", "type": "feat", "img": "icons/magic/movement/abstract-ribbons-red-orange.webp", "system": { "description": { "value": "<p>The living spell can move through any barrier, even a wall of magical force.</p>", "chat": "" }, "type": { "value": "monster" }, "activation": { "type": "", "value": null, "condition": "" }, "uses": { "value": null, "max": "", "per": null, "recovery": "" } }, "sort": 150000, "_key": "!actors.items!LivingBladeDisas1.LBDTrait02UF" },
-    { "_id": "LBDTrait03UN", "name": "Unusual Nature", "type": "feat", "img": "icons/magic/symbols/cog-green.webp", "system": { "description": { "value": "<p>The living spell doesn't require air, food, drink, or sleep.</p>", "chat": "" }, "type": { "value": "monster" }, "activation": { "type": "", "value": null, "condition": "" }, "uses": { "value": null, "max": "", "per": null, "recovery": "" } }, "sort": 175000, "_key": "!actors.items!LivingBladeDisas1.LBDTrait03UN" },
-    { "_id": "LBDAction01FB", "name": "Force Blade", "type": "weapon", "img": "icons/weapons/swords/sword-damaged-black.webp", "system": { "description": { "value": "<p>Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 26 (4d12) force damage, unless the living spell rolled an 18 or higher on the d20 for the attack, in which case the attack is a critical hit that deals 78 (12d12) force damage instead.</p>", "chat": "" }, "quantity": 1, "equipped": true, "proficient": true, "type": { "value": "natural", "baseItem": "" }, "activation": { "type": "action", "value": 1, "condition": "" }, "range": { "value": 5, "long": null, "units": "ft" }, "uses": { "value": null, "max": "", "per": null, "recovery": "" }, "activities": { "dnd5eactivity000": { "_id": "dnd5eactivity000", "type": "attack", "activation": { "type": "action", "value": 1, "condition": "", "override": false }, "attack": { "ability": "dex", "bonus": "", "critical": { "threshold": 18 }, "flat": true, "flatBonus": "6", "type": { "value": "melee", "classification": "spell" } }, "damage": { "parts": [{ "number": 4, "denomination": 12, "bonus": "", "types": ["force"] }] } } } }, "sort": 200000, "_key": "!actors.items!LivingBladeDisas1.LBDAction01FB" },
-    { "_id": "LBDReact01PS", "name": "Preemptive Strike", "type": "feat", "img": "icons/skills/melee/strike-slashing-large.webp", "system": { "description": { "value": "<p>The living spell makes a melee attack against a creature that starts its turn within 5 feet of the living spell.</p>", "chat": "" }, "type": { "value": "monster" }, "activation": { "type": "reaction", "value": 1, "condition": "when a creature starts its turn within 5 feet" }, "uses": { "value": null, "max": "", "per": null, "recovery": "" } }, "sort": 300000, "_key": "!actors.items!LivingBladeDisas1.LBDReact01PS" }
+    {
+      "_id": "LBDTrait01MR",
+      "name": "Magic Resistance",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>The living spell has advantage on saving throws against spells and other magical effects.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
+      },
+      "sort": 100000,
+      "_key": "!actors.items!LivingBladeDisas1.LBDTrait01MR"
+    },
+    {
+      "_id": "LBDTrait02UF",
+      "name": "Unfettered",
+      "type": "feat",
+      "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>The living spell can move through any barrier, even a wall of magical force.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
+      },
+      "sort": 150000,
+      "_key": "!actors.items!LivingBladeDisas1.LBDTrait02UF"
+    },
+    {
+      "_id": "LBDTrait03UN",
+      "name": "Unusual Nature",
+      "type": "feat",
+      "img": "icons/magic/symbols/cog-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>The living spell doesn't require air, food, drink, or sleep.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
+      },
+      "sort": 175000,
+      "_key": "!actors.items!LivingBladeDisas1.LBDTrait03UN"
+    },
+    {
+      "_id": "LBDAction01FB",
+      "name": "Force Blade",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-damaged-black.webp",
+      "system": {
+        "description": {
+          "value": "<p>Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 26 (4d12) force damage, unless the living spell rolled an 18 or higher on the d20 for the attack, in which case the attack is a critical hit that deals 78 (12d12) force damage instead.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": true,
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "dex",
+              "bonus": "",
+              "critical": {
+                "threshold": 18
+              },
+              "flat": true,
+              "flatBonus": "6",
+              "type": {
+                "value": "melee",
+                "classification": "spell"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 4,
+                  "denomination": 12,
+                  "bonus": "",
+                  "types": [
+                    "force"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "sort": 200000,
+      "_key": "!actors.items!LivingBladeDisas1.LBDAction01FB"
+    },
+    {
+      "_id": "LBDReact01PS",
+      "name": "Preemptive Strike",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-slashing-large.webp",
+      "system": {
+        "description": {
+          "value": "<p>The living spell makes a melee attack against a creature that starts its turn within 5 feet of the living spell.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "reaction",
+          "value": 1,
+          "condition": "when a creature starts its turn within 5 feet"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
+      },
+      "sort": 300000,
+      "_key": "!actors.items!LivingBladeDisas1.LBDReact01PS"
+    }
   ],
-  "effects": [], "flags": {},
-  "_stats": { "systemId": "dnd5e", "systemVersion": "5.3.3", "coreVersion": "14.364", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14.364",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
   "_key": "!actors!LivingBladeDisas1"
 }

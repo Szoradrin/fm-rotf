@@ -5,45 +5,99 @@
   "img": "modules/rotf/assets/images/token-verbeeg-longstrider.webp",
   "system": {
     "abilities": {
-      "str": { "value": 19 },
-      "dex": { "value": 15 },
-      "con": { "value": 16 },
-      "int": { "value": 13 },
-      "wis": { "value": 14 },
-      "cha": { "value": 10 }
+      "str": {
+        "value": 19
+      },
+      "dex": {
+        "value": 15
+      },
+      "con": {
+        "value": 16
+      },
+      "int": {
+        "value": 13
+      },
+      "wis": {
+        "value": 14
+      },
+      "cha": {
+        "value": 10
+      }
     },
     "attributes": {
-      "ac": { "flat": 14 },
-      "hp": { "value": 119, "max": 119, "formula": "14d10+42" },
-      "speed": { "value": 50, "units": "ft" },
+      "ac": {
+        "flat": 14
+      },
+      "hp": {
+        "value": 119,
+        "max": 119,
+        "formula": "14d10+42"
+      },
+      "speed": {
+        "value": 50,
+        "units": "ft"
+      },
       "prof": 3
     },
     "details": {
-      "biography": { "value": "<p>Verbeeg are giants that resemble oversized humans with gangly limbs and elongated faces. Longstriders are verbeeg who worship gods of nature and help defend the natural world. These even-tempered verbeeg are blessed with innate spellcasting abilities.</p>" },
+      "biography": {
+        "value": "<p>Verbeeg are giants that resemble oversized humans with gangly limbs and elongated faces. Longstriders are verbeeg who worship gods of nature and help defend the natural world. These even-tempered verbeeg are blessed with innate spellcasting abilities.</p>"
+      },
       "alignment": "neutral",
       "race": "",
-      "type": { "value": "giant", "subtype": "", "swarm": "", "custom": "" },
+      "type": {
+        "value": "giant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "environment": "",
       "cr": 5,
       "spellLevel": 0,
-      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "311" }
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "311"
+      }
     },
     "traits": {
       "size": "lg",
-      "di": { "value": [] },
-      "dr": { "value": [] },
-      "ci": { "value": [] },
-      "languages": { "value": ["common", "giant"] }
+      "di": {
+        "value": []
+      },
+      "dr": {
+        "value": []
+      },
+      "ci": {
+        "value": []
+      },
+      "languages": {
+        "value": [
+          "common",
+          "giant"
+        ]
+      }
     },
     "skills": {
-      "ani": { "value": 1 },
-      "ath": { "value": 1 },
-      "ste": { "value": 1 }
+      "ani": {
+        "value": 1
+      },
+      "ath": {
+        "value": 1
+      },
+      "ste": {
+        "value": 1
+      }
     },
     "saves": {
-      "dex": { "value": 1 },
-      "con": { "value": 1 },
-      "wis": { "value": 1 }
+      "dex": {
+        "value": 1
+      },
+      "con": {
+        "value": 1
+      },
+      "wis": {
+        "value": 1
+      }
     }
   },
   "items": [
@@ -53,8 +107,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "The verbeeg's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components:<br/>1/day each: animal messenger, fog cloud, freedom of movement, pass without trace, silence, water walk", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "311" }
+        "description": {
+          "value": "The verbeeg's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components:<br/>1/day each: animal messenger, fog cloud, freedom of movement, pass without trace, silence, water walk",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "311"
+        }
       },
       "_key": "!actors.items!VrbgLongRotf09Ij.VrbgLongItem001a"
     },
@@ -64,8 +124,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "A simple weapon deals one extra die of its damage when the verbeeg hits with it (included in the attack).", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "311" }
+        "description": {
+          "value": "A simple weapon deals one extra die of its damage when the verbeeg hits with it (included in the attack).",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "311"
+        }
       },
       "_key": "!actors.items!VrbgLongRotf09Ij.VrbgLongItem002b"
     },
@@ -75,8 +141,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "The verbeeg makes two melee attacks.", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "311" }
+        "description": {
+          "value": "The verbeeg makes two melee attacks.",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "311"
+        }
       },
       "_key": "!actors.items!VrbgLongRotf09Ij.VrbgLongItem003c"
     },
@@ -86,27 +158,56 @@
       "type": "weapon",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 14 (3d6 + 4) piercing damage, or 17 (3d8 + 4) piercing damage if used to make a ranged attack or used with two hands to make a melee attack.", "chat": "" },
+        "description": {
+          "value": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 14 (3d6 + 4) piercing damage, or 17 (3d8 + 4) piercing damage if used to make a ranged attack or used with two hands to make a melee attack.",
+          "chat": ""
+        },
         "equipped": true,
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
             "attack": {
               "ability": "str",
               "bonus": "",
-              "critical": { "threshold": null },
+              "critical": {
+                "threshold": null
+              },
               "flat": false,
-              "type": { "value": "melee", "classification": "weapon" }
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
             },
             "damage": {
-              "parts": [{ "number": 3, "denomination": "6", "bonus": "4", "types": ["piercing"] }]
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": "6",
+                  "bonus": "4",
+                  "types": [
+                    "piercing"
+                  ]
+                }
+              ]
             },
-            "range": { "value": 5, "long": 60, "units": "ft" }
+            "range": {
+              "value": 5,
+              "long": 60,
+              "units": "ft"
+            }
           }
         },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "311" }
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "311"
+        }
       },
       "_key": "!actors.items!VrbgLongRotf09Ij.VrbgLongItem004d"
     },
@@ -116,27 +217,56 @@
       "type": "weapon",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 9 (3d4 + 2) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be stunned until the end of its next turn.", "chat": "" },
+        "description": {
+          "value": "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 9 (3d4 + 2) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be stunned until the end of its next turn.",
+          "chat": ""
+        },
         "equipped": true,
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
             "attack": {
               "ability": "dex",
               "bonus": "",
-              "critical": { "threshold": null },
+              "critical": {
+                "threshold": null
+              },
               "flat": false,
-              "type": { "value": "ranged", "classification": "weapon" }
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
             },
             "damage": {
-              "parts": [{ "number": 3, "denomination": "4", "bonus": "2", "types": ["bludgeoning"] }]
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": "4",
+                  "bonus": "2",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
             },
-            "range": { "value": 30, "long": 120, "units": "ft" }
+            "range": {
+              "value": 30,
+              "long": 120,
+              "units": "ft"
+            }
           }
         },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "311" }
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "311"
+        }
       },
       "_key": "!actors.items!VrbgLongRotf09Ij.VrbgLongItem005e"
     }
@@ -164,28 +294,63 @@
     "alpha": 1,
     "disposition": -1,
     "displayBars": 0,
-    "bar1": { "attribute": "attributes.hp" },
-    "bar2": { "attribute": null },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 0, "color": null, "coloration": 1, "dim": 0,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
-      "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "sight": {
-      "enabled": false, "range": 0, "angle": 360,
-      "visionMode": "basic", "color": null, "attenuation": 0.1,
-      "brightness": 0, "saturation": 0, "contrast": 0
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
     },
     "detectionModes": {},
-    "occludable": { "radius": 0 },
+    "occludable": {
+      "radius": 0
+    },
     "ring": {
       "enabled": false,
-      "colors": { "ring": null, "background": null },
+      "colors": {
+        "ring": null,
+        "background": null
+      },
       "effects": 1,
-      "subject": { "scale": 1, "texture": null }
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     },
     "flags": {},
     "randomImg": false

@@ -793,7 +793,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!TribalWarriorAct.TribPackTact01"
     },
     {
       "_id": "TribSpear00001",
@@ -1058,7 +1059,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!TribalWarriorAct.TribSpear00001"
     }
   ],
   "effects": [],
@@ -1079,5 +1081,7 @@
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "TribalWarriorAct",
+  "_key": "!actors!TribalWarriorAct"
 }

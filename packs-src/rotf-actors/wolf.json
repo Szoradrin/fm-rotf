@@ -773,7 +773,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!WolfAct000000000.WolfKeenHS001"
     },
     {
       "_id": "WolfPackTact01",
@@ -834,7 +835,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!WolfAct000000000.WolfPackTact01"
     },
     {
       "_id": "WolfBite000001",
@@ -1099,7 +1101,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!WolfAct000000000.WolfBite000001"
     }
   ],
   "effects": [],
@@ -1120,5 +1123,7 @@
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "WolfAct000000000",
+  "_key": "!actors!WolfAct000000000"
 }

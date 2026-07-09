@@ -1,6 +1,5 @@
 {
   "_id": "RotFCh1PlesiosBehavior",
-  "_key": "!tables!RotFCh1PlesiosBehavior",
   "name": "Chapter 1: Plesiosaurus Behavior",
   "description": "<p>Roll 1d6 when the awakened plesiosaurus (Bitey) makes its presence known during the Bremen \"Lake Monster\" quest. After behaving as described, the plesiosaurus departs unless the characters hold its attention. Source: <em>Rime of the Frostmaiden</em> p. 35.</p>",
   "formula": "1d6",
@@ -88,5 +87,6 @@
       "drawn": false,
       "flags": {}
     }
-  ]
+  ],
+  "_key": "!tables!RotFCh1PlesiosBehavior"
 }

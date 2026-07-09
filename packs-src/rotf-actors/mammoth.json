@@ -767,7 +767,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!MammothAct000000.MammTrampCh001"
     },
     {
       "_id": "MammGore000001",
@@ -1032,7 +1033,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!MammothAct000000.MammGore000001"
     },
     {
       "_id": "MammStomp00001",
@@ -1297,7 +1299,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!MammothAct000000.MammStomp00001"
     }
   ],
   "effects": [],
@@ -1318,5 +1321,7 @@
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "MammothAct000000",
+  "_key": "!actors!MammothAct000000"
 }

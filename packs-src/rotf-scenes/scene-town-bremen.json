@@ -1,6 +1,5 @@
 {
   "_id": "BremenTownSc01",
-  "_key": "!scenes!BremenTownSc01",
   "name": "Bremen",
   "active": false,
   "navigation": false,
@@ -128,5 +127,6 @@
       "sort": 0,
       "flags": {}
     }
-  ]
+  ],
+  "_key": "!scenes!BremenTownSc01"
 }

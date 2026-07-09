@@ -769,7 +769,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!VellynneHarpellA.VHSpecEquip01"
     },
     {
       "_id": "VHSpellcast01",
@@ -830,7 +831,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!VellynneHarpellA.VHSpellcast01"
     },
     {
       "_id": "VHVampTouch01",
@@ -1095,7 +1097,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!VellynneHarpellA.VHVampTouch01"
     },
     {
       "_id": "VHChillTouch1",
@@ -1360,7 +1363,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!VellynneHarpellA.VHChillTouch1"
     },
     {
       "_id": "VHWandMagMis1",
@@ -1421,7 +1425,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!VellynneHarpellA.VHWandMagMis1"
     }
   ],
   "effects": [],
@@ -1442,5 +1447,7 @@
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "VellynneHarpellA",
+  "_key": "!actors!VellynneHarpellA"
 }

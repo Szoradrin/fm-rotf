@@ -767,7 +767,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!TempestOfAurilAc.TempColdFai01"
     },
     {
       "_id": "TempSurgeCr01",
@@ -828,7 +829,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!TempestOfAurilAc.TempSurgeCr01"
     },
     {
       "_id": "TempMultiatt1",
@@ -889,7 +891,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!TempestOfAurilAc.TempMultiatt1"
     },
     {
       "_id": "TempScimitar1",
@@ -1154,7 +1157,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!TempestOfAurilAc.TempScimitar1"
     },
     {
       "_id": "TempHeavyCr01",
@@ -1419,7 +1423,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!TempestOfAurilAc.TempHeavyCr01"
     },
     {
       "_id": "TempEndurEvr1",
@@ -1480,7 +1485,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!TempestOfAurilAc.TempEndurEvr1"
     }
   ],
   "effects": [],
@@ -1501,5 +1507,7 @@
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "TempestOfAurilAc",
+  "_key": "!actors!TempestOfAurilAc"
 }

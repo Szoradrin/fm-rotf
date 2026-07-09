@@ -5,34 +5,93 @@
   "img": "modules/rotf/assets/images/token-duergar-hammerer.webp",
   "system": {
     "abilities": {
-      "str": { "value": 17 },
-      "dex": { "value": 7 },
-      "con": { "value": 12 },
-      "int": { "value": 5 },
-      "wis": { "value": 5 },
-      "cha": { "value": 5 }
+      "str": {
+        "value": 17
+      },
+      "dex": {
+        "value": 7
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 5
+      },
+      "wis": {
+        "value": 5
+      },
+      "cha": {
+        "value": 5
+      }
     },
     "attributes": {
-      "ac": { "flat": 17, "calc": "flat", "formula": "" },
-      "hp": { "value": 33, "max": 33, "temp": 0, "formula": "6d8+6" },
-      "speed": { "value": 20, "special": "" },
+      "ac": {
+        "flat": 17,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 33,
+        "max": 33,
+        "temp": 0,
+        "formula": "6d8+6"
+      },
+      "speed": {
+        "value": 20,
+        "special": ""
+      },
       "prof": 2
     },
     "details": {
-      "biography": { "value": "<p>The duergar hammerer is a digging machine and siege engine, used to dig tunnels and besiege enemy fortifications. It is a construct fused with a duergar, fueled by the duergar's psionic energy.</p>", "public": "" },
+      "biography": {
+        "value": "<p>The duergar hammerer is a digging machine and siege engine, used to dig tunnels and besiege enemy fortifications. It is a construct fused with a duergar, fueled by the duergar's psionic energy.</p>",
+        "public": ""
+      },
       "alignment": "Any Alignment",
       "race": "",
-      "type": { "value": "construct", "subtype": "Dwarf", "swarm": "", "custom": "" },
+      "type": {
+        "value": "construct",
+        "subtype": "Dwarf",
+        "swarm": "",
+        "custom": ""
+      },
       "cr": 2,
       "spellLevel": 0,
-      "source": { "custom": "ROTF" }
+      "source": {
+        "custom": "ROTF"
+      }
     },
     "traits": {
       "size": "med",
-      "languages": { "value": [], "custom": "understands Dwarvish but can't speak" },
-      "senses": { "darkvision": 60, "blindsight": 0, "tremorsense": 0, "truesight": 0, "units": "ft", "special": "" },
-      "di": { "value": ["poison"], "custom": "" },
-      "ci": { "value": ["charmed", "exhaustion", "frightened", "paralyzed", "petrified", "poisoned"], "custom": "" }
+      "languages": {
+        "value": [],
+        "custom": "understands Dwarvish but can't speak"
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "di": {
+        "value": [
+          "poison"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "exhaustion",
+          "frightened",
+          "paralyzed",
+          "petrified",
+          "poisoned"
+        ],
+        "custom": ""
+      }
     },
     "skills": {},
     "saves": {}
@@ -44,9 +103,17 @@
       "type": "feat",
       "img": "icons/environment/settlement/castle-damaged.webp",
       "system": {
-        "description": { "value": "<p>The hammerer deals double damage to objects and structures.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null },
+        "description": {
+          "value": "<p>The hammerer deals double damage to objects and structures.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null
+        },
         "activities": {}
       },
       "_key": "!actors.items!DuergHmmrr001001.DuHmmrItem001"
@@ -57,14 +124,27 @@
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
-        "description": { "value": "<p>The hammerer makes one Claw attack and one Hammer attack.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1 },
+        "description": {
+          "value": "<p>The hammerer makes one Claw attack and one Hammer attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "utility",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            }
           }
         }
       },
@@ -76,17 +156,55 @@
       "type": "weapon",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": 1,
-        "activation": { "type": "action", "value": 1 },
-        "range": { "value": 5, "units": "ft" },
+        "description": {
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "activation": {
+          "type": "action",
+          "value": 1
+        },
+        "range": {
+          "value": 5,
+          "units": "ft"
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": false, "type": { "value": "melee", "classification": "weapon" } },
-            "damage": { "parts": [{ "number": 1, "denomination": "6", "bonus": "3", "types": ["piercing"] }] }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": "6",
+                  "bonus": "3",
+                  "types": [
+                    "piercing"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
@@ -98,17 +216,55 @@
       "type": "weapon",
       "img": "icons/weapons/hammers/hammer-war-rounding.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": 1,
-        "activation": { "type": "action", "value": 1 },
-        "range": { "value": 5, "units": "ft" },
+        "description": {
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "activation": {
+          "type": "action",
+          "value": 1
+        },
+        "range": {
+          "value": 5,
+          "units": "ft"
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": false, "type": { "value": "melee", "classification": "weapon" } },
-            "damage": { "parts": [{ "number": 2, "denomination": "6", "bonus": "3", "types": ["bludgeoning"] }] }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": "6",
+                  "bonus": "3",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
@@ -120,16 +276,51 @@
       "type": "feat",
       "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
       "system": {
-        "description": { "value": "<p><strong>Reaction.</strong> Immediately after a creature within 5 feet of the hammerer hits it with an attack roll, the hammerer makes a Hammer attack against that creature.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "reaction", "value": 1 },
+        "description": {
+          "value": "<p><strong>Reaction.</strong> Immediately after a creature within 5 feet of the hammerer hits it with an attack roll, the hammerer makes a Hammer attack against that creature.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "reaction",
+          "value": 1
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "reaction", "value": 1, "condition": "when hit by an attacker within 5 ft.", "override": false },
-            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": false, "type": { "value": "melee", "classification": "weapon" } },
-            "damage": { "parts": [{ "number": 2, "denomination": "6", "bonus": "3", "types": ["bludgeoning"] }] }
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "condition": "when hit by an attacker within 5 ft.",
+              "override": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": "6",
+                  "bonus": "3",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
@@ -138,26 +329,87 @@
   ],
   "prototypeToken": {
     "name": "Duergar Hammerer",
-    "displayName": 0, "actorLink": false, "appendNumber": false, "prependAdjective": false,
-    "width": 1, "height": 1,
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
     "texture": {
       "src": "modules/rotf/assets/images/token-duergar-hammerer.webp",
-      "anchorX": 0.5, "anchorY": 0.5, "fit": "contain",
-      "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
-    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1,
-    "displayBars": 0, "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 0, "color": null, "coloration": 1, "dim": 0,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
-    "detectionModes": {}, "occludable": { "radius": 0 },
-    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
-    "flags": {}, "randomImg": false
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
   },
   "flags": {},
   "_stats": {

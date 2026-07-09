@@ -1000,7 +1000,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!CommonerAct00000.CommClub00001"
     }
   ],
   "effects": [],
@@ -1021,5 +1022,7 @@
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "CommonerAct00000",
+  "_key": "!actors!CommonerAct00000"
 }

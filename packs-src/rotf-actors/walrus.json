@@ -5,35 +5,75 @@
   "img": "modules/rotf/assets/images/token-walrus.webp",
   "system": {
     "abilities": {
-      "str": { "value": 15 },
-      "dex": { "value": 9 },
-      "con": { "value": 14 },
-      "int": { "value": 3 },
-      "wis": { "value": 11 },
-      "cha": { "value": 4 }
+      "str": {
+        "value": 15
+      },
+      "dex": {
+        "value": 9
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 3
+      },
+      "wis": {
+        "value": 11
+      },
+      "cha": {
+        "value": 4
+      }
     },
     "attributes": {
-      "ac": { "flat": 9 },
-      "hp": { "value": 22, "max": 22, "formula": "3d10+6" },
-      "speed": { "value": 20, "swim": 40, "units": "ft" },
+      "ac": {
+        "flat": 9
+      },
+      "hp": {
+        "value": 22,
+        "max": 22,
+        "formula": "3d10+6"
+      },
+      "speed": {
+        "value": 20,
+        "swim": 40,
+        "units": "ft"
+      },
       "prof": 2
     },
     "details": {
-      "biography": { "value": "<p>Walruses are bulky marine mammals that favor arctic climates and communicate by grunting and roaring. A typical adult specimen weighs at least 2,000 pounds. Humans hunt them for their meat, fat, skin, bones, and tusks.</p>" },
+      "biography": {
+        "value": "<p>Walruses are bulky marine mammals that favor arctic climates and communicate by grunting and roaring. A typical adult specimen weighs at least 2,000 pounds. Humans hunt them for their meat, fat, skin, bones, and tusks.</p>"
+      },
       "alignment": "unaligned",
       "race": "",
-      "type": { "value": "beast", "subtype": "", "swarm": "", "custom": "" },
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "environment": "",
       "cr": 0.25,
       "spellLevel": 0,
-      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "312" }
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "312"
+      }
     },
     "traits": {
       "size": "lg",
-      "di": { "value": [] },
-      "dr": { "value": [] },
-      "ci": { "value": [] },
-      "languages": { "value": [] }
+      "di": {
+        "value": []
+      },
+      "dr": {
+        "value": []
+      },
+      "ci": {
+        "value": []
+      },
+      "languages": {
+        "value": []
+      }
     },
     "skills": {},
     "saves": {}
@@ -45,8 +85,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "The walrus can hold its breath for 10 minutes.", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "312" }
+        "description": {
+          "value": "The walrus can hold its breath for 10 minutes.",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "312"
+        }
       },
       "_key": "!actors.items!WalrusRotfAc11Kl.WalrusItem0001a"
     },
@@ -56,27 +102,55 @@
       "type": "weapon",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage.", "chat": "" },
+        "description": {
+          "value": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage.",
+          "chat": ""
+        },
         "equipped": true,
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
             "attack": {
               "ability": "str",
               "bonus": "",
-              "critical": { "threshold": null },
+              "critical": {
+                "threshold": null
+              },
               "flat": false,
-              "type": { "value": "melee", "classification": "weapon" }
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
             },
             "damage": {
-              "parts": [{ "number": 2, "denomination": "4", "bonus": "2", "types": ["piercing"] }]
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": "4",
+                  "bonus": "2",
+                  "types": [
+                    "piercing"
+                  ]
+                }
+              ]
             },
-            "range": { "value": 5, "units": "ft" }
+            "range": {
+              "value": 5,
+              "units": "ft"
+            }
           }
         },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "312" }
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "312"
+        }
       },
       "_key": "!actors.items!WalrusRotfAc11Kl.WalrusItem0002b"
     }
@@ -104,28 +178,63 @@
     "alpha": 1,
     "disposition": -1,
     "displayBars": 0,
-    "bar1": { "attribute": "attributes.hp" },
-    "bar2": { "attribute": null },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 0, "color": null, "coloration": 1, "dim": 0,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
-      "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "sight": {
-      "enabled": false, "range": 0, "angle": 360,
-      "visionMode": "basic", "color": null, "attenuation": 0.1,
-      "brightness": 0, "saturation": 0, "contrast": 0
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
     },
     "detectionModes": {},
-    "occludable": { "radius": 0 },
+    "occludable": {
+      "radius": 0
+    },
     "ring": {
       "enabled": false,
-      "colors": { "ring": null, "background": null },
+      "colors": {
+        "ring": null,
+        "background": null
+      },
       "effects": 1,
-      "subject": { "scale": 1, "texture": null }
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     },
     "flags": {},
     "randomImg": false

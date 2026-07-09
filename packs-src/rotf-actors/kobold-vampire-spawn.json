@@ -5,82 +5,395 @@
   "img": "modules/rotf/assets/images/token-kobold-vampire-spawn.webp",
   "system": {
     "abilities": {
-      "str": { "value": 10 },
-      "dex": { "value": 18 },
-      "con": { "value": 16 },
-      "int": { "value": 8 },
-      "wis": { "value": 8 },
-      "cha": { "value": 8 }
+      "str": {
+        "value": 10
+      },
+      "dex": {
+        "value": 18
+      },
+      "con": {
+        "value": 16
+      },
+      "int": {
+        "value": 8
+      },
+      "wis": {
+        "value": 8
+      },
+      "cha": {
+        "value": 8
+      }
     },
     "attributes": {
-      "ac": { "flat": 14, "calc": "flat" },
-      "hp": { "value": 39, "min": 0, "max": 39, "formula": "6d6+18" },
-      "speed": { "value": "30 ft., climb 20 ft." },
+      "ac": {
+        "flat": 14,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 39,
+        "min": 0,
+        "max": 39,
+        "formula": "6d6+18"
+      },
+      "speed": {
+        "value": "30 ft., climb 20 ft."
+      },
       "cr": 3,
       "spellcasting": ""
     },
     "details": {
-      "biography": { "value": "<p>The gnoll vampire Tekeli-li has a small number of kobold vampire spawn minions in the Caves of Hunger. These ravenous undead kobolds thirst for blood and tend to swarm one foe at a time.</p>" },
+      "biography": {
+        "value": "<p>The gnoll vampire Tekeli-li has a small number of kobold vampire spawn minions in the Caves of Hunger. These ravenous undead kobolds thirst for blood and tend to swarm one foe at a time.</p>"
+      },
       "alignment": "neutral evil",
       "race": "",
-      "type": { "value": "undead", "subtype": "", "swarm": "", "custom": "" },
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "environment": "",
       "cr": 3,
       "spellLevel": 0,
-      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "297" }
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "297"
+      }
     },
     "skills": {
-      "per": { "value": 1 },
-      "ste": { "value": 1 }
+      "per": {
+        "value": 1
+      },
+      "ste": {
+        "value": 1
+      }
     },
     "traits": {
       "size": "sm",
-      "di": { "value": [] },
-      "dr": { "value": ["necrotic", "bludgeoning", "piercing", "slashing"] },
-      "dv": { "value": [] },
-      "ci": { "value": [] },
-      "languages": { "value": ["common", "draconic"] },
+      "di": {
+        "value": []
+      },
+      "dr": {
+        "value": [
+          "necrotic",
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ]
+      },
+      "dv": {
+        "value": []
+      },
+      "ci": {
+        "value": []
+      },
+      "languages": {
+        "value": [
+          "common",
+          "draconic"
+        ]
+      },
       "special": "Resistance to B/P/S from nonmagical attacks",
       "senses": "darkvision 60 ft."
     },
-    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 }
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   "prototypeToken": {
     "name": "Kobold Vampire Spawn",
-    "displayName": 0, "actorLink": false, "appendNumber": false, "prependAdjective": false,
-    "width": 1, "height": 1,
-    "texture": { "src": "modules/rotf/assets/images/token-kobold-vampire-spawn.webp", "anchorX": 0.5, "anchorY": 0.5, "fit": "contain", "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75 },
-    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1, "displayBars": 0,
-    "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
-    "light": { "negative": false, "priority": 0, "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 } },
-    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
-    "detectionModes": {}, "occludable": { "radius": 0 },
-    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
-    "flags": {}, "randomImg": false
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/rotf/assets/images/token-kobold-vampire-spawn.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
   },
   "items": [
-    { "_id": "KVSTrait01PT", "name": "Pack Tactics", "type": "feat", "img": "icons/skills/melee/strike-slashing-large.webp", "system": { "description": { "value": "<p>The vampire has advantage on an attack roll against a creature if at least one of the vampire's allies is within 5 feet of the creature and the ally isn't incapacitated.</p>", "chat": "" }, "type": { "value": "monster" }, "activation": { "type": "", "value": null, "condition": "" }, "uses": { "value": null, "max": "", "per": null, "recovery": "" } }, "sort": 100000, "_key": "!actors.items!KoboldVampSpawn1.KVSTrait01PT" },
-    { "_id": "KVSTrait02RG", "name": "Regeneration", "type": "feat", "img": "icons/magic/life/heart-glowing-green.webp", "system": { "description": { "value": "<p>The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of its next turn.</p>", "chat": "" }, "type": { "value": "monster" }, "activation": { "type": "", "value": null, "condition": "" }, "uses": { "value": null, "max": "", "per": null, "recovery": "" } }, "sort": 150000, "_key": "!actors.items!KoboldVampSpawn1.KVSTrait02RG" },
-    { "_id": "KVSTrait03UN", "name": "Unusual Nature", "type": "feat", "img": "icons/magic/symbols/cog-green.webp", "system": { "description": { "value": "<p>The vampire doesn't require air.</p>", "chat": "" }, "type": { "value": "monster" }, "activation": { "type": "", "value": null, "condition": "" }, "uses": { "value": null, "max": "", "per": null, "recovery": "" } }, "sort": 175000, "_key": "!actors.items!KoboldVampSpawn1.KVSTrait03UN" },
-    { "_id": "KVSTrait04VW", "name": "Vampire Weaknesses", "type": "feat", "img": "icons/magic/unholy/strike-beam-pink.webp", "system": { "description": { "value": "<p>The vampire has the following flaws: <strong>Forbiddance.</strong> The vampire can't enter a residence without an invitation from one of the occupants. <strong>Harmed by Running Water.</strong> The vampire takes 20 acid damage when it starts its turn in running water. <strong>Stake to the Heart.</strong> The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is incapacitated in its resting place. <strong>Sunlight Hypersensitivity.</strong> The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.</p>", "chat": "" }, "type": { "value": "monster" }, "activation": { "type": "", "value": null, "condition": "" }, "uses": { "value": null, "max": "", "per": null, "recovery": "" } }, "sort": 190000, "_key": "!actors.items!KoboldVampSpawn1.KVSTrait04VW" },
+    {
+      "_id": "KVSTrait01PT",
+      "name": "Pack Tactics",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-slashing-large.webp",
+      "system": {
+        "description": {
+          "value": "<p>The vampire has advantage on an attack roll against a creature if at least one of the vampire's allies is within 5 feet of the creature and the ally isn't incapacitated.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
+      },
+      "sort": 100000,
+      "_key": "!actors.items!KoboldVampSpawn1.KVSTrait01PT"
+    },
+    {
+      "_id": "KVSTrait02RG",
+      "name": "Regeneration",
+      "type": "feat",
+      "img": "icons/magic/life/heart-glowing-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of its next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
+      },
+      "sort": 150000,
+      "_key": "!actors.items!KoboldVampSpawn1.KVSTrait02RG"
+    },
+    {
+      "_id": "KVSTrait03UN",
+      "name": "Unusual Nature",
+      "type": "feat",
+      "img": "icons/magic/symbols/cog-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>The vampire doesn't require air.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
+      },
+      "sort": 175000,
+      "_key": "!actors.items!KoboldVampSpawn1.KVSTrait03UN"
+    },
+    {
+      "_id": "KVSTrait04VW",
+      "name": "Vampire Weaknesses",
+      "type": "feat",
+      "img": "icons/magic/unholy/strike-beam-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>The vampire has the following flaws: <strong>Forbiddance.</strong> The vampire can't enter a residence without an invitation from one of the occupants. <strong>Harmed by Running Water.</strong> The vampire takes 20 acid damage when it starts its turn in running water. <strong>Stake to the Heart.</strong> The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is incapacitated in its resting place. <strong>Sunlight Hypersensitivity.</strong> The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
+      },
+      "sort": 190000,
+      "_key": "!actors.items!KoboldVampSpawn1.KVSTrait04VW"
+    },
     {
       "_id": "KVSAction01BI",
       "name": "Bite",
       "type": "weapon",
       "img": "icons/skills/melee/strike-slashing-large.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 6 (1d4+4) piercing damage plus 5 (2d4) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": true,
-        "type": { "value": "natural", "baseItem": "" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "range": { "value": 5, "long": null, "units": "ft" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
-        "activities": { "dnd5eactivity000": { "_id": "dnd5eactivity000", "type": "attack", "activation": { "type": "action", "value": 1, "condition": "", "override": false }, "attack": { "ability": "dex", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "6", "type": { "value": "melee", "classification": "weapon" } }, "damage": { "parts": [{ "number": 1, "denomination": 4, "bonus": "4", "types": ["piercing"] }, { "number": 2, "denomination": 4, "bonus": "", "types": ["necrotic"] }] } } }
+        "description": {
+          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 6 (1d4+4) piercing damage plus 5 (2d4) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": true,
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "dex",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "flatBonus": "6",
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 4,
+                  "bonus": "4",
+                  "types": [
+                    "piercing"
+                  ]
+                },
+                {
+                  "number": 2,
+                  "denomination": 4,
+                  "bonus": "",
+                  "types": [
+                    "necrotic"
+                  ]
+                }
+              ]
+            }
+          }
+        }
       },
-      "sort": 200000, "_key": "!actors.items!KoboldVampSpawn1.KVSAction01BI"
+      "sort": 200000,
+      "_key": "!actors.items!KoboldVampSpawn1.KVSAction01BI"
     }
   ],
-  "effects": [], "flags": {},
-  "_stats": { "systemId": "dnd5e", "systemVersion": "5.3.3", "coreVersion": "14.364", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14.364",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
   "_key": "!actors!KoboldVampSpawn1"
 }

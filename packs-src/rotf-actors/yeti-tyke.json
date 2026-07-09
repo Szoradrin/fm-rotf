@@ -5,35 +5,77 @@
   "img": "modules/rotf/assets/images/token-yeti-tyke.webp",
   "system": {
     "abilities": {
-      "str": { "value": 10 },
-      "dex": { "value": 11 },
-      "con": { "value": 12 },
-      "int": { "value": 6 },
-      "wis": { "value": 8 },
-      "cha": { "value": 5 }
+      "str": {
+        "value": 10
+      },
+      "dex": {
+        "value": 11
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 6
+      },
+      "wis": {
+        "value": 8
+      },
+      "cha": {
+        "value": 5
+      }
     },
     "attributes": {
-      "ac": { "flat": 11 },
-      "hp": { "value": 9, "max": 9, "formula": "2d6+2" },
-      "speed": { "value": 20, "climb": 20, "units": "ft" },
+      "ac": {
+        "flat": 11
+      },
+      "hp": {
+        "value": 9,
+        "max": 9,
+        "formula": "2d6+2"
+      },
+      "speed": {
+        "value": 20,
+        "climb": 20,
+        "units": "ft"
+      },
       "prof": 2
     },
     "details": {
-      "biography": { "value": "<p>Yeti tykes are as volatile and mean as their parents, their fearsomeness diminished only by their size. Standing 3 feet tall on average, they like to bully creatures of their height or smaller.</p>" },
+      "biography": {
+        "value": "<p>Yeti tykes are as volatile and mean as their parents, their fearsomeness diminished only by their size. Standing 3 feet tall on average, they like to bully creatures of their height or smaller.</p>"
+      },
       "alignment": "chaotic evil",
       "race": "",
-      "type": { "value": "monstrosity", "subtype": "", "swarm": "", "custom": "" },
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "environment": "",
       "cr": 0.125,
       "spellLevel": 0,
-      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "313" }
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "313"
+      }
     },
     "traits": {
       "size": "sm",
-      "di": { "value": ["cold"] },
-      "dr": { "value": [] },
-      "ci": { "value": [] },
-      "languages": { "value": [] }
+      "di": {
+        "value": [
+          "cold"
+        ]
+      },
+      "dr": {
+        "value": []
+      },
+      "ci": {
+        "value": []
+      },
+      "languages": {
+        "value": []
+      }
     },
     "skills": {},
     "saves": {}
@@ -45,8 +87,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "The yeti has advantage on Wisdom (Perception) checks that rely on smell.", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "313" }
+        "description": {
+          "value": "The yeti has advantage on Wisdom (Perception) checks that rely on smell.",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "313"
+        }
       },
       "_key": "!actors.items!YetiTykeRotf12Lm.YetiTykeItem001a"
     },
@@ -56,8 +104,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "The yeti has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "313" }
+        "description": {
+          "value": "The yeti has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "313"
+        }
       },
       "_key": "!actors.items!YetiTykeRotf12Lm.YetiTykeItem002b"
     },
@@ -67,30 +121,63 @@
       "type": "weapon",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) slashing damage plus 2 (1d4) cold damage.", "chat": "" },
+        "description": {
+          "value": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) slashing damage plus 2 (1d4) cold damage.",
+          "chat": ""
+        },
         "equipped": true,
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
             "attack": {
               "ability": "str",
               "bonus": "",
-              "critical": { "threshold": null },
+              "critical": {
+                "threshold": null
+              },
               "flat": false,
-              "type": { "value": "melee", "classification": "weapon" }
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
             },
             "damage": {
               "parts": [
-                { "number": 1, "denomination": "4", "bonus": "", "types": ["slashing"] },
-                { "number": 1, "denomination": "4", "bonus": "", "types": ["cold"] }
+                {
+                  "number": 1,
+                  "denomination": "4",
+                  "bonus": "",
+                  "types": [
+                    "slashing"
+                  ]
+                },
+                {
+                  "number": 1,
+                  "denomination": "4",
+                  "bonus": "",
+                  "types": [
+                    "cold"
+                  ]
+                }
               ]
             },
-            "range": { "value": 5, "units": "ft" }
+            "range": {
+              "value": 5,
+              "units": "ft"
+            }
           }
         },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "313" }
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "313"
+        }
       },
       "_key": "!actors.items!YetiTykeRotf12Lm.YetiTykeItem003c"
     }
@@ -118,28 +205,63 @@
     "alpha": 1,
     "disposition": -1,
     "displayBars": 0,
-    "bar1": { "attribute": "attributes.hp" },
-    "bar2": { "attribute": null },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 0, "color": null, "coloration": 1, "dim": 0,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
-      "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "sight": {
-      "enabled": false, "range": 0, "angle": 360,
-      "visionMode": "basic", "color": null, "attenuation": 0.1,
-      "brightness": 0, "saturation": 0, "contrast": 0
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
     },
     "detectionModes": {},
-    "occludable": { "radius": 0 },
+    "occludable": {
+      "radius": 0
+    },
     "ring": {
       "enabled": false,
-      "colors": { "ring": null, "background": null },
+      "colors": {
+        "ring": null,
+        "background": null
+      },
       "effects": 1,
-      "subject": { "scale": 1, "texture": null }
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     },
     "flags": {},
     "randomImg": false

@@ -770,7 +770,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!SavaaRubyeyeAct0.SavaaFrostBl1"
     },
     {
       "_id": "SavaaSurgeCr1",
@@ -831,7 +832,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!SavaaRubyeyeAct0.SavaaSurgeCr1"
     },
     {
       "_id": "SavaaSpellcst",
@@ -892,7 +894,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!SavaaRubyeyeAct0.SavaaSpellcst"
     },
     {
       "_id": "SavaaMultiat1",
@@ -953,7 +956,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!SavaaRubyeyeAct0.SavaaMultiat1"
     },
     {
       "_id": "SavaaQuartst1",
@@ -1218,7 +1222,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!SavaaRubyeyeAct0.SavaaQuartst1"
     },
     {
       "_id": "SavaaEndurEvr",
@@ -1279,7 +1284,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!SavaaRubyeyeAct0.SavaaEndurEvr"
     },
     {
       "_id": "SavaaWordFros1",
@@ -1340,7 +1346,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!SavaaRubyeyeAct0.SavaaWordFros1"
     }
   ],
   "effects": [],
@@ -1361,5 +1368,7 @@
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "SavaaRubyeyeAct0",
+  "_key": "!actors!SavaaRubyeyeAct0"
 }

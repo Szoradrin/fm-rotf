@@ -790,7 +790,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!NassLantomirSGho.NLEtherSight1"
     },
     {
       "_id": "NLIncorpMove1",
@@ -851,7 +852,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!NassLantomirSGho.NLIncorpMove1"
     },
     {
       "_id": "NLSpellcast01",
@@ -912,7 +914,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!NassLantomirSGho.NLSpellcast01"
     },
     {
       "_id": "NLWitherTouch",
@@ -1177,7 +1180,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!NassLantomirSGho.NLWitherTouch"
     },
     {
       "_id": "NLEtherealns1",
@@ -1238,7 +1242,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!NassLantomirSGho.NLEtherealns1"
     },
     {
       "_id": "NLHorrVisage1",
@@ -1299,7 +1304,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!NassLantomirSGho.NLHorrVisage1"
     },
     {
       "_id": "NLPossession1",
@@ -1360,7 +1366,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!NassLantomirSGho.NLPossession1"
     }
   ],
   "effects": [],
@@ -1381,5 +1388,7 @@
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "NassLantomirSGho",
+  "_key": "!actors!NassLantomirSGho"
 }

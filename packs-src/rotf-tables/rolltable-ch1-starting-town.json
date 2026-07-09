@@ -1,6 +1,5 @@
 {
   "_id": "RotFCh1StartingTown01",
-  "_key": "!tables!RotFCh1StartingTown01",
   "name": "Chapter 1: Starting Town",
   "description": "<p>Roll 1d10 to determine the adventure's starting town and its associated quest. Source: <em>Rime of the Frostmaiden</em> p. 11.</p>",
   "formula": "1d10",
@@ -158,5 +157,6 @@
       "drawn": false,
       "flags": {}
     }
-  ]
+  ],
+  "_key": "!tables!RotFCh1StartingTown01"
 }

@@ -767,7 +767,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!SpiteOfAurilAct0.SpiteColdFai1"
     },
     {
       "_id": "SpiteSurgeCr1",
@@ -828,7 +829,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!SpiteOfAurilAct0.SpiteSurgeCr1"
     },
     {
       "_id": "SpiteDagger01",
@@ -1093,7 +1095,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!SpiteOfAurilAct0.SpiteDagger01"
     }
   ],
   "effects": [],
@@ -1114,5 +1117,7 @@
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "SpiteOfAurilAct0",
+  "_key": "!actors!SpiteOfAurilAct0"
 }

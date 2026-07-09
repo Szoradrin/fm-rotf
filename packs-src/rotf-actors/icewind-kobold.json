@@ -770,7 +770,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!IcewindKoboldAct.IKPackTact001"
     },
     {
       "_id": "IKSunlightSen1",
@@ -831,7 +832,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!IcewindKoboldAct.IKSunlightSen1"
     },
     {
       "_id": "IKDagger00001",
@@ -1096,7 +1098,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!IcewindKoboldAct.IKDagger00001"
     },
     {
       "_id": "IKJavelin0001",
@@ -1361,7 +1364,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!IcewindKoboldAct.IKJavelin0001"
     }
   ],
   "effects": [],
@@ -1382,5 +1386,7 @@
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "IcewindKoboldAct",
+  "_key": "!actors!IcewindKoboldAct"
 }

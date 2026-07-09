@@ -128,7 +128,8 @@
         "levels": []
       },
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!scenes.levels!TwentyStonesOfTh.defaultLevel0000"
     }
   ],
   "initialLevel": "defaultLevel0000",
@@ -139,5 +140,7 @@
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "TwentyStonesOfTh",
+  "_key": "!scenes!TwentyStonesOfTh"
 }

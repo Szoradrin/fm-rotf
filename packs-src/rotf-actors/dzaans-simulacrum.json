@@ -768,7 +768,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!DzaanSSimulacrum.DzSpellcast01"
     },
     {
       "_id": "DzShockGrasp1",
@@ -1033,7 +1034,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!DzaanSSimulacrum.DzShockGrasp1"
     },
     {
       "_id": "DzAcidSplash1",
@@ -1094,7 +1096,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!DzaanSSimulacrum.DzAcidSplash1"
     },
     {
       "_id": "DzMagicMiss01",
@@ -1155,7 +1158,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!DzaanSSimulacrum.DzMagicMiss01"
     }
   ],
   "effects": [],
@@ -1176,5 +1180,7 @@
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "DzaanSSimulacrum",
+  "_key": "!actors!DzaanSSimulacrum"
 }

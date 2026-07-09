@@ -1,6 +1,5 @@
 {
   "_id": "RotFCh1LakeEvents01",
-  "_key": "!tables!RotFCh1LakeEvents01",
   "name": "Chapter 1: Lake Events (Maer Dualdon)",
   "description": "<p>Roll 1d20 at the end of each hour while the party is out on Maer Dualdon during the Bremen \"Lake Monster\" quest. Source: <em>Rime of the Frostmaiden</em> p. 34.</p>",
   "formula": "1d20",
@@ -102,5 +101,6 @@
       "drawn": false,
       "flags": {}
     }
-  ]
+  ],
+  "_key": "!tables!RotFCh1LakeEvents01"
 }

@@ -5,38 +5,100 @@
   "img": "modules/rotf/assets/images/token-brain-in-a-jar.webp",
   "system": {
     "abilities": {
-      "str": { "value": 1 },
-      "dex": { "value": 3 },
-      "con": { "value": 15 },
-      "int": { "value": 19 },
-      "wis": { "value": 10 },
-      "cha": { "value": 15 }
+      "str": {
+        "value": 1
+      },
+      "dex": {
+        "value": 3
+      },
+      "con": {
+        "value": 15
+      },
+      "int": {
+        "value": 19
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 15
+      }
     },
     "attributes": {
-      "ac": { "flat": 11, "calc": "flat", "formula": "" },
-      "hp": { "value": 55, "max": 55, "temp": 0, "formula": "10d6+20" },
-      "speed": { "value": 0, "fly": 10, "special": "hover" },
+      "ac": {
+        "flat": 11,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 55,
+        "max": 55,
+        "temp": 0,
+        "formula": "10d6+20"
+      },
+      "speed": {
+        "value": 0,
+        "fly": 10,
+        "special": "hover"
+      },
       "prof": 2
     },
     "details": {
-      "biography": { "value": "<p>Through rituals combining alchemy, necromancy, and grim surgical precision, the brain of a mortal being is encased in a glass jar filled with preserving fluids and the liquefied goop of their body's flesh. The transformation renders the brain undead.</p>", "public": "" },
+      "biography": {
+        "value": "<p>Through rituals combining alchemy, necromancy, and grim surgical precision, the brain of a mortal being is encased in a glass jar filled with preserving fluids and the liquefied goop of their body's flesh. The transformation renders the brain undead.</p>",
+        "public": ""
+      },
       "alignment": "",
       "race": "",
-      "type": { "value": "undead", "subtype": "", "swarm": "", "custom": "" },
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "cr": 3,
       "spellLevel": 0,
-      "source": { "custom": "ROTF" }
+      "source": {
+        "custom": "ROTF"
+      }
     },
     "traits": {
       "size": "sm",
-      "languages": { "value": [], "custom": "the languages it knew in life" },
-      "senses": { "darkvision": 0, "blindsight": 120, "tremorsense": 0, "truesight": 0, "units": "ft", "special": "blind beyond 120 ft." },
-      "di": { "value": ["poison"], "custom": "" },
-      "ci": { "value": ["exhaustion", "paralyzed", "poisoned", "prone"], "custom": "" }
+      "languages": {
+        "value": [],
+        "custom": "the languages it knew in life"
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 120,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": "blind beyond 120 ft."
+      },
+      "di": {
+        "value": [
+          "poison"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "exhaustion",
+          "paralyzed",
+          "poisoned",
+          "prone"
+        ],
+        "custom": ""
+      }
     },
     "saves": {
-      "int": { "proficient": 1 },
-      "cha": { "proficient": 1 }
+      "int": {
+        "proficient": 1
+      },
+      "cha": {
+        "proficient": 1
+      }
     },
     "skills": {}
   },
@@ -47,9 +109,17 @@
       "type": "feat",
       "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
       "system": {
-        "description": { "value": "<p>The brain can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a <em>mind blank</em> spell.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null },
+        "description": {
+          "value": "<p>The brain can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a <em>mind blank</em> spell.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null
+        },
         "activities": {}
       },
       "_key": "!actors.items!BrainInJar001001.BrainItem00001"
@@ -60,9 +130,17 @@
       "type": "feat",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
       "system": {
-        "description": { "value": "<p>The brain has advantage on saving throws against spells and other magical effects.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null },
+        "description": {
+          "value": "<p>The brain has advantage on saving throws against spells and other magical effects.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null
+        },
         "activities": {}
       },
       "_key": "!actors.items!BrainInJar001001.BrainItem00002"
@@ -73,9 +151,17 @@
       "type": "feat",
       "img": "icons/magic/nature/elemental-air-humanoid.webp",
       "system": {
-        "description": { "value": "<p>The brain doesn't require air, food, drink, or sleep.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null },
+        "description": {
+          "value": "<p>The brain doesn't require air, food, drink, or sleep.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null
+        },
         "activities": {}
       },
       "_key": "!actors.items!BrainInJar001001.BrainItem00003"
@@ -86,23 +172,51 @@
       "type": "spell",
       "img": "icons/magic/death/hand-skeletal-glowing-teal.webp",
       "system": {
-        "description": { "value": "<p>Ranged Spell Attack: +6 to hit, range 120 ft., one creature. Hit: 13 (3d8) necrotic damage, and the target can't regain hit points until the start of the brain's next turn. If the target is Undead, it also has disadvantage on attack rolls against the brain until the end of the brain's next turn.</p>", "chat": "" },
-        "activation": { "type": "action", "value": 1 },
-        "range": { "value": 120, "units": "ft" },
+        "description": {
+          "value": "<p>Ranged Spell Attack: +6 to hit, range 120 ft., one creature. Hit: 13 (3d8) necrotic damage, and the target can't regain hit points until the start of the brain's next turn. If the target is Undead, it also has disadvantage on attack rolls against the brain until the end of the brain's next turn.</p>",
+          "chat": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": 1
+        },
+        "range": {
+          "value": 120,
+          "units": "ft"
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
             "attack": {
               "ability": "int",
               "bonus": "",
-              "critical": { "threshold": null },
+              "critical": {
+                "threshold": null
+              },
               "flat": false,
-              "type": { "value": "ranged", "classification": "spell" }
+              "type": {
+                "value": "ranged",
+                "classification": "spell"
+              }
             },
             "damage": {
-              "parts": [{ "number": 3, "denomination": "8", "bonus": "", "types": ["necrotic"] }]
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": "8",
+                  "bonus": "",
+                  "types": [
+                    "necrotic"
+                  ]
+                }
+              ]
             }
           }
         }
@@ -115,17 +229,45 @@
       "type": "feat",
       "img": "icons/magic/air/air-burst-spiral-large-blue.webp",
       "system": {
-        "description": { "value": "<p>The brain magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 14 Intelligence saving throw or take 17 (3d8 + 4) psychic damage and be stunned for 1 minute. A stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1 },
+        "description": {
+          "value": "<p>The brain magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 14 Intelligence saving throw or take 17 (3d8 + 4) psychic damage and be stunned for 1 minute. A stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "save",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "save": { "ability": "int", "dc": { "formula": "14", "calculation": "" } },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "save": {
+              "ability": "int",
+              "dc": {
+                "formula": "14",
+                "calculation": ""
+              }
+            },
             "damage": {
-              "parts": [{ "number": 3, "denomination": "8", "bonus": "4", "types": ["psychic"] }]
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": "8",
+                  "bonus": "4",
+                  "types": [
+                    "psychic"
+                  ]
+                }
+              ]
             }
           }
         }
@@ -138,9 +280,17 @@
       "type": "feat",
       "img": "icons/magic/symbols/runes-star-blue.webp",
       "system": {
-        "description": { "value": "<p>The brain casts one of the following spells, requiring no components and using Intelligence as the spellcasting ability (spell save DC 14):</p><p><strong>At will:</strong> detect thoughts, mage hand, zone of truth</p><p><strong>3/day each:</strong> charm person, hold person</p><p><strong>1/day each:</strong> compulsion, hold monster, sleep (3rd-level version), Tasha's hideous laughter</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null },
+        "description": {
+          "value": "<p>The brain casts one of the following spells, requiring no components and using Intelligence as the spellcasting ability (spell save DC 14):</p><p><strong>At will:</strong> detect thoughts, mage hand, zone of truth</p><p><strong>3/day each:</strong> charm person, hold person</p><p><strong>1/day each:</strong> compulsion, hold monster, sleep (3rd-level version), Tasha's hideous laughter</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null
+        },
         "activities": {}
       },
       "_key": "!actors.items!BrainInJar001001.BrainItem00006"
@@ -169,28 +319,63 @@
     "alpha": 1,
     "disposition": -1,
     "displayBars": 0,
-    "bar1": { "attribute": "attributes.hp" },
-    "bar2": { "attribute": null },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 0, "color": null, "coloration": 1, "dim": 0,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
-      "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "sight": {
-      "enabled": false, "range": 0, "angle": 360,
-      "visionMode": "basic", "color": null, "attenuation": 0.1,
-      "brightness": 0, "saturation": 0, "contrast": 0
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
     },
     "detectionModes": {},
-    "occludable": { "radius": 0 },
+    "occludable": {
+      "radius": 0
+    },
     "ring": {
       "enabled": false,
-      "colors": { "ring": null, "background": null },
+      "colors": {
+        "ring": null,
+        "background": null
+      },
       "effects": 1,
-      "subject": { "scale": 1, "texture": null }
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     },
     "flags": {},
     "randomImg": false

@@ -5,41 +5,89 @@
   "img": "modules/rotf/assets/images/token-gnome-squidling.webp",
   "system": {
     "abilities": {
-      "str": { "value": 4 },
-      "dex": { "value": 7 },
-      "con": { "value": 10 },
-      "int": { "value": 4 },
-      "wis": { "value": 10 },
-      "cha": { "value": 3 }
+      "str": {
+        "value": 4
+      },
+      "dex": {
+        "value": 7
+      },
+      "con": {
+        "value": 10
+      },
+      "int": {
+        "value": 4
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 3
+      }
     },
     "attributes": {
-      "ac": { "flat": 8, "calc": "flat" },
-      "hp": { "value": 10, "min": 0, "max": 10, "formula": "3d6" },
-      "speed": { "value": "15 ft." },
+      "ac": {
+        "flat": 8,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 10,
+        "min": 0,
+        "max": 10,
+        "formula": "3d6"
+      },
+      "speed": {
+        "value": "15 ft."
+      },
       "cr": 0.5,
       "spellcasting": "int"
     },
     "details": {
-      "biography": { "value": "<p>A gnome squidling is the larval stage of a gnome ceremorph — a gnome whose brain has been partially consumed and replaced by a mind flayer tadpole.</p>" },
+      "biography": {
+        "value": "<p>A gnome squidling is the larval stage of a gnome ceremorph \u2014 a gnome whose brain has been partially consumed and replaced by a mind flayer tadpole.</p>"
+      },
       "alignment": "unaligned",
       "race": "",
-      "type": { "value": "aberration", "subtype": "", "swarm": "", "custom": "" },
+      "type": {
+        "value": "aberration",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "environment": "",
       "cr": 0.5,
       "spellLevel": 0,
-      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "292" }
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "292"
+      }
     },
     "skills": {},
     "traits": {
       "size": "sm",
-      "di": { "value": [] },
-      "dr": { "value": [] },
-      "dv": { "value": [] },
-      "ci": { "value": [] },
-      "languages": { "value": [] },
+      "di": {
+        "value": []
+      },
+      "dr": {
+        "value": []
+      },
+      "dv": {
+        "value": []
+      },
+      "ci": {
+        "value": []
+      },
+      "languages": {
+        "value": []
+      },
       "special": "Understands Deep Speech and Gnomish but can't speak, telepathy 60 ft."
     },
-    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 }
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   "prototypeToken": {
     "name": "Gnome Squidling",
@@ -51,16 +99,79 @@
     "height": 1,
     "texture": {
       "src": "modules/rotf/assets/images/token-gnome-squidling.webp",
-      "anchorX": 0.5, "anchorY": 0.5, "fit": "contain",
-      "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
-    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1, "displayBars": 0,
-    "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
-    "light": { "negative": false, "priority": 0, "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 } },
-    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
-    "detectionModes": {}, "occludable": { "radius": 0 },
-    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
-    "flags": {}, "randomImg": false
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
   },
   "items": [
     {
@@ -69,12 +180,27 @@
       "type": "feat",
       "img": "icons/magic/symbols/cog-purple.webp",
       "system": {
-        "description": { "value": "<p>The squidling's innate spellcasting ability is Intelligence (spell save DC 7). It can innately cast levitate at will, requiring no components.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>The squidling's innate spellcasting ability is Intelligence (spell save DC 7). It can innately cast levitate at will, requiring no components.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 100000
+      "sort": 100000,
+      "_key": "!actors.items!927AFCEA6AEB5E13.GSquidTrait001IS"
     },
     {
       "_id": "GSquidTrait002MR",
@@ -82,12 +208,27 @@
       "type": "feat",
       "img": "icons/magic/defensive/shield-barrier-blue.webp",
       "system": {
-        "description": { "value": "<p>The squidling has advantage on saving throws against spells and other magical effects.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>The squidling has advantage on saving throws against spells and other magical effects.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 150000
+      "sort": 150000,
+      "_key": "!actors.items!927AFCEA6AEB5E13.GSquidTrait002MR"
     },
     {
       "_id": "GSquidAction001Te",
@@ -95,23 +236,73 @@
       "type": "weapon",
       "img": "icons/skills/melee/strike-slashing-large.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 5 (2d4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 7) and must succeed on a DC 7 Intelligence saving throw or be stunned until this grapple ends.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": true,
-        "type": { "value": "natural", "baseItem": "" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "range": { "value": 5, "long": null, "units": "ft" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
+        "description": {
+          "value": "<p>Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 5 (2d4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 7) and must succeed on a DC 7 Intelligence saving throw or be stunned until this grapple ends.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": true,
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "0", "type": { "value": "melee", "classification": "spell" } },
-            "damage": { "parts": [{ "number": 2, "denomination": 4, "bonus": "", "types": ["psychic"] }] }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "flatBonus": "0",
+              "type": {
+                "value": "melee",
+                "classification": "spell"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 4,
+                  "bonus": "",
+                  "types": [
+                    "psychic"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
-      "sort": 200000
+      "sort": 200000,
+      "_key": "!actors.items!927AFCEA6AEB5E13.GSquidAction001Te"
     },
     {
       "_id": "GSquidAction002EB",
@@ -119,23 +310,73 @@
       "type": "weapon",
       "img": "icons/magic/death/undead-skeleton-skull-purple.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +0 to hit, reach 5 ft., one incapacitated creature grappled by the squidling. Hit: 27 (5d10) piercing damage. If this damage reduces the target to 0 hit points, the squidling kills the target by extracting and devouring its brain.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": true,
-        "type": { "value": "natural", "baseItem": "" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "range": { "value": 5, "long": null, "units": "ft" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
+        "description": {
+          "value": "<p>Melee Weapon Attack: +0 to hit, reach 5 ft., one incapacitated creature grappled by the squidling. Hit: 27 (5d10) piercing damage. If this damage reduces the target to 0 hit points, the squidling kills the target by extracting and devouring its brain.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": true,
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "0", "type": { "value": "melee", "classification": "weapon" } },
-            "damage": { "parts": [{ "number": 5, "denomination": 10, "bonus": "", "types": ["piercing"] }] }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "flatBonus": "0",
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 5,
+                  "denomination": 10,
+                  "bonus": "",
+                  "types": [
+                    "piercing"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
-      "sort": 300000
+      "sort": 300000,
+      "_key": "!actors.items!927AFCEA6AEB5E13.GSquidAction002EB"
     },
     {
       "_id": "GSquidAction003MT",
@@ -143,12 +384,27 @@
       "type": "feat",
       "img": "icons/magic/air/wind-tornado-wall-blue.webp",
       "system": {
-        "description": { "value": "<p>The squidling magically emits psychic energy in a 30-foot cone. Each creature in that area must succeed on a DC 7 Intelligence saving throw or take 2 (1d4) psychic damage and be stunned until the end of its next turn.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "uses": { "value": 1, "max": "1", "per": "recharge", "recovery": "" }
+        "description": {
+          "value": "<p>The squidling magically emits psychic energy in a 30-foot cone. Each creature in that area must succeed on a DC 7 Intelligence saving throw or take 2 (1d4) psychic damage and be stunned until the end of its next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "recharge",
+          "recovery": ""
+        }
       },
-      "sort": 400000
+      "sort": 400000,
+      "_key": "!actors.items!927AFCEA6AEB5E13.GSquidAction003MT"
     }
   ],
   "effects": [],

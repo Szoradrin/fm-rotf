@@ -4,29 +4,336 @@
   "type": "npc",
   "img": "modules/rotf/assets/images/token-living-demiplane.webp",
   "system": {
-    "abilities": { "str": { "value": 1 }, "dex": { "value": 10 }, "con": { "value": 10 }, "int": { "value": 1 }, "wis": { "value": 10 }, "cha": { "value": 1 } },
-    "attributes": { "ac": { "flat": 10, "calc": "flat" }, "hp": { "value": 31, "min": 0, "max": 31, "formula": "7d8" }, "speed": { "value": "30 ft., climb 30 ft." }, "cr": 0, "spellcasting": "" },
-    "details": { "biography": { "value": "<p>A living demiplane is a demiplane spell that has become vaguely self-aware. It is a shadowy rectangle, 5 feet wide and 10 feet high, which creeps along flat, solid surfaces and groans softly when it moves.</p>" }, "alignment": "unaligned", "race": "", "type": { "value": "construct", "subtype": "", "swarm": "", "custom": "" }, "environment": "", "cr": 0, "spellLevel": 0, "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "300" } },
+    "abilities": {
+      "str": {
+        "value": 1
+      },
+      "dex": {
+        "value": 10
+      },
+      "con": {
+        "value": 10
+      },
+      "int": {
+        "value": 1
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 10,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 31,
+        "min": 0,
+        "max": 31,
+        "formula": "7d8"
+      },
+      "speed": {
+        "value": "30 ft., climb 30 ft."
+      },
+      "cr": 0,
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>A living demiplane is a demiplane spell that has become vaguely self-aware. It is a shadowy rectangle, 5 feet wide and 10 feet high, which creeps along flat, solid surfaces and groans softly when it moves.</p>"
+      },
+      "alignment": "unaligned",
+      "race": "",
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 0,
+      "spellLevel": 0,
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "300"
+      }
+    },
     "skills": {},
-    "traits": { "size": "med", "di": { "value": ["poison"] }, "dr": { "value": [] }, "dv": { "value": [] }, "ci": { "value": ["blinded", "charmed", "deafened", "exhaustion", "frightened", "grappled", "paralyzed", "petrified", "poisoned", "prone", "restrained", "stunned", "unconscious"] }, "languages": { "value": [] }, "senses": "darkvision 60 ft." },
-    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 }
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "poison"
+        ]
+      },
+      "dr": {
+        "value": []
+      },
+      "dv": {
+        "value": []
+      },
+      "ci": {
+        "value": [
+          "blinded",
+          "charmed",
+          "deafened",
+          "exhaustion",
+          "frightened",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "prone",
+          "restrained",
+          "stunned",
+          "unconscious"
+        ]
+      },
+      "languages": {
+        "value": []
+      },
+      "senses": "darkvision 60 ft."
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   "prototypeToken": {
-    "name": "Living Demiplane", "displayName": 0, "actorLink": false, "appendNumber": false, "prependAdjective": false, "width": 1, "height": 2,
-    "texture": { "src": "modules/rotf/assets/images/token-living-demiplane.webp", "anchorX": 0.5, "anchorY": 0.5, "fit": "contain", "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75 },
-    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1, "displayBars": 0, "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
-    "light": { "negative": false, "priority": 0, "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 } },
-    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
-    "detectionModes": {}, "occludable": { "radius": 0 }, "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } }, "flags": {}, "randomImg": false
+    "name": "Living Demiplane",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 2,
+    "texture": {
+      "src": "modules/rotf/assets/images/token-living-demiplane.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
   },
   "items": [
-    { "_id": "LDPTrait01DF", "name": "Dimensional Form", "type": "feat", "img": "icons/magic/movement/abstract-ribbons-red-orange.webp", "system": { "description": { "value": "<p>The living spell can enter another creature's space and vice versa, and it can move through a space as narrow as 1 inch wide without squeezing. The living spell can't detach from a solid surface, such as a wall, ceiling, or floor. If it has no surface to attach to, the living spell is destroyed.</p>", "chat": "" }, "type": { "value": "monster" }, "activation": { "type": "", "value": null, "condition": "" }, "uses": { "value": null, "max": "", "per": null, "recovery": "" } }, "sort": 100000, "_key": "!actors.items!LivingDemiplane01.LDPTrait01DF" },
-    { "_id": "LDPTrait02EC", "name": "Extradimensional Chamber", "type": "feat", "img": "icons/magic/symbols/gate-entrance-teal.webp", "system": { "description": { "value": "<p>When the living spell enters another creature's space (or vice versa) for the first time on a turn, the other creature must succeed on a DC 10 Dexterity saving throw or be pulled into the living spell's extradimensional space — an unfurnished stone chamber 30 feet in every dimension. A creature too big to fit succeeds automatically. Creatures inside never run out of air. Magic enabling transit between planes (such as plane shift) can escape the chamber, which has no exits otherwise. Creatures trapped inside can't see, target, or deal damage to the living spell, but can damage the room. Each 5-foot-square section has AC 17, 50 HP, immunity to poison and psychic damage, and immunity to nonmagical B/P/S. If any section is reduced to 0 HP, the living spell and its chamber are destroyed.</p>", "chat": "" }, "type": { "value": "monster" }, "activation": { "type": "", "value": null, "condition": "" }, "uses": { "value": null, "max": "", "per": null, "recovery": "" } }, "sort": 150000, "_key": "!actors.items!LivingDemiplane01.LDPTrait02EC" },
-    { "_id": "LDPTrait03MR", "name": "Magic Resistance", "type": "feat", "img": "icons/magic/defensive/shield-barrier-blue.webp", "system": { "description": { "value": "<p>The living spell has advantage on saving throws against spells and other magical effects.</p>", "chat": "" }, "type": { "value": "monster" }, "activation": { "type": "", "value": null, "condition": "" }, "uses": { "value": null, "max": "", "per": null, "recovery": "" } }, "sort": 175000, "_key": "!actors.items!LivingDemiplane01.LDPTrait03MR" },
-    { "_id": "LDPTrait04PD", "name": "Planar Destruction", "type": "feat", "img": "icons/magic/unholy/strike-beam-pink.webp", "system": { "description": { "value": "<p>The living spell is destroyed when it or a 5-foot-square section of its extradimensional chamber is reduced to 0 hit points, or when the living spell has no surface to attach to. When destroyed, the contents of its extradimensional chamber are expelled as close to the living spell's previous location as possible. Each expelled creature appears in a randomly determined unoccupied space.</p>", "chat": "" }, "type": { "value": "monster" }, "activation": { "type": "", "value": null, "condition": "" }, "uses": { "value": null, "max": "", "per": null, "recovery": "" } }, "sort": 190000, "_key": "!actors.items!LivingDemiplane01.LDPTrait04PD" },
-    { "_id": "LDPTrait05UN", "name": "Unusual Nature", "type": "feat", "img": "icons/magic/symbols/cog-green.webp", "system": { "description": { "value": "<p>The living spell doesn't require air, food, drink, or sleep.</p>", "chat": "" }, "type": { "value": "monster" }, "activation": { "type": "", "value": null, "recovery": "" } }, "sort": 200000, "_key": "!actors.items!LivingDemiplane01.LDPTrait05UN" }
+    {
+      "_id": "LDPTrait01DF",
+      "name": "Dimensional Form",
+      "type": "feat",
+      "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>The living spell can enter another creature's space and vice versa, and it can move through a space as narrow as 1 inch wide without squeezing. The living spell can't detach from a solid surface, such as a wall, ceiling, or floor. If it has no surface to attach to, the living spell is destroyed.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
+      },
+      "sort": 100000,
+      "_key": "!actors.items!LivingDemiplane01.LDPTrait01DF"
+    },
+    {
+      "_id": "LDPTrait02EC",
+      "name": "Extradimensional Chamber",
+      "type": "feat",
+      "img": "icons/magic/symbols/gate-entrance-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p>When the living spell enters another creature's space (or vice versa) for the first time on a turn, the other creature must succeed on a DC 10 Dexterity saving throw or be pulled into the living spell's extradimensional space \u2014 an unfurnished stone chamber 30 feet in every dimension. A creature too big to fit succeeds automatically. Creatures inside never run out of air. Magic enabling transit between planes (such as plane shift) can escape the chamber, which has no exits otherwise. Creatures trapped inside can't see, target, or deal damage to the living spell, but can damage the room. Each 5-foot-square section has AC 17, 50 HP, immunity to poison and psychic damage, and immunity to nonmagical B/P/S. If any section is reduced to 0 HP, the living spell and its chamber are destroyed.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
+      },
+      "sort": 150000,
+      "_key": "!actors.items!LivingDemiplane01.LDPTrait02EC"
+    },
+    {
+      "_id": "LDPTrait03MR",
+      "name": "Magic Resistance",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>The living spell has advantage on saving throws against spells and other magical effects.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
+      },
+      "sort": 175000,
+      "_key": "!actors.items!LivingDemiplane01.LDPTrait03MR"
+    },
+    {
+      "_id": "LDPTrait04PD",
+      "name": "Planar Destruction",
+      "type": "feat",
+      "img": "icons/magic/unholy/strike-beam-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>The living spell is destroyed when it or a 5-foot-square section of its extradimensional chamber is reduced to 0 hit points, or when the living spell has no surface to attach to. When destroyed, the contents of its extradimensional chamber are expelled as close to the living spell's previous location as possible. Each expelled creature appears in a randomly determined unoccupied space.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
+      },
+      "sort": 190000,
+      "_key": "!actors.items!LivingDemiplane01.LDPTrait04PD"
+    },
+    {
+      "_id": "LDPTrait05UN",
+      "name": "Unusual Nature",
+      "type": "feat",
+      "img": "icons/magic/symbols/cog-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>The living spell doesn't require air, food, drink, or sleep.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "recovery": ""
+        }
+      },
+      "sort": 200000,
+      "_key": "!actors.items!LivingDemiplane01.LDPTrait05UN"
+    }
   ],
-  "effects": [], "flags": {},
-  "_stats": { "systemId": "dnd5e", "systemVersion": "5.3.3", "coreVersion": "14.364", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14.364",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
   "_key": "!actors!LivingDemiplane01"
 }

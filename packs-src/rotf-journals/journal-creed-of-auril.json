@@ -7,18 +7,37 @@
       "type": "text",
       "_id": "CoAChurch000001",
       "system": {},
-      "title": { "show": false, "level": 1 },
+      "title": {
+        "show": false,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
-        "content": "<h1>The Creed of Auril</h1><p><em>Faction information for the Cult of Auril in Icewind Dale. DM Reference only.</em></p><h2>Auril, the Frostmaiden</h2><p>Auril is a lesser deity representing the bleak, cold, dangerous fury of winter. Haughty, overbearing, mercurial, uncaring, and fickle — she is not benevolent. Like the winter she controls, she is cold, dangerous, and unpredictable.</p><p><strong>Motto:</strong> Beauty kept in all its grace.<br><strong>Symbol:</strong> A six-pointed snowflake. Cult members carve crude versions into wooden poles, walls, and the undersides of tables. Higher-ranked members carry a piece of black ice with Auril's symbol carved into it.</p><h2>It's a Church, Not a Cult</h2><p>Auril is a true deity. In a pantheistic society, it's not abnormal for people to worship multiple deities. A priestess walking around in ceremonial vestments bearing Auril's symbol will not immediately be assumed evil. The most visible member of the Church of Auril is often the priestess or acolyte who travels from town to town offering succor to those who suffer in the cold.</p><h2>It's Also a Cult</h2><p>The Cult of Auril exists to exalt, placate, and strengthen the Frostmaiden's influence. In Icewind Dale the cult has been consistently gaining members since the beginning of the Rime. Membership in Icewind Dale: <strong>350+</strong>.</p><p>Cultists believe it is their duty to show Ten-Towns that worship of the Frostmaiden is the only act that can redeem the world. Low-level cultists use bribery, violence, and blackmail to keep residents in line. Icebringers and coldwinds curry favor with speakers through manipulation and political pressure.</p>"
+        "content": "<h1>The Creed of Auril</h1><p><em>Faction information for the Cult of Auril in Icewind Dale. DM Reference only.</em></p><h2>Auril, the Frostmaiden</h2><p>Auril is a lesser deity representing the bleak, cold, dangerous fury of winter. Haughty, overbearing, mercurial, uncaring, and fickle \u2014 she is not benevolent. Like the winter she controls, she is cold, dangerous, and unpredictable.</p><p><strong>Motto:</strong> Beauty kept in all its grace.<br><strong>Symbol:</strong> A six-pointed snowflake. Cult members carve crude versions into wooden poles, walls, and the undersides of tables. Higher-ranked members carry a piece of black ice with Auril's symbol carved into it.</p><h2>It's a Church, Not a Cult</h2><p>Auril is a true deity. In a pantheistic society, it's not abnormal for people to worship multiple deities. A priestess walking around in ceremonial vestments bearing Auril's symbol will not immediately be assumed evil. The most visible member of the Church of Auril is often the priestess or acolyte who travels from town to town offering succor to those who suffer in the cold.</p><h2>It's Also a Cult</h2><p>The Cult of Auril exists to exalt, placate, and strengthen the Frostmaiden's influence. In Icewind Dale the cult has been consistently gaining members since the beginning of the Rime. Membership in Icewind Dale: <strong>350+</strong>.</p><p>Cultists believe it is their duty to show Ten-Towns that worship of the Frostmaiden is the only act that can redeem the world. Low-level cultists use bribery, violence, and blackmail to keep residents in line. Icebringers and coldwinds curry favor with speakers through manipulation and political pressure.</p>"
       },
-      "video": { "controls": true, "volume": 0.5 },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
       "src": null,
       "flags": {},
-      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "category": null,
-      "ownership": { "default": -1 }
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!CreedOfAurilJrn0.CoAChurch000001"
     },
     {
       "sort": 200000,
@@ -26,18 +45,37 @@
       "type": "text",
       "_id": "CoATenets000001",
       "system": {},
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
-        "content": "<h2>The Four Tenets of Faith</h2><p><strong>Cruelty.</strong> Compassion only highlights weaknesses ripe for exploitation. Cruelty is the armor you need. <em>\"Compassion makes you vulnerable. Let cruelty be the knife that keeps your enemies at bay.\"</em></p><p><strong>Endurance.</strong> Perseverance is a testament to itself. <em>\"Exist as long as you can, by whatever means you can. Only by enduring can you outlast your enemies.\"</em></p><p><strong>Isolation.</strong> Count on no one else. Only self-reliance can lead to self-actualization. <em>\"In solitude you can understand and harness your full potential. Depending on others makes you weak.\"</em></p><p><strong>Preservation.</strong> Auril's most devout followers know this tenet to be the most important — wrap all that is beautiful in a blanket of preserving ice. <em>\"Every flake of snow is unique, and that which is unique must be preserved.\"</em></p><h2>Cult Greetings</h2><p>Active cultists use specific phrases to identify each other in crowds:</p><ul><li><strong>Greeting:</strong> <em>\"The frigid veil persists.\"</em></li><li><strong>Response:</strong> <em>\"All the world in winter's white.\"</em></li><li><strong>Parting:</strong> <em>\"May her blessing chill you.\"</em></li></ul><h2>Mottos</h2><ul><li><em>\"Only we can preserve the unspoiled beauty of the world.\"</em></li><li><em>\"Loyalty to winter will preserve the world.\"</em></li></ul><h2>Holidays</h2><ul><li><strong>Midwinter Night</strong> — holiest night for Icedawn worshipers. Those born on this day are said to be blessed by the Frostmaiden.</li><li><strong>Auril's Blesstide</strong> — the first frost.</li><li><strong>The Coming Storm</strong> — ritualized observance of the first day of winter; priests call forth an icestorm.</li><li><strong>The Last Storm</strong> — marks the last day of winter.</li></ul>"
+        "content": "<h2>The Four Tenets of Faith</h2><p><strong>Cruelty.</strong> Compassion only highlights weaknesses ripe for exploitation. Cruelty is the armor you need. <em>\"Compassion makes you vulnerable. Let cruelty be the knife that keeps your enemies at bay.\"</em></p><p><strong>Endurance.</strong> Perseverance is a testament to itself. <em>\"Exist as long as you can, by whatever means you can. Only by enduring can you outlast your enemies.\"</em></p><p><strong>Isolation.</strong> Count on no one else. Only self-reliance can lead to self-actualization. <em>\"In solitude you can understand and harness your full potential. Depending on others makes you weak.\"</em></p><p><strong>Preservation.</strong> Auril's most devout followers know this tenet to be the most important \u2014 wrap all that is beautiful in a blanket of preserving ice. <em>\"Every flake of snow is unique, and that which is unique must be preserved.\"</em></p><h2>Cult Greetings</h2><p>Active cultists use specific phrases to identify each other in crowds:</p><ul><li><strong>Greeting:</strong> <em>\"The frigid veil persists.\"</em></li><li><strong>Response:</strong> <em>\"All the world in winter's white.\"</em></li><li><strong>Parting:</strong> <em>\"May her blessing chill you.\"</em></li></ul><h2>Mottos</h2><ul><li><em>\"Only we can preserve the unspoiled beauty of the world.\"</em></li><li><em>\"Loyalty to winter will preserve the world.\"</em></li></ul><h2>Holidays</h2><ul><li><strong>Midwinter Night</strong> \u2014 holiest night for Icedawn worshipers. Those born on this day are said to be blessed by the Frostmaiden.</li><li><strong>Auril's Blesstide</strong> \u2014 the first frost.</li><li><strong>The Coming Storm</strong> \u2014 ritualized observance of the first day of winter; priests call forth an icestorm.</li><li><strong>The Last Storm</strong> \u2014 marks the last day of winter.</li></ul>"
       },
-      "video": { "controls": true, "volume": 0.5 },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
       "src": null,
       "flags": {},
-      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "category": null,
-      "ownership": { "default": -1 }
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!CreedOfAurilJrn0.CoATenets000001"
     },
     {
       "sort": 300000,
@@ -45,18 +83,37 @@
       "type": "text",
       "_id": "CoARanks0000001",
       "system": {},
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
-        "content": "<h2>Cult Ranks</h2><table><thead><tr><th>Rank</th><th>CR</th><th>Prerequisite</th><th>Key Benefit</th></tr></thead><tbody><tr><td>Spite</td><td>1/8</td><td>Pledge to spread word of Auril</td><td>Cold Faith, Surge of Cruelty</td></tr><tr><td>Tempest</td><td>1/2</td><td>Provide food and shelter to another member</td><td>Endurance Everlasting</td></tr><tr><td>Darkhand</td><td>2</td><td>Recruit and train new members</td><td>Black Ice Ring, Boon of Frost</td></tr><tr><td>Coldwind</td><td>4</td><td>Make pilgrimage to Solstice</td><td>Blessing of the Frostmaiden, spells</td></tr><tr><td>Icebringer</td><td>6</td><td>Sacrifice a humanoid to elevate Auril</td><td>Word of the Frostmaiden</td></tr><tr><td>Nix Mater</td><td>9</td><td>Begin transformation into Winter Hag</td><td>Staff of Withering, possible Exarch</td></tr></tbody></table><h2>Overall Structure</h2><p>One coldwind permanently oversees each Ten-Town settlement. 3-4 darkhands report to each coldwind. Each darkhand manages 2 tempests, who each oversee 2-3 spites. Icebringers travel between 2-3 settlements. At the apex are three Nix Mater (snow mothers) known as <strong>Fury, Anger, and Wrath</strong>.</p><h2>Key Benefits</h2><p><strong>Cold Faith:</strong> Resistance to cold damage; advantage on saves against charmed and frightened.</p><p><strong>Surge of Cruelty (recharge short/long rest):</strong> When hitting with an attack that isn't a critical hit, can turn it into a critical hit.</p><p><strong>Endurance Everlasting (Recharge 5-6):</strong> Reaction — when taking damage, roll a d6 and subtract from damage.</p><p><strong>Blessing of the Frostmaiden:</strong> Eyes become solid blue orbs; immunity to cold; cone of cold 1/day.</p><p><strong>Word of the Frostmaiden (recharge long rest):</strong> Reaction — when taking damage, cast frost guardians or heat thief at end of attacker's turn.</p>"
+        "content": "<h2>Cult Ranks</h2><table><thead><tr><th>Rank</th><th>CR</th><th>Prerequisite</th><th>Key Benefit</th></tr></thead><tbody><tr><td>Spite</td><td>1/8</td><td>Pledge to spread word of Auril</td><td>Cold Faith, Surge of Cruelty</td></tr><tr><td>Tempest</td><td>1/2</td><td>Provide food and shelter to another member</td><td>Endurance Everlasting</td></tr><tr><td>Darkhand</td><td>2</td><td>Recruit and train new members</td><td>Black Ice Ring, Boon of Frost</td></tr><tr><td>Coldwind</td><td>4</td><td>Make pilgrimage to Solstice</td><td>Blessing of the Frostmaiden, spells</td></tr><tr><td>Icebringer</td><td>6</td><td>Sacrifice a humanoid to elevate Auril</td><td>Word of the Frostmaiden</td></tr><tr><td>Nix Mater</td><td>9</td><td>Begin transformation into Winter Hag</td><td>Staff of Withering, possible Exarch</td></tr></tbody></table><h2>Overall Structure</h2><p>One coldwind permanently oversees each Ten-Town settlement. 3-4 darkhands report to each coldwind. Each darkhand manages 2 tempests, who each oversee 2-3 spites. Icebringers travel between 2-3 settlements. At the apex are three Nix Mater (snow mothers) known as <strong>Fury, Anger, and Wrath</strong>.</p><h2>Key Benefits</h2><p><strong>Cold Faith:</strong> Resistance to cold damage; advantage on saves against charmed and frightened.</p><p><strong>Surge of Cruelty (recharge short/long rest):</strong> When hitting with an attack that isn't a critical hit, can turn it into a critical hit.</p><p><strong>Endurance Everlasting (Recharge 5-6):</strong> Reaction \u2014 when taking damage, roll a d6 and subtract from damage.</p><p><strong>Blessing of the Frostmaiden:</strong> Eyes become solid blue orbs; immunity to cold; cone of cold 1/day.</p><p><strong>Word of the Frostmaiden (recharge long rest):</strong> Reaction \u2014 when taking damage, cast frost guardians or heat thief at end of attacker's turn.</p>"
       },
-      "video": { "controls": true, "volume": 0.5 },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
       "src": null,
       "flags": {},
-      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "category": null,
-      "ownership": { "default": -1 }
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!CreedOfAurilJrn0.CoARanks0000001"
     },
     {
       "sort": 400000,
@@ -64,23 +121,56 @@
       "type": "text",
       "_id": "CoATenTowns001",
       "system": {},
-      "title": { "show": true, "level": 1 },
+      "title": {
+        "show": true,
+        "level": 1
+      },
       "image": {},
       "text": {
         "format": 1,
-        "content": "<h2>Cult Activity by Town</h2><p><strong>Dougan's Hole</strong> — The Twenty Stones of Thruun has been surreptitiously used as an Ice Temple. Icebringer <strong>Savaa Rubyeye</strong> has become more open about ceremonies here. Speaker Edgra Durmoot actively resists — she is an ally.</p><p><strong>Bryn Shander</strong> — Cult lays low because Sheriff Markham Southwell has been working with a priestess of Amaunator to delegitimize Auril worship. Icebringer <strong>Jelenneth Arnuanna</strong> has instructed ~50 cultists to lay low.</p><p><strong>Easthaven</strong> — Cult headquarters in Icewind Dale is a large farmhouse on the edge of town. Coldwind <strong>Jia Inbar</strong> has ingratiated herself to Speaker Danneth Waylen. She was instrumental in halting the ferry service and in the apprehension of Dzaan.</p><p><strong>Bremen</strong> — ~15 cultists including Coldwind <strong>Allosa Faerwill</strong> and 2 darkhands (Harklen and Lerro). The cult knows about the black ice shard carried by the tieflings (Knights of the Black Sword).</p><p><strong>Caer-Dineval</strong> — Cult recently found out about the Knights of the Black Sword using black ice shards. Coldwind <strong>Timmis Welbe</strong> may befriend the party and the Knights to play them against each other.</p><p><strong>Lonelywood</strong> — Frost Druid Ravisin is a loner cultist — no specific rank, doesn't coordinate with icebringers or coldwinds. Will not attack creatures wearing Auril's symbol.</p><p><strong>Targos</strong> — Cult is trying to infiltrate the militia to undermine Zhentarim intel flowing from Naerth Maxildanarr.</p><h2>Sephek Kaltro Connection</h2><p>Sephek Kaltro travels with Torg's caravan, visiting multiple towns. He targets people who have bribed or cheated their way out of participating in the sacrifice lottery. Icebringer <strong>Callie Teafellow</strong> has instructed him to start targeting smaller towns as well.</p><h2>Auril's Lair</h2><p>Auril's divine residence is <strong>Winter's Hall</strong> in the topmost layer of Pandemonium. On Toril, she keeps a lair on the island of <strong>Solstice</strong>, somewhere in the Sea of Moving Ice. Only icebringer rank and above know its location. Among the known favored: Sephek Kaltro, Hedrun Arnsfirth, and Bjornhild Solvigsdottir.</p>"
+        "content": "<h2>Cult Activity by Town</h2><p><strong>Dougan's Hole</strong> \u2014 The Twenty Stones of Thruun has been surreptitiously used as an Ice Temple. Icebringer <strong>Savaa Rubyeye</strong> has become more open about ceremonies here. Speaker Edgra Durmoot actively resists \u2014 she is an ally.</p><p><strong>Bryn Shander</strong> \u2014 Cult lays low because Sheriff Markham Southwell has been working with a priestess of Amaunator to delegitimize Auril worship. Icebringer <strong>Jelenneth Arnuanna</strong> has instructed ~50 cultists to lay low.</p><p><strong>Easthaven</strong> \u2014 Cult headquarters in Icewind Dale is a large farmhouse on the edge of town. Coldwind <strong>Jia Inbar</strong> has ingratiated herself to Speaker Danneth Waylen. She was instrumental in halting the ferry service and in the apprehension of Dzaan.</p><p><strong>Bremen</strong> \u2014 ~15 cultists including Coldwind <strong>Allosa Faerwill</strong> and 2 darkhands (Harklen and Lerro). The cult knows about the black ice shard carried by the tieflings (Knights of the Black Sword).</p><p><strong>Caer-Dineval</strong> \u2014 Cult recently found out about the Knights of the Black Sword using black ice shards. Coldwind <strong>Timmis Welbe</strong> may befriend the party and the Knights to play them against each other.</p><p><strong>Lonelywood</strong> \u2014 Frost Druid Ravisin is a loner cultist \u2014 no specific rank, doesn't coordinate with icebringers or coldwinds. Will not attack creatures wearing Auril's symbol.</p><p><strong>Targos</strong> \u2014 Cult is trying to infiltrate the militia to undermine Zhentarim intel flowing from Naerth Maxildanarr.</p><h2>Sephek Kaltro Connection</h2><p>Sephek Kaltro travels with Torg's caravan, visiting multiple towns. He targets people who have bribed or cheated their way out of participating in the sacrifice lottery. Icebringer <strong>Callie Teafellow</strong> has instructed him to start targeting smaller towns as well.</p><h2>Auril's Lair</h2><p>Auril's divine residence is <strong>Winter's Hall</strong> in the topmost layer of Pandemonium. On Toril, she keeps a lair on the island of <strong>Solstice</strong>, somewhere in the Sea of Moving Ice. Only icebringer rank and above know its location. Among the known favored: Sephek Kaltro, Hedrun Arnsfirth, and Bjornhild Solvigsdottir.</p>"
       },
-      "video": { "controls": true, "volume": 0.5 },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
       "src": null,
       "flags": {},
-      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "category": null,
-      "ownership": { "default": -1 }
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!CreedOfAurilJrn0.CoATenTowns001"
     }
   ],
   "folder": null,
   "flags": {},
   "categories": [],
-  "ownership": { "default": 0 },
-  "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null }
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_id": "CreedOfAurilJrn0",
+  "_key": "!journal!CreedOfAurilJrn0"
 }

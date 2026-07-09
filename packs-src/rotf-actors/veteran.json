@@ -790,7 +790,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!VeteranAct000000.VetMultiatt001"
     },
     {
       "_id": "VetLongsword01",
@@ -1055,7 +1056,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!VeteranAct000000.VetLongsword01"
     },
     {
       "_id": "VetShortsword1",
@@ -1320,7 +1322,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!VeteranAct000000.VetShortsword1"
     },
     {
       "_id": "VetHeavyCross1",
@@ -1585,7 +1588,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!VeteranAct000000.VetHeavyCross1"
     }
   ],
   "effects": [],
@@ -1606,5 +1610,7 @@
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "VeteranAct000000",
+  "_key": "!actors!VeteranAct000000"
 }

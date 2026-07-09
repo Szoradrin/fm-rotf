@@ -1,5 +1,0 @@
-2026/06/19-03:23:09.167138 7ff3c23fd6c0 Delete type=3 #1
-2026/06/19-03:23:09.169881 7ff3c13fb6c0 Level-0 table #5: started
-2026/06/19-03:23:09.171997 7ff3c13fb6c0 Level-0 table #5: 15112 bytes OK
-2026/06/19-03:23:09.172664 7ff3c13fb6c0 Delete type=0 #3
-2026/06/19-03:23:09.172724 7ff3c13fb6c0 Manual compaction at level-0 from '!journal!RotFCh1Overview001' @ 72057594037927935 : 1 .. '!journal.pages!RotFIntroduction01.RotFIntroP003' @ 0 : 0; will stop at (end)

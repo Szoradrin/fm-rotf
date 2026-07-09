@@ -1,6 +1,5 @@
 {
   "_id": "RotFCh1TenTownRumors",
-  "_key": "!tables!RotFCh1TenTownRumors",
   "name": "Chapter 1: Ten-Towns Rumors",
   "description": "<p>Roll 1d10 when characters complete a town's quest and need direction to the next. Reroll if the characters have already completed that quest. Source: <em>Rime of the Frostmaiden</em> p. 18.</p>",
   "formula": "1d10",
@@ -158,5 +157,6 @@
       "drawn": false,
       "flags": {}
     }
-  ]
+  ],
+  "_key": "!tables!RotFCh1TenTownRumors"
 }

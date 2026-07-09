@@ -5,48 +5,113 @@
   "img": "modules/rotf/assets/images/token-gnome-ceremorph.webp",
   "system": {
     "abilities": {
-      "str": { "value": 6 },
-      "dex": { "value": 14 },
-      "con": { "value": 12 },
-      "int": { "value": 19 },
-      "wis": { "value": 17 },
-      "cha": { "value": 17 }
+      "str": {
+        "value": 6
+      },
+      "dex": {
+        "value": 14
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 19
+      },
+      "wis": {
+        "value": 17
+      },
+      "cha": {
+        "value": 17
+      }
     },
     "attributes": {
-      "ac": { "flat": 16, "calc": "flat", "formula": "breastplate" },
-      "hp": { "value": 58, "min": 0, "max": 58, "formula": "13d6+13" },
-      "speed": { "value": "25 ft." },
+      "ac": {
+        "flat": 16,
+        "calc": "flat",
+        "formula": "breastplate"
+      },
+      "hp": {
+        "value": 58,
+        "min": 0,
+        "max": 58,
+        "formula": "13d6+13"
+      },
+      "speed": {
+        "value": "25 ft."
+      },
       "cr": 5,
       "spellcasting": "int"
     },
     "details": {
-      "biography": { "value": "<p>A gnome ceremorph is a gnome that has been transformed into a mind flayer-like creature through ceremorphosis. It retains a laser pistol from its former life.</p>" },
+      "biography": {
+        "value": "<p>A gnome ceremorph is a gnome that has been transformed into a mind flayer-like creature through ceremorphosis. It retains a laser pistol from its former life.</p>"
+      },
       "alignment": "any",
       "race": "",
-      "type": { "value": "aberration", "subtype": "", "swarm": "", "custom": "" },
+      "type": {
+        "value": "aberration",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "environment": "",
       "cr": 5,
       "spellLevel": 0,
-      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "292" }
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "292"
+      }
     },
     "skills": {
-      "arc": { "value": 1 },
-      "dec": { "value": 1 },
-      "ins": { "value": 1 },
-      "per": { "value": 1 },
-      "per2": { "value": 1 },
-      "ste": { "value": 1 }
+      "arc": {
+        "value": 1
+      },
+      "dec": {
+        "value": 1
+      },
+      "ins": {
+        "value": 1
+      },
+      "per": {
+        "value": 1
+      },
+      "per2": {
+        "value": 1
+      },
+      "ste": {
+        "value": 1
+      }
     },
     "traits": {
       "size": "sm",
-      "di": { "value": [] },
-      "dr": { "value": [] },
-      "dv": { "value": [] },
-      "ci": { "value": [] },
-      "languages": { "value": ["deepSpeech", "gnomish", "undercommon"] },
+      "di": {
+        "value": []
+      },
+      "dr": {
+        "value": []
+      },
+      "dv": {
+        "value": []
+      },
+      "ci": {
+        "value": []
+      },
+      "languages": {
+        "value": [
+          "deepSpeech",
+          "gnomish",
+          "undercommon"
+        ]
+      },
       "special": "Telepathy 120 ft."
     },
-    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 }
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   "prototypeToken": {
     "name": "Gnome Ceremorph",
@@ -58,16 +123,79 @@
     "height": 1,
     "texture": {
       "src": "modules/rotf/assets/images/token-gnome-ceremorph.webp",
-      "anchorX": 0.5, "anchorY": 0.5, "fit": "contain",
-      "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
-    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1, "displayBars": 0,
-    "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
-    "light": { "negative": false, "priority": 0, "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 } },
-    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
-    "detectionModes": {}, "occludable": { "radius": 0 },
-    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
-    "flags": {}, "randomImg": false
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
   },
   "items": [
     {
@@ -76,12 +204,27 @@
       "type": "feat",
       "img": "icons/magic/symbols/cog-purple.webp",
       "system": {
-        "description": { "value": "<p>The ceremorph's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components:</p><p><strong>At will:</strong> detect thoughts, levitate</p><p><strong>1/day each:</strong> dominate monster, plane shift (self only)</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>The ceremorph's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components:</p><p><strong>At will:</strong> detect thoughts, levitate</p><p><strong>1/day each:</strong> dominate monster, plane shift (self only)</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 100000
+      "sort": 100000,
+      "_key": "!actors.items!AD1F9555FCC0B345.GCeromTrait001IS"
     },
     {
       "_id": "GCeromTrait002MR",
@@ -89,12 +232,27 @@
       "type": "feat",
       "img": "icons/magic/defensive/shield-barrier-blue.webp",
       "system": {
-        "description": { "value": "<p>The ceremorph has advantage on saving throws against spells and other magical effects.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>The ceremorph has advantage on saving throws against spells and other magical effects.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 150000
+      "sort": 150000,
+      "_key": "!actors.items!AD1F9555FCC0B345.GCeromTrait002MR"
     },
     {
       "_id": "GCeromAction001Te",
@@ -102,23 +260,73 @@
       "type": "weapon",
       "img": "icons/skills/melee/strike-slashing-large.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2d10+4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 9) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": true,
-        "type": { "value": "natural", "baseItem": "" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "range": { "value": 5, "long": null, "units": "ft" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
+        "description": {
+          "value": "<p>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2d10+4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 9) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": true,
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "attack": { "ability": "int", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "7", "type": { "value": "melee", "classification": "spell" } },
-            "damage": { "parts": [{ "number": 2, "denomination": 10, "bonus": "4", "types": ["psychic"] }] }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "int",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "flatBonus": "7",
+              "type": {
+                "value": "melee",
+                "classification": "spell"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 10,
+                  "bonus": "4",
+                  "types": [
+                    "psychic"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
-      "sort": 200000
+      "sort": 200000,
+      "_key": "!actors.items!AD1F9555FCC0B345.GCeromAction001Te"
     },
     {
       "_id": "GCeromAction002EB",
@@ -126,23 +334,73 @@
       "type": "weapon",
       "img": "icons/magic/death/undead-skeleton-skull-purple.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +7 to hit, reach 5 ft., one incapacitated humanoid grappled by the ceremorph. Hit: 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the ceremorph kills the target by extracting and devouring its brain.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": true,
-        "type": { "value": "natural", "baseItem": "" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "range": { "value": 5, "long": null, "units": "ft" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
+        "description": {
+          "value": "<p>Melee Weapon Attack: +7 to hit, reach 5 ft., one incapacitated humanoid grappled by the ceremorph. Hit: 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the ceremorph kills the target by extracting and devouring its brain.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": true,
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "attack": { "ability": "int", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "7", "type": { "value": "melee", "classification": "spell" } },
-            "damage": { "parts": [{ "number": 10, "denomination": 10, "bonus": "", "types": ["piercing"] }] }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "int",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "flatBonus": "7",
+              "type": {
+                "value": "melee",
+                "classification": "spell"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 10,
+                  "denomination": 10,
+                  "bonus": "",
+                  "types": [
+                    "piercing"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
-      "sort": 300000
+      "sort": 300000,
+      "_key": "!actors.items!AD1F9555FCC0B345.GCeromAction002EB"
     },
     {
       "_id": "GCeromAction003LP",
@@ -150,23 +408,73 @@
       "type": "weapon",
       "img": "icons/weapons/guns/gun-pistol-orange.webp",
       "system": {
-        "description": { "value": "<p>Ranged Weapon Attack: +5 to hit, range 40/120 ft., one target. Hit: 12 (3d6+2) radiant damage.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": true,
-        "type": { "value": "martialR", "baseItem": "" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "range": { "value": 40, "long": 120, "units": "ft" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
+        "description": {
+          "value": "<p>Ranged Weapon Attack: +5 to hit, range 40/120 ft., one target. Hit: 12 (3d6+2) radiant damage.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": true,
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "range": {
+          "value": 40,
+          "long": 120,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "attack": { "ability": "dex", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "5", "type": { "value": "ranged", "classification": "weapon" } },
-            "damage": { "parts": [{ "number": 3, "denomination": 6, "bonus": "2", "types": ["radiant"] }] }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "dex",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "flatBonus": "5",
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 6,
+                  "bonus": "2",
+                  "types": [
+                    "radiant"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
-      "sort": 400000
+      "sort": 400000,
+      "_key": "!actors.items!AD1F9555FCC0B345.GCeromAction003LP"
     },
     {
       "_id": "GCeromAction004MB",
@@ -174,12 +482,27 @@
       "type": "feat",
       "img": "icons/magic/air/wind-tornado-wall-blue.webp",
       "system": {
-        "description": { "value": "<p>The ceremorph magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 22 (4d8+4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "uses": { "value": 1, "max": "1", "per": "recharge", "recovery": "" }
+        "description": {
+          "value": "<p>The ceremorph magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 22 (4d8+4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "recharge",
+          "recovery": ""
+        }
       },
-      "sort": 500000
+      "sort": 500000,
+      "_key": "!actors.items!AD1F9555FCC0B345.GCeromAction004MB"
     }
   ],
   "effects": [],

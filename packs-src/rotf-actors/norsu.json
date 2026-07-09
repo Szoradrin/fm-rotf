@@ -769,7 +769,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!NorsuAct00000000.MammTrampCh001"
     },
     {
       "_id": "MammGore000001",
@@ -1034,7 +1035,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!NorsuAct00000000.MammGore000001"
     },
     {
       "_id": "MammStomp00001",
@@ -1299,7 +1301,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!NorsuAct00000000.MammStomp00001"
     }
   ],
   "effects": [],
@@ -1320,5 +1323,7 @@
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "NorsuAct00000000",
+  "_key": "!actors!NorsuAct00000000"
 }

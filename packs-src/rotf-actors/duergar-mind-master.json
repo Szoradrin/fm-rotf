@@ -5,40 +5,95 @@
   "img": "modules/rotf/assets/images/token-duergar-mind-master.webp",
   "system": {
     "abilities": {
-      "str": { "value": 11 },
-      "dex": { "value": 17 },
-      "con": { "value": 14 },
-      "int": { "value": 15 },
-      "wis": { "value": 10 },
-      "cha": { "value": 12 }
+      "str": {
+        "value": 11
+      },
+      "dex": {
+        "value": 17
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 15
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 12
+      }
     },
     "attributes": {
-      "ac": { "flat": 14, "calc": "flat", "formula": "" },
-      "hp": { "value": 39, "max": 39, "temp": 0, "formula": "6d8+12" },
-      "speed": { "value": 25, "special": "" },
+      "ac": {
+        "flat": 14,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 39,
+        "max": 39,
+        "temp": 0,
+        "formula": "6d8+12"
+      },
+      "speed": {
+        "value": 25,
+        "special": ""
+      },
       "prof": 2
     },
     "details": {
-      "biography": { "value": "<p>Duergar mind masters usually operate as spies, both inside and beyond a duergar stronghold. Their psionically augmented abilities enable them to see through illusions with ease and shrink down to miniature size to spy on their targets.</p>", "public": "" },
+      "biography": {
+        "value": "<p>Duergar mind masters usually operate as spies, both inside and beyond a duergar stronghold. Their psionically augmented abilities enable them to see through illusions with ease and shrink down to miniature size to spy on their targets.</p>",
+        "public": ""
+      },
       "alignment": "Lawful Evil",
       "race": "",
-      "type": { "value": "humanoid", "subtype": "Dwarf", "swarm": "", "custom": "" },
+      "type": {
+        "value": "humanoid",
+        "subtype": "Dwarf",
+        "swarm": "",
+        "custom": ""
+      },
       "cr": 2,
       "spellLevel": 0,
-      "source": { "custom": "ROTF" }
+      "source": {
+        "custom": "ROTF"
+      }
     },
     "traits": {
       "size": "med",
-      "languages": { "value": [], "custom": "Dwarvish, Undercommon" },
-      "senses": { "darkvision": 120, "blindsight": 0, "tremorsense": 0, "truesight": 30, "units": "ft", "special": "" },
-      "dr": { "value": ["poison"], "custom": "" }
+      "languages": {
+        "value": [],
+        "custom": "Dwarvish, Undercommon"
+      },
+      "senses": {
+        "darkvision": 120,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 30,
+        "units": "ft",
+        "special": ""
+      },
+      "dr": {
+        "value": [
+          "poison"
+        ],
+        "custom": ""
+      }
     },
     "saves": {
-      "wis": { "proficient": 1 }
+      "wis": {
+        "proficient": 1
+      }
     },
     "skills": {
-      "prc": { "value": 1 },
-      "ste": { "value": 1 }
+      "prc": {
+        "value": 1
+      },
+      "ste": {
+        "value": 1
+      }
     }
   },
   "items": [
@@ -48,9 +103,17 @@
       "type": "feat",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
       "system": {
-        "description": { "value": "<p>The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null },
+        "description": {
+          "value": "<p>The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null
+        },
         "activities": {}
       },
       "_key": "!actors.items!DuergMndMstr001.DuMndMstrItem01"
@@ -61,9 +124,17 @@
       "type": "feat",
       "img": "icons/magic/light/explosion-star-glow-yellow.webp",
       "system": {
-        "description": { "value": "<p>While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null },
+        "description": {
+          "value": "<p>While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null
+        },
         "activities": {}
       },
       "_key": "!actors.items!DuergMndMstr001.DuMndMstrItem02"
@@ -74,14 +145,27 @@
       "type": "feat",
       "img": "icons/skills/melee/blade-tips-triple-steel.webp",
       "system": {
-        "description": { "value": "<p>The duergar makes two melee attacks. It can replace one of those attacks with a use of Mind Mastery.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1 },
+        "description": {
+          "value": "<p>The duergar makes two melee attacks. It can replace one of those attacks with a use of Mind Mastery.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "utility",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            }
           }
         }
       },
@@ -93,20 +177,61 @@
       "type": "weapon",
       "img": "icons/weapons/daggers/dagger-curved-blue.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage and 10 (3d6) psychic damage, or 1 piercing damage and 14 (4d6) psychic damage while reduced.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": 1,
-        "activation": { "type": "action", "value": 1 },
-        "range": { "value": 5, "units": "ft" },
+        "description": {
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage and 10 (3d6) psychic damage, or 1 piercing damage and 14 (4d6) psychic damage while reduced.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "activation": {
+          "type": "action",
+          "value": 1
+        },
+        "range": {
+          "value": 5,
+          "units": "ft"
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "attack": { "ability": "dex", "bonus": "", "critical": { "threshold": null }, "flat": false, "type": { "value": "melee", "classification": "weapon" } },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "dex",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
             "damage": {
               "parts": [
-                { "number": 1, "denomination": "4", "bonus": "3", "types": ["piercing"] },
-                { "number": 3, "denomination": "6", "bonus": "", "types": ["psychic"] }
+                {
+                  "number": 1,
+                  "denomination": "4",
+                  "bonus": "3",
+                  "types": [
+                    "piercing"
+                  ]
+                },
+                {
+                  "number": 3,
+                  "denomination": "6",
+                  "bonus": "",
+                  "types": [
+                    "psychic"
+                  ]
+                }
               ]
             }
           }
@@ -120,14 +245,27 @@
       "type": "feat",
       "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
       "system": {
-        "description": { "value": "<p>The duergar magically turns invisible for up to 1 hour or until it attacks, casts a spell, uses its Reduce, or its concentration is broken. Any equipment the duergar wears or carries is invisible with it.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1 },
+        "description": {
+          "value": "<p>The duergar magically turns invisible for up to 1 hour or until it attacks, casts a spell, uses its Reduce, or its concentration is broken. Any equipment the duergar wears or carries is invisible with it.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "utility",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            }
           }
         }
       },
@@ -139,16 +277,37 @@
       "type": "feat",
       "img": "icons/magic/control/hypnosis-target-eyes-pink.webp",
       "system": {
-        "description": { "value": "<p>The duergar targets one creature it can see within 60 feet of it. The target must succeed on a DC 12 Intelligence saving throw, or the duergar causes it to use its reaction either to make one weapon attack against another creature the duergar can see or to move up to 10 feet in a direction of the duergar's choice. Creatures that can't be charmed are immune to this effect.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1 },
+        "description": {
+          "value": "<p>The duergar targets one creature it can see within 60 feet of it. The target must succeed on a DC 12 Intelligence saving throw, or the duergar causes it to use its reaction either to make one weapon attack against another creature the duergar can see or to move up to 10 feet in a direction of the duergar's choice. Creatures that can't be charmed are immune to this effect.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "save",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "save": { "ability": "int", "dc": { "formula": "12", "calculation": "" } },
-            "damage": { "parts": [] }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "save": {
+              "ability": "int",
+              "dc": {
+                "formula": "12",
+                "calculation": ""
+              }
+            },
+            "damage": {
+              "parts": []
+            }
           }
         }
       },
@@ -160,14 +319,27 @@
       "type": "feat",
       "img": "icons/magic/control/shrink-man-blue.webp",
       "system": {
-        "description": { "value": "<p>For 1 minute, the duergar magically decreases in size. While reduced, the duergar is Tiny, reduces its weapon damage to 1, and makes attacks, checks, and saving throws with disadvantage if they use Strength. It gains a +5 bonus to all Dexterity (Stealth) checks and a +5 bonus to its AC (19 while reduced). It can also take a bonus action on each of its turns to take the Hide action.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1 },
+        "description": {
+          "value": "<p>For 1 minute, the duergar magically decreases in size. While reduced, the duergar is Tiny, reduces its weapon damage to 1, and makes attacks, checks, and saving throws with disadvantage if they use Strength. It gains a +5 bonus to all Dexterity (Stealth) checks and a +5 bonus to its AC (19 while reduced). It can also take a bonus action on each of its turns to take the Hide action.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "utility",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            }
           }
         }
       },
@@ -176,26 +348,87 @@
   ],
   "prototypeToken": {
     "name": "Duergar Mind Master",
-    "displayName": 0, "actorLink": false, "appendNumber": false, "prependAdjective": false,
-    "width": 1, "height": 1,
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
     "texture": {
       "src": "modules/rotf/assets/images/token-duergar-mind-master.webp",
-      "anchorX": 0.5, "anchorY": 0.5, "fit": "contain",
-      "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
-    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1,
-    "displayBars": 0, "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 0, "color": null, "coloration": 1, "dim": 0,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
-    "detectionModes": {}, "occludable": { "radius": 0 },
-    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
-    "flags": {}, "randomImg": false
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
   },
   "flags": {},
   "_stats": {

@@ -5,43 +5,95 @@
   "img": "modules/rotf/assets/images/token-fox.webp",
   "system": {
     "abilities": {
-      "str": { "value": 2 },
-      "dex": { "value": 16 },
-      "con": { "value": 11 },
-      "int": { "value": 3 },
-      "wis": { "value": 12 },
-      "cha": { "value": 6 }
+      "str": {
+        "value": 2
+      },
+      "dex": {
+        "value": 16
+      },
+      "con": {
+        "value": 11
+      },
+      "int": {
+        "value": 3
+      },
+      "wis": {
+        "value": 12
+      },
+      "cha": {
+        "value": 6
+      }
     },
     "attributes": {
-      "ac": { "flat": 13, "calc": "flat" },
-      "hp": { "value": 2, "min": 0, "max": 2, "formula": "1d4" },
-      "speed": { "value": "30 ft., burrow 5 ft." },
+      "ac": {
+        "flat": 13,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 2,
+        "min": 0,
+        "max": 2,
+        "formula": "1d4"
+      },
+      "speed": {
+        "value": "30 ft., burrow 5 ft."
+      },
       "cr": 0,
       "spellcasting": ""
     },
     "details": {
-      "biography": { "value": "<p>The white arctic foxes of Icewind Dale live in burrows and are acclimated to cold weather. They prowl the outskirts of Ten-Towns and nearby forests for food, hunting hares or stealing fish. These timid creatures avoid contact with humanoids, but they are sometimes used as mounts by chwingas.</p>" },
+      "biography": {
+        "value": "<p>The white arctic foxes of Icewind Dale live in burrows and are acclimated to cold weather. They prowl the outskirts of Ten-Towns and nearby forests for food, hunting hares or stealing fish. These timid creatures avoid contact with humanoids, but they are sometimes used as mounts by chwingas.</p>"
+      },
       "alignment": "unaligned",
       "race": "",
-      "type": { "value": "beast", "subtype": "", "swarm": "", "custom": "" },
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "environment": "",
       "cr": 0,
       "spellLevel": 0,
-      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "288" }
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "288"
+      }
     },
     "skills": {
-      "per": { "value": 1 },
-      "ste": { "value": 1 }
+      "per": {
+        "value": 1
+      },
+      "ste": {
+        "value": 1
+      }
     },
     "traits": {
       "size": "tiny",
-      "di": { "value": [] },
-      "dr": { "value": [] },
-      "dv": { "value": [] },
-      "ci": { "value": [] },
-      "languages": { "value": [] }
+      "di": {
+        "value": []
+      },
+      "dr": {
+        "value": []
+      },
+      "dv": {
+        "value": []
+      },
+      "ci": {
+        "value": []
+      },
+      "languages": {
+        "value": []
+      }
     },
-    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 }
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   "prototypeToken": {
     "name": "Fox",
@@ -66,28 +118,63 @@
     "alpha": 1,
     "disposition": -1,
     "displayBars": 0,
-    "bar1": { "attribute": "attributes.hp" },
-    "bar2": { "attribute": null },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 0, "color": null, "coloration": 1, "dim": 0,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
-      "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "sight": {
-      "enabled": false, "range": 0, "angle": 360,
-      "visionMode": "basic", "color": null, "attenuation": 0.1,
-      "brightness": 0, "saturation": 0, "contrast": 0
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
     },
     "detectionModes": {},
-    "occludable": { "radius": 0 },
+    "occludable": {
+      "radius": 0
+    },
     "ring": {
       "enabled": false,
-      "colors": { "ring": null, "background": null },
+      "colors": {
+        "ring": null,
+        "background": null
+      },
       "effects": 1,
-      "subject": { "scale": 1, "texture": null }
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     },
     "flags": {},
     "randomImg": false
@@ -99,12 +186,27 @@
       "type": "feat",
       "img": "icons/magic/perception/eye-ringed-green.webp",
       "system": {
-        "description": { "value": "<p>The fox has advantage on Wisdom (Perception) checks that rely on hearing.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>The fox has advantage on Wisdom (Perception) checks that rely on hearing.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 100000
+      "sort": 100000,
+      "_key": "!actors.items!5BB9F6D77F46D9BB.FoxTrait001Hear"
     },
     {
       "_id": "FoxAction001Bit",
@@ -112,34 +214,73 @@
       "type": "weapon",
       "img": "icons/skills/melee/strike-slashing-large.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</p>", "chat": "" },
+        "description": {
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</p>",
+          "chat": ""
+        },
         "quantity": 1,
         "equipped": true,
         "proficient": true,
-        "type": { "value": "natural", "baseItem": "" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "range": { "value": 5, "long": null, "units": "ft" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
             "attack": {
               "ability": "dex",
               "bonus": "",
-              "critical": { "threshold": null },
+              "critical": {
+                "threshold": null
+              },
               "flat": true,
               "flatBonus": "5",
-              "type": { "value": "melee", "classification": "weapon" }
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
             },
             "damage": {
-              "parts": [{ "number": 1, "denomination": 0, "bonus": "", "types": ["piercing"] }]
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 0,
+                  "bonus": "",
+                  "types": [
+                    "piercing"
+                  ]
+                }
+              ]
             }
           }
         }
       },
-      "sort": 200000
+      "sort": 200000,
+      "_key": "!actors.items!5BB9F6D77F46D9BB.FoxAction001Bit"
     }
   ],
   "effects": [],

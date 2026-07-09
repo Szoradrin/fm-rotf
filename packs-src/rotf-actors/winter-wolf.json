@@ -772,7 +772,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!WinterWolfAct000.WWKeenHS00001"
     },
     {
       "_id": "WWPackTact0001",
@@ -833,7 +834,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!WinterWolfAct000.WWPackTact0001"
     },
     {
       "_id": "WWSnowCamo0001",
@@ -894,7 +896,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!WinterWolfAct000.WWSnowCamo0001"
     },
     {
       "_id": "WWBite0000001",
@@ -1159,7 +1162,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!WinterWolfAct000.WWBite0000001"
     },
     {
       "_id": "WWColdBreath01",
@@ -1220,7 +1224,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!WinterWolfAct000.WWColdBreath01"
     }
   ],
   "effects": [],
@@ -1241,5 +1246,7 @@
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "WinterWolfAct000",
+  "_key": "!actors!WinterWolfAct000"
 }

@@ -767,7 +767,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!DarkhandOfAurilA.DarkColdFai01"
     },
     {
       "_id": "DarkSurgeCr01",
@@ -828,7 +829,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!DarkhandOfAurilA.DarkSurgeCr01"
     },
     {
       "_id": "DarkMultiatt1",
@@ -889,7 +891,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!DarkhandOfAurilA.DarkMultiatt1"
     },
     {
       "_id": "DarkMaul00001",
@@ -1154,7 +1157,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!DarkhandOfAurilA.DarkMaul00001"
     },
     {
       "_id": "DarkBlackIce1",
@@ -1215,7 +1219,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!DarkhandOfAurilA.DarkBlackIce1"
     },
     {
       "_id": "DarkEndurEvr1",
@@ -1276,7 +1281,8 @@
       },
       "ownership": {
         "default": 0
-      }
+      },
+      "_key": "!actors.items!DarkhandOfAurilA.DarkEndurEvr1"
     }
   ],
   "effects": [],
@@ -1297,5 +1303,7 @@
   },
   "ownership": {
     "default": 0
-  }
+  },
+  "_id": "DarkhandOfAurilA",
+  "_key": "!actors!DarkhandOfAurilA"
 }

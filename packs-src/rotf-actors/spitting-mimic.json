@@ -5,38 +5,83 @@
   "img": "modules/rotf/assets/images/token-spitting-mimic.webp",
   "system": {
     "abilities": {
-      "str": { "value": 21 },
-      "dex": { "value": 12 },
-      "con": { "value": 17 },
-      "int": { "value": 9 },
-      "wis": { "value": 15 },
-      "cha": { "value": 10 }
+      "str": {
+        "value": 21
+      },
+      "dex": {
+        "value": 12
+      },
+      "con": {
+        "value": 17
+      },
+      "int": {
+        "value": 9
+      },
+      "wis": {
+        "value": 15
+      },
+      "cha": {
+        "value": 10
+      }
     },
     "attributes": {
-      "ac": { "flat": 14 },
-      "hp": { "value": 85, "max": 85, "formula": "10d10+30" },
-      "speed": { "value": 20, "units": "ft" },
+      "ac": {
+        "flat": 14
+      },
+      "hp": {
+        "value": 85,
+        "max": 85,
+        "formula": "10d10+30"
+      },
+      "speed": {
+        "value": 20,
+        "units": "ft"
+      },
       "prof": 3
     },
     "details": {
-      "biography": { "value": "" },
+      "biography": {
+        "value": ""
+      },
       "alignment": "neutral",
       "race": "",
-      "type": { "value": "monstrosity", "subtype": "shapechanger", "swarm": "", "custom": "" },
+      "type": {
+        "value": "monstrosity",
+        "subtype": "shapechanger",
+        "swarm": "",
+        "custom": ""
+      },
       "environment": "",
       "cr": 5,
       "spellLevel": 0,
-      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "290" }
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "290"
+      }
     },
     "traits": {
       "size": "lg",
-      "di": { "value": ["acid"] },
-      "dr": { "value": [] },
-      "ci": { "value": ["prone"] },
-      "languages": { "value": [] }
+      "di": {
+        "value": [
+          "acid"
+        ]
+      },
+      "dr": {
+        "value": []
+      },
+      "ci": {
+        "value": [
+          "prone"
+        ]
+      },
+      "languages": {
+        "value": []
+      }
     },
     "skills": {
-      "ste": { "value": 1 }
+      "ste": {
+        "value": 1
+      }
     },
     "saves": {}
   },
@@ -47,8 +92,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "290" }
+        "description": {
+          "value": "The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "290"
+        }
       },
       "_key": "!actors.items!SpttMimcRotf07Gh.SpttMimcItem001a"
     },
@@ -58,8 +109,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 16). Ability checks made to escape this grapple have disadvantage.", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "290" }
+        "description": {
+          "value": "The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 16). Ability checks made to escape this grapple have disadvantage.",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "290"
+        }
       },
       "_key": "!actors.items!SpttMimcRotf07Gh.SpttMimcItem002b"
     },
@@ -69,8 +126,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "While the mimic remains motionless, it is indistinguishable from an ordinary object.", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "290" }
+        "description": {
+          "value": "While the mimic remains motionless, it is indistinguishable from an ordinary object.",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "290"
+        }
       },
       "_key": "!actors.items!SpttMimcRotf07Gh.SpttMimcItem003c"
     },
@@ -80,8 +143,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "The mimic has advantage on attack rolls against any creature grappled by it.", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "290" }
+        "description": {
+          "value": "The mimic has advantage on attack rolls against any creature grappled by it.",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "290"
+        }
       },
       "_key": "!actors.items!SpttMimcRotf07Gh.SpttMimcItem004d"
     },
@@ -91,8 +160,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "The mimic has advantage on saving throws against spells and other magical effects.", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "290" }
+        "description": {
+          "value": "The mimic has advantage on saving throws against spells and other magical effects.",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "290"
+        }
       },
       "_key": "!actors.items!SpttMimcRotf07Gh.SpttMimcItem005e"
     },
@@ -102,8 +177,14 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "The mimic attacks three times: twice with its pseudopods and once with its bite.", "chat": "" },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "290" }
+        "description": {
+          "value": "The mimic attacks three times: twice with its pseudopods and once with its bite.",
+          "chat": ""
+        },
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "290"
+        }
       },
       "_key": "!actors.items!SpttMimcRotf07Gh.SpttMimcItem006f"
     },
@@ -113,27 +194,55 @@
       "type": "weapon",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait.", "chat": "" },
+        "description": {
+          "value": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait.",
+          "chat": ""
+        },
         "equipped": true,
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
             "attack": {
               "ability": "str",
               "bonus": "",
-              "critical": { "threshold": null },
+              "critical": {
+                "threshold": null
+              },
               "flat": false,
-              "type": { "value": "melee", "classification": "weapon" }
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
             },
             "damage": {
-              "parts": [{ "number": 1, "denomination": "10", "bonus": "5", "types": ["bludgeoning"] }]
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": "10",
+                  "bonus": "5",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                }
+              ]
             },
-            "range": { "value": 10, "units": "ft" }
+            "range": {
+              "value": 10,
+              "units": "ft"
+            }
           }
         },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "290" }
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "290"
+        }
       },
       "_key": "!actors.items!SpttMimcRotf07Gh.SpttMimcItem007g"
     },
@@ -143,30 +252,63 @@
       "type": "weapon",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 10 (1d10 + 5) piercing damage plus 7 (2d6) acid damage.", "chat": "" },
+        "description": {
+          "value": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 10 (1d10 + 5) piercing damage plus 7 (2d6) acid damage.",
+          "chat": ""
+        },
         "equipped": true,
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
             "attack": {
               "ability": "str",
               "bonus": "",
-              "critical": { "threshold": null },
+              "critical": {
+                "threshold": null
+              },
               "flat": false,
-              "type": { "value": "melee", "classification": "weapon" }
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
             },
             "damage": {
               "parts": [
-                { "number": 1, "denomination": "10", "bonus": "5", "types": ["piercing"] },
-                { "number": 2, "denomination": "6", "bonus": "", "types": ["acid"] }
+                {
+                  "number": 1,
+                  "denomination": "10",
+                  "bonus": "5",
+                  "types": [
+                    "piercing"
+                  ]
+                },
+                {
+                  "number": 2,
+                  "denomination": "6",
+                  "bonus": "",
+                  "types": [
+                    "acid"
+                  ]
+                }
               ]
             },
-            "range": { "value": 5, "units": "ft" }
+            "range": {
+              "value": 5,
+              "units": "ft"
+            }
           }
         },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "290" }
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "290"
+        }
       },
       "_key": "!actors.items!SpttMimcRotf07Gh.SpttMimcItem008h"
     },
@@ -176,19 +318,45 @@
       "type": "feat",
       "img": "icons/svg/mystery-man.svg",
       "system": {
-        "description": { "value": "The mimic spits acid at one creature it can see within 30 feet of it. The target must make a DC 14 Dexterity saving throw, taking 32 (9d6 + 1) acid damage on a failed save, or half as much damage on a successful one.", "chat": "" },
+        "description": {
+          "value": "The mimic spits acid at one creature it can see within 30 feet of it. The target must make a DC 14 Dexterity saving throw, taking 32 (9d6 + 1) acid damage on a failed save, or half as much damage on a successful one.",
+          "chat": ""
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "save",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "save": { "ability": "dex", "dc": { "value": 14, "calculation": "" } },
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "save": {
+              "ability": "dex",
+              "dc": {
+                "value": 14,
+                "calculation": ""
+              }
+            },
             "damage": {
-              "parts": [{ "number": 9, "denomination": "6", "bonus": "1", "types": ["acid"] }]
+              "parts": [
+                {
+                  "number": 9,
+                  "denomination": "6",
+                  "bonus": "1",
+                  "types": [
+                    "acid"
+                  ]
+                }
+              ]
             }
           }
         },
-        "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "290" }
+        "source": {
+          "book": "Icewind Dale: Rime of the Frostmaiden",
+          "page": "290"
+        }
       },
       "_key": "!actors.items!SpttMimcRotf07Gh.SpttMimcItem009i"
     }
@@ -216,28 +384,63 @@
     "alpha": 1,
     "disposition": -1,
     "displayBars": 0,
-    "bar1": { "attribute": "attributes.hp" },
-    "bar2": { "attribute": null },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
     "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 0, "color": null, "coloration": 1, "dim": 0,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
-      "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "sight": {
-      "enabled": false, "range": 0, "angle": 360,
-      "visionMode": "basic", "color": null, "attenuation": 0.1,
-      "brightness": 0, "saturation": 0, "contrast": 0
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
     },
     "detectionModes": {},
-    "occludable": { "radius": 0 },
+    "occludable": {
+      "radius": 0
+    },
     "ring": {
       "enabled": false,
-      "colors": { "ring": null, "background": null },
+      "colors": {
+        "ring": null,
+        "background": null
+      },
       "effects": 1,
-      "subject": { "scale": 1, "texture": null }
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     },
     "flags": {},
     "randomImg": false

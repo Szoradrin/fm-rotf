@@ -6,7 +6,11 @@
   "width": 4000,
   "height": 2765,
   "padding": 0.25,
-  "initial": { "x": null, "y": null, "scale": null },
+  "initial": {
+    "x": null,
+    "y": null,
+    "scale": null
+  },
   "grid": {
     "type": 1,
     "size": 140,
@@ -19,7 +23,10 @@
   },
   "tokenVision": true,
   "fog": {
-    "colors": { "explored": null, "unexplored": null },
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    },
     "mode": 1
   },
   "environment": {
@@ -35,11 +42,26 @@
       "saturation": 0,
       "contrast": 0,
       "shadows": 0,
-      "darkness": { "min": 0, "max": 1 }
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "cycle": true,
-    "base": { "hue": 0, "intensity": 0, "luminosity": 0, "saturation": 0, "shadows": 0 },
-    "dark": { "hue": 0.7138888888888889, "intensity": 0, "luminosity": -0.25, "saturation": 0, "shadows": 0 }
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
   },
   "drawings": [],
   "tokens": [],
@@ -80,16 +102,45 @@
         "tint": "#ffffff",
         "alphaThreshold": 0.75
       },
-      "elevation": { "bottom": 0, "top": 20 },
-      "foreground": { "src": null, "tint": "#ffffff", "alphaThreshold": 0.75 },
-      "fog": { "src": null },
-      "textures": { "anchorX": 0.5, "anchorY": 0.5, "offsetX": 0, "offsetY": 0, "fit": "fill", "scaleX": 1, "scaleY": 1, "rotation": 0 },
-      "visibility": { "levels": [] },
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "foreground": {
+        "src": null,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "fog": {
+        "src": null
+      },
+      "textures": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0
+      },
+      "visibility": {
+        "levels": []
+      },
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!scenes.levels!FrostGiantIceLod.defaultLevel0000"
     }
   ],
   "initialLevel": "defaultLevel0000",
-  "transition": { "type": null, "duration": 1500, "activeOnly": false },
-  "ownership": { "default": 0 }
+  "transition": {
+    "type": null,
+    "duration": 1500,
+    "activeOnly": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "FrostGiantIceLod",
+  "_key": "!scenes!FrostGiantIceLod"
 }

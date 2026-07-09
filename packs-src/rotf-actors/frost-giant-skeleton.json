@@ -5,41 +5,98 @@
   "img": "modules/rotf/assets/images/token-frost-giant-skeleton.webp",
   "system": {
     "abilities": {
-      "str": { "value": 23 },
-      "dex": { "value": 9 },
-      "con": { "value": 15 },
-      "int": { "value": 6 },
-      "wis": { "value": 8 },
-      "cha": { "value": 5 }
+      "str": {
+        "value": 23
+      },
+      "dex": {
+        "value": 9
+      },
+      "con": {
+        "value": 15
+      },
+      "int": {
+        "value": 6
+      },
+      "wis": {
+        "value": 8
+      },
+      "cha": {
+        "value": 5
+      }
     },
     "attributes": {
-      "ac": { "flat": 14, "calc": "flat", "formula": "armor scraps" },
-      "hp": { "value": 102, "min": 0, "max": 102, "formula": "12d12+24" },
-      "speed": { "value": "40 ft." },
+      "ac": {
+        "flat": 14,
+        "calc": "flat",
+        "formula": "armor scraps"
+      },
+      "hp": {
+        "value": 102,
+        "min": 0,
+        "max": 102,
+        "formula": "12d12+24"
+      },
+      "speed": {
+        "value": "40 ft."
+      },
       "cr": 6,
       "spellcasting": ""
     },
     "details": {
-      "biography": { "value": "<p>Necromancers can transform the inanimate bones of long-dead frost giants into malevolent undead soldiers.</p>" },
+      "biography": {
+        "value": "<p>Necromancers can transform the inanimate bones of long-dead frost giants into malevolent undead soldiers.</p>"
+      },
       "alignment": "lawful evil",
       "race": "",
-      "type": { "value": "undead", "subtype": "", "swarm": "", "custom": "" },
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "environment": "",
       "cr": 6,
       "spellLevel": 0,
-      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "289" }
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "289"
+      }
     },
     "skills": {},
     "traits": {
       "size": "huge",
-      "di": { "value": ["cold", "poison"] },
-      "dr": { "value": [] },
-      "dv": { "value": ["bludgeoning"] },
-      "ci": { "value": ["exhaustion", "poisoned"] },
-      "languages": { "value": [] },
+      "di": {
+        "value": [
+          "cold",
+          "poison"
+        ]
+      },
+      "dr": {
+        "value": []
+      },
+      "dv": {
+        "value": [
+          "bludgeoning"
+        ]
+      },
+      "ci": {
+        "value": [
+          "exhaustion",
+          "poisoned"
+        ]
+      },
+      "languages": {
+        "value": []
+      },
       "special": "Understands Giant but can't speak"
     },
-    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 }
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   "prototypeToken": {
     "name": "Frost Giant Skeleton",
@@ -51,16 +108,79 @@
     "height": 3,
     "texture": {
       "src": "modules/rotf/assets/images/token-frost-giant-skeleton.webp",
-      "anchorX": 0.5, "anchorY": 0.5, "fit": "contain",
-      "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
-    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1, "displayBars": 0,
-    "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
-    "light": { "negative": false, "priority": 0, "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 } },
-    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
-    "detectionModes": {}, "occludable": { "radius": 0 },
-    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
-    "flags": {}, "randomImg": false
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
   },
   "items": [
     {
@@ -69,12 +189,27 @@
       "type": "feat",
       "img": "icons/magic/death/skull-horned-goat-blue.webp",
       "system": {
-        "description": { "value": "<p>The skeleton doesn't require air, food, drink, or sleep.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>The skeleton doesn't require air, food, drink, or sleep.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 100000
+      "sort": 100000,
+      "_key": "!actors.items!2388B7965F7BFA5A.FGSkelTrait001UN"
     },
     {
       "_id": "FGSkelAction001M",
@@ -82,12 +217,27 @@
       "type": "feat",
       "img": "icons/skills/melee/strike-slashing-large.webp",
       "system": {
-        "description": { "value": "<p>The skeleton makes two greataxe attacks.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>The skeleton makes two greataxe attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 200000
+      "sort": 200000,
+      "_key": "!actors.items!2388B7965F7BFA5A.FGSkelAction001M"
     },
     {
       "_id": "FGSkelAction002GA",
@@ -95,23 +245,73 @@
       "type": "weapon",
       "img": "icons/weapons/axes/axe-double-black.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 25 (3d12+6) slashing damage.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": true,
-        "type": { "value": "martialM", "baseItem": "" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "range": { "value": 10, "long": null, "units": "ft" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
+        "description": {
+          "value": "<p>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 25 (3d12+6) slashing damage.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": true,
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "9", "type": { "value": "melee", "classification": "weapon" } },
-            "damage": { "parts": [{ "number": 3, "denomination": 12, "bonus": "6", "types": ["slashing"] }] }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "flatBonus": "9",
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 12,
+                  "bonus": "6",
+                  "types": [
+                    "slashing"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
-      "sort": 300000
+      "sort": 300000,
+      "_key": "!actors.items!2388B7965F7BFA5A.FGSkelAction002GA"
     },
     {
       "_id": "FGSkelAction003FS",
@@ -119,12 +319,27 @@
       "type": "feat",
       "img": "icons/magic/water/snowflake-ice-blue.webp",
       "system": {
-        "description": { "value": "<p>The skeleton targets one creature it can see within 60 feet of it. The target must succeed on a DC 13 Constitution saving throw or take 35 (10d6) cold damage and be paralyzed until the end of its next turn.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>The skeleton targets one creature it can see within 60 feet of it. The target must succeed on a DC 13 Constitution saving throw or take 35 (10d6) cold damage and be paralyzed until the end of its next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 400000
+      "sort": 400000,
+      "_key": "!actors.items!2388B7965F7BFA5A.FGSkelAction003FS"
     }
   ],
   "effects": [],

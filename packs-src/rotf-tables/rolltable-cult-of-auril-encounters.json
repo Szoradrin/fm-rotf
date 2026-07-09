@@ -1,6 +1,5 @@
 {
   "_id": "AurilCultEncTable01",
-  "_key": "!tables!AurilCultEncTable01",
   "name": "Cult of Auril: Ten-Towns Encounters",
   "description": "<p>Six-entry encounter table for Cult of Auril activity in Ten-Towns. Roll 1d6 to determine which cult rank the party encounters. Entries link to pre-built NPC actors from the <em>The Creed of Auril</em> supplement by Samuel Dillon.</p><p><strong>Cult greeting:</strong> \"The frigid veil persists.\" | <strong>Response:</strong> \"All the world in winter's white.\" | <strong>Parting:</strong> \"May her blessing chill you.\"</p><p><strong>Motto:</strong> <em>\"Only we can preserve the unspoiled beauty of the world.\"</em></p>",
   "formula": "1d6",
@@ -115,5 +114,6 @@
       "drawn": false,
       "flags": {}
     }
-  ]
+  ],
+  "_key": "!tables!AurilCultEncTable01"
 }

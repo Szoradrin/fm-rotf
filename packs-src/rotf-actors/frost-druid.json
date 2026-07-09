@@ -5,51 +5,126 @@
   "img": "modules/rotf/assets/images/token-frost-druid.webp",
   "system": {
     "abilities": {
-      "str": { "value": 12 },
-      "dex": { "value": 13 },
-      "con": { "value": 16 },
-      "int": { "value": 10 },
-      "wis": { "value": 16 },
-      "cha": { "value": 9 }
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 13
+      },
+      "con": {
+        "value": 16
+      },
+      "int": {
+        "value": 10
+      },
+      "wis": {
+        "value": 16
+      },
+      "cha": {
+        "value": 9
+      }
     },
     "attributes": {
-      "ac": { "flat": 13, "calc": "flat", "formula": "hide armor" },
-      "hp": { "value": 67, "min": 0, "max": 67, "formula": "9d8+27" },
-      "speed": { "value": "30 ft. (40 ft. wolf form, burrow 5 ft. fox form, climb 30 ft. goat form, fly 60 ft. owl form)" },
+      "ac": {
+        "flat": 13,
+        "calc": "flat",
+        "formula": "hide armor"
+      },
+      "hp": {
+        "value": 67,
+        "min": 0,
+        "max": 67,
+        "formula": "9d8+27"
+      },
+      "speed": {
+        "value": "30 ft. (40 ft. wolf form, burrow 5 ft. fox form, climb 30 ft. goat form, fly 60 ft. owl form)"
+      },
       "cr": 5,
       "spellcasting": "wis"
     },
     "details": {
-      "biography": { "value": "<p>Frost druids are solitary defenders of nature and the natural enemies of civilization in the North. They seek to preserve the arctic wilderness by destroying outsiders who cross their path. Each patrols its territory in the guise of an arctic fox, a mountain goat, a snowy owl, or a wolf, reverting to human form only when it attacks.</p>" },
+      "biography": {
+        "value": "<p>Frost druids are solitary defenders of nature and the natural enemies of civilization in the North. They seek to preserve the arctic wilderness by destroying outsiders who cross their path. Each patrols its territory in the guise of an arctic fox, a mountain goat, a snowy owl, or a wolf, reverting to human form only when it attacks.</p>"
+      },
       "alignment": "any",
       "race": "Human",
-      "type": { "value": "humanoid", "subtype": "human", "swarm": "", "custom": "" },
+      "type": {
+        "value": "humanoid",
+        "subtype": "human",
+        "swarm": "",
+        "custom": ""
+      },
       "environment": "",
       "cr": 5,
       "spellLevel": 9,
-      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "289" }
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "289"
+      }
     },
     "skills": {
-      "nat": { "value": 1 },
-      "per": { "value": 1 },
-      "sur": { "value": 1 }
+      "nat": {
+        "value": 1
+      },
+      "per": {
+        "value": 1
+      },
+      "sur": {
+        "value": 1
+      }
     },
     "traits": {
       "size": "med",
-      "di": { "value": [] },
-      "dr": { "value": ["cold"] },
-      "dv": { "value": [] },
-      "ci": { "value": [] },
-      "languages": { "value": ["common", "druidic"] }
+      "di": {
+        "value": []
+      },
+      "dr": {
+        "value": [
+          "cold"
+        ]
+      },
+      "dv": {
+        "value": []
+      },
+      "ci": {
+        "value": []
+      },
+      "languages": {
+        "value": [
+          "common",
+          "druidic"
+        ]
+      }
     },
     "spells": {
-      "spell1": { "value": 4, "override": null },
-      "spell2": { "value": 3, "override": null },
-      "spell3": { "value": 3, "override": null },
-      "spell4": { "value": 3, "override": null },
-      "spell5": { "value": 1, "override": null }
+      "spell1": {
+        "value": 4,
+        "override": null
+      },
+      "spell2": {
+        "value": 3,
+        "override": null
+      },
+      "spell3": {
+        "value": 3,
+        "override": null
+      },
+      "spell4": {
+        "value": 3,
+        "override": null
+      },
+      "spell5": {
+        "value": 1,
+        "override": null
+      }
     },
-    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 }
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   "prototypeToken": {
     "name": "Frost Druid",
@@ -61,16 +136,79 @@
     "height": 1,
     "texture": {
       "src": "modules/rotf/assets/images/token-frost-druid.webp",
-      "anchorX": 0.5, "anchorY": 0.5, "fit": "contain",
-      "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
-    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1, "displayBars": 0,
-    "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
-    "light": { "negative": false, "priority": 0, "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 } },
-    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
-    "detectionModes": {}, "occludable": { "radius": 0 },
-    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
-    "flags": {}, "randomImg": false
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
   },
   "items": [
     {
@@ -79,12 +217,27 @@
       "type": "feat",
       "img": "icons/magic/symbols/cog-purple.webp",
       "system": {
-        "description": { "value": "<p>The druid is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). Spells prepared:</p><p><strong>Cantrips (at will):</strong> druidcraft, guidance, resistance</p><p><strong>1st level (4 slots):</strong> animal friendship, fog cloud, speak with animals</p><p><strong>2nd level (3 slots):</strong> animal messenger, moonbeam, pass without trace</p><p><strong>3rd level (3 slots):</strong> conjure animals, sleet storm, wind wall</p><p><strong>4th level (3 slots):</strong> hallucinatory terrain, ice storm</p><p><strong>5th level (1 slot):</strong> awaken</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>The druid is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). Spells prepared:</p><p><strong>Cantrips (at will):</strong> druidcraft, guidance, resistance</p><p><strong>1st level (4 slots):</strong> animal friendship, fog cloud, speak with animals</p><p><strong>2nd level (3 slots):</strong> animal messenger, moonbeam, pass without trace</p><p><strong>3rd level (3 slots):</strong> conjure animals, sleet storm, wind wall</p><p><strong>4th level (3 slots):</strong> hallucinatory terrain, ice storm</p><p><strong>5th level (1 slot):</strong> awaken</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 100000
+      "sort": 100000,
+      "_key": "!actors.items!F5F9837B1DDA0EF5.FDruidTrait001SC"
     },
     {
       "_id": "FDruidAction001M",
@@ -92,12 +245,27 @@
       "type": "feat",
       "img": "icons/skills/melee/strike-slashing-large.webp",
       "system": {
-        "description": { "value": "<p>The druid makes two melee attacks.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>The druid makes two melee attacks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 200000
+      "sort": 200000,
+      "_key": "!actors.items!F5F9837B1DDA0EF5.FDruidAction001M"
     },
     {
       "_id": "FDruidAction002IS",
@@ -105,23 +273,81 @@
       "type": "weapon",
       "img": "icons/weapons/sickles/sickle-curved-orange.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) slashing damage plus 5 (2d4) cold damage.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": true,
-        "type": { "value": "simpleM", "baseItem": "" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "range": { "value": 5, "long": null, "units": "ft" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
+        "description": {
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) slashing damage plus 5 (2d4) cold damage.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": true,
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "4", "type": { "value": "melee", "classification": "weapon" } },
-            "damage": { "parts": [{ "number": 1, "denomination": 4, "bonus": "1", "types": ["slashing"] }, { "number": 2, "denomination": 4, "bonus": "", "types": ["cold"] }] }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "flatBonus": "4",
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 4,
+                  "bonus": "1",
+                  "types": [
+                    "slashing"
+                  ]
+                },
+                {
+                  "number": 2,
+                  "denomination": 4,
+                  "bonus": "",
+                  "types": [
+                    "cold"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
-      "sort": 300000
+      "sort": 300000,
+      "_key": "!actors.items!F5F9837B1DDA0EF5.FDruidAction002IS"
     },
     {
       "_id": "FDruidAction003Ma",
@@ -129,23 +355,73 @@
       "type": "weapon",
       "img": "icons/skills/melee/strike-slashing-large.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) piercing damage.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": true,
-        "type": { "value": "natural", "baseItem": "" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "range": { "value": 5, "long": null, "units": "ft" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
+        "description": {
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) piercing damage.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": true,
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "4", "type": { "value": "melee", "classification": "weapon" } },
-            "damage": { "parts": [{ "number": 1, "denomination": 4, "bonus": "1", "types": ["piercing"] }] }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "flatBonus": "4",
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 4,
+                  "bonus": "1",
+                  "types": [
+                    "piercing"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
-      "sort": 400000
+      "sort": 400000,
+      "_key": "!actors.items!F5F9837B1DDA0EF5.FDruidAction003Ma"
     },
     {
       "_id": "FDruidAction004CS",
@@ -153,12 +429,27 @@
       "type": "feat",
       "img": "icons/magic/nature/wolf-howl-moon-blue.webp",
       "system": {
-        "description": { "value": "<p>The druid magically polymorphs into a beast form—fox, mountain goat, owl, or wolf—or back into its humanoid form. Any equipment it is wearing or carrying is absorbed or borne by the beast form (the druid's choice). It reverts to its humanoid form when it dies. The druid's statistics are the same in each form, except where noted in this stat block.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>The druid magically polymorphs into a beast form\u2014fox, mountain goat, owl, or wolf\u2014or back into its humanoid form. Any equipment it is wearing or carrying is absorbed or borne by the beast form (the druid's choice). It reverts to its humanoid form when it dies. The druid's statistics are the same in each form, except where noted in this stat block.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 500000
+      "sort": 500000,
+      "_key": "!actors.items!F5F9837B1DDA0EF5.FDruidAction004CS"
     }
   ],
   "effects": [],

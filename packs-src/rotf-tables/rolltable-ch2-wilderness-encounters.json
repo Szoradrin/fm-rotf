@@ -1,6 +1,5 @@
 {
   "_id": "RotFCh2WildernessEnc01",
-  "_key": "!tables!RotFCh2WildernessEnc01",
   "name": "Chapter 2: Wilderness Random Encounters",
   "description": "<p>Random encounter table for Chapter 2 wilderness travel in Icewind Dale. Sourced from RotF pg. 105 and the Arctic Encounters (5e 2014) supplement by Duncan Thomson. Roll 1d20; results 9\u201313 are weighted to appear more often via range width. Reroll a 1 or treat as 11.</p><p><strong>Threat Ratings:</strong> Low (CR 1/4\u20131), Moderate (CR 2\u20135), Dangerous (CR 6\u201310), Deadly (CR 11+).</p>",
   "formula": "1d20",
@@ -299,5 +298,6 @@
       "drawn": false,
       "flags": {}
     }
-  ]
+  ],
+  "_key": "!tables!RotFCh2WildernessEnc01"
 }

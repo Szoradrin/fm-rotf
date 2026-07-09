@@ -5,41 +5,97 @@
   "img": "modules/rotf/assets/images/token-gnoll-vampire.webp",
   "system": {
     "abilities": {
-      "str": { "value": 20 },
-      "dex": { "value": 18 },
-      "con": { "value": 18 },
-      "int": { "value": 6 },
-      "wis": { "value": 12 },
-      "cha": { "value": 9 }
+      "str": {
+        "value": 20
+      },
+      "dex": {
+        "value": 18
+      },
+      "con": {
+        "value": 18
+      },
+      "int": {
+        "value": 6
+      },
+      "wis": {
+        "value": 12
+      },
+      "cha": {
+        "value": 9
+      }
     },
     "attributes": {
-      "ac": { "flat": 17, "calc": "flat", "formula": "natural armor" },
-      "hp": { "value": 93, "min": 0, "max": 93, "formula": "11d8+44" },
-      "speed": { "value": "30 ft." },
+      "ac": {
+        "flat": 17,
+        "calc": "flat",
+        "formula": "natural armor"
+      },
+      "hp": {
+        "value": 93,
+        "min": 0,
+        "max": 93,
+        "formula": "11d8+44"
+      },
+      "speed": {
+        "value": "30 ft."
+      },
       "cr": 8,
       "spellcasting": ""
     },
     "details": {
-      "biography": { "value": "<p>A gnoll vampire is an undead shapechanger that can assume the form of a Large hyena or a cloud of mist.</p>" },
+      "biography": {
+        "value": "<p>A gnoll vampire is an undead shapechanger that can assume the form of a Large hyena or a cloud of mist.</p>"
+      },
       "alignment": "chaotic evil",
       "race": "",
-      "type": { "value": "undead", "subtype": "shapechanger", "swarm": "", "custom": "" },
+      "type": {
+        "value": "undead",
+        "subtype": "shapechanger",
+        "swarm": "",
+        "custom": ""
+      },
       "environment": "",
       "cr": 8,
       "spellLevel": 0,
-      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "291" }
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "291"
+      }
     },
     "skills": {},
     "traits": {
       "size": "med",
-      "di": { "value": [] },
-      "dr": { "value": ["necrotic", "bludgeoning", "piercing", "slashing"] },
-      "dv": { "value": [] },
-      "ci": { "value": [] },
-      "languages": { "value": ["abyssal"] },
+      "di": {
+        "value": []
+      },
+      "dr": {
+        "value": [
+          "necrotic",
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ]
+      },
+      "dv": {
+        "value": []
+      },
+      "ci": {
+        "value": []
+      },
+      "languages": {
+        "value": [
+          "abyssal"
+        ]
+      },
       "special": "Gnoll"
     },
-    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 }
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   "prototypeToken": {
     "name": "Gnoll Vampire",
@@ -51,16 +107,79 @@
     "height": 1,
     "texture": {
       "src": "modules/rotf/assets/images/token-gnoll-vampire.webp",
-      "anchorX": 0.5, "anchorY": 0.5, "fit": "contain",
-      "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
-    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1, "displayBars": 0,
-    "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
-    "light": { "negative": false, "priority": 0, "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 } },
-    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
-    "detectionModes": {}, "occludable": { "radius": 0 },
-    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
-    "flags": {}, "randomImg": false
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
   },
   "items": [
     {
@@ -69,12 +188,27 @@
       "type": "feat",
       "img": "icons/magic/perception/eye-ringed-green.webp",
       "system": {
-        "description": { "value": "<p>The vampire has advantage on Wisdom (Perception) checks that rely on smell.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>The vampire has advantage on Wisdom (Perception) checks that rely on smell.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 100000
+      "sort": 100000,
+      "_key": "!actors.items!2025B4768D5A4130.GnollVTrait001KS"
     },
     {
       "_id": "GnollVTrait002Ra",
@@ -82,12 +216,27 @@
       "type": "feat",
       "img": "icons/skills/melee/strike-slashing-large.webp",
       "system": {
-        "description": { "value": "<p>When it reduces a creature to 0 hit points with a melee attack on its turn, the vampire can take a bonus action to move up to half its speed and make a bite attack.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>When it reduces a creature to 0 hit points with a melee attack on its turn, the vampire can take a bonus action to move up to half its speed and make a bite attack.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 125000
+      "sort": 125000,
+      "_key": "!actors.items!2025B4768D5A4130.GnollVTrait002Ra"
     },
     {
       "_id": "GnollVTrait003Re",
@@ -95,12 +244,27 @@
       "type": "feat",
       "img": "icons/magic/life/heart-glowing-red.webp",
       "system": {
-        "description": { "value": "<p>The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 150000
+      "sort": 150000,
+      "_key": "!actors.items!2025B4768D5A4130.GnollVTrait003Re"
     },
     {
       "_id": "GnollVTrait004SC",
@@ -108,12 +272,27 @@
       "type": "feat",
       "img": "icons/magic/control/debuff-chains-blue.webp",
       "system": {
-        "description": { "value": "<p>If the vampire isn't in sunlight, it can use its action to polymorph into a Large hyena or a Medium cloud of mist, or back into its true form. While in hyena form, the vampire can't speak, and its walking speed is 50 feet. While in mist form, the vampire can't take any actions, speak, or manipulate objects; it is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space. It has advantage on Str, Dex, and Con saving throws and is immune to all nonmagical damage except sunlight.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>If the vampire isn't in sunlight, it can use its action to polymorph into a Large hyena or a Medium cloud of mist, or back into its true form. While in hyena form, the vampire can't speak, and its walking speed is 50 feet. While in mist form, the vampire can't take any actions, speak, or manipulate objects; it is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space. It has advantage on Str, Dex, and Con saving throws and is immune to all nonmagical damage except sunlight.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 175000
+      "sort": 175000,
+      "_key": "!actors.items!2025B4768D5A4130.GnollVTrait004SC"
     },
     {
       "_id": "GnollVTrait005UN",
@@ -121,12 +300,27 @@
       "type": "feat",
       "img": "icons/magic/death/skull-horned-goat-blue.webp",
       "system": {
-        "description": { "value": "<p>The vampire doesn't require air.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>The vampire doesn't require air.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 185000
+      "sort": 185000,
+      "_key": "!actors.items!2025B4768D5A4130.GnollVTrait005UN"
     },
     {
       "_id": "GnollVTrait006VW",
@@ -134,12 +328,27 @@
       "type": "feat",
       "img": "icons/magic/holy/chalice-glowing-white.webp",
       "system": {
-        "description": { "value": "<p><strong>Enraged by Celestial.</strong> If it hears words of Celestial spoken, the vampire must try to attack the source on its next turn. If words come from multiple opposite directions, the vampire is restrained.</p><p><strong>Repulsed by Perfume.</strong> The vampire has disadvantage on melee attack rolls against any creature wearing perfume or carrying an open container of it.</p><p><strong>Stake to the Heart.</strong> If a piercing weapon made of wood is driven into the vampire's heart while incapacitated in its resting place, the vampire is paralyzed until the stake is removed.</p><p><strong>Sunlight Hypersensitivity.</strong> The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p><strong>Enraged by Celestial.</strong> If it hears words of Celestial spoken, the vampire must try to attack the source on its next turn. If words come from multiple opposite directions, the vampire is restrained.</p><p><strong>Repulsed by Perfume.</strong> The vampire has disadvantage on melee attack rolls against any creature wearing perfume or carrying an open container of it.</p><p><strong>Stake to the Heart.</strong> If a piercing weapon made of wood is driven into the vampire's heart while incapacitated in its resting place, the vampire is paralyzed until the stake is removed.</p><p><strong>Sunlight Hypersensitivity.</strong> The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 190000
+      "sort": 190000,
+      "_key": "!actors.items!2025B4768D5A4130.GnollVTrait006VW"
     },
     {
       "_id": "GnollVAction001M",
@@ -147,12 +356,27 @@
       "type": "feat",
       "img": "icons/skills/melee/strike-slashing-large.webp",
       "system": {
-        "description": { "value": "<p>The vampire makes two attacks: one with its bite and one with its claws.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>The vampire makes two attacks: one with its bite and one with its claws.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 200000
+      "sort": 200000,
+      "_key": "!actors.items!2025B4768D5A4130.GnollVAction001M"
     },
     {
       "_id": "GnollVAction002Bi",
@@ -160,23 +384,81 @@
       "type": "weapon",
       "img": "icons/skills/melee/strike-slashing-large.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 12 (2d6+5) piercing damage plus 9 (2d8) necrotic damage. The target's hit point maximum is reduced by the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": true,
-        "type": { "value": "natural", "baseItem": "" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "range": { "value": 5, "long": null, "units": "ft" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
+        "description": {
+          "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 12 (2d6+5) piercing damage plus 9 (2d8) necrotic damage. The target's hit point maximum is reduced by the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": true,
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "8", "type": { "value": "melee", "classification": "weapon" } },
-            "damage": { "parts": [{ "number": 2, "denomination": 6, "bonus": "5", "types": ["piercing"] }, { "number": 2, "denomination": 8, "bonus": "", "types": ["necrotic"] }] }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "flatBonus": "8",
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 6,
+                  "bonus": "5",
+                  "types": [
+                    "piercing"
+                  ]
+                },
+                {
+                  "number": 2,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "necrotic"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
-      "sort": 300000
+      "sort": 300000,
+      "_key": "!actors.items!2025B4768D5A4130.GnollVAction002Bi"
     },
     {
       "_id": "GnollVAction003Cl",
@@ -184,23 +466,73 @@
       "type": "weapon",
       "img": "icons/skills/melee/strike-slashing-large.webp",
       "system": {
-        "description": { "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 10 (2d4+5) slashing damage.</p>", "chat": "" },
-        "quantity": 1, "equipped": true, "proficient": true,
-        "type": { "value": "natural", "baseItem": "" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "range": { "value": 5, "long": null, "units": "ft" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
+        "description": {
+          "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 10 (2d4+5) slashing damage.</p>",
+          "chat": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": true,
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false },
-            "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "8", "type": { "value": "melee", "classification": "weapon" } },
-            "damage": { "parts": [{ "number": 2, "denomination": 4, "bonus": "5", "types": ["slashing"] }] }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "flatBonus": "8",
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 4,
+                  "bonus": "5",
+                  "types": [
+                    "slashing"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
-      "sort": 400000
+      "sort": 400000,
+      "_key": "!actors.items!2025B4768D5A4130.GnollVAction003Cl"
     },
     {
       "_id": "GnollVAction004FC",
@@ -208,12 +540,27 @@
       "type": "feat",
       "img": "icons/magic/sonic/explosion-shock-wave.webp",
       "system": {
-        "description": { "value": "<p>The vampire emits a bone-chilling cackle. Each creature of the vampire's choice within 120 feet that can hear its cackle must succeed on a DC 15 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1, "condition": "" },
-        "uses": { "value": null, "max": "", "per": null, "recovery": "" }
+        "description": {
+          "value": "<p>The vampire emits a bone-chilling cackle. Each creature of the vampire's choice within 120 feet that can hear its cackle must succeed on a DC 15 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        }
       },
-      "sort": 500000
+      "sort": 500000,
+      "_key": "!actors.items!2025B4768D5A4130.GnollVAction004FC"
     }
   ],
   "effects": [],

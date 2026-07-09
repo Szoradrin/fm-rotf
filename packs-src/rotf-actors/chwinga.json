@@ -5,37 +5,89 @@
   "img": "modules/rotf/assets/images/token-chwinga-1.webp",
   "system": {
     "abilities": {
-      "str": { "value": 1 },
-      "dex": { "value": 20 },
-      "con": { "value": 10 },
-      "int": { "value": 14 },
-      "wis": { "value": 16 },
-      "cha": { "value": 16 }
+      "str": {
+        "value": 1
+      },
+      "dex": {
+        "value": 20
+      },
+      "con": {
+        "value": 10
+      },
+      "int": {
+        "value": 14
+      },
+      "wis": {
+        "value": 16
+      },
+      "cha": {
+        "value": 16
+      }
     },
     "attributes": {
-      "ac": { "flat": 15, "calc": "flat", "formula": "" },
-      "hp": { "value": 5, "max": 5, "temp": 0, "formula": "2d4" },
-      "speed": { "value": 20, "climb": 20, "swim": 20, "special": "" },
+      "ac": {
+        "flat": 15,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 5,
+        "max": 5,
+        "temp": 0,
+        "formula": "2d4"
+      },
+      "speed": {
+        "value": 20,
+        "climb": 20,
+        "swim": 20,
+        "special": ""
+      },
       "prof": 2
     },
     "details": {
-      "biography": { "value": "<p>A chwinga (pronounced cheh-WING-ah) is a tiny elemental spirit that lives in plants, rocks, and rivers far from civilization. Painfully shy, chwingas prefer to move about unseen. They resemble 6-inch-tall animated dolls with strange masks, spindly limbs, and wild hair.</p>", "public": "" },
+      "biography": {
+        "value": "<p>A chwinga (pronounced cheh-WING-ah) is a tiny elemental spirit that lives in plants, rocks, and rivers far from civilization. Painfully shy, chwingas prefer to move about unseen. They resemble 6-inch-tall animated dolls with strange masks, spindly limbs, and wild hair.</p>",
+        "public": ""
+      },
       "alignment": "",
       "race": "",
-      "type": { "value": "elemental", "subtype": "", "swarm": "", "custom": "" },
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
       "cr": 0,
       "spellLevel": 0,
-      "source": { "custom": "ROTF" }
+      "source": {
+        "custom": "ROTF"
+      }
     },
     "traits": {
       "size": "tiny",
-      "languages": { "value": [], "custom": "" },
-      "senses": { "darkvision": 0, "blindsight": 60, "tremorsense": 0, "truesight": 0, "units": "ft", "special": "" }
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 60,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      }
     },
     "skills": {
-      "acr": { "value": 1 },
-      "prc": { "value": 1 },
-      "ste": { "value": 1 }
+      "acr": {
+        "value": 1
+      },
+      "prc": {
+        "value": 1
+      },
+      "ste": {
+        "value": 1
+      }
     },
     "saves": {}
   },
@@ -46,9 +98,17 @@
       "type": "feat",
       "img": "icons/skills/movement/feet-winged-boots-brown.webp",
       "system": {
-        "description": { "value": "<p>When the chwinga is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null },
+        "description": {
+          "value": "<p>When the chwinga is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null
+        },
         "activities": {}
       },
       "_key": "!actors.items!ChwingaActor001.ChwingaItem001"
@@ -59,9 +119,17 @@
       "type": "feat",
       "img": "icons/magic/nature/elemental-air-humanoid.webp",
       "system": {
-        "description": { "value": "<p>The chwinga doesn't require air, food, or drink. When it dies, it turns into a handful of flower petals, a cloud of pollen, a stone statuette resembling its former self, a tiny sphere of smooth stone, or a puddle of fresh water (your choice).</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null },
+        "description": {
+          "value": "<p>The chwinga doesn't require air, food, or drink. When it dies, it turns into a handful of flower petals, a cloud of pollen, a stone statuette resembling its former self, a tiny sphere of smooth stone, or a puddle of fresh water (your choice).</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null
+        },
         "activities": {}
       },
       "_key": "!actors.items!ChwingaActor001.ChwingaItem002"
@@ -72,15 +140,32 @@
       "type": "feat",
       "img": "icons/magic/life/heart-glowing-gold.webp",
       "system": {
-        "description": { "value": "<p>The chwinga targets a humanoid it can see within 5 feet of it. The target gains a supernatural charm of the DM's choice. See the Dungeon Master's Guide for information on supernatural charms.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1 },
-        "uses": { "value": 1, "max": "1", "per": "day" },
+        "description": {
+          "value": "<p>The chwinga targets a humanoid it can see within 5 feet of it. The target gains a supernatural charm of the DM's choice. See the Dungeon Master's Guide for information on supernatural charms.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "day"
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "utility",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            }
           }
         }
       },
@@ -92,14 +177,27 @@
       "type": "feat",
       "img": "icons/environment/wilderness/tree-oak.webp",
       "system": {
-        "description": { "value": "<p>The chwinga magically takes shelter inside a rock, a living plant, or a natural source of fresh water in its space. The chwinga can't be targeted by any attack, spell, or other effect while inside this shelter, and the shelter doesn't impair the chwinga's blindsight. The chwinga can use its action to emerge from a shelter. If its shelter is destroyed, the chwinga is forced out and appears in the shelter's space, but is otherwise unharmed.</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "action", "value": 1 },
+        "description": {
+          "value": "<p>The chwinga magically takes shelter inside a rock, a living plant, or a natural source of fresh water in its space. The chwinga can't be targeted by any attack, spell, or other effect while inside this shelter, and the shelter doesn't impair the chwinga's blindsight. The chwinga can use its action to emerge from a shelter. If its shelter is destroyed, the chwinga is forced out and appears in the shelter's space, but is otherwise unharmed.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1
+        },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "utility",
-            "activation": { "type": "action", "value": 1, "condition": "", "override": false }
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            }
           }
         }
       },
@@ -111,9 +209,17 @@
       "type": "feat",
       "img": "icons/magic/symbols/runes-star-blue.webp",
       "system": {
-        "description": { "value": "<p>The chwinga casts one of the following spells, requiring no material or verbal components:</p><p><strong>At will:</strong> druidcraft, guidance, pass without trace, resistance</p>", "chat": "" },
-        "type": { "value": "monster" },
-        "activation": { "type": "", "value": null },
+        "description": {
+          "value": "<p>The chwinga casts one of the following spells, requiring no material or verbal components:</p><p><strong>At will:</strong> druidcraft, guidance, pass without trace, resistance</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "",
+          "value": null
+        },
         "activities": {}
       },
       "_key": "!actors.items!ChwingaActor001.ChwingaItem005"
@@ -129,24 +235,79 @@
     "height": 1,
     "texture": {
       "src": "modules/rotf/assets/images/token-chwinga-1.webp",
-      "anchorX": 0.5, "anchorY": 0.5, "fit": "contain",
-      "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
-    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
     "displayBars": 0,
-    "bar1": { "attribute": "attributes.hp" },
-    "bar2": { "attribute": null },
-    "light": {
-      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
-      "bright": 0, "color": null, "coloration": 1, "dim": 0,
-      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0,
-      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
-      "darkness": { "min": 0, "max": 1 }
+    "bar1": {
+      "attribute": "attributes.hp"
     },
-    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
-    "detectionModes": {}, "occludable": { "radius": 0 },
-    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
-    "flags": {}, "randomImg": false
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
   },
   "flags": {},
   "_stats": {
