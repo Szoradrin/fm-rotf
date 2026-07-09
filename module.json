@@ -2,7 +2,7 @@
   "id": "rotf",
   "title": "Icewind Dale: Rime of the Frostmaiden",
   "description": "A full Foundry VTT module for Icewind Dale: Rime of the Frostmaiden. Includes actors, journals, roll tables, scenes, and assets for running the complete campaign.",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "authors": [
     {
       "name": "Szoradrin"
@@ -24,17 +24,6 @@
       "name": "rotf-actors",
       "label": "ROTF: Actors",
       "path": "packs/rotf-actors",
-      "type": "Actor",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "rotf-actors-cult",
-      "label": "ROTF: Cult of Auril Actors",
-      "path": "packs/rotf-actors-cult",
       "type": "Actor",
       "system": "dnd5e",
       "ownership": {
@@ -76,7 +65,6 @@
       "sorting": "m",
       "packs": [
         "rotf-actors",
-        "rotf-actors-cult",
         "rotf-journals",
         "rotf-scenes",
         "rotf-tables"
