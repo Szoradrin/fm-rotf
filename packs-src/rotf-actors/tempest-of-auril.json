@@ -105,7 +105,7 @@
       },
       "wis": {
         "value": 10,
-        "proficient": 0,
+        "proficient": 1,
         "max": null,
         "bonuses": {
           "check": "",
@@ -353,7 +353,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 0,
+        "value": 1,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -366,7 +366,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 0,
+        "value": 1,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -392,7 +392,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 1,
+        "value": 0,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -415,41 +415,47 @@
     "tools": {},
     "spells": {
       "spell1": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "spell2": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "spell3": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "spell4": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "spell5": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "spell6": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "spell7": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "spell8": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "spell9": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "pact": {
-        "value": 0
+        "value": 0,
+        "override": null
       }
     },
     "attributes": {
-      "ac": {
-        "calc": "natural",
-        "flat": 12
-      },
       "init": {
         "ability": "",
         "roll": {
@@ -460,31 +466,26 @@
         "bonus": ""
       },
       "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 30,
         "units": "ft",
-        "hover": false,
-        "ignoredDifficultTerrain": [],
-        "walk": "30",
-        "burrow": "",
-        "climb": "",
-        "fly": "",
-        "swim": "",
-        "bonus": "",
-        "special": ""
+        "hover": false
       },
       "attunement": {
         "max": 3
       },
       "senses": {
-        "ranges": {
-          "blindsight": null,
-          "darkvision": null,
-          "tremorsense": null,
-          "truesight": null
-        },
-        "units": "ft",
+        "darkvision": null,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null,
+        "units": null,
         "special": ""
       },
-      "spellcasting": "",
+      "spellcasting": "wis",
       "exhaustion": 0,
       "concentration": {
         "ability": "",
@@ -498,7 +499,10 @@
         },
         "limit": 1
       },
-      "loyalty": {},
+      "ac": {
+        "flat": 12,
+        "calc": "flat"
+      },
       "hd": {
         "spent": 0
       },
@@ -507,8 +511,7 @@
         "max": 32,
         "temp": null,
         "tempmax": null,
-        "formula": "5d8 + 10",
-        "dt": null
+        "formula": "5d8+10"
       },
       "death": {
         "roll": {
@@ -522,47 +525,51 @@
           "save": ""
         }
       },
-      "price": {
-        "value": null,
-        "denomination": "gp"
-      },
       "spell": {
         "level": 0
+      },
+      "loyalty": {
+        "value": null
       }
     },
     "details": {
       "biography": {
-        "value": "",
+        "value": "<div class=\"gear\"><p><strong>Gear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol (Varies)}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Leather Armor}</p></div><h1>Cultists</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.VICfYukXoYkWJ1yn caption=false cite=false classes=\"no-embed mm\"]</p><h2>Cultist Fanatic</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.DHw4tAz06WzLz07b caption=false cite=false classes=\"no-embed mm\"]</p>",
         "public": ""
       },
-      "alignment": "Any Evil",
+      "alignment": "any evil alignment",
       "ideal": "",
       "bond": "",
       "flaw": "",
       "race": null,
       "type": {
         "value": "humanoid",
-        "custom": "",
-        "subtype": "any race",
-        "swarm": ""
+        "subtype": "any race"
       },
       "cr": 0.5,
       "habitat": {
-        "value": [],
+        "value": [
+          {
+            "type": "any"
+          }
+        ],
         "custom": ""
       },
       "treasure": {
-        "value": {}
+        "value": [
+          "individual",
+          "relics"
+        ]
       }
     },
     "resources": {
       "legact": {
-        "max": 0,
-        "spent": 0
+        "value": 0,
+        "max": 0
       },
       "legres": {
-        "max": 0,
-        "spent": 0
+        "value": 0,
+        "max": 0
       },
       "lair": {
         "value": false,
@@ -571,31 +578,31 @@
       }
     },
     "source": {
-      "revision": 1,
+      "revision": 2,
       "rules": "2024",
       "book": "",
       "page": "",
-      "custom": "",
+      "custom": "Homebrew 2024",
       "license": ""
     },
     "traits": {
       "size": "med",
       "di": {
+        "bypasses": [],
         "value": [],
-        "custom": "",
-        "bypasses": []
+        "custom": ""
       },
       "dr": {
+        "bypasses": [],
         "value": [
           "cold"
         ],
-        "custom": "",
-        "bypasses": []
+        "custom": ""
       },
       "dv": {
+        "bypasses": [],
         "value": [],
-        "custom": "",
-        "bypasses": []
+        "custom": ""
       },
       "dm": {
         "amount": {},
@@ -617,13 +624,12 @@
   },
   "prototypeToken": {
     "name": "Tempest of Auril",
-    "displayName": 30,
+    "displayName": 0,
     "actorLink": false,
     "appendNumber": false,
     "prependAdjective": false,
     "width": 1,
     "height": 1,
-    "depth": 1,
     "texture": {
       "src": "icons/svg/mystery-man.svg",
       "anchorX": 0.5,
@@ -634,11 +640,11 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "lockRotation": false,
+    "lockRotation": true,
     "rotation": 0,
     "alpha": 1,
     "disposition": -1,
-    "displayBars": 30,
+    "displayBars": 0,
     "bar1": {
       "attribute": "attributes.hp"
     },
@@ -686,228 +692,205 @@
       "radius": 0
     },
     "ring": {
-      "enabled": false,
+      "enabled": true,
       "colors": {
         "ring": null,
         "background": null
       },
-      "effects": 0,
+      "effects": 1,
       "subject": {
         "scale": 1,
         "texture": null
       }
     },
     "flags": {},
-    "randomImg": false,
+    "randomImg": true,
     "turnMarker": {
       "mode": 1,
-      "animation": "spinPulse",
+      "animation": null,
       "src": null,
-      "disposition": true
+      "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "items": [
     {
-      "_id": "TempColdFai01",
-      "name": "Cold Faith",
-      "type": "feat",
-      "img": "icons/svg/mystery-man.svg",
-      "system": {
-        "activities": {},
-        "uses": {
-          "spent": 0,
-          "recovery": [],
-          "max": ""
-        },
-        "advancement": {},
-        "description": {
-          "value": "<p>The tempest gains resistance to cold damage and has advantage on saving throws against being charmed or frightened.</p>",
-          "chat": ""
-        },
-        "identifier": "cold-faith",
-        "source": {
-          "revision": 1,
-          "rules": "2024",
-          "book": "",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "crewed": false,
-        "enchant": {},
-        "prerequisites": {
-          "items": [],
-          "repeatable": false,
-          "level": null
-        },
-        "properties": [
-          "trait"
-        ],
-        "requirements": "",
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.364",
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!TempestOfAurilAc.TempColdFai01"
-    },
-    {
-      "_id": "TempSurgeCr01",
-      "name": "Surge of Cruelty (Recharge after a short or long rest)",
-      "type": "feat",
-      "img": "icons/svg/mystery-man.svg",
-      "system": {
-        "activities": {},
-        "uses": {
-          "spent": 0,
-          "recovery": [],
-          "max": ""
-        },
-        "advancement": {},
-        "description": {
-          "value": "<p>When the tempest hits with an attack that isn't a critical hit, it can turn the hit into a critical hit.</p>",
-          "chat": ""
-        },
-        "identifier": "surge-of-cruelty",
-        "source": {
-          "revision": 1,
-          "rules": "2024",
-          "book": "",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "crewed": false,
-        "enchant": {},
-        "prerequisites": {
-          "items": [],
-          "repeatable": false,
-          "level": null
-        },
-        "properties": [
-          "trait"
-        ],
-        "requirements": "",
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.364",
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!TempestOfAurilAc.TempSurgeCr01"
-    },
-    {
-      "_id": "TempMultiatt1",
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/mystery-man.svg",
+      "_id": "JEhbMfQjpQWVdiD3",
+      "_key": "!actors.items!TempestOfAurlAc1.JEhbMfQjpQWVdiD3",
+      "img": "icons/skills/melee/strike-weapons-blue.webp",
       "system": {
-        "activities": {},
-        "uses": {
-          "spent": 0,
-          "recovery": [],
-          "max": ""
-        },
-        "advancement": {},
         "description": {
-          "value": "<p>The tempest makes two melee attacks.</p>",
-          "chat": ""
+          "value": "<p>The tempest makes two melee attacks.</p>"
         },
-        "identifier": "multiattack",
-        "source": {
-          "revision": 1,
-          "rules": "2024",
-          "book": "",
-          "page": "",
-          "custom": "",
-          "license": ""
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
         },
-        "crewed": false,
-        "enchant": {},
-        "prerequisites": {
-          "items": [],
-          "repeatable": false,
-          "level": null
+        "duration": {
+          "value": "",
+          "units": ""
         },
-        "properties": [
-          "monster"
-        ],
-        "requirements": "",
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
         "type": {
           "value": "monster",
           "subtype": ""
-        }
+        },
+        "activities": {}
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
       "_stats": {
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!TempestOfAurilAc.TempMultiatt1"
+      "flags": {}
     },
     {
-      "_id": "TempScimitar1",
       "name": "Scimitar",
       "type": "weapon",
-      "img": "icons/svg/mystery-man.svg",
+      "_id": "j9aSonfilp2AYOPy",
+      "_key": "!actors.items!TempestOfAurlAc1.j9aSonfilp2AYOPy",
+      "img": "icons/weapons/swords/scimitar-guard-steel.webp",
       "system": {
+        "description": {
+          "value": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": 1
+          }
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "reach": 5,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "damage": {
+          "base": {
+            "formula": "1d6",
+            "types": [
+              "slashing"
+            ],
+            "denomination": 6
+          }
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "properties": [
+          "fin"
+        ],
+        "proficient": null,
+        "mastery": "",
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
         "activities": {
-          "dqj9rsf8rOftNLL7": {
-            "_id": "dqj9rsf8rOftNLL7",
+          "4g46wx8rLcUsemi5": {
+            "_id": "4g46wx8rLcUsemi5",
             "type": "attack",
+            "name": "",
+            "img": "",
+            "sort": 0,
             "activation": {
-              "type": "action",
+              "type": "",
               "value": null,
               "override": false
+            },
+            "duration": {
+              "units": "",
+              "value": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "type": "",
+                "size": "",
+                "width": "",
+                "units": ""
+              },
+              "affects": {
+                "type": "",
+                "count": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true
+            },
+            "range": {
+              "value": null,
+              "long": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": [],
+              "spent": 0,
+              "prompt": true
             },
             "consumption": {
               "scaling": {
@@ -916,598 +899,428 @@
               "spellSlot": true,
               "targets": []
             },
-            "description": {},
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
+            "description": {
+              "chatFlavor": ""
             },
             "effects": [],
-            "range": {
-              "override": false,
-              "units": "ft",
-              "value": "5"
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft",
-                "stationary": false
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false,
-              "prompt": true
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "attack": {
-              "critical": {
-                "threshold": null
-              },
-              "flat": true,
-              "type": {
-                "value": "melee",
-                "classification": "weapon"
-              },
-              "ability": "",
-              "bonus": "4"
-            },
             "damage": {
-              "critical": {
-                "bonus": ""
-              },
               "includeBase": true,
               "parts": []
             },
-            "visibility": {
-              "level": {
-                "min": null,
-                "max": null
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null,
+                "damage": ""
               },
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false,
-              "identifier": ""
+              "flat": false,
+              "type": {
+                "value": "",
+                "classification": ""
+              }
             },
-            "useConditionText": "",
-            "useConditionReason": "",
-            "effectConditionText": "",
-            "macroData": {
-              "name": "",
-              "command": ""
-            },
-            "ignoreTraits": {
-              "idi": false,
-              "idr": false,
-              "idv": false,
-              "ida": false,
-              "idm": false
-            },
-            "midiProperties": {
-              "ignoreTraits": [],
-              "triggeredActivityId": "none",
-              "triggeredActivityConditionText": "",
-              "triggeredActivityTargets": "targets",
-              "triggeredActivityRollAs": "self",
-              "triggeredActivityConsume": true,
-              "triggeredActivityConfigure": true,
-              "autoConsume": false,
-              "forceConsumeDialog": "default",
-              "forceRollDialog": "default",
-              "forceDamageDialog": "default",
-              "confirmTargets": "default",
-              "autoTargetType": "any",
-              "autoTargetAction": "default",
-              "automationOnly": false,
-              "otherActivityCompatible": true,
-              "otherActivityAsParentType": true,
-              "identifier": "",
-              "displayActivityName": false,
-              "rollMode": "default",
-              "chooseEffects": false,
-              "toggleEffect": false,
-              "ignoreFullCover": false,
-              "removeChatButtons": "default",
-              "magicEffect": false,
-              "magicDamage": false,
-              "noConcentrationCheck": false,
-              "skipConcentrationCheck": false,
-              "autoCEEffects": "default"
-            },
-            "isOverTimeFlag": false,
-            "overTimeProperties": {
-              "saveRemoves": true,
-              "rollAs": "target",
-              "preRemoveConditionText": "",
-              "postRemoveConditionText": ""
-            },
-            "regionBehavior": {
-              "enabled": false,
-              "dispositionFilter": -1,
-              "excludeSource": true,
-              "oncePerTurn": true,
-              "wallRestriction": "none",
-              "regionVisibility": 2,
-              "rules": [],
-              "attachToken": "default"
-            },
-            "regionLight": {
-              "enabled": false,
-              "dim": 0,
-              "bright": 0,
-              "color": null,
-              "alpha": 0.5,
-              "luminosity": 0.5,
-              "animationType": "",
-              "animationSpeed": 5,
-              "animationIntensity": 5
-            },
-            "otherActivityId": "",
-            "otherActivityAsParentType": true,
+            "ammunition": null,
             "attackMode": "oneHanded",
-            "ammunition": "",
-            "otherActivityUuid": "",
-            "attackRollPerTarget": "default",
-            "fumbleThreshold": 1,
-            "name": "",
-            "sort": 0
+            "attackRollPerTarget": false,
+            "fumbleThreshold": null,
+            "midiProperties": {},
+            "visibility": {
+              "chatBubble": false,
+              "message": "all"
+            }
           }
-        },
-        "uses": {
-          "spent": 0,
-          "recovery": [],
-          "max": ""
-        },
-        "advancement": {},
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Heavy Crossbow",
+      "type": "weapon",
+      "_id": "Rrpv57l1ofWWejlt",
+      "_key": "!actors.items!TempestOfAurlAc1.Rrpv57l1ofWWejlt",
+      "img": "icons/weapons/crossbows/crossbow-heavy-black.webp",
+      "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</p>",
-          "chat": ""
+          "value": ""
         },
-        "identifier": "scimitar",
-        "source": {
-          "revision": 1,
-          "rules": "2024",
-          "book": "",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "identified": true,
-        "unidentified": {
-          "description": ""
-        },
-        "container": null,
         "quantity": 1,
         "weight": {
-          "value": 0,
+          "value": 1,
           "units": "lb"
         },
         "price": {
           "value": 0,
           "denomination": "gp"
         },
-        "rarity": "",
-        "attunement": "",
         "attuned": false,
+        "attunement": "",
         "equipped": true,
-        "crew": {
-          "value": []
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "override": false
         },
-        "ammunition": {},
-        "armor": {},
-        "damage": {
-          "base": {
-            "types": [
-              "slashing"
-            ],
-            "custom": {
-              "enabled": false
-            },
-            "scaling": {
-              "number": 1
-            },
-            "number": 1,
-            "denomination": 6,
-            "bonus": "+2"
-          },
-          "versatile": {
-            "types": [],
-            "custom": {
-              "enabled": false
-            },
-            "scaling": {
-              "number": 1
-            }
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": 1
           }
         },
-        "properties": [
-          "gear"
-        ],
-        "proficient": null,
         "range": {
-          "units": "ft",
+          "value": 100,
+          "long": 400,
+          "reach": null,
+          "units": "ft"
+        },
+        "uses": {
           "value": null,
-          "long": null,
-          "reach": null
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "damage": {
+          "base": {
+            "formula": "1d10",
+            "types": [
+              "piercing"
+            ],
+            "denomination": 10
+          }
         },
         "type": {
-          "value": "natural",
+          "value": "martialR",
           "baseItem": ""
         },
-        "mastery": ""
+        "properties": [
+          "amm",
+          "two",
+          "lod"
+        ],
+        "proficient": null,
+        "mastery": "",
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "activities": {
+          "4uEdJgPRVF0aOB59": {
+            "_id": "4uEdJgPRVF0aOB59",
+            "type": "attack",
+            "name": "",
+            "img": "",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "value": null,
+              "override": false
+            },
+            "duration": {
+              "units": "",
+              "value": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "type": "",
+                "size": "",
+                "width": "",
+                "units": ""
+              },
+              "affects": {
+                "type": "",
+                "count": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true
+            },
+            "range": {
+              "value": null,
+              "long": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": [],
+              "spent": 0,
+              "prompt": true
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "effects": [],
+            "damage": {
+              "includeBase": true,
+              "parts": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null,
+                "damage": ""
+              },
+              "flat": false,
+              "type": {
+                "value": "",
+                "classification": ""
+              }
+            },
+            "ammunition": null,
+            "attackMode": "oneHanded",
+            "attackRollPerTarget": false,
+            "fumbleThreshold": null,
+            "midiProperties": {},
+            "visibility": {
+              "chatBubble": false,
+              "message": "all"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Cold Faith",
+      "type": "feat",
+      "_id": "0U8hNwrx9yenOJ9h",
+      "_key": "!actors.items!TempestOfAurlAc1.0U8hNwrx9yenOJ9h",
+      "img": "icons/magic/water/snowflake-ice-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>The tempest gains resistance to cold damage and has advantage on saving throws against being charmed or frightened.</p>"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
       "effects": [],
       "folder": null,
       "sort": 100000,
-      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Surge of Cruelty",
+      "type": "feat",
+      "_id": "GucYGkt8ckfoGfJJ",
+      "_key": "!actors.items!TempestOfAurlAc1.GucYGkt8ckfoGfJJ",
+      "img": "icons/skills/melee/strike-blade-knife-red.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Recharge (Short or Long Rest).</strong> When the tempest hits with an attack that isn't a critical hit, they can turn the hit into a critical hit.</p>"
+        },
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "recoverAll"
+            }
+          ],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
       "_stats": {
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!TempestOfAurilAc.TempScimitar1"
-    },
-    {
-      "_id": "TempHeavyCr01",
-      "name": "Heavy Crossbow",
-      "type": "weapon",
-      "img": "icons/svg/mystery-man.svg",
-      "system": {
-        "activities": {
-          "3ozmkVmcEWJKq2Fd": {
-            "_id": "3ozmkVmcEWJKq2Fd",
-            "type": "attack",
-            "activation": {
-              "type": "action",
-              "value": null,
-              "override": false
-            },
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {},
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false,
-              "units": "ft",
-              "value": "100"
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft",
-                "stationary": false
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false,
-              "prompt": true
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "attack": {
-              "critical": {
-                "threshold": null
-              },
-              "flat": true,
-              "type": {
-                "value": "ranged",
-                "classification": "weapon"
-              },
-              "ability": "",
-              "bonus": "2"
-            },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "includeBase": true,
-              "parts": []
-            },
-            "visibility": {
-              "level": {
-                "min": null,
-                "max": null
-              },
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false,
-              "identifier": ""
-            },
-            "useConditionText": "",
-            "useConditionReason": "",
-            "effectConditionText": "",
-            "macroData": {
-              "name": "",
-              "command": ""
-            },
-            "ignoreTraits": {
-              "idi": false,
-              "idr": false,
-              "idv": false,
-              "ida": false,
-              "idm": false
-            },
-            "midiProperties": {
-              "ignoreTraits": [],
-              "triggeredActivityId": "none",
-              "triggeredActivityConditionText": "",
-              "triggeredActivityTargets": "targets",
-              "triggeredActivityRollAs": "self",
-              "triggeredActivityConsume": true,
-              "triggeredActivityConfigure": true,
-              "autoConsume": false,
-              "forceConsumeDialog": "default",
-              "forceRollDialog": "default",
-              "forceDamageDialog": "default",
-              "confirmTargets": "default",
-              "autoTargetType": "any",
-              "autoTargetAction": "default",
-              "automationOnly": false,
-              "otherActivityCompatible": true,
-              "otherActivityAsParentType": true,
-              "identifier": "",
-              "displayActivityName": false,
-              "rollMode": "default",
-              "chooseEffects": false,
-              "toggleEffect": false,
-              "ignoreFullCover": false,
-              "removeChatButtons": "default",
-              "magicEffect": false,
-              "magicDamage": false,
-              "noConcentrationCheck": false,
-              "skipConcentrationCheck": false,
-              "autoCEEffects": "default"
-            },
-            "isOverTimeFlag": false,
-            "overTimeProperties": {
-              "saveRemoves": true,
-              "rollAs": "target",
-              "preRemoveConditionText": "",
-              "postRemoveConditionText": ""
-            },
-            "regionBehavior": {
-              "enabled": false,
-              "dispositionFilter": -1,
-              "excludeSource": true,
-              "oncePerTurn": true,
-              "wallRestriction": "none",
-              "regionVisibility": 2,
-              "rules": [],
-              "attachToken": "default"
-            },
-            "regionLight": {
-              "enabled": false,
-              "dim": 0,
-              "bright": 0,
-              "color": null,
-              "alpha": 0.5,
-              "luminosity": 0.5,
-              "animationType": "",
-              "animationSpeed": 5,
-              "animationIntensity": 5
-            },
-            "otherActivityId": "",
-            "otherActivityAsParentType": true,
-            "attackMode": "oneHanded",
-            "ammunition": "",
-            "otherActivityUuid": "",
-            "attackRollPerTarget": "default",
-            "fumbleThreshold": 1,
-            "name": "",
-            "sort": 0
-          }
-        },
-        "uses": {
-          "spent": 0,
-          "recovery": [],
-          "max": ""
-        },
-        "advancement": {},
-        "description": {
-          "value": "<p>Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage.</p>",
-          "chat": ""
-        },
-        "identifier": "heavy-crossbow",
-        "source": {
-          "revision": 1,
-          "rules": "2024",
-          "book": "",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "identified": true,
-        "unidentified": {
-          "description": ""
-        },
-        "container": null,
-        "quantity": 1,
-        "weight": {
-          "value": 0,
-          "units": "lb"
-        },
-        "price": {
-          "value": 0,
-          "denomination": "gp"
-        },
-        "rarity": "",
-        "attunement": "",
-        "attuned": false,
-        "equipped": true,
-        "crew": {
-          "value": []
-        },
-        "ammunition": {},
-        "armor": {},
-        "damage": {
-          "base": {
-            "types": [
-              "piercing"
-            ],
-            "custom": {
-              "enabled": false
-            },
-            "scaling": {
-              "number": 1
-            },
-            "number": 1,
-            "denomination": 10,
-            "bonus": ""
-          },
-          "versatile": {
-            "types": [],
-            "custom": {
-              "enabled": false
-            },
-            "scaling": {
-              "number": 1
-            }
-          }
-        },
-        "properties": [
-          "gear"
-        ],
-        "proficient": null,
-        "range": {
-          "units": "ft",
-          "value": null,
-          "long": null,
-          "reach": null
-        },
-        "type": {
-          "value": "natural",
-          "baseItem": ""
-        },
-        "mastery": ""
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
       "effects": [],
       "folder": null,
       "sort": 200000,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.364",
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!TempestOfAurilAc.TempHeavyCr01"
+      "flags": {}
     },
     {
-      "_id": "TempEndurEvr1",
-      "name": "Endurance Everlasting (Recharge 5-6)",
+      "name": "Endurance Everlasting",
       "type": "feat",
-      "img": "icons/svg/mystery-man.svg",
+      "_id": "XTCqeNskGMAed50f",
+      "_key": "!actors.items!TempestOfAurlAc1.XTCqeNskGMAed50f",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
       "system": {
-        "activities": {},
-        "uses": {
-          "spent": 0,
-          "recovery": [],
-          "max": ""
-        },
-        "advancement": {},
         "description": {
-          "value": "<p>Reaction: When the tempest takes damage, it can roll a d6 and subtract the number rolled from the damage.</p>",
-          "chat": ""
+          "value": "<p><strong>Reaction (Recharge 5-6).</strong> When the tempest takes damage, they can roll a d6 and subtract the number rolled from the damage.</p>"
         },
-        "identifier": "endurance-everlasting",
-        "source": {
-          "revision": 1,
-          "rules": "2024",
-          "book": "",
-          "page": "",
-          "custom": "",
-          "license": ""
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false
         },
-        "crewed": false,
-        "enchant": {},
-        "prerequisites": {
-          "items": [],
-          "repeatable": false,
-          "level": null
+        "duration": {
+          "value": "",
+          "units": ""
         },
-        "properties": [
-          "monster"
-        ],
-        "requirements": "",
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "recoverAll"
+            }
+          ],
+          "prompt": true
+        },
         "type": {
           "value": "monster",
           "subtype": ""
-        }
+        },
+        "activities": {}
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
       "_stats": {
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!TempestOfAurilAc.TempEndurEvr1"
+      "flags": {}
     }
   ],
   "effects": [],
-  "folder": null,
+  "folder": "ncZ5pnVPuzoPtgSz",
   "flags": {
     "dnd5e": {}
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
     "coreVersion": "14.364",
     "systemId": "dnd5e",
     "systemVersion": "5.3.3",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null,
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null
+    "lastModifiedBy": null
   },
   "ownership": {
-    "default": 0
+    "default": 0,
+    "1cBqnIOdEDUMw3j9": 3
   },
-  "_id": "TempestOfAurilAc",
-  "_key": "!actors!TempestOfAurilAc"
+  "_id": "TempestOfAurlAc1",
+  "sort": 0,
+  "_key": "!actors!TempestOfAurlAc1"
 }
