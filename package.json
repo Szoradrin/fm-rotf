@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@foundryvtt/foundryvtt-cli": "github:foundryvtt/foundryvtt-cli"
+  }
+}
