@@ -23,18 +23,23 @@
   },
   "tokenVision": false,
   "fog": {
-    "exploration": false,
-    "reset": null,
-    "overlay": null
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    },
+    "mode": 0
   },
   "environment": {
     "darknessLevel": 0.2,
+    "darknessLock": false,
     "globalLight": {
       "enabled": true,
-      "bright": 0,
-      "dim": 0,
-      "color": null,
       "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0.5,
+      "saturation": 0,
       "darkness": {
         "min": 0,
         "max": 1
@@ -88,10 +93,15 @@
   "levels": [
     {
       "_id": "BrynShanderScn1Lvl0001",
-      "_key": "!scenes.levels!BrynShanderScn1.BrynShanderScn1Lvl0001"
+      "_key": "!scenes.levels!BrynShanderScn1.BrynShanderScn1Lvl0001",
+      "name": "Bryn Shander",
+      "background": {
+        "src": "modules/rotf/assets/images/map-1.2-bryn-shander-player.webp",
+        "color": "#000000"
+      }
     }
   ],
-  "initialLevel": "defaultLevel0000",
+  "initialLevel": "BrynShanderScn1Lvl0001",
   "transition": {
     "type": null,
     "duration": 1500,
@@ -101,8 +111,5 @@
     "default": 0
   },
   "_id": "BrynShanderScn1",
-  "_key": "!scenes!BrynShanderScn1",
-  "background": {
-    "src": "modules/rotf/assets/images/map-1.2-bryn-shander-player.webp"
-  }
+  "_key": "!scenes!BrynShanderScn1"
 }
