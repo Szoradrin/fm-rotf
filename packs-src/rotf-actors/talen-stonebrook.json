@@ -2,7 +2,7 @@
   "_id": "TalenStonebrookA1",
   "name": "Talen Stonebrook",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/rotf/assets/images/token-talen-stonebrook.png",
   "system": {
     "abilities": {
       "str": {
@@ -500,7 +500,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/rotf/assets/images/token-talen-stonebrook.png",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,
