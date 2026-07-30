@@ -1,0 +1,177 @@
+{
+  "_id": "LonelyWoodJrn01",
+  "_key": "!journal!LonelyWoodJrn01",
+  "name": "Lonelywood",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Overview",
+      "type": "text",
+      "_id": "LWOverview00001",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Lonelywood</h1>\n<p><em>Friendliness \u2744\u2744\u2744 &nbsp; Services \u2744\u2744 &nbsp; Comfort \u2744\u2744</em></p>\n<p>A quiet town of loggers, fishers, and scrimshanders on the edge of the world. Half the residents trawl the lake for knucklehead trout; the rest spend their days in the forest felling trees. Lonelywood has always attracted the region's shadiest element \u2014 the thick forest behind it conceals dark dealings. Visitors can make friends here but would be wise not to dredge up anyone's past.</p>\n<table><thead><tr><th>Detail</th><th></th></tr></thead><tbody>\n<tr><td><strong>Population</strong></td><td>100</td></tr>\n<tr><td><strong>Leader</strong></td><td>Speaker Nimsy Huddle (lawful good strongheart halfling commoner) \u2014 bakes halfling-shaped cookies, opens her heated attic to visitors since the inn closed</td></tr>\n<tr><td><strong>Militia</strong></td><td>50 tribal warriors + 4 veterans</td></tr>\n<tr><td><strong>Sacrifice to Auril</strong></td><td>Food</td></tr>\n<tr><td><strong>Rivals</strong></td><td>Bremen, Targos, Termalaine</td></tr>\n<tr><td><strong>Available Quest</strong></td><td>The White Moose</td></tr>\n</tbody></table>\n<h2>Key Locations</h2>\n<ul>\n<li><strong>The Happy Scrimshander</strong> \u2014 needles, knives, inks, wax. Run by Iriskree Harrowhill, a retired assassin who speaks fondly of people she's killed.</li>\n<li><strong>The Lucky Liar</strong> \u2014 tavern where patrons compete for the most outrageous tall tale. Barkeep Danae Xotal (lawful evil spy, Thayan agent) files away secrets she overhears.</li>\n<li><strong>Ramshackle</strong> \u2014 closed inn. Speaker Huddle will offer it as a reward for dealing with the White Moose.</li>\n<li><strong>Speaker Huddle's House</strong> \u2014 only place to sleep. Heated attic, four halfling children with wooden swords.</li>\n</ul>\n<h2>Overland Travel</h2>\n<p>Lonelywood to Termalaine: 3 miles, 2 hours on foot, 1 hour by sled.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!LonelyWoodJrn01.LWOverview00001"
+    },
+    {
+      "sort": 200000,
+      "name": "The White Moose",
+      "type": "text",
+      "_id": "LWWhiteMoose001",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>The White Moose</h1>\n<p>A white moose is terrorizing loggers in the forest. Speaker Nimsy Huddle offers 100 gp for its head (talk her up to 125 gp, DC 15 Persuasion) plus Ramshackle as an investment property. Hunters have been dispatched but the moose is smarter than it should be \u2014 it uses a magic mirror to scry on its enemies.</p>\n<blockquote><p><em>Nimsy Huddle, the town speaker, tempts you with freshly baked halfling-shaped cookies. Four halfling children scamper from room to room chasing each other with wooden swords, while a fire crackles in the hearth. \"Our loggers are being terrorized by a white moose,\" says Huddle, \"and the beast has eluded the hunters we've sent to kill it. Will you help?\"</em></p></blockquote>\n<section class=\"secret\">\n<p><strong>DM:</strong> The white moose is awakened and serves <strong>Ravisin</strong> \u2014 the same frost druid behind the Lake Monster in Bremen. Killing the moose alone doesn't solve the problem. The party must find and stop Ravisin or she'll keep awakening beasts. She's hiding in the elven tomb in the woods.</p>\n<p><strong>AK the Great moment:</strong> Moose-taur vs awakened white moose. Let this land. Give AK a chance to speak to the moose before or during the fight \u2014 it knows Druidic and Common. It's not entirely without conscience, just bound to Ravisin's will.</p>\n</section>\n<h2>Tracking the Moose</h2>\n<p>1 hour + DC 15 Survival to find tracks. Follow them: roll d6 \u2014 on a 6, leads to elven tomb. Any other result, leads to an ordinary moose (giant goat stats). After every 3 hours in the forest, roll on the Forest Encounters table:</p>\n<table><thead><tr><th>d20</th><th>Encounter</th></tr></thead><tbody>\n<tr><td>1\u201310</td><td>Nothing</td></tr>\n<tr><td>11\u201312</td><td>Banshee (spectral elf warrior, eternal exile, re-forms after 24h)</td></tr>\n<tr><td>13\u201314</td><td>Brown bear(s) \u2014 hungry, DC 15 Intimidation to scare off</td></tr>\n<tr><td>15\u201316</td><td>1d4 Chwingas</td></tr>\n<tr><td>17\u201318</td><td>Arctic fox stalking a snowshoe hare \u2014 can lead party to moose tracks</td></tr>\n<tr><td>19\u201320</td><td>1d4+4 wolves \u2014 flee if 3+ killed</td></tr>\n</tbody></table>\n<h2>Awakened White Moose \u2014 Stats</h2>\n<p>Large beast, neutral evil | AC 11 | HP 68 (8d10+24) | Speed 40 ft.</p>\n<p>STR 19 DEX 11 CON 16 INT 10 WIS 12 CHA 6 | Languages: Druidic | CR 3</p>\n<p><strong>Charge:</strong> 20ft+ move then antlers hit \u2014 extra 9 (2d8) damage, DC 14 STR or prone.</p>\n<p><strong>Multiattack:</strong> Antlers (+6, 13 piercing) + Hooves (+6, 9 bludgeoning).</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!LonelyWoodJrn01.LWWhiteMoose001"
+    },
+    {
+      "sort": 300000,
+      "name": "The Elven Tomb",
+      "type": "text",
+      "_id": "LWElvenTomb0001",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>The Elven Tomb</h1>\n<p>A large circular depression in a snowy hillside. At center: a 20-foot triangular crystal gnomon (part of a moon dial). A berm to the east has evergreens and a sarcophagus. North: a marble gazebo with a stone brazier. South: six marble elf statues on granite pillars.</p>\n<blockquote><p><em>The tracks lead to a large circular indentation in a snowy hillside. Rising from the middle is a triangular gnomon of beautifully carved crystal, twenty feet tall. A berm along the eastern edge has evergreens growing around a sarcophagus buried under snow and enclosed by pale blue crystal pillars. North of the berm, a delicately carved marble gazebo. South, a row of white marble statues atop granite pillars, all facing outward.</em></p></blockquote>\n<h2>Key Areas</h2>\n<ul>\n<li><strong>E2 \u2014 Barrow Entrance:</strong> Stone door, no handles. Opens only from inside (E6) or knock spell.</li>\n<li><strong>E3 \u2014 Marble Gazebo:</strong> Stone brazier. Place pinecone + twig + feather + severed humanoid hand and light \u2014 opens the sarcophagus in E4.</li>\n<li><strong>E4 \u2014 Sarcophagus:</strong> Contains Sahnar \u2014 a chaotic good moon elf mummy that follows liberators' commands. Smells like pumpkin spice.</li>\n<li><strong>E5 \u2014 Moon Dial:</strong> Full moon = magic mirror active (E7). Half moon = E8/E9 doors unlock.</li>\n<li><strong>E6 \u2014 Barrow:</strong> White moose lairs here with foxes, hares, goats, owls, wolf pups, bear cubs \u2014 all living peacefully. Three elf statues facing east.</li>\n<li><strong>E7 \u2014 Magic Mirror:</strong> 7-foot oval mirror. Currently attuned to the white moose for scrying. Fixed to wall with sovereign glue.</li>\n<li><strong>E9 \u2014 Ravisin's Lair:</strong> She's made this tomb her living quarters. Rack of drying herbs. Awakened shrub (berry bush, terrified of Ravisin and fire) hides with her.</li>\n</ul>\n<section class=\"secret\">\n<p><strong>DM \u2014 Ravisin's Last Stand:</strong></p>\n<p>When the door opens, Ravisin ducks behind the sarcophagus. When characters enter she climbs on top and shouts: <em>\"Ten-Towns will be destroyed \u2014 if not by my hand, then by the Frostmaiden's!\"</em> She fights to the death.</p>\n<p>Dying breath: <em>\"My beasts will avenge us!\"</em></p>\n<p><strong>The awakened shrub</strong> will talk after she dies. It knows: Ravisin blamed Ten-Towners for her twin sister Vurnis's death (killed by hunters near Lonelywood). Vurnis's corpse is in the sarcophagus. Ravisin awakened beasts all across Icewind Dale \u2014 some evil, some not. She complained about the plesiosaurus's \"scruples.\"</p>\n<p><strong>Treasure (E9):</strong> Potion of resistance (radiant) + potion of vitality, hidden under Vurnis's corpse.</p>\n<p><strong>Connection to Rhystal:</strong> Ravisin is the one killing groves across the region \u2014 including what happened to the sacred grove in Lonelywood that the Emerald Enclave has been watching. When Ravisin falls, the grove can begin to recover. This is Rhystal's arc completing.</p>\n</section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!LonelyWoodJrn01.LWElvenTomb0001"
+    },
+    {
+      "sort": 400000,
+      "name": "Cult of Auril",
+      "type": "text",
+      "_id": "LWCultOfAuril01",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Cult of Auril in Lonelywood</h1>\n<section class=\"secret\">\n<p><strong>DM:</strong> Very few cultists here. The Creed of Auril PDF notes that the Frost Druid Ravisin is a loner cultist of Auril \u2014 she has no specific rank, doesn't coordinate with icebringers or coldwinds, and won't attack creatures wearing the symbol of the Church of Auril. She worships Auril but operates entirely alone.</p>\n<p>The food sacrifice (Lonelywood's Auril tribute) is quietly enforced \u2014 families leave portions of their meals outside at night. Everyone knows. Nobody admits it.</p>\n<p><strong>Danae Xotal</strong> (Lucky Liar barkeep, Thayan spy) has noted the cult's presence but has no interest in it \u2014 she's watching for enemies of Szass Tam, not tracking cultists.</p>\n</section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!LonelyWoodJrn01.LWCultOfAuril01"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "categories": []
+}
