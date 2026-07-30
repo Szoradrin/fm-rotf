@@ -1,0 +1,177 @@
+{
+  "_id": "BremenJournal001",
+  "_key": "!journal!BremenJournal001",
+  "name": "Bremen",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Overview",
+      "type": "text",
+      "_id": "BremenOverview01",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Bremen</h1>\n<p><em>Friendliness \u2744\u2744\u2744 &nbsp; Services \u2744 &nbsp; Comfort \u2744\u2744</em></p>\n<p>Founded by dwarf prospectors, Bremen sits on the west bank of Maer Dualdon at the mouth of the Shaengarne River. Bremen's harbor has frozen, requiring local fishers to haul their boats across the ice to put them in the lake. Visitors who lack a boat can reach Bremen only by crossing the river, which is mostly frozen over. Targos, Termalaine, and Lonelywood are all visible from the docks on clear days.</p>\n<p>Twice in the past two months, residents have had to mount search parties for their town speaker, Dorbulgruf Shalescar, and twice they've found him wandering the frozen shores of the Shaengarne in heavy furs with no memory of how he got there. Many locals fear the same is true of the town itself.</p>\n<table><thead><tr><th>Detail</th><th></th></tr></thead><tbody>\n<tr><td><strong>Population</strong></td><td>150</td></tr>\n<tr><td><strong>Leader</strong></td><td>Speaker Dorbulgruf Shalescar (lawful good shield dwarf commoner) \u2014 age has addled his mind; his vacant stare is mistaken for calm</td></tr>\n<tr><td><strong>Militia</strong></td><td>25 tribal warriors + 2 veterans</td></tr>\n<tr><td><strong>Sacrifice to Auril</strong></td><td>Warmth \u2014 no fires from dusk to dawn</td></tr>\n<tr><td><strong>Rivals</strong></td><td>Lonelywood, Targos, Termalaine</td></tr>\n<tr><td><strong>Available Quest</strong></td><td>Lake Monster</td></tr>\n</tbody></table>\n<h2>Overland Travel</h2>\n<p>Heavy snow has obliterated the trail to Targos. On foot: 2 hours. By dogsled or mount: 1 hour.</p>\n<h2>Locations</h2>\n<ul>\n<li><strong>Buried Treasures</strong> \u2014 the only inn; run by Cora Mulphoon, a neutral good human commoner desperate to make ends meet</li>\n<li><strong>Five-Tavern Center</strong> \u2014 five competing taverns (Stones, Even Keel, the River's Mouth, the Grumpy Moose, the Black-Bearded Brother) built by feuding brothers; best place for rumors</li>\n</ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!BremenJournal001.BremenOverview01"
+    },
+    {
+      "sort": 200000,
+      "name": "Lake Monster",
+      "type": "text",
+      "_id": "BremenLakeMonst1",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Lake Monster</h1>\n<blockquote><p><em>The lake around the creaky docks is frozen, forcing fishers to pull their rowboats up onto the ice. Standing between a pair of boats is a stout humanoid in cold weather clothing. A gray hood hides most of the face, but you can make out a wide nose and a long, frosty beard. The stout figure stamps their feet, spots you, and waves you over. \"Good, you're here. Get to it, ingrates! Those fish ain't gonna catch themselves!\"</em></p></blockquote>\n<p>The speaker is <strong>Grynsk Berylbore</strong>, a shield dwarf who owns two rowboats \u2014 the Burly Ram and the Pronged Goat. The Pronged Goat has a large bite taken out of its gunwale. He's been waiting an hour for fishers who decided not to show. He assumes the party are his new employees.</p>\n<p><strong>Tali</strong> (neutral good half-elf researcher, scout stat block, they/them) quickly joins the scene and warns the party about the lake monster. They've been studying the attacks and determined that only Bremen boats are being targeted. They offer a spell scroll of animal friendship and 5 gp if the party documents the creature.</p>\n<h2>The Lake</h2>\n<p>Ice floes cover the lake. Each hour on the water, roll on the Lake Events table:</p>\n<table><thead><tr><th>d20</th><th>Event</th></tr></thead><tbody>\n<tr><td>1\u201310</td><td>Still and quiet. Good fishing.</td></tr>\n<tr><td>11\u201312</td><td>Lonelywood/Termalaine rowboat with 1d4 antisocial fishers</td></tr>\n<tr><td>13</td><td>Targos keelboat \u2014 1d6 fishers + captain, don't believe in the monster</td></tr>\n<tr><td>14</td><td>Cold wind for 1 hour \u2014 disadvantage on steering and fishing checks</td></tr>\n<tr><td>15</td><td>Knucklehead trout leaps out, tail attack on random character</td></tr>\n<tr><td>16\u201320</td><td>The awakened plesiosaurus makes its presence known</td></tr>\n</tbody></table>\n<h2>The Plesiosaurus</h2>\n<p>The creature was awakened by <strong>Ravisin</strong>, a frost druid who serves the Frostmaiden. Ravisin instructed it to spread fear among Bremen's fishers. The plesiosaurus fears losing its gift of sentience and reluctantly complies.</p>\n<p>If the party speaks to it (message cantrip, or screaming), a reptilian head rises from the water: <em>\"I'm listening.\"</em></p>\n<p>What it knows:</p>\n<ul>\n<li>\"I used to just swim around the lake and eat fish.\"</li>\n<li>\"The human who gave me this gift is named Ravisin and claimed to serve the Frostmaiden.\"</li>\n<li>\"I don't want to be a stupid beast again.\"</li>\n</ul>\n<p>DC 14 Persuasion to get it to explain the attacks. DC 18 Persuasion to convince it the awakening is permanent \u2014 success means it stops attacking Bremen boats entirely.</p>\n<section class=\"secret\">\n<p><strong>DM \u2014 Ravisin Connection:</strong> Ravisin is the same frost druid behind the White Moose in Lonelywood. She's a loner cultist of Auril \u2014 no rank, no official connection to the cult structure, but she worships the same goddess. Finding her name here is the thread that leads the party to Lonelywood next. She won't be found in Bremen \u2014 she operates in the wilderness between towns.</p>\n</section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!BremenJournal001.BremenLakeMonst1"
+    },
+    {
+      "sort": 300000,
+      "name": "Cora's Loss",
+      "type": "text",
+      "_id": "BremenCorasLoss1",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Cora's Loss</h1>\n<p><strong>Cora Mulphoon</strong> runs Buried Treasures inn. She's eager to please, apologizes at the slightest provocation, and is barely making ends meet. Her adult son Huarwar used to help with chores until two months ago.</p>\n<blockquote><p><em>\"He joined the search party for Speaker Shalescar during the blizzard. The speaker came back safe, but Huarwar got separated and didn't find his way home until the next morning. He had frostbite and could barely walk. After that... he was different. Mean. Not like himself at all.\"</em></p></blockquote>\n<p>Cora found a shard of <strong>black ice</strong> in his room. Huarwar snatched it away and threatened her. The next day, two tieflings arrived and offered him sanctuary in their castle. He left willingly, taking the shard. One of the tieflings mentioned a castle \u2014 there are only two in Ten-Towns.</p>\n<section class=\"secret\">\n<p><strong>DM:</strong> This connects to the Knights of the Black Sword at Caer-Dineval \u2014 a quest the party has already completed. If they tell Cora her son was there, she breaks down with relief or grief depending on what happened to Huarwar. The black ice shards are chardalyn \u2014 the same material Xardorok Sunblight is using to build his dragon.</p>\n</section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!BremenJournal001.BremenCorasLoss1"
+    },
+    {
+      "sort": 400000,
+      "name": "Cult of Auril",
+      "type": "text",
+      "_id": "BremenCultAuril1",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Cult of Auril in Bremen</h1>\n<section class=\"secret\">\n<p><strong>DM \u2014 Cult Presence:</strong> Bremen has approximately 15 cultists. The coldwind running operations here is <strong>Allosa Faerwill</strong>. Her two darkhands are Harklen and Lerro.</p>\n<p>The cult knows about Cora Mulphoon's son and the black ice shards \u2014 they're interested because black ice rings are a boon given to darkhands by Auril. If the Knights of the Black Sword have access to black ice, that's a direct threat to cult resources.</p>\n<p>Allosa has instructed her cultists to lay low in Bremen \u2014 Sheriff Markham Southwell in Bryn Shander has been working to delegitimize Auril worship in the region, and Bremen is close enough to feel the pressure.</p>\n<p><strong>Signs of cult presence the party might notice:</strong></p>\n<ul>\n<li>Six-pointed snowflake carved into the underside of a table at the Even Keel tavern</li>\n<li>A woman at the Five-Tavern Center who goes quiet when cult activity comes up in conversation \u2014 she knows the greeting phrases but won't use them with strangers</li>\n<li>Warmth sacrifice is enforced here \u2014 no fires from dusk to dawn on new moon nights. Violations are reported to Allosa, not the town watch.</li>\n</ul>\n</p>\n</section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!BremenJournal001.BremenCultAuril1"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "categories": []
+}
