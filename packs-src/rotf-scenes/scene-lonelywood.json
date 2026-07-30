@@ -23,18 +23,23 @@
   },
   "tokenVision": false,
   "fog": {
-    "exploration": false,
-    "reset": null,
-    "overlay": null
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    },
+    "mode": 0
   },
   "environment": {
     "darknessLevel": 0.2,
+    "darknessLock": false,
     "globalLight": {
       "enabled": true,
-      "bright": 0,
-      "dim": 0,
-      "color": null,
       "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0.5,
+      "saturation": 0,
       "darkness": {
         "min": 0,
         "max": 1
@@ -88,10 +93,15 @@
   "levels": [
     {
       "_id": "LonelyWoodScn01Lvl0001",
-      "_key": "!scenes.levels!LonelyWoodScn01.LonelyWoodScn01Lvl0001"
+      "_key": "!scenes.levels!LonelyWoodScn01.LonelyWoodScn01Lvl0001",
+      "name": "Lonelywood",
+      "background": {
+        "src": "modules/rotf/assets/images/map-1.14-lonelywood-player.webp",
+        "color": "#000000"
+      }
     }
   ],
-  "initialLevel": "defaultLevel0000",
+  "initialLevel": "LonelyWoodScn01Lvl0001",
   "transition": {
     "type": null,
     "duration": 1500,
@@ -101,8 +111,5 @@
     "default": 0
   },
   "_id": "LonelyWoodScn01",
-  "_key": "!scenes!LonelyWoodScn01",
-  "background": {
-    "src": "modules/rotf/assets/images/map-1.14-lonelywood-player.webp"
-  }
+  "_key": "!scenes!LonelyWoodScn01"
 }
