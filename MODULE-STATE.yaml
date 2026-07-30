@@ -199,7 +199,7 @@ campaign:
   last_session: Session 21 — 2026-07-29
 
   party:
-    - name: Shai Hulud
+    - name: Srai Hulud
       race: Lizardfolk
       class: Fighter 5 (Rune Knight)
       notes: chef, birth mother Tazmikella (Ancient Copper Dragon), has party sled dog
@@ -293,23 +293,23 @@ changelog:
       - Full _id/_key pipeline fix — all 111 docs verified
 
 # ==============================================================================
-# PLAYER REQUESTS — "Special Sauce" (Shai Hulud / Reed's player)
+# PLAYER REQUESTS — "Special Sauce" (Srai Hulud / Reed's player)
 # ==============================================================================
 # These are campaign-specific homebrew requests. Each needs design sign-off
 # before implementation. Track: HOMEBREW — design first, build second.
 
 player_requests:
-  shai_hulud:
-    note: "Shai likes special sauce — custom mechanics, item merges, RP processes"
+  srai_hulud:
+    note: "Srai likes special sauce — custom mechanics, item merges, RP processes"
 
     - id: shai-rune-casting-process
-      what: Custom Rune Knight rune-casting process — Shai wants a special RP mechanic for activating runes
+      what: Custom Rune Knight rune-casting process — Srai wants a special RP mechanic for activating runes
       track: HOMEBREW
       design_status: PENDING — idea stated, not yet designed
       action_needed: Design session with Reed — what does the process look like, what are the mechanics
 
     - id: shai-copper-rune-toolkit
-      what: Copper chat about runes + toolkits — Shai is RPing his own toolkits, wants that supported
+      what: Copper chat about runes + toolkits — Srai is RPing his own toolkits, wants that supported
       track: HOMEBREW
       design_status: PENDING — Reed flagged as important to Shai even though not standard
       action_needed: Understand what toolkit RP he wants, how it interacts with rune mechanics
