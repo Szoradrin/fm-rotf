@@ -1,0 +1,177 @@
+{
+  "_id": "BrynShanderJrn1",
+  "_key": "!journal!BrynShanderJrn1",
+  "name": "Bryn Shander",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Overview",
+      "type": "text",
+      "_id": "BSOverview00001",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Bryn Shander</h1>\n<p><em>Friendliness \u2744\u2744\u2744 &nbsp; Services \u2744\u2744\u2744 &nbsp; Comfort \u2744\u2744\u2744</em></p>\n<p>The first stop for most visitors to Icewind Dale, Bryn Shander is a walled town perched atop a cold, lonely, wind-lashed hill. Bright lanterns suspended over narrow streets twist in the wind. The walls stand 30 feet high \u2014 two concentric rings of upright wooden poles with dirt and rubble packed between them. Gates are closed when it's dark outside, which is to say more often than not.</p>\n<table><thead><tr><th>Detail</th><th></th></tr></thead><tbody>\n<tr><td><strong>Population</strong></td><td>1,200</td></tr>\n<tr><td><strong>Leader</strong></td><td>Speaker Duvessa Shane (lawful good human noble) \u2014 young, sharp, head of the Council of Speakers</td></tr>\n<tr><td><strong>Sheriff</strong></td><td>Markham Southwell (lawful good human veteran) \u2014 commands the militia, actively working to delegitimize Auril worship</td></tr>\n<tr><td><strong>Militia</strong></td><td>250 tribal warriors + 20 veterans</td></tr>\n<tr><td><strong>Sacrifice to Auril</strong></td><td>Humanoid \u2014 lottery system</td></tr>\n<tr><td><strong>Rivalries</strong></td><td>None</td></tr>\n<tr><td><strong>Available Quest</strong></td><td>Foaming Mugs (completed)</td></tr>\n</tbody></table>\n<h2>Key Locations</h2>\n<ul>\n<li><strong>Blackiron Blades</strong> \u2014 Garn the Hammer's smithy + Elza's outfitter. Cheapest blades in Ten-Towns. Party has 10% discount (Foaming Mugs reward).</li>\n<li><strong>House of the Morninglord</strong> \u2014 Shrine of Amaunator run by Mishann (neutral good priest). Copper Knobberknocker rents the attic.</li>\n<li><strong>The Northlook</strong> \u2014 best inn for adventurers. Scramsax (neutral human veteran) runs it. Ol' Bitey the enchanted stuffed trout is above the hearth.</li>\n</ul>\n<h2>Overland Travel from Bryn Shander</h2>\n<table><thead><tr><th>Destination</th><th>On Foot</th><th>By Sled</th></tr></thead><tbody>\n<tr><td>Targos</td><td>2 hours</td><td>1 hour</td></tr>\n<tr><td>Termalaine</td><td>6 hours</td><td>3 hours</td></tr>\n<tr><td>Good Mead</td><td>6 hours</td><td>3 hours</td></tr>\n<tr><td>Easthaven</td><td>7\u00bd hours</td><td>~4 hours</td></tr>\n<tr><td>Caer-Dineval</td><td>10\u00bd hours</td><td>~5 hours</td></tr>\n</tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!BrynShanderJrn1.BSOverview00001"
+    },
+    {
+      "sort": 200000,
+      "name": "Copper & The Hidden Grove",
+      "type": "text",
+      "_id": "BSCopperGrove01",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Copper Knobberknocker &amp; the Hidden Grove</h1>\n<p><strong>Copper Knobberknocker</strong> is a rock gnome acolyte of Lathander who rents the attic of the House of the Morninglord from Mishann. He made himself a fuzzy suit and hood that makes him look like a teddy bear. He and Mishann argue constantly \u2014 she worships Amaunator, he worships Lathander, and both are convinced the other is doing it wrong. Neither will back down.</p>\n<p>Copper is already known to the party \u2014 he's the one who sent them to check on Macreadus at the Black Cabin.</p>\n<h2>The Hidden Grove</h2>\n<p>Behind the House of the Morninglord, through a narrow gap between two buildings that most residents walk past without noticing, there is a small courtyard. In better days it held a garden. Now it holds something rarer: a <strong>hidden sacred grove</strong>, tended jointly by Copper and Rhystal.</p>\n<blockquote><p><em>The courtyard is barely eight feet across. Snow has piled against the walls, but at the center, someone has cleared a circle of bare earth. A single ancient rowan tree stands there, its bark silver-white, its branches bare. The tree should be dead. By all rights, the Rime should have killed it months ago. But when you look closely, you can see the faintest flush of green at the base of one branch \u2014 a single bud, clinging to life.</em></p></blockquote>\n<p>The grove is dying. The Rime chokes out all sunlight and warmth \u2014 the two things Lathander and nature itself depend on. Copper has been doing everything he can. Rhystal brings what druidic magic she can spare. Between the two of them, the rowan tree has survived longer than it should have. But it won't last much longer.</p>\n<section class=\"secret\">\n<p><strong>DM \u2014 The Grove's Significance:</strong></p>\n<ul>\n<li>The rowan tree is the last living plant in Bryn Shander. If it dies, it's a tangible sign that Auril has won \u2014 life itself is being extinguished.</li>\n<li>Copper believes the tree is being kept alive by something more than his tending \u2014 he thinks Lathander is actively pushing back against the Rime through this single fragile point of life. He's right, but barely.</li>\n<li>If the party helps restore the grove in any way \u2014 a druidic ritual, a casting of Speak with Plants, bringing it warmth \u2014 Copper is moved to tears and gives them everything he has.</li>\n<li>The grove recovers if Auril is ultimately defeated. Consider having the rowan tree bloom visibly when the Rime ends \u2014 a beautiful closing image for Rhystal's arc.</li>\n<li>Ravisin (the frost druid behind the Bremen lake monster and the White Moose) has been systematically killing groves like this one across Icewind Dale. She doesn't know about this one yet. If she finds it, she will destroy it.</li>\n</ul>\n</section>\n<h2>What Copper Needs</h2>\n<p>Copper isn't asking the party for anything directly. But if Rhystal spends time with him and the grove, he'll eventually say:</p>\n<blockquote><p><em>\"There's a frost druid out there. Ravisin, she calls herself. She's been going from settlement to settlement, killing every living thing she can find that isn't ice or snow. I've heard reports from Lonelywood \u2014 she's been there too. If someone doesn't stop her, this tree won't be the last thing that dies.\"</em></p></blockquote>\n<p>This is the hook to Lonelywood and the White Moose.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!BrynShanderJrn1.BSCopperGrove01"
+    },
+    {
+      "sort": 300000,
+      "name": "Foaming Mugs",
+      "type": "text",
+      "_id": "BSFoamingMugs01",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Foaming Mugs (Completed)</h1>\n<p>The party retrieved the Battlehammer iron ingots from the goblins and delivered them to Blackiron Blades. <strong>Reward: 10% discount at Blackiron Blades (permanent).</strong></p>\n<section class=\"secret\">\n<p><strong>DM:</strong> The goblins were from Karkolohk \u2014 the goblin fortress north of Ten-Towns. The polar bears pulling their wagon are a potential ally or complication if the party ever travels that direction. Izobai (the one-eared goblin boss) escaped if she wasn't killed.</p>\n</section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!BrynShanderJrn1.BSFoamingMugs01"
+    },
+    {
+      "sort": 400000,
+      "name": "Cult of Auril",
+      "type": "text",
+      "_id": "BSCultOfAuril01",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Cult of Auril in Bryn Shander</h1>\n<section class=\"secret\">\n<p><strong>DM:</strong> Despite being the largest town, the cult has been told to lay low here. <strong>Jelenneth Arnuanna</strong> is the icebringer representing the Church of Auril in Bryn Shander. She's instructed the 50 or so cultists living here to be inconspicuous.</p>\n<p>Why? Sheriff Markham Southwell has been working with Mishann (of the House of the Morninglord) to delegitimize the worship of Auril. Copper Knobberknocker, also at the shrine, is a secondary irritant to cult operations \u2014 his devotion to Lathander and his tending of the hidden grove are direct philosophical opposition to everything the Cult of Auril represents.</p>\n<p><strong>The cult safehouse</strong> is located across from Blackiron Blades. Low-ranking cult members often buy weapons from Garn the Hammer \u2014 his cheap blades are popular with spites who want to arm themselves without drawing attention.</p>\n<p><strong>Humanoid sacrifice lottery:</strong> Bryn Shander performs humanoid sacrifice. The lottery is the darkest open secret in town \u2014 most residents accept it as the price of Auril's grudging tolerance. Markham hates it but hasn't found a way to stop it without triggering a cult backlash.</p>\n</section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!BrynShanderJrn1.BSCultOfAuril01"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "categories": []
+}
