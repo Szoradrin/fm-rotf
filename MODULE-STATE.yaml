@@ -291,3 +291,45 @@ changelog:
       - Scenes: Dougan's Hole, Frost Giant Ice Lodge, Twenty Stones
       - 21 new actors (Dejarr family, Savaa, Creed ranks, Norsu, etc)
       - Full _id/_key pipeline fix — all 111 docs verified
+
+# ==============================================================================
+# PLAYER REQUESTS — "Special Sauce" (Shai Hulud / Reed's player)
+# ==============================================================================
+# These are campaign-specific homebrew requests. Each needs design sign-off
+# before implementation. Track: HOMEBREW — design first, build second.
+
+player_requests:
+  shai_hulud:
+    note: "Shai likes special sauce — custom mechanics, item merges, RP processes"
+
+    - id: shai-rune-casting-process
+      what: Custom Rune Knight rune-casting process — Shai wants a special RP mechanic for activating runes
+      track: HOMEBREW
+      design_status: PENDING — idea stated, not yet designed
+      action_needed: Design session with Reed — what does the process look like, what are the mechanics
+
+    - id: shai-copper-rune-toolkit
+      what: Copper chat about runes + toolkits — Shai is RPing his own toolkits, wants that supported
+      track: HOMEBREW
+      design_status: PENDING — Reed flagged as important to Shai even though not standard
+      action_needed: Understand what toolkit RP he wants, how it interacts with rune mechanics
+      note: "Reed: not something I'd normally want to deal with but it's important to him"
+
+    - id: shai-maul-merge
+      what: >
+        Merge psychic-attuned hammer effects INTO Muzawarayn Maul — one awesome combined item
+      track: HOMEBREW
+      design_status: PENDING — needs balance check before implementation
+      action_needed: >
+        Pull current stats on both items. Design the merged item. Verify balance for level 5-6 party.
+        Then build as a custom magic item actor/item in Foundry.
+
+    - id: shai-shield-merge
+      what: >
+        Add Sentinel Shield effects TO Turtle Bone Shield — merge two items into one
+      track: HOMEBREW
+      design_status: PENDING — needs balance check
+      action_needed: >
+        Pull Sentinel Shield stats (adv on initiative, adv on Perception, eye carved into it).
+        Design merged Turtle Bone Shield. Verify balance. Build in Foundry.
+      note: Sentinel Shield is a DMG item — RAW stats available, no DDB pull needed
