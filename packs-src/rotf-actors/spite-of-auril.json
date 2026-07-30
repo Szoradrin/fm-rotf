@@ -105,7 +105,7 @@
       },
       "wis": {
         "value": 10,
-        "proficient": 0,
+        "proficient": 1,
         "max": null,
         "bonuses": {
           "check": "",
@@ -353,7 +353,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 0,
+        "value": 1,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -366,7 +366,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 0,
+        "value": 1,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -392,7 +392,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 1,
+        "value": 0,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -415,41 +415,47 @@
     "tools": {},
     "spells": {
       "spell1": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "spell2": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "spell3": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "spell4": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "spell5": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "spell6": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "spell7": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "spell8": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "spell9": {
-        "value": 0
+        "value": 0,
+        "override": null
       },
       "pact": {
-        "value": 0
+        "value": 0,
+        "override": null
       }
     },
     "attributes": {
-      "ac": {
-        "calc": "natural",
-        "flat": 13
-      },
       "init": {
         "ability": "",
         "roll": {
@@ -460,31 +466,26 @@
         "bonus": ""
       },
       "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 30,
         "units": "ft",
-        "hover": false,
-        "ignoredDifficultTerrain": [],
-        "walk": "30",
-        "burrow": "",
-        "climb": "",
-        "fly": "",
-        "swim": "",
-        "bonus": "",
-        "special": ""
+        "hover": false
       },
       "attunement": {
         "max": 3
       },
       "senses": {
-        "ranges": {
-          "blindsight": null,
-          "darkvision": null,
-          "tremorsense": null,
-          "truesight": null
-        },
-        "units": "ft",
+        "darkvision": null,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null,
+        "units": null,
         "special": ""
       },
-      "spellcasting": "",
+      "spellcasting": "wis",
       "exhaustion": 0,
       "concentration": {
         "ability": "",
@@ -498,7 +499,10 @@
         },
         "limit": 1
       },
-      "loyalty": {},
+      "ac": {
+        "flat": 13,
+        "calc": "flat"
+      },
       "hd": {
         "spent": 0
       },
@@ -507,8 +511,7 @@
         "max": 11,
         "temp": null,
         "tempmax": null,
-        "formula": "2d8 + 2",
-        "dt": null
+        "formula": "2d8+2"
       },
       "death": {
         "roll": {
@@ -522,47 +525,51 @@
           "save": ""
         }
       },
-      "price": {
-        "value": null,
-        "denomination": "gp"
-      },
       "spell": {
         "level": 0
+      },
+      "loyalty": {
+        "value": null
       }
     },
     "details": {
       "biography": {
-        "value": "",
+        "value": "<div class=\"gear\"><p><strong>Gear:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol (Varies)}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Leather Armor}</p></div><h1>Cultists</h1><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.VICfYukXoYkWJ1yn caption=false cite=false classes=\"no-embed mm\"]</p><h2>Cultist Fanatic</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.DHw4tAz06WzLz07b caption=false cite=false classes=\"no-embed mm\"]</p>",
         "public": ""
       },
-      "alignment": "Any Evil",
+      "alignment": "any evil alignment",
       "ideal": "",
       "bond": "",
       "flaw": "",
       "race": null,
       "type": {
         "value": "humanoid",
-        "custom": "",
-        "subtype": "any race",
-        "swarm": ""
+        "subtype": "any race"
       },
       "cr": 0.125,
       "habitat": {
-        "value": [],
+        "value": [
+          {
+            "type": "any"
+          }
+        ],
         "custom": ""
       },
       "treasure": {
-        "value": {}
+        "value": [
+          "individual",
+          "relics"
+        ]
       }
     },
     "resources": {
       "legact": {
-        "max": 0,
-        "spent": 0
+        "value": 0,
+        "max": 0
       },
       "legres": {
-        "max": 0,
-        "spent": 0
+        "value": 0,
+        "max": 0
       },
       "lair": {
         "value": false,
@@ -571,31 +578,31 @@
       }
     },
     "source": {
-      "revision": 1,
+      "revision": 2,
       "rules": "2024",
       "book": "",
       "page": "",
-      "custom": "",
+      "custom": "Homebrew 2024",
       "license": ""
     },
     "traits": {
       "size": "med",
       "di": {
+        "bypasses": [],
         "value": [],
-        "custom": "",
-        "bypasses": []
+        "custom": ""
       },
       "dr": {
+        "bypasses": [],
         "value": [
           "cold"
         ],
-        "custom": "",
-        "bypasses": []
+        "custom": ""
       },
       "dv": {
+        "bypasses": [],
         "value": [],
-        "custom": "",
-        "bypasses": []
+        "custom": ""
       },
       "dm": {
         "amount": {},
@@ -617,13 +624,12 @@
   },
   "prototypeToken": {
     "name": "Spite of Auril",
-    "displayName": 30,
+    "displayName": 0,
     "actorLink": false,
     "appendNumber": false,
     "prependAdjective": false,
     "width": 1,
     "height": 1,
-    "depth": 1,
     "texture": {
       "src": "icons/svg/mystery-man.svg",
       "anchorX": 0.5,
@@ -634,11 +640,11 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "lockRotation": false,
+    "lockRotation": true,
     "rotation": 0,
     "alpha": 1,
     "disposition": -1,
-    "displayBars": 30,
+    "displayBars": 0,
     "bar1": {
       "attribute": "attributes.hp"
     },
@@ -686,166 +692,156 @@
       "radius": 0
     },
     "ring": {
-      "enabled": false,
+      "enabled": true,
       "colors": {
         "ring": null,
         "background": null
       },
-      "effects": 0,
+      "effects": 1,
       "subject": {
         "scale": 1,
         "texture": null
       }
     },
     "flags": {},
-    "randomImg": false,
+    "randomImg": true,
     "turnMarker": {
       "mode": 1,
-      "animation": "spinPulse",
+      "animation": null,
       "src": null,
-      "disposition": true
+      "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "items": [
     {
-      "_id": "SpiteColdFai1",
-      "name": "Cold Faith",
-      "type": "feat",
-      "img": "icons/svg/mystery-man.svg",
-      "system": {
-        "activities": {},
-        "uses": {
-          "spent": 0,
-          "recovery": [],
-          "max": ""
-        },
-        "advancement": {},
-        "description": {
-          "value": "<p>The spite gains resistance to cold damage and has advantage on saving throws against being charmed or frightened.</p>",
-          "chat": ""
-        },
-        "identifier": "cold-faith",
-        "source": {
-          "revision": 1,
-          "rules": "2024",
-          "book": "",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "crewed": false,
-        "enchant": {},
-        "prerequisites": {
-          "items": [],
-          "repeatable": false,
-          "level": null
-        },
-        "properties": [
-          "trait"
-        ],
-        "requirements": "",
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.364",
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!SpiteOfAurilAct0.SpiteColdFai1"
-    },
-    {
-      "_id": "SpiteSurgeCr1",
-      "name": "Surge of Cruelty (Recharge after a short or long rest)",
-      "type": "feat",
-      "img": "icons/svg/mystery-man.svg",
-      "system": {
-        "activities": {},
-        "uses": {
-          "spent": 0,
-          "recovery": [],
-          "max": ""
-        },
-        "advancement": {},
-        "description": {
-          "value": "<p>When the spite hits with an attack that isn't a critical hit, it can turn the hit into a critical hit.</p>",
-          "chat": ""
-        },
-        "identifier": "surge-of-cruelty",
-        "source": {
-          "revision": 1,
-          "rules": "2024",
-          "book": "",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "crewed": false,
-        "enchant": {},
-        "prerequisites": {
-          "items": [],
-          "repeatable": false,
-          "level": null
-        },
-        "properties": [
-          "trait"
-        ],
-        "requirements": "",
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.364",
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!SpiteOfAurilAct0.SpiteSurgeCr1"
-    },
-    {
-      "_id": "SpiteDagger01",
       "name": "Dagger",
       "type": "weapon",
-      "img": "icons/svg/mystery-man.svg",
+      "_id": "Ps1fHakhZZfCL7K6",
+      "_key": "!actors.items!SpiteOfAurilAct1.Ps1fHakhZZfCL7K6",
+      "img": "icons/weapons/daggers/dagger-curved-black.webp",
       "system": {
+        "description": {
+          "value": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": 1
+          }
+        },
+        "range": {
+          "value": 5,
+          "long": 20,
+          "reach": 5,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "damage": {
+          "base": {
+            "formula": "1d4",
+            "types": [
+              "piercing"
+            ],
+            "denomination": 4
+          }
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "properties": [
+          "fin",
+          "thr"
+        ],
+        "proficient": null,
+        "mastery": "",
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
         "activities": {
-          "xbPxGwdWAtxoc4jD": {
-            "_id": "xbPxGwdWAtxoc4jD",
+          "xmRNS1J6Upipdubw": {
+            "_id": "xmRNS1J6Upipdubw",
             "type": "attack",
+            "name": "",
+            "img": "",
+            "sort": 0,
             "activation": {
-              "type": "action",
+              "type": "",
               "value": null,
               "override": false
+            },
+            "duration": {
+              "units": "",
+              "value": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "type": "",
+                "size": "",
+                "width": "",
+                "units": ""
+              },
+              "affects": {
+                "type": "",
+                "count": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true
+            },
+            "range": {
+              "value": null,
+              "long": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": [],
+              "spent": 0,
+              "prompt": true
             },
             "consumption": {
               "scaling": {
@@ -854,270 +850,185 @@
               "spellSlot": true,
               "targets": []
             },
-            "description": {},
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
+            "description": {
+              "chatFlavor": ""
             },
             "effects": [],
-            "range": {
-              "override": false,
-              "units": "ft",
-              "value": "5"
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft",
-                "stationary": false
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false,
-              "prompt": true
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "attack": {
-              "critical": {
-                "threshold": null
-              },
-              "flat": true,
-              "type": {
-                "value": "melee",
-                "classification": "weapon"
-              },
-              "ability": "",
-              "bonus": "4"
-            },
             "damage": {
-              "critical": {
-                "bonus": ""
-              },
               "includeBase": true,
               "parts": []
             },
-            "visibility": {
-              "level": {
-                "min": null,
-                "max": null
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null,
+                "damage": ""
               },
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false,
-              "identifier": ""
+              "flat": false,
+              "type": {
+                "value": "",
+                "classification": ""
+              }
             },
-            "useConditionText": "",
-            "useConditionReason": "",
-            "effectConditionText": "",
-            "macroData": {
-              "name": "",
-              "command": ""
-            },
-            "ignoreTraits": {
-              "idi": false,
-              "idr": false,
-              "idv": false,
-              "ida": false,
-              "idm": false
-            },
-            "midiProperties": {
-              "ignoreTraits": [],
-              "triggeredActivityId": "none",
-              "triggeredActivityConditionText": "",
-              "triggeredActivityTargets": "targets",
-              "triggeredActivityRollAs": "self",
-              "triggeredActivityConsume": true,
-              "triggeredActivityConfigure": true,
-              "autoConsume": false,
-              "forceConsumeDialog": "default",
-              "forceRollDialog": "default",
-              "forceDamageDialog": "default",
-              "confirmTargets": "default",
-              "autoTargetType": "any",
-              "autoTargetAction": "default",
-              "automationOnly": false,
-              "otherActivityCompatible": true,
-              "otherActivityAsParentType": true,
-              "identifier": "",
-              "displayActivityName": false,
-              "rollMode": "default",
-              "chooseEffects": false,
-              "toggleEffect": false,
-              "ignoreFullCover": false,
-              "removeChatButtons": "default",
-              "magicEffect": false,
-              "magicDamage": false,
-              "noConcentrationCheck": false,
-              "skipConcentrationCheck": false,
-              "autoCEEffects": "default"
-            },
-            "isOverTimeFlag": false,
-            "overTimeProperties": {
-              "saveRemoves": true,
-              "rollAs": "target",
-              "preRemoveConditionText": "",
-              "postRemoveConditionText": ""
-            },
-            "regionBehavior": {
-              "enabled": false,
-              "dispositionFilter": -1,
-              "excludeSource": true,
-              "oncePerTurn": true,
-              "wallRestriction": "none",
-              "regionVisibility": 2,
-              "rules": [],
-              "attachToken": "default"
-            },
-            "regionLight": {
-              "enabled": false,
-              "dim": 0,
-              "bright": 0,
-              "color": null,
-              "alpha": 0.5,
-              "luminosity": 0.5,
-              "animationType": "",
-              "animationSpeed": 5,
-              "animationIntensity": 5
-            },
-            "otherActivityId": "",
-            "otherActivityAsParentType": true,
+            "ammunition": null,
             "attackMode": "oneHanded",
-            "ammunition": "",
-            "otherActivityUuid": "",
-            "attackRollPerTarget": "default",
-            "fumbleThreshold": 1,
-            "name": "",
-            "sort": 0
-          }
-        },
-        "uses": {
-          "spent": 0,
-          "recovery": [],
-          "max": ""
-        },
-        "advancement": {},
-        "description": {
-          "value": "<p>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</p>",
-          "chat": ""
-        },
-        "identifier": "dagger",
-        "source": {
-          "revision": 1,
-          "rules": "2024",
-          "book": "",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "identified": true,
-        "unidentified": {
-          "description": ""
-        },
-        "container": null,
-        "quantity": 1,
-        "weight": {
-          "value": 0,
-          "units": "lb"
-        },
-        "price": {
-          "value": 0,
-          "denomination": "gp"
-        },
-        "rarity": "",
-        "attunement": "",
-        "attuned": false,
-        "equipped": true,
-        "crew": {
-          "value": []
-        },
-        "ammunition": {},
-        "armor": {},
-        "damage": {
-          "base": {
-            "types": [
-              "piercing"
-            ],
-            "custom": {
-              "enabled": false
-            },
-            "scaling": {
-              "number": 1
-            },
-            "number": 1,
-            "denomination": 4,
-            "bonus": "+2"
-          },
-          "versatile": {
-            "types": [],
-            "custom": {
-              "enabled": false
-            },
-            "scaling": {
-              "number": 1
+            "attackRollPerTarget": false,
+            "fumbleThreshold": null,
+            "midiProperties": {},
+            "visibility": {
+              "chatBubble": false,
+              "message": "all"
             }
           }
-        },
-        "properties": [
-          "gear"
-        ],
-        "proficient": null,
-        "range": {
-          "units": "ft",
-          "value": null,
-          "long": null,
-          "reach": null
-        },
-        "type": {
-          "value": "natural",
-          "baseItem": ""
-        },
-        "mastery": ""
+        }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 100000,
-      "flags": {},
       "_stats": {
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!SpiteOfAurilAct0.SpiteDagger01"
+      "flags": {}
+    },
+    {
+      "name": "Cold Faith",
+      "type": "feat",
+      "_id": "YSN8qt7k1hg6SvGW",
+      "_key": "!actors.items!SpiteOfAurilAct1.YSN8qt7k1hg6SvGW",
+      "img": "icons/magic/water/snowflake-ice-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>The spite gains resistance to cold damage and has advantage on saving throws against being charmed or frightened.</p>"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Surge of Cruelty",
+      "type": "feat",
+      "_id": "GISNHu0jYwJFtajd",
+      "_key": "!actors.items!SpiteOfAurilAct1.GISNHu0jYwJFtajd",
+      "img": "icons/skills/melee/strike-blade-knife-red.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Recharge (Short or Long Rest).</strong> When the spite hits with an attack that isn't a critical hit, they can turn the hit into a critical hit.</p>"
+        },
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "recoverAll"
+            }
+          ],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
     }
   ],
   "effects": [],
-  "folder": null,
+  "folder": "ncZ5pnVPuzoPtgSz",
   "flags": {
     "dnd5e": {}
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
     "coreVersion": "14.364",
     "systemId": "dnd5e",
     "systemVersion": "5.3.3",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null,
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null
+    "lastModifiedBy": null
   },
   "ownership": {
-    "default": 0
+    "default": 0,
+    "1cBqnIOdEDUMw3j9": 3
   },
-  "_id": "SpiteOfAurilAct0",
-  "_key": "!actors!SpiteOfAurilAct0"
+  "_id": "SpiteOfAurilAct1",
+  "sort": 0,
+  "_key": "!actors!SpiteOfAurilAct1"
 }
