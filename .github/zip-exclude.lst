@@ -2,3 +2,11 @@
 ./node_modules/*
 *.git*
 *.vscode*
+./reference/*
+./docs/*
+./tools/*
+./MODULE-STATE.yaml
+./IMAGE_MANIFEST.md
+./README.md
+./package.json
+./package-lock.json
