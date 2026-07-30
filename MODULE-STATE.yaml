@@ -1,0 +1,293 @@
+# MODULE-STATE.yaml — Rime of the Frostmaiden Foundry Module
+# Source of truth for what has been built, what quality it is, and what track it belongs to.
+# Three tracks: RAW (book), THIRD_PARTY (authorized supplements), HOMEBREW (Reed's ideas — design must precede build)
+# Updated: Session 21 — 2026-07-29
+
+meta:
+  module_id: rotf
+  module_title: "Icewind Dale: Rime of the Frostmaiden"
+  repo: Szoradrin/fm-rotf
+  current_release: "1.0.22"
+  foundry_version: "14.364"
+  system: dnd5e
+  system_version: "5.3.3"
+  sqyre: https://icewind-dale-rime-of-the-frostma-5d8b5fc8.us.sqyre.app/game
+
+build_rules:
+  - All RAW actors from D&D Beyond only — never from memory
+  - No V13 fields ever
+  - Compile via tools/build.py only — never invoke fvtt-cli directly
+  - Verify packed-count == source-count after every compile
+  - Release requires Reed approval
+
+# ==============================================================================
+# ACTORS — 98 total
+# ==============================================================================
+
+actors:
+  total: 98
+  quality_issues:
+    - 33 actors have string damage denominations (Gate 4 failure) — actor rebuild pending
+    - Most actors use mystery-man placeholder tokens — token art pass pending
+    - Items/activities skeletal on pre-Session 21 actors — action buttons don't work
+    - Full rebuild plan in Szoradrin/fm-template/exemplars/ACTOR-REBUILD-DIAGNOSIS.md
+
+  track_RAW:
+    standard_monsters: [berserker, druid, duergar, frost-giant, giant-goat, gnoll, goat,
+      killer-whale, kobold, mage, mammoth, mimic, ogre, owlbear, polar-bear, remorhaz,
+      skeleton, tribal-warrior, troll, vampire-spawn, werebear, zombie]
+    appendix_c: [awakened-white-moose, brain-in-a-jar, chardalyn-berserker, chardalyn-dragon,
+      chwinga, coldlight-walker, crag-cat, demos-magen, duergar-hammerer, duergar-mind-master,
+      fox, frost-druid, frost-giant-skeleton, galvan-magen, giant-walrus, gnoll-vampire,
+      gnome-ceremorph, gnome-squidling, goliath-warrior, goliath-werebear, hare, hypnos-magen,
+      ice-troll, icewind-kobold, icewind-kobold-zombie, knucklehead-trout, kobold-vampire-spawn,
+      living-bigbys-hand, living-blade-of-disaster, living-demiplane, lonelywood-banshee,
+      mountain-goat, seal, snow-golem, snowy-owlbear, sperm-whale, spitting-mimic, tomb-tapper,
+      verbeeg-longstrider, verbeeg-marauder, walrus, yeti-tyke, reindeer, young-griffon-medium,
+      young-griffon-small, young-griffon-tiny]
+    rotf_npcs: [avarice, bjornhild-solvigsdottir, gunvald-halraggson, isarr-kronenstrom,
+      sephek-kaltro, vellynne-harpell, auril-first-form, auril-second-form, auril-third-form,
+      arveiaturace, dzaans-simulacrum, nass-lantomirs-ghost, xardorok-sunblight, kadroth,
+      grandolpha-muzgardt, spellix-romwod, prisoner-237]
+    # NPCs using standard stat blocks (no unique DDB entry):
+    # duvessa-shane = noble, markham-southwell = veteran, naerth-maxildanarr = spy
+    # Kingsport — DDB slug unknown, still missing
+
+  track_THIRD_PARTY:
+    source: "Creed of Auril (Samuel Dillon, DMs Guild) — authorized Session 20"
+    built: [spite-of-auril, tempest-of-auril]  # rebuilt clean Session 21
+    still_needed: [darkhand-of-auril, coldwind-of-auril, icebringer-of-auril, nix-mater]
+    note: "Savaa Rubyeye uses icebringer chassis — build icebringer first"
+
+  track_HOMEBREW:
+    note: "Design must be decided before any build work starts"
+    built:
+      - name: talen-stonebrook
+        status: BUILT — actor exists in packs-src
+        design_status: PARTIALLY DECIDED — wood elf Emerald Enclave druid, Bryn Shander contact
+        concern: Name invented by Sage, not Reed. Needs Reed to confirm or rename.
+    pending_design: []
+
+  actors_still_needed_RAW:
+    - kingsport  # DDB slug unknown — Reed to find
+
+# ==============================================================================
+# JOURNALS — 9 total
+# ==============================================================================
+
+journals:
+  total: 9
+
+  track_RAW:
+    built:
+      - journal-ch1-overview       # Chapter 1 Ten-Towns overview
+      - journal-character-creation
+      - journal-introduction
+      - journal-dougans-hole       # Overview, Twenty Stones, Holed Up
+      - journal-frost-giant-ice-lodge
+      - journal-creed-of-auril     # NOTE: this is THIRD_PARTY content in RAW slot — fix track label
+      - journal-bremen             # Overview, Lake Monster, Cora's Loss, Cult of Auril
+      - journal-lonelywood         # Overview, White Moose, Elven Tomb, Cult of Auril
+    still_needed:
+      - good-mead                  # party has been here, journal missing
+      - targos
+      - termalaine
+      - caer-dineval
+      - caer-konig
+      - easthaven
+
+  track_THIRD_PARTY:
+    source: "Creed of Auril"
+    built:
+      - journal-creed-of-auril     # Church, Tenets, Ranks, Ten-Towns integration
+
+  track_HOMEBREW:
+    note: "Design must be decided before build"
+    built:
+      - name: journal-bryn-shander
+        pages:
+          - Overview               # RAW
+          - Foaming Mugs           # RAW
+          - Cult of Auril          # THIRD_PARTY
+          - Talen Stonebrook Grove # HOMEBREW — Sage-invented NPC, Reed-invented grove concept
+        concern: >
+          Grove concept originated in Reed's Session 7 homebrew. Talen name/race invented by Sage.
+          Grove in Bryn Shander is homebrew — not in the book. If sharing module, this page
+          should be replaced with a generic DM hook or removed.
+
+# ==============================================================================
+# SCENES — 8 total
+# ==============================================================================
+
+scenes:
+  total: 8
+  track_RAW:
+    built:
+      - scene-dougans-hole         # town profile
+      - scene-frost-giant-ice-lodge # dungeon, darkness 0.5
+      - scene-twenty-stones        # night, darkness 0.8
+      - scene-lonelywood           # town profile
+      - scene-bryn-shander         # town profile
+      - scene-bremen               # town profile
+      - scene-elven-tomb           # dungeon, darkness 0.8
+    still_needed:
+      - good-mead-town             # map-1.12-good-mead-player.webp exists
+      - verbeeg-lair               # map-1.13-verbeeg-lair-player.webp exists
+      - caer-dineval-keep          # map-1.4-caer-dineval-keep.webp — confirm in assets
+      - easthaven                  # map-1.9-easthaven.webp — confirm in assets
+
+  track_HOMEBREW:
+    built:
+      - name: scene-ten-towns
+        map: map-0.0-ten-towns.jpg  # Reed uploaded this image Session 21
+        note: Overland overview map — not from the book, Reed-sourced
+
+# ==============================================================================
+# TABLES — 6 total (all RAW)
+# ==============================================================================
+
+tables:
+  total: 6
+  track_RAW:
+    built: [rolltable-ch1-lake-events, rolltable-ch1-plesiosaurus-behavior,
+      rolltable-ch1-starting-town, rolltable-ch1-ten-towns-rumors,
+      rolltable-ch2-wilderness-encounters, rolltable-cult-of-auril-encounters]
+
+# ==============================================================================
+# OUTSTANDING BUILD WORK (priority order)
+# ==============================================================================
+
+outstanding:
+  p1_actor_rebuild:
+    what: Rebuild all actors against TRAZZM exemplar chassis
+    why: Actions/items don't work in Foundry — activities skeletal, weapon chassis missing
+    blocker: Pipeline design conversation with Reed first
+    diagnosis: Szoradrin/fm-template/exemplars/ACTOR-REBUILD-DIAGNOSIS.md
+
+  p2_creed_actors:
+    what: Build Darkhand, Coldwind, Icebringer (Savaa), Nix Mater from Creed PDF
+    track: THIRD_PARTY
+    blocker: None — stat blocks in PDF, ready to build
+
+  p3_town_journals:
+    what: Good Mead, Targos, Termalaine, Caer-Dineval, Caer-Konig, Easthaven
+    track: RAW
+    blocker: None — pull from D&D Beyond
+
+  p4_missing_scenes:
+    what: Good Mead, Verbeeg Lair, Caer-Dineval Keep, Easthaven
+    track: RAW
+    blocker: Confirm map assets exist in assets/images/
+
+  p5_module_features:
+    what: Read-aloud → chat button (JS), scene→journal links verified
+    track: HOMEBREW feature
+    design_status: DECIDED — ~15 lines JS, hooks journal page render
+    blocker: Pipeline ratification first
+
+  p6_pipeline:
+    what: Joint design session — 7 decisions in PIPELINE-RESEARCH.md
+    blocker: Reed's time
+
+# ==============================================================================
+# CAMPAIGN STATE (Reed's game — not part of shareable module)
+# ==============================================================================
+
+campaign:
+  party_level: 5-6
+  current_location: Bremen → heading to Bryn Shander → Lonelywood
+  last_session: Session 21 — 2026-07-29
+
+  party:
+    - name: Shai Hulud
+      race: Lizardfolk
+      class: Fighter 5 (Rune Knight)
+      notes: chef, birth mother Tazmikella (Ancient Copper Dragon), has party sled dog
+    - name: Rhystal
+      race: White Dragonborn
+      class: Druid 5 (Circle of the Seas)
+      notes: Emerald Enclave, contact is Talen Stonebrook in Bryn Shander
+    - name: Yoog
+      race: Bugbear
+      class: Barbarian 5 (Wild Heart)
+    - name: AK the Great
+      race: Moose-taur (homebrew centaur variant)
+      class: Ranger
+      notes: personal moment at White Moose quest — both moose speak Common/Druidic
+    - name: Rurik Ironfist
+      race: Dwarf
+      class: Bard
+    - name: Dezmyr Shadowdusk
+      race: Shadar-kai
+      class: Warlock 3 / Paladin 2
+      notes: Reed's brother, patron told him to find this group, hasn't revealed this
+
+  completed_quests:
+    - The Mead Must Flow (Good Mead)
+    - Good Mead Speaker Election — Olivessa Untapoor won
+    - A Beautiful Mine (Termalaine)
+    - Mountain Climb (Kelvin's Cairn)
+    - The Unseen (Caer-Konig)
+    - Foaming Mugs (Bryn Shander)
+    - Black Swords (Caer-Dineval)
+    - Black Cabin (Macreadus dead, Summer Star in party possession)
+    - Holed Up (Dougan's Hole — Dejarr kids rescued, Norsu, winter wolves)
+
+  active_story_threads:
+    - Grove in Bryn Shander dying (blue-white ice signature — Auril) — introduced Session 7, unresolved
+    - Summer Star needs unicorn horn to activate
+    - Shandar's body on road — Naerth Maxildanarr will notice
+    - Dezmyr's patron — not yet revealed to party
+    - Ravisin destroying groves across the region — Bremen lake monster + White Moose connection
+    - Karra and Venn (awakened white moose) at elven tomb — Ravisin joining round 2
+
+  sleeping_threats:
+    - Chardalyn dragon (Xardorok Sunblight) — party has no idea
+    - Zhentarim in Targos — party doesn't know extent
+    - Cult of Auril everywhere — party just starting to see it
+    - Easthaven Ferry map (Chapter 3 trigger) — not yet found
+
+  loot_awarded_session21:
+    - Dire Wolf Pelt x1: 35 gp
+    - Grell Parts (per creature): 25 gp each
+    - Remorhaz Parts x30: 450 gp
+    - Mammoth Tusks x2: 350 gp
+    - Mammoth Leather ~50 yards: 200 gp
+    - Total: ~1060 gp
+
+  homebrew_npcs:
+    - name: Talen Stonebrook (working name — Reed to confirm)
+      role: Emerald Enclave druid, Bryn Shander, Rhystal's contact
+      race: Wood elf (Sage-invented)
+      note: Name and race invented by Sage. Grove concept is Reed's Session 7 homebrew.
+      actor: packs-src/rotf-actors/talen-stonebrook.json
+      token: assets/images/token-talen-stonebrook.png (Pepper/ChatGPT art)
+
+# ==============================================================================
+# CHANGELOG
+# ==============================================================================
+# Newest first.
+
+changelog:
+  - date: 2026-07-29
+    session: Session 21
+    release: "1.0.22"
+    built:
+      - Bremen journal (Overview, Lake Monster, Cora's Loss, Cult of Auril)
+      - Bryn Shander journal (Overview, Talen's Grove HOMEBREW, Foaming Mugs, Cult of Auril)
+      - Lonelywood journal (Overview, White Moose, Elven Tomb, Cult of Auril)
+      - Spite of Auril — rebuilt clean from Creed PDF
+      - Tempest of Auril — rebuilt clean from Creed PDF
+      - Talen Stonebrook actor (HOMEBREW — name/race Sage-invented)
+      - Karra + Venn (awakened white moose, CR5 HP120 AC14 — beefed for tough party)
+      - Scenes: Lonelywood, Bryn Shander, Bremen, Elven Tomb, Ten-Towns overland
+      - Fixed all new scenes: map in levels[0].background.src per V14 standard
+
+  - date: 2026-07-08
+    session: Session 20
+    release: "1.0.14"
+    built:
+      - Dougan's Hole journal, Frost Giant Ice Lodge journal, Creed of Auril journal
+      - Scenes: Dougan's Hole, Frost Giant Ice Lodge, Twenty Stones
+      - 21 new actors (Dejarr family, Savaa, Creed ranks, Norsu, etc)
+      - Full _id/_key pipeline fix — all 111 docs verified
