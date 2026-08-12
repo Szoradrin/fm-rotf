@@ -1,0 +1,511 @@
+{
+  "_id": "NimsyHuddleLW001",
+  "name": "Nimsy Huddle",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 8
+      },
+      "dex": {
+        "value": 12
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 12
+      },
+      "wis": {
+        "value": 14
+      },
+      "cha": {
+        "value": 11
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 10,
+        "calc": "flat",
+        "formula": "hide armor"
+      },
+      "hp": {
+        "value": 4,
+        "min": 0,
+        "max": 4,
+        "formula": "1d8"
+      },
+      "speed": {
+        "value": "30 ft. (40 ft. wolf form, burrow 5 ft. fox form, climb 30 ft. goat form, fly 60 ft. owl form)"
+      },
+      "cr": 5,
+      "spellcasting": "wis"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Town Speaker of Lonelywood.</strong> Ever since the local inn closed, Nimsy has opened her heated attic to visitors. She bakes halfling-shaped cookies and brings them to meetings of the Council of Speakers.</p>\n<p>Her house was built for humans but most furniture is halfling-sized. Four halfling children \u2014 including <strong>Scoop</strong> \u2014 scamper around with wooden swords.</p>\n<p><strong>Quest hook:</strong> Offers 100 gp for the white moose's head (can be talked up to 125 gp, DC 15 Persuasion). Will also offer Ramshackle as an investment property if pushed further.</p>"
+      },
+      "alignment": "lawful good",
+      "race": "Human",
+      "type": {
+        "value": "humanoid",
+        "subtype": "strongheart halfling",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 0,
+      "spellLevel": 9,
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "289"
+      }
+    },
+    "skills": {
+      "nat": {
+        "value": 1
+      },
+      "per": {
+        "value": 1
+      },
+      "sur": {
+        "value": 1
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": []
+      },
+      "dr": {
+        "value": []
+      },
+      "dv": {
+        "value": []
+      },
+      "ci": {
+        "value": []
+      },
+      "languages": {
+        "value": [
+          "common",
+          "halfling"
+        ]
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 4,
+        "override": null
+      },
+      "spell2": {
+        "value": 3,
+        "override": null
+      },
+      "spell3": {
+        "value": 3,
+        "override": null
+      },
+      "spell4": {
+        "value": 3,
+        "override": null
+      },
+      "spell5": {
+        "value": 1,
+        "override": null
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    }
+  },
+  "prototypeToken": {
+    "name": "Nimsy Huddle",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Brave",
+      "type": "feat",
+      "_id": "FEfdVEjn3lDzuIJr",
+      "_key": "!actors.items!NimsyHuddleLW001.FEfdVEjn3lDzuIJr",
+      "img": "icons/skills/melee/shield-block-gray.webp",
+      "system": {
+        "description": {
+          "value": "<p>Advantage on saving throws against being frightened.</p>"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Halfling Nimbleness",
+      "type": "feat",
+      "_id": "lFukeQSxmvLLON8x",
+      "_key": "!actors.items!NimsyHuddleLW001.lFukeQSxmvLLON8x",
+      "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p>Can move through the space of any creature larger than halfling size.</p>"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Club",
+      "type": "weapon",
+      "_id": "CxurVBLiXhJbioCl",
+      "_key": "!actors.items!NimsyHuddleLW001.CxurVBLiXhJbioCl",
+      "img": "icons/weapons/clubs/club-wooden.webp",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": 1
+          }
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "reach": 5,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "damage": {
+          "base": {
+            "formula": "1d4-1",
+            "types": [
+              "bludgeoning"
+            ],
+            "denomination": 4
+          }
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "properties": [],
+        "proficient": null,
+        "mastery": "",
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "activities": {
+          "KwOqGRkakmHEhVhx": {
+            "_id": "KwOqGRkakmHEhVhx",
+            "type": "attack",
+            "name": "",
+            "img": "",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "value": null,
+              "override": false
+            },
+            "duration": {
+              "units": "",
+              "value": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "type": "",
+                "size": "",
+                "width": "",
+                "units": ""
+              },
+              "affects": {
+                "type": "",
+                "count": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true
+            },
+            "range": {
+              "value": null,
+              "long": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": [],
+              "spent": 0,
+              "prompt": true
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "effects": [],
+            "damage": {
+              "includeBase": true,
+              "parts": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null,
+                "damage": ""
+              },
+              "flat": false,
+              "type": {
+                "value": "",
+                "classification": ""
+              }
+            },
+            "ammunition": null,
+            "attackMode": "oneHanded",
+            "attackRollPerTarget": false,
+            "fumbleThreshold": null,
+            "midiProperties": {},
+            "visibility": {
+              "chatBubble": false,
+              "message": "all"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!NimsyHuddleLW001"
+}
