@@ -1,0 +1,461 @@
+{
+  "_id": "AwakenedShrubLW1",
+  "name": "Awakened Shrub (Berry Bush)",
+  "type": "npc",
+  "img": "icons/magic/nature/plant-sprout-green.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 3
+      },
+      "dex": {
+        "value": 8
+      },
+      "con": {
+        "value": 11
+      },
+      "int": {
+        "value": 10
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 6
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 9,
+        "calc": "flat",
+        "formula": "hide armor"
+      },
+      "hp": {
+        "value": 10,
+        "min": 0,
+        "max": 10,
+        "formula": "3d6"
+      },
+      "speed": {
+        "value": "30 ft. (40 ft. wolf form, burrow 5 ft. fox form, climb 30 ft. goat form, fly 60 ft. owl form)"
+      },
+      "cr": 5,
+      "spellcasting": "wis"
+    },
+    "details": {
+      "biography": {
+        "value": "<p>A berry bush awakened by Ravisin. Terrified of Ravisin and fire. Hides in E9 with her.</p>\n<p><strong>After Ravisin dies</strong>, speaks to anyone who treats it kindly:</p>\n<ul>\n<li>Ravisin's twin <strong>Vurnis</strong> killed by Lonelywood hunters</li>\n<li>Vurnis's body in the sarcophagus in <strong>E4</strong></li>\n<li>Ravisin awakened beasts all across Icewind Dale</li>\n<li>Complained the plesiosaurus had \"scruples\" \u2014 refused to kill anyone</li>\n<li>Treasure hidden \"under the cold one\" (Vurnis's corpse): potion of resistance (radiant) + potion of vitality</li>\n</ul>"
+      },
+      "alignment": "neutral",
+      "race": "Human",
+      "type": {
+        "value": "plant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 0,
+      "spellLevel": 9,
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "289"
+      }
+    },
+    "skills": {
+      "nat": {
+        "value": 1
+      },
+      "per": {
+        "value": 1
+      },
+      "sur": {
+        "value": 1
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": []
+      },
+      "dr": {
+        "value": []
+      },
+      "dv": {
+        "value": []
+      },
+      "ci": {
+        "value": []
+      },
+      "languages": {
+        "value": [
+          "common",
+          "druidic"
+        ]
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 4,
+        "override": null
+      },
+      "spell2": {
+        "value": 3,
+        "override": null
+      },
+      "spell3": {
+        "value": 3,
+        "override": null
+      },
+      "spell4": {
+        "value": 3,
+        "override": null
+      },
+      "spell5": {
+        "value": 1,
+        "override": null
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    }
+  },
+  "prototypeToken": {
+    "name": "Awakened Shrub (Berry Bush)",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/magic/nature/plant-sprout-green.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "False Appearance",
+      "type": "feat",
+      "_id": "u4npr1yeoOjNMf12",
+      "_key": "!actors.items!AwakenedShrubLW1.u4npr1yeoOjNMf12",
+      "img": "icons/magic/nature/leaf-oak-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p>While motionless, indistinguishable from a normal bush.</p>"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Rake",
+      "type": "weapon",
+      "_id": "puk8QHCwwBP43zmL",
+      "_key": "!actors.items!AwakenedShrubLW1.puk8QHCwwBP43zmL",
+      "img": "icons/skills/melee/strike-branches-glow-green.webp",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": 1
+          }
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "reach": 5,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "damage": {
+          "base": {
+            "formula": "1d4-1",
+            "types": [
+              "slashing"
+            ],
+            "denomination": 4
+          }
+        },
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "properties": [],
+        "proficient": null,
+        "mastery": "",
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "activities": {
+          "YokEhBOe9D9rTTWP": {
+            "_id": "YokEhBOe9D9rTTWP",
+            "type": "attack",
+            "name": "",
+            "img": "",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "value": null,
+              "override": false
+            },
+            "duration": {
+              "units": "",
+              "value": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "type": "",
+                "size": "",
+                "width": "",
+                "units": ""
+              },
+              "affects": {
+                "type": "",
+                "count": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true
+            },
+            "range": {
+              "value": null,
+              "long": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": [],
+              "spent": 0,
+              "prompt": true
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "effects": [],
+            "damage": {
+              "includeBase": true,
+              "parts": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null,
+                "damage": ""
+              },
+              "flat": false,
+              "type": {
+                "value": "",
+                "classification": ""
+              }
+            },
+            "ammunition": null,
+            "attackMode": "oneHanded",
+            "attackRollPerTarget": false,
+            "fumbleThreshold": null,
+            "midiProperties": {},
+            "visibility": {
+              "chatBubble": false,
+              "message": "all"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!AwakenedShrubLW1"
+}
