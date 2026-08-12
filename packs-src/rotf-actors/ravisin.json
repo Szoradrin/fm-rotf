@@ -1,0 +1,563 @@
+{
+  "_id": "RavisinFrstDrud1",
+  "name": "Ravisin",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/art-01-035-ravisin.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 13
+      },
+      "con": {
+        "value": 16
+      },
+      "int": {
+        "value": 10
+      },
+      "wis": {
+        "value": 16
+      },
+      "cha": {
+        "value": 9
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "flat",
+        "formula": "hide armor"
+      },
+      "hp": {
+        "value": 67,
+        "min": 0,
+        "max": 67,
+        "formula": "9d8+27"
+      },
+      "speed": {
+        "value": "30 ft. (40 ft. wolf form, burrow 5 ft. fox form, climb 30 ft. goat form, fly 60 ft. owl form)"
+      },
+      "cr": 5,
+      "spellcasting": "wis"
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Ravisin is a frost druid who has given herself entirely to Auril and the destruction of those she blames for her twin sister Vurnis's death. Hunters from Lonelywood killed Vurnis near the forest edge. Ravisin has never forgiven them.</p>\n<p>She has made the elven tomb in the Lonelywood forest her lair and used <em>awaken</em> to gift several beasts with intelligence: the plesiosaurus in Maer Dualdon, the white moose Karra and Venn, and others.</p>\n<p><strong>Motivation:</strong> Forest free of loggers and hunters. Blames Ten-Towns for Vurnis's death.</p>\n<p><strong>Dying words:</strong> \"My beasts will avenge us!\"</p>\n<p><strong>DM:</strong> The awakened shrub (berry bush) in E9 knows everything \u2014 Vurnis's story, her body in E4, that the plesiosaurus had \"scruples.\" Treats it kindly and it talks.</p>"
+      },
+      "alignment": "chaotic evil",
+      "race": "Human",
+      "type": {
+        "value": "humanoid",
+        "subtype": "human",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 5,
+      "spellLevel": 9,
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "289"
+      }
+    },
+    "skills": {
+      "nat": {
+        "value": 1
+      },
+      "per": {
+        "value": 1
+      },
+      "sur": {
+        "value": 1
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": []
+      },
+      "dr": {
+        "value": [
+          "cold"
+        ]
+      },
+      "dv": {
+        "value": []
+      },
+      "ci": {
+        "value": []
+      },
+      "languages": {
+        "value": [
+          "common",
+          "druidic"
+        ]
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 4,
+        "override": null
+      },
+      "spell2": {
+        "value": 3,
+        "override": null
+      },
+      "spell3": {
+        "value": 3,
+        "override": null
+      },
+      "spell4": {
+        "value": 3,
+        "override": null
+      },
+      "spell5": {
+        "value": 1,
+        "override": null
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    }
+  },
+  "prototypeToken": {
+    "name": "Ravisin",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/rotf/assets/images/art-01-035-ravisin.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Spellcasting (Humanoid Form Only)",
+      "type": "feat",
+      "_id": "CF5SXgCbJjw3WE1S",
+      "_key": "!actors.items!RavisinFrstDrud1.CF5SXgCbJjw3WE1S",
+      "img": "icons/magic/nature/leaf-glow-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p>9th-level WIS spellcaster. DC 14, +6 to hit.</p><p><strong>Cantrips:</strong> druidcraft, guidance, resistance</p><p><strong>1st (4):</strong> animal friendship, fog cloud, speak with animals</p><p><strong>2nd (3):</strong> animal messenger, moonbeam, pass without trace</p><p><strong>3rd (3):</strong> conjure animals, sleet storm, wind wall</p><p><strong>4th (3):</strong> hallucinatory terrain, ice storm</p><p><strong>5th (1):</strong> awaken</p><p><strong>Tactics:</strong> Opens with Moonbeam round 1. Healing Word (bonus) on Karra/Venn. Sleet storm if cornered. Barkskin on herself. Fights to the death.</p>"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Multiattack",
+      "type": "feat",
+      "_id": "jK9VwXLsVLjJVItA",
+      "_key": "!actors.items!RavisinFrstDrud1.jK9VwXLsVLjJVItA",
+      "img": "icons/skills/melee/strike-weapons-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Two melee attacks.</p>"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Ice Sickle (Humanoid Form)",
+      "type": "weapon",
+      "_id": "qiSaSMMuliNCaIsj",
+      "_key": "!actors.items!RavisinFrstDrud1.qiSaSMMuliNCaIsj",
+      "img": "icons/weapons/swords/sickle-curved-blue.webp",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": 1
+          }
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "reach": 5,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "damage": {
+          "base": {
+            "formula": "1d4+1",
+            "types": [
+              "slashing"
+            ],
+            "denomination": 4
+          }
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "properties": [],
+        "proficient": null,
+        "mastery": "",
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "activities": {
+          "DGGK9XzdesOueSb7": {
+            "_id": "DGGK9XzdesOueSb7",
+            "type": "attack",
+            "name": "",
+            "img": "",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "value": null,
+              "override": false
+            },
+            "duration": {
+              "units": "",
+              "value": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "type": "",
+                "size": "",
+                "width": "",
+                "units": ""
+              },
+              "affects": {
+                "type": "",
+                "count": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true
+            },
+            "range": {
+              "value": null,
+              "long": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": [],
+              "spent": 0,
+              "prompt": true
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "effects": [],
+            "damage": {
+              "includeBase": true,
+              "parts": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null,
+                "damage": ""
+              },
+              "flat": false,
+              "type": {
+                "value": "",
+                "classification": ""
+              }
+            },
+            "ammunition": null,
+            "attackMode": "oneHanded",
+            "attackRollPerTarget": false,
+            "fumbleThreshold": null,
+            "midiProperties": {},
+            "visibility": {
+              "chatBubble": false,
+              "message": "all"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Change Shape",
+      "type": "feat",
+      "_id": "nCDe7hhuMgnNx93u",
+      "_key": "!actors.items!RavisinFrstDrud1.nCDe7hhuMgnNx93u",
+      "img": "icons/magic/nature/wolf-paw-glow-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p>Polymorphs into fox, goat, owl, or wolf. Can't cast spells in beast form. Reverts at 0 HP.</p>"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!RavisinFrstDrud1"
+}
