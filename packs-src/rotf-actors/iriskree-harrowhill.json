@@ -1,0 +1,749 @@
+{
+  "_id": "IriskreeHarrow01",
+  "name": "Iriskree Harrowhill",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 11
+      },
+      "dex": {
+        "value": 16
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 13
+      },
+      "wis": {
+        "value": 11
+      },
+      "cha": {
+        "value": 10
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "flat",
+        "formula": "hide armor"
+      },
+      "hp": {
+        "value": 78,
+        "min": 0,
+        "max": 78,
+        "formula": "12d8+24"
+      },
+      "speed": {
+        "value": "30 ft. (40 ft. wolf form, burrow 5 ft. fox form, climb 30 ft. goat form, fly 60 ft. owl form)"
+      },
+      "cr": 5,
+      "spellcasting": "wis"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Owner of The Happy Scrimshander.</strong> Retired assassin. Doughy spinster of few words. Sells needles, knives, inks, and wax for scrimshaw work.</p>\n<p>She doesn't talk about her shady past except to speak fondly of people she once knew who have since died. She knows where bodies are buried \u2014 literally.</p>\n<p><strong>Stats:</strong> Assassin stat block (MM). AC 15, HP 78. Proficient in disguise kit and poisoner's kit. Death Strike on surprised creatures (double damage, DC 15 CON or auto).</p>"
+      },
+      "alignment": "neutral",
+      "race": "Human",
+      "type": {
+        "value": "humanoid",
+        "subtype": "human",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 8,
+      "spellLevel": 9,
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "289"
+      }
+    },
+    "skills": {
+      "nat": {
+        "value": 1
+      },
+      "per": {
+        "value": 1
+      },
+      "sur": {
+        "value": 1
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": []
+      },
+      "dr": {
+        "value": []
+      },
+      "dv": {
+        "value": []
+      },
+      "ci": {
+        "value": []
+      },
+      "languages": {
+        "value": [
+          "common"
+        ]
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 4,
+        "override": null
+      },
+      "spell2": {
+        "value": 3,
+        "override": null
+      },
+      "spell3": {
+        "value": 3,
+        "override": null
+      },
+      "spell4": {
+        "value": 3,
+        "override": null
+      },
+      "spell5": {
+        "value": 1,
+        "override": null
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    }
+  },
+  "prototypeToken": {
+    "name": "Iriskree Harrowhill",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Assassinate",
+      "type": "feat",
+      "_id": "3uWHC1uk6ljV5wlu",
+      "_key": "!actors.items!IriskreeHarrow01.3uWHC1uk6ljV5wlu",
+      "img": "icons/skills/melee/strike-blade-knife-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>During first turn of combat, advantage on attacks vs creatures that haven't taken a turn. Any hit against a surprised creature is a critical hit.</p>"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Evasion",
+      "type": "feat",
+      "_id": "fVlHNehH5UHYfzeg",
+      "_key": "!actors.items!IriskreeHarrow01.fVlHNehH5UHYfzeg",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>If subject to DEX save for half damage, takes no damage on success, half on fail.</p>"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Sneak Attack (4d6)",
+      "type": "feat",
+      "_id": "DF45jGn209GPK1W3",
+      "_key": "!actors.items!IriskreeHarrow01.DF45jGn209GPK1W3",
+      "img": "icons/skills/melee/strike-sword-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>Once per turn, 4d6 extra damage when hitting with finesse/ranged weapon with advantage or ally adjacent to target.</p>"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Shortsword",
+      "type": "weapon",
+      "_id": "pQwbq1i3Fmyeb6MQ",
+      "_key": "!actors.items!IriskreeHarrow01.pQwbq1i3Fmyeb6MQ",
+      "img": "icons/weapons/swords/sword-short.webp",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": 1
+          }
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "reach": 5,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "damage": {
+          "base": {
+            "formula": "1d6+3",
+            "types": [
+              "piercing"
+            ],
+            "denomination": 6
+          }
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "properties": [
+          "fin"
+        ],
+        "proficient": null,
+        "mastery": "",
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "activities": {
+          "gakWM9fm9Cx0Cgwm": {
+            "_id": "gakWM9fm9Cx0Cgwm",
+            "type": "attack",
+            "name": "",
+            "img": "",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "value": null,
+              "override": false
+            },
+            "duration": {
+              "units": "",
+              "value": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "type": "",
+                "size": "",
+                "width": "",
+                "units": ""
+              },
+              "affects": {
+                "type": "",
+                "count": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true
+            },
+            "range": {
+              "value": null,
+              "long": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": [],
+              "spent": 0,
+              "prompt": true
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "effects": [],
+            "damage": {
+              "includeBase": true,
+              "parts": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null,
+                "damage": ""
+              },
+              "flat": false,
+              "type": {
+                "value": "",
+                "classification": ""
+              }
+            },
+            "ammunition": null,
+            "attackMode": "oneHanded",
+            "attackRollPerTarget": false,
+            "fumbleThreshold": null,
+            "midiProperties": {},
+            "visibility": {
+              "chatBubble": false,
+              "message": "all"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Hand Crossbow",
+      "type": "weapon",
+      "_id": "QQRmQ15owgxBB1mj",
+      "_key": "!actors.items!IriskreeHarrow01.QQRmQ15owgxBB1mj",
+      "img": "icons/weapons/crossbows/crossbow-hand-black.webp",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": 1
+          }
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "damage": {
+          "base": {
+            "formula": "1d6+3",
+            "types": [
+              "piercing"
+            ],
+            "denomination": 6
+          }
+        },
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "properties": [
+          "amm",
+          "lod"
+        ],
+        "proficient": null,
+        "mastery": "",
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "activities": {
+          "xm8dYwJf7e3GlFKt": {
+            "_id": "xm8dYwJf7e3GlFKt",
+            "type": "attack",
+            "name": "",
+            "img": "",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "value": null,
+              "override": false
+            },
+            "duration": {
+              "units": "",
+              "value": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "type": "",
+                "size": "",
+                "width": "",
+                "units": ""
+              },
+              "affects": {
+                "type": "",
+                "count": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true
+            },
+            "range": {
+              "value": null,
+              "long": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": [],
+              "spent": 0,
+              "prompt": true
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "effects": [],
+            "damage": {
+              "includeBase": true,
+              "parts": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null,
+                "damage": ""
+              },
+              "flat": false,
+              "type": {
+                "value": "",
+                "classification": ""
+              }
+            },
+            "ammunition": null,
+            "attackMode": "oneHanded",
+            "attackRollPerTarget": false,
+            "fumbleThreshold": null,
+            "midiProperties": {},
+            "visibility": {
+              "chatBubble": false,
+              "message": "all"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!IriskreeHarrow01"
+}
