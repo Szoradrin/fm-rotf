@@ -2,7 +2,7 @@
   "_id": "IriskreeHarrow01",
   "name": "Iriskree Harrowhill",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/rotf/assets/images/token-iriskree-harrowhill.png",
   "system": {
     "abilities": {
       "str": {
@@ -132,7 +132,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/rotf/assets/images/token-iriskree-harrowhill.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
