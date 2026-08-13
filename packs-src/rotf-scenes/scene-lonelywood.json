@@ -96,7 +96,7 @@
       "_key": "!scenes.levels!LonelyWoodScn01.LonelyWoodScn01Lvl0001",
       "name": "Lonelywood",
       "background": {
-        "src": "modules/rotf/assets/images/map-1.14-lonelywood-player.webp",
+        "src": "modules/rotf/assets/images/map-1.14-lonelywood.webp",
         "color": "#000000"
       }
     }
