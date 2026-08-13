@@ -26,15 +26,15 @@
     },
     "attributes": {
       "ac": {
-        "flat": 13,
+        "flat": 16,
         "calc": "flat",
         "formula": "hide armor"
       },
       "hp": {
-        "value": 67,
+        "value": 110,
         "min": 0,
-        "max": 67,
-        "formula": "9d8+27"
+        "max": 110,
+        "formula": "9d8+27+40"
       },
       "speed": {
         "value": "30 ft. (40 ft. wolf form, burrow 5 ft. fox form, climb 30 ft. goat form, fly 60 ft. owl form)"
@@ -540,6 +540,161 @@
       "effects": [],
       "folder": null,
       "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Legendary Resistance (2/Day)",
+      "type": "feat",
+      "_id": "QSHPYAmpNeJ4XHZK",
+      "_key": "!actors.items!RavisinFrstDrud1.QSHPYAmpNeJ4XHZK",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>If Ravisin fails a saving throw, she can choose to succeed instead. 2 uses per day.</p>"
+        },
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": 2,
+          "max": "2",
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 50000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Barkskin (Permanent)",
+      "type": "feat",
+      "_id": "FZfS1gZ3pe7cHa7Q",
+      "_key": "!actors.items!RavisinFrstDrud1.FZfS1gZ3pe7cHa7Q",
+      "img": "icons/magic/nature/leaf-shield-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>Ravisin's skin is permanently hardened by druidic magic. Her AC cannot be lower than 16. (Already reflected in her AC.)</p>"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 60000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Lair Actions (Elven Tomb only, Initiative 20)",
+      "type": "feat",
+      "_id": "2g0rvJypyJjC0Q0p",
+      "_key": "!actors.items!RavisinFrstDrud1.2g0rvJypyJjC0Q0p",
+      "img": "icons/magic/earth/crystals-crystal-pillar.webp",
+      "system": {
+        "description": {
+          "value": "<p>On initiative count 20 (losing ties), Ravisin can take one lair action:</p>\n<ul>\n<li><strong>Sarcophagus Slam:</strong> A stone lid slams onto one creature within 10 ft of the sarcophagus. DC 15 DEX save or take 3d6 bludgeoning damage and be restrained until it escapes (DC 15 Athletics/Acrobatics).</li>\n<li><strong>Crystal Discharge:</strong> The pillars flanking the room discharge cold energy. Each creature within 15 ft of a pillar makes a DC 15 CON save, taking 3d6 cold damage on a fail, half on success.</li>\n<li><strong>Moon Dial Pulse:</strong> A wave of radiant-then-necrotic energy pulses from the moon dial. One creature within 30 ft: DC 15 WIS save or 2d8 necrotic damage and disadvantage on next attack roll.</li>\n</ul>\n<p>Can't use the same lair action two rounds in a row.</p>"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 70000,
       "ownership": {
         "default": 0
       },
