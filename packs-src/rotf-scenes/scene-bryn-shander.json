@@ -96,7 +96,7 @@
       "_key": "!scenes.levels!BrynShanderScn1.BrynShanderScn1Lvl0001",
       "name": "Bryn Shander",
       "background": {
-        "src": "modules/rotf/assets/images/map-1.2-bryn-shander-player.webp",
+        "src": "modules/rotf/assets/images/map-1.2-bryn-shander.webp",
         "color": "#000000"
       }
     }
