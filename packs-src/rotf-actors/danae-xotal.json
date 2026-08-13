@@ -2,7 +2,7 @@
   "_id": "DanaeXotalLW0001",
   "name": "Danae Xotal",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/rotf/assets/images/token-danae-xotal.png",
   "system": {
     "abilities": {
       "str": {
@@ -133,7 +133,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/rotf/assets/images/token-danae-xotal.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
