@@ -149,7 +149,7 @@
               "parts": [
                 {
                   "number": 1,
-                  "denomination": "4",
+                  "denomination": 4,
                   "bonus": "1",
                   "types": [
                     "bludgeoning"

@@ -16,12 +16,13 @@ Exit 0 = all green. Exit 1 = gate failed, output says exactly where.
 import json, os, subprocess, sys, tempfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FVTT = os.path.expanduser("/home/claude/node_modules/.bin/fvtt")
+FVTT = os.path.join(ROOT, "node_modules/.bin/fvtt")
 PACKS = {
     "rotf-actors":  ("actors",  [("items", "actors.items")]),
     "rotf-journals":("journal", [("pages", "journal.pages")]),
     "rotf-scenes":  ("scenes",  [("levels", "scenes.levels")]),
     "rotf-tables":  ("tables",  [("results", "tables.results")]),
+    "rotf-items":   ("items",   []),
 }
 failures = []
 

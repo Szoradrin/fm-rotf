@@ -175,7 +175,7 @@
               "parts": [
                 {
                   "number": 2,
-                  "denomination": "6",
+                  "denomination": 6,
                   "bonus": "2",
                   "types": [
                     "bludgeoning"
@@ -183,7 +183,7 @@
                 },
                 {
                   "number": 1,
-                  "denomination": "6",
+                  "denomination": 6,
                   "bonus": "",
                   "types": [
                     "cold"
@@ -241,7 +241,7 @@
               "parts": [
                 {
                   "number": 1,
-                  "denomination": "4",
+                  "denomination": 4,
                   "bonus": "2",
                   "types": [
                     "bludgeoning"
@@ -249,7 +249,7 @@
                 },
                 {
                   "number": 1,
-                  "denomination": "6",
+                  "denomination": 6,
                   "bonus": "",
                   "types": [
                     "cold"

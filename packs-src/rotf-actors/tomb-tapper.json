@@ -216,7 +216,7 @@
               "parts": [
                 {
                   "number": 3,
-                  "denomination": "10",
+                  "denomination": 10,
                   "bonus": "6",
                   "types": [
                     "slashing"
@@ -274,7 +274,7 @@
               "parts": [
                 {
                   "number": 3,
-                  "denomination": "6",
+                  "denomination": 6,
                   "bonus": "6",
                   "types": [
                     "slashing"
@@ -332,7 +332,7 @@
               "parts": [
                 {
                   "number": 6,
-                  "denomination": "6",
+                  "denomination": 6,
                   "bonus": "6",
                   "types": [
                     "bludgeoning"

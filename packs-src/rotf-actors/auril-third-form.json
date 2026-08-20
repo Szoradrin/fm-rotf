@@ -504,7 +504,7 @@
               "parts": [
                 {
                   "number": 4,
-                  "denomination": "6",
+                  "denomination": 6,
                   "bonus": "",
                   "types": [
                     "cold"

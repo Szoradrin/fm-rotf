@@ -965,7 +965,7 @@
         "damage": {
           "base": {
             "number": 1,
-            "denomination": "8",
+            "denomination": 8,
             "bonus": "",
             "types": [
               "slashing"
@@ -1141,7 +1141,7 @@
         "damage": {
           "base": {
             "number": 1,
-            "denomination": "6",
+            "denomination": 6,
             "bonus": "",
             "types": [
               "piercing"

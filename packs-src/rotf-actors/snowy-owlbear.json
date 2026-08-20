@@ -155,7 +155,7 @@
               "parts": [
                 {
                   "number": 2,
-                  "denomination": "6",
+                  "denomination": 6,
                   "bonus": "4",
                   "types": [
                     "piercing"
@@ -213,7 +213,7 @@
               "parts": [
                 {
                   "number": 3,
-                  "denomination": "6",
+                  "denomination": 6,
                   "bonus": "4",
                   "types": [
                     "slashing"

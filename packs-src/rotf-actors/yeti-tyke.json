@@ -152,7 +152,7 @@
               "parts": [
                 {
                   "number": 1,
-                  "denomination": "4",
+                  "denomination": 4,
                   "bonus": "",
                   "types": [
                     "slashing"
@@ -160,7 +160,7 @@
                 },
                 {
                   "number": 1,
-                  "denomination": "4",
+                  "denomination": 4,
                   "bonus": "",
                   "types": [
                     "cold"

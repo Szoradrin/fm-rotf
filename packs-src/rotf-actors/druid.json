@@ -837,7 +837,7 @@
                     "formula": ""
                   },
                   "number": 1,
-                  "denomination": "8",
+                  "denomination": 8,
                   "bonus": "@mod",
                   "types": [
                     "bludgeoning"

@@ -132,7 +132,7 @@
               "parts": [
                 {
                   "number": 1,
-                  "denomination": "6",
+                  "denomination": 6,
                   "bonus": "3",
                   "types": [
                     "bludgeoning"
@@ -190,7 +190,7 @@
               "parts": [
                 {
                   "number": 2,
-                  "denomination": "4",
+                  "denomination": 4,
                   "bonus": "3",
                   "types": [
                     "bludgeoning"

@@ -149,7 +149,7 @@
               "parts": [
                 {
                   "number": 1,
-                  "denomination": "",
+                  "denomination": 0,
                   "bonus": "1",
                   "types": [
                     "piercing"

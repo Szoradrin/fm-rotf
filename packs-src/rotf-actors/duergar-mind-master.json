@@ -218,7 +218,7 @@
               "parts": [
                 {
                   "number": 1,
-                  "denomination": "4",
+                  "denomination": 4,
                   "bonus": "3",
                   "types": [
                     "piercing"
@@ -226,7 +226,7 @@
                 },
                 {
                   "number": 3,
-                  "denomination": "6",
+                  "denomination": 6,
                   "bonus": "",
                   "types": [
                     "psychic"

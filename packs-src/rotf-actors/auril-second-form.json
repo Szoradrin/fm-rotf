@@ -472,7 +472,7 @@
               "parts": [
                 {
                   "number": 1,
-                  "denomination": "8",
+                  "denomination": 8,
                   "bonus": "3",
                   "types": [
                     "piercing"
@@ -480,7 +480,7 @@
                 },
                 {
                   "number": 2,
-                  "denomination": "8",
+                  "denomination": 8,
                   "bonus": "",
                   "types": [
                     "cold"
@@ -535,7 +535,7 @@
               "parts": [
                 {
                   "number": 1,
-                  "denomination": "4",
+                  "denomination": 4,
                   "bonus": "3",
                   "types": [
                     "piercing"
@@ -543,7 +543,7 @@
                 },
                 {
                   "number": 1,
-                  "denomination": "6",
+                  "denomination": 6,
                   "bonus": "",
                   "types": [
                     "cold"
@@ -599,7 +599,7 @@
               "parts": [
                 {
                   "number": 8,
-                  "denomination": "8",
+                  "denomination": 8,
                   "bonus": "",
                   "types": [
                     "cold"

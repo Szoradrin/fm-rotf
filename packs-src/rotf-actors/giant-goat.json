@@ -638,7 +638,7 @@
                     "formula": ""
                   },
                   "number": 2,
-                  "denomination": "4",
+                  "denomination": 4,
                   "bonus": "",
                   "types": [
                     "bludgeoning"

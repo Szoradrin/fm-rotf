@@ -205,7 +205,7 @@
               "parts": [
                 {
                   "number": 1,
-                  "denomination": "8",
+                  "denomination": 8,
                   "bonus": "3",
                   "types": [
                     "bludgeoning"
@@ -266,7 +266,7 @@
               "parts": [
                 {
                   "number": 1,
-                  "denomination": "6",
+                  "denomination": 6,
                   "bonus": "3",
                   "types": [
                     "piercing"

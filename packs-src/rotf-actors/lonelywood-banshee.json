@@ -190,7 +190,7 @@
               "parts": [
                 {
                   "number": 1,
-                  "denomination": "8",
+                  "denomination": 8,
                   "bonus": "2",
                   "types": [
                     "necrotic"
@@ -249,7 +249,7 @@
               "parts": [
                 {
                   "number": 3,
-                  "denomination": "6",
+                  "denomination": 6,
                   "bonus": "2",
                   "types": [
                     "necrotic"
@@ -301,7 +301,7 @@
               "parts": [
                 {
                   "number": 3,
-                  "denomination": "6",
+                  "denomination": 6,
                   "bonus": "",
                   "types": [
                     "psychic"

@@ -856,7 +856,7 @@
         "damage": {
           "base": {
             "number": 1,
-            "denomination": "8",
+            "denomination": 8,
             "bonus": "",
             "types": [
               "slashing"
@@ -972,7 +972,7 @@
               "parts": [
                 {
                   "number": 2,
-                  "denomination": "4",
+                  "denomination": 4,
                   "bonus": "",
                   "types": [
                     "cold"
@@ -1050,7 +1050,7 @@
         "damage": {
           "base": {
             "number": 1,
-            "denomination": "4",
+            "denomination": 4,
             "bonus": "",
             "types": [
               "piercing"
@@ -1166,7 +1166,7 @@
               "parts": [
                 {
                   "number": 2,
-                  "denomination": "4",
+                  "denomination": 4,
                   "bonus": "",
                   "types": [
                     "cold"

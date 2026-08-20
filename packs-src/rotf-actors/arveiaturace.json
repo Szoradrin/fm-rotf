@@ -396,7 +396,7 @@
               "parts": [
                 {
                   "number": 2,
-                  "denomination": "10",
+                  "denomination": 10,
                   "bonus": "8",
                   "types": [
                     "piercing"
@@ -404,7 +404,7 @@
                 },
                 {
                   "number": 2,
-                  "denomination": "8",
+                  "denomination": 8,
                   "bonus": "",
                   "types": [
                     "cold"
@@ -459,7 +459,7 @@
               "parts": [
                 {
                   "number": 2,
-                  "denomination": "6",
+                  "denomination": 6,
                   "bonus": "8",
                   "types": [
                     "slashing"
@@ -514,7 +514,7 @@
               "parts": [
                 {
                   "number": 2,
-                  "denomination": "8",
+                  "denomination": 8,
                   "bonus": "8",
                   "types": [
                     "bludgeoning"
@@ -617,7 +617,7 @@
               "parts": [
                 {
                   "number": 16,
-                  "denomination": "8",
+                  "denomination": 8,
                   "bonus": "",
                   "types": [
                     "cold"

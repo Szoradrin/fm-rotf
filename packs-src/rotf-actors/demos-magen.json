@@ -238,7 +238,7 @@
               "parts": [
                 {
                   "number": 2,
-                  "denomination": "6",
+                  "denomination": 6,
                   "bonus": "2",
                   "types": [
                     "slashing"
@@ -299,7 +299,7 @@
               "parts": [
                 {
                   "number": 1,
-                  "denomination": "8",
+                  "denomination": 8,
                   "bonus": "2",
                   "types": [
                     "piercing"
