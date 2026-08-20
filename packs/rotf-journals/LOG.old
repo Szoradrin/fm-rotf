@@ -1,0 +1,5 @@
+2026/08/20-01:27:53.901049 7f9ba17bd6c0 Delete type=3 #1
+2026/08/20-01:27:53.910539 7f9b83fff6c0 Level-0 table #5: started
+2026/08/20-01:27:53.911655 7f9b83fff6c0 Level-0 table #5: 53110 bytes OK
+2026/08/20-01:27:53.911824 7f9b83fff6c0 Delete type=0 #3
+2026/08/20-01:27:53.911874 7f9b83fff6c0 Manual compaction at level-0 from '!journal!BremenJournal001' @ 72057594037927935 : 1 .. '!journal.pages!RotFIntroduction01.RotFIntroP003' @ 0 : 0; will stop at (end)
