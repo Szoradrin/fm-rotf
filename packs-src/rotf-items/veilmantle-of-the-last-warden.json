@@ -1,0 +1,48 @@
+{
+  "_id": "VeilmantleLastW1",
+  "name": "Veilmantle of the Last Warden",
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-layered-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>An ancient elven cloak recovered from the sarcophagus of a long-dead warden of Lonelywood's forest. The fabric is pale grey-green, woven from materials that no longer exist, threaded with silver runes that pulse faintly in moonlight. It is cold to the touch — always.</p><p>The warden who wore this was the last of her order. She did not die defending her grove. She died waiting for someone worthy to continue the work.</p><h3>Properties</h3><p><strong>Death Ward (1/day).</strong> The first time you drop to 0 hit points while wearing this cloak, you instead drop to 1 hit point. The silver runes go dark and cold until the next dawn.</p><p><strong>Speak with Animals (3/day).</strong> You can cast <em>speak with animals</em> without expending a spell slot.</p><p><strong>Pass Without Trace (1/day).</strong> You can cast <em>pass without trace</em> without expending a spell slot. When cast this way, the spell requires no concentration and lasts 1 hour.</p><p><em>\"Protect it.\"</em> — the only word heard by anyone who attunes to this cloak, whispered in old Elvish.</p>"
+    },
+    "quantity": 1,
+    "weight": { "value": 1, "units": "lb" },
+    "price": { "value": 0, "denomination": "gp" },
+    "attuned": false,
+    "attunement": "required",
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": { "type": "", "value": null, "override": false },
+    "duration": { "value": "", "units": "" },
+    "cover": null,
+    "crewed": false,
+    "target": { "affects": { "type": "", "count": "" }, "template": { "type": "", "size": "", "units": "" } },
+    "range": { "value": null, "long": null, "reach": null, "units": "" },
+    "uses": { "value": null, "max": "", "recovery": [], "prompt": true },
+    "type": { "value": "trinket", "baseItem": "" },
+    "properties": ["mgc"],
+    "armor": { "value": null },
+    "hp": { "value": null, "max": null, "dt": null, "conditions": "" },
+    "activities": {}
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": { "default": 0 },
+  "flags": {},
+  "_key": "!items!VeilmantleLastW1"
+}

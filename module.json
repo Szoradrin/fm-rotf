@@ -2,19 +2,10 @@
   "id": "rotf",
   "title": "Icewind Dale: Rime of the Frostmaiden",
   "description": "A full Foundry VTT module for Icewind Dale: Rime of the Frostmaiden. Includes actors, journals, roll tables, scenes, and assets for running the complete campaign.",
-  "version": "1.0.25",
-  "authors": [
-    {
-      "name": "Szoradrin"
-    }
-  ],
-  "compatibility": {
-    "minimum": "14",
-    "verified": "14.364"
-  },
-  "system": [
-    "dnd5e"
-  ],
+  "version": "1.0.26",
+  "authors": [{ "name": "Szoradrin" }],
+  "compatibility": { "minimum": "14", "verified": "14.364" },
+  "system": ["dnd5e"],
   "url": "https://github.com/Szoradrin/fm-rotf",
   "manifest": "https://github.com/Szoradrin/fm-rotf/releases/latest/download/module.json",
   "download": "https://github.com/Szoradrin/fm-rotf/releases/latest/download/module.zip",
@@ -26,20 +17,14 @@
       "path": "packs/rotf-actors",
       "type": "Actor",
       "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
       "name": "rotf-journals",
       "label": "ROTF: Journals",
       "path": "packs/rotf-journals",
       "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     },
     {
       "name": "rotf-scenes",
@@ -53,28 +38,25 @@
       "label": "ROTF: Roll Tables",
       "path": "packs/rotf-tables",
       "type": "RollTable",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "rotf-items",
+      "label": "ROTF: Items",
+      "path": "packs/rotf-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
     }
   ],
   "packFolders": [
     {
       "name": "Rime of the Frostmaiden",
       "sorting": "m",
-      "packs": [
-        "rotf-actors",
-        "rotf-journals",
-        "rotf-scenes",
-        "rotf-tables"
-      ]
+      "packs": ["rotf-actors", "rotf-journals", "rotf-scenes", "rotf-tables", "rotf-items"]
     }
   ],
   "media": [
-    {
-      "type": "setup",
-      "url": "modules/rotf/assets/images/art-00-000-intro-splash.webp"
-    }
+    { "type": "setup", "url": "modules/rotf/assets/images/art-00-000-intro-splash.webp" }
   ]
 }
