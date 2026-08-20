@@ -1,0 +1,216 @@
+{
+  "_id": "AwakenDireWolf01",
+  "name": "Awakened Dire Wolf",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/art-01-034-wolf.webp",
+  "system": {
+    "abilities": {
+      "str": { "value": 20 },
+      "dex": { "value": 15 },
+      "con": { "value": 18 },
+      "int": { "value": 10 },
+      "wis": { "value": 12 },
+      "cha": { "value": 7 }
+    },
+    "attributes": {
+      "ac": { "flat": 15, "calc": "flat", "formula": "natural armor" },
+      "hp": { "value": 65, "min": 0, "max": 65, "formula": "10d10+20" },
+      "speed": { "value": "50 ft." },
+      "cr": 3,
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>One of Ravisin's awakened companions. This dire wolf has been gifted with human-level intelligence by her <em>awaken</em> spell, and now serves the frost druid with grim loyalty. It understands Common and can speak haltingly.</p><p><strong>DM:</strong> This animal was not given a choice. If Ravisin is killed first, a DC 15 Persuasion check may convince it to stand down.</p>"
+      },
+      "alignment": "neutral evil",
+      "race": "",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 3,
+      "spellLevel": 0,
+      "source": {
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "homebrew"
+      }
+    },
+    "skills": {
+      "per": { "value": 1 },
+      "ste": { "value": 1 }
+    },
+    "traits": {
+      "size": "lg",
+      "di": { "value": [] },
+      "dr": { "value": [] },
+      "dv": { "value": [] },
+      "ci": { "value": [] },
+      "languages": { "value": ["common"] }
+    },
+    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 }
+  },
+  "prototypeToken": {
+    "name": "Awakened Dire Wolf",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/rotf/assets/images/art-01-034-wolf.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" },
+    "bar2": { "attribute": null },
+    "light": {
+      "negative": false, "priority": 0, "alpha": 0.5, "angle": 360,
+      "bright": 0, "color": null, "coloration": 1, "dim": 0,
+      "attenuation": 0.5, "luminosity": 0.5, "saturation": 0,
+      "contrast": 0, "shadows": 0,
+      "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false },
+      "darkness": { "min": 0, "max": 1 }
+    },
+    "sight": {
+      "enabled": false, "range": 0, "angle": 360, "visionMode": "basic",
+      "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": { "radius": 0 },
+    "ring": {
+      "enabled": false,
+      "colors": { "ring": null, "background": null },
+      "effects": 1,
+      "subject": { "scale": 1, "texture": null }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Keen Hearing and Smell",
+      "type": "feat",
+      "_id": "DireWolfKeen0001",
+      "_key": "!actors.items!AwakenDireWolf01.DireWolfKeen0001",
+      "img": "icons/magic/nature/wolf-paw-glow-teal.webp",
+      "system": {
+        "description": { "value": "<p>Advantage on Wisdom (Perception) checks relying on hearing or smell.</p>" },
+        "activation": { "type": "", "value": null, "override": false },
+        "duration": { "value": "", "units": "" },
+        "uses": { "value": null, "max": "", "recovery": [], "prompt": true },
+        "type": { "value": "monster", "subtype": "" },
+        "activities": {}
+      },
+      "_stats": { "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "compendiumSource": null, "duplicateSource": null, "exportSource": null, "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "effects": [], "folder": null, "sort": 0, "ownership": { "default": 0 }, "flags": {}
+    },
+    {
+      "name": "Pack Tactics",
+      "type": "feat",
+      "_id": "DireWolfPack0001",
+      "_key": "!actors.items!AwakenDireWolf01.DireWolfPack0001",
+      "img": "icons/skills/melee/strike-weapons-blue.webp",
+      "system": {
+        "description": { "value": "<p>Advantage on attack rolls if at least one ally is within 5 ft of the target and not incapacitated.</p>" },
+        "activation": { "type": "", "value": null, "override": false },
+        "duration": { "value": "", "units": "" },
+        "uses": { "value": null, "max": "", "recovery": [], "prompt": true },
+        "type": { "value": "monster", "subtype": "" },
+        "activities": {}
+      },
+      "_stats": { "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "compendiumSource": null, "duplicateSource": null, "exportSource": null, "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "effects": [], "folder": null, "sort": 100000, "ownership": { "default": 0 }, "flags": {}
+    },
+    {
+      "name": "Awakened",
+      "type": "feat",
+      "_id": "DireWolfAwak0001",
+      "_key": "!actors.items!AwakenDireWolf01.DireWolfAwak0001",
+      "img": "icons/magic/nature/leaf-glow-teal.webp",
+      "system": {
+        "description": { "value": "<p>Granted Intelligence 10 and the ability to speak Common by Ravisin's <em>awaken</em> spell. Understands the difference between right and wrong but serves Ravisin out of loyalty and fear.</p>" },
+        "activation": { "type": "", "value": null, "override": false },
+        "duration": { "value": "", "units": "" },
+        "uses": { "value": null, "max": "", "recovery": [], "prompt": true },
+        "type": { "value": "monster", "subtype": "" },
+        "activities": {}
+      },
+      "_stats": { "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "compendiumSource": null, "duplicateSource": null, "exportSource": null, "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "effects": [], "folder": null, "sort": 200000, "ownership": { "default": 0 }, "flags": {}
+    },
+    {
+      "name": "Multiattack",
+      "type": "feat",
+      "_id": "DireWolfMult0001",
+      "_key": "!actors.items!AwakenDireWolf01.DireWolfMult0001",
+      "img": "icons/skills/melee/strike-weapons-blue.webp",
+      "system": {
+        "description": { "value": "<p>Two Bite attacks.</p>" },
+        "activation": { "type": "", "value": null, "override": false },
+        "duration": { "value": "", "units": "" },
+        "uses": { "value": null, "max": "", "recovery": [], "prompt": true },
+        "type": { "value": "monster", "subtype": "" },
+        "activities": {}
+      },
+      "_stats": { "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "compendiumSource": null, "duplicateSource": null, "exportSource": null, "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "effects": [], "folder": null, "sort": 300000, "ownership": { "default": 0 }, "flags": {}
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "_id": "DireWolfBite0001",
+      "_key": "!actors.items!AwakenDireWolf01.DireWolfBite0001",
+      "img": "icons/skills/melee/bite-tooth-white.webp",
+      "system": {
+        "description": { "value": "<p>+7 to hit. Hit: 13 (2d8+5) piercing. DC 15 STR save or knocked prone.</p>" },
+        "quantity": 1,
+        "weight": { "value": 0, "units": "lb" },
+        "price": { "value": 0, "denomination": "gp" },
+        "attuned": false, "attunement": "", "equipped": true, "rarity": "", "identified": true,
+        "activation": { "type": "action", "value": 1, "override": false },
+        "duration": { "value": "", "units": "" },
+        "cover": null, "crewed": false,
+        "target": { "affects": { "type": "creature", "count": 1 } },
+        "range": { "value": 5, "long": null, "reach": 5, "units": "ft" },
+        "uses": { "value": null, "max": "", "recovery": [], "prompt": true },
+        "damage": { "base": { "formula": "2d8+5", "types": ["piercing"], "denomination": 8 } },
+        "type": { "value": "simpleM", "baseItem": "" },
+        "properties": [],
+        "proficient": null, "mastery": "",
+        "armor": { "value": null },
+        "hp": { "value": null, "max": null, "dt": null, "conditions": "" },
+        "activities": {}
+      },
+      "_stats": { "coreVersion": "14.364", "systemId": "dnd5e", "systemVersion": "5.3.3", "compendiumSource": null, "duplicateSource": null, "exportSource": null, "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+      "effects": [], "folder": null, "sort": 400000, "ownership": { "default": 0 }, "flags": {}
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!AwakenDireWolf01"
+}
