@@ -1,0 +1,177 @@
+{
+  "_id": "LonelyWoodSup01",
+  "_key": "!journal!LonelyWoodSup01",
+  "name": "Lonelywood Supplement \u2014 Ramshackle & Sephek",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "The Ramshackle \u2014 Reward",
+      "type": "text",
+      "_id": "LWSupRamshck01",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>The Ramshackle \u2014 Reward</h1>\n<p>When the party returns to Lonelywood from the Elven Tomb, it's midday. Nimsy Huddle has already had people cleaning and airing out the Ramshackle while they were gone.</p>\n<blockquote><p><em>\"It's yours,\" Nimsy says, pressing a key into your hand before you've even finished explaining what happened at the tomb. \"Been having folks air it out since you left \u2014 dust off the floors, get the shutters working again. Won't be fancy tonight, but it's dry and it's warm and it's yours. Come to supper first, though. I want to hear everything, and there's something I need to tell you too.\"</em></p></blockquote>\n<p>She invites the party to dinner at her house before they settle in for the night at the Ramshackle.</p>\n<section class=\"secret\">\n<p><strong>DM:</strong> Reed's player is rebuilding the Ramshackle map with proper room layering \u2014 reference images stored in <code>reference/ramshackle-inn/</code> in the repo, not for direct use. Once the real map exists, build the scene from it and link it here.</p>\n</section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!LonelyWoodSup01.LWSupRamshck01"
+    },
+    {
+      "sort": 200000,
+      "name": "Dinner With Nimsy",
+      "type": "text",
+      "_id": "LWSupDinner001",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Dinner With Nimsy</h1>\n<p>Over dinner \u2014 real food, more of it than the party has had in a while \u2014 Nimsy listens to the account of the Elven Tomb, nodding along, occasionally wincing. When the story winds down, her expression changes. She sets down her cup.</p>\n<blockquote><p><em>\"Before you get settled in tonight, there's something I should tell you. Word reached me a few days back \u2014 a killing, over in Caer-Dineval. A young woman. Brutal thing. Whoever did it left her walled up, inside \u2014 not out on the ice like you'd expect from... well, from that sort of thing.\"</em></p>\n<p><em>She hesitates, choosing her words carefully.</em></p>\n<p><em>\"Now, folks die out here. It's a hard place, and I won't pretend it isn't. Rougher parts of the world, rougher endings. But this one struck people as different. Wrong, somehow. I don't know the particulars \u2014 only that it's got people in Caer-Dineval unsettled, and that's not a town that unsettles easy.\"</em></p></blockquote>\n<p>Nimsy doesn't ask the party to investigate. She simply passes along what she heard, the way any concerned townsperson might share troubling news over dinner. She has no further details \u2014 no name, no suspect, nothing more specific than what's above.</p>\n<section class=\"secret\">\n<p><strong>DM \u2014 What's actually true (do not reveal yet):</strong></p>\n<ul>\n<li>The murdered woman is the same person Savaa Rubyeye was sacrificing at the Twenty Stones of Thruun when the party interrupted. She fled with Savaa or was pulled away in the chaos \u2014 either way, she didn't go through with the sacrifice.</li>\n<li>She was killed by <strong>Sephek Kaltro</strong>, an undead servant of Auril. His singular compulsion: once someone is chosen for sacrifice, there is no escape. He hunts down anyone who is rescued or flees, and kills whoever helped them too.</li>\n<li>Nimsy genuinely does not know any of this. She's relaying a rumor, not evidence. Don't let her (or anyone else) connect this to the party's own actions at Twenty Stones yet \u2014 that reveal belongs to Sephek himself, later tonight.</li>\n<li>This is NOT the first killing like this. Sephek has done this before, elsewhere, to others who broke from their chosen fate. Nimsy doesn't know this either \u2014 keep it a DM-only fact for now, seed it later if useful.</li>\n</ul>\n</section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!LonelyWoodSup01.LWSupDinner001"
+    },
+    {
+      "sort": 300000,
+      "name": "The Ramshackle \u2014 Night Attack",
+      "type": "text",
+      "_id": "LWSupAmbush001",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>The Ramshackle \u2014 Night Attack</h1>\n<p>The party settles into the Ramshackle for the night. Assign watch normally, or let them sleep in shifts as they see fit \u2014 Sephek Kaltro will find a way in regardless.</p>\n<blockquote><p><em>The Ramshackle creaks and settles the way old buildings do, the wind finding every gap in the walls. Whoever's asleep first is deep in it \u2014 the kind of sleep that comes after a fight that shouldn't have been survivable. And then, without any warning at all, the temperature in the room drops so fast it hurts to breathe, and something is already standing over the bed.</em></p></blockquote>\n<p><strong>Sephek Kaltro</strong> attacks whoever is isolated or easiest to reach \u2014 asleep, alone in a room, unarmored. This should run as a genuine solo fight for 2-3 rounds before anyone else can wake up, get their bearings, and reach the room. He is ambushing, not fighting fair \u2014 apply Ambush Predator if the target is surprised.</p>\n<section class=\"secret\">\n<p><strong>DM \u2014 Running this fight:</strong></p>\n<ul>\n<li>Roll or choose randomly which party member is isolated/on watch. That PC fights alone for the opening rounds.</li>\n<li>Sephek does not speak during the solo portion. He simply attacks.</li>\n<li>Once the rest of the party arrives and joins the fight, he begins repeating one line, and only this line, for the remainder of combat:</li>\n</ul>\n<blockquote><p><strong>\"She was chosen. You interfered. She was chosen. You interfered.\"</strong></p></blockquote>\n<ul>\n<li>He says nothing else. No monologue, no explanation, no negotiation. He is not lucid \u2014 he is a mechanism enforcing one belief.</li>\n<li>This is the party's confirmation: the murdered woman in Caer-Dineval was the sacrifice they interrupted at the Twenty Stones. Sephek has been hunting her \u2014 and now, by extension, them \u2014 since that night.</li>\n<li>Once the whole party is engaged, this should resolve in a normal number of rounds. Don't drag it out \u2014 the horror is in the ambush, not the grind.</li>\n</ul>\n<p><strong>On Sephek's death:</strong></p>\n<blockquote><p><em>A pale, translucent shape tears free of the corpse \u2014 something like frost given form \u2014 and slips out through the mouth and the empty sockets of his eyes, drifting upward and away into the dark, gone before anyone can react. What's left on the floor is not the man who attacked you. It's ancient. Hollowed. Cracked like old ice, like something that has been dead for centuries and has only now been allowed to show it.</em></p></blockquote>\n</section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!LonelyWoodSup01.LWSupAmbush001"
+    },
+    {
+      "sort": 400000,
+      "name": "Nimsy's Confirmation",
+      "type": "text",
+      "_id": "LWSupFollowup1",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Nimsy's Confirmation</h1>\n<p>After the fight, once things have settled, Nimsy will have heard the commotion \u2014 or the party will go to her. She's shaken, but connects the dots quickly.</p>\n<blockquote><p><em>\"Auril's mercy \u2014 that's what killed him? That's what came after you?\"</em></p>\n<p><em>She's quiet for a moment, processing.</em></p>\n<p><em>\"That's it. That's exactly what I heard about the girl in Caer-Dineval \u2014 the cold, the way she was found, all of it. It's the same. Whatever that thing was, I think it's what killed her too.\"</em></p></blockquote>\n<p>Nimsy has no further details on WHY \u2014 she doesn't know about the sacrifice at the Twenty Stones, the connection to Savaa, or any deeper cult mechanics. She only confirms that the wound pattern and circumstances match what she'd heard about the Caer-Dineval killing.</p>\n<p>This is the party's clean, motivated reason to travel to Caer-Dineval \u2014 to see where the woman died, and from there into the events of Black Swords.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!LonelyWoodSup01.LWSupFollowup1"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "categories": []
+}
