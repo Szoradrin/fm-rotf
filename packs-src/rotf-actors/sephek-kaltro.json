@@ -1,352 +1,126 @@
 {
-  "_id": "ROTFSephek00001",
+  "_id": "SephekKaltroAct1",
   "name": "Sephek Kaltro",
   "type": "npc",
-  "img": "modules/rotf/assets/images/token-sephek-kaltro.webp",
+  "img": "icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
-        "value": 16,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        },
-        "max": null
+        "value": 14
       },
       "dex": {
-        "value": 14,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        },
-        "max": null
+        "value": 16
       },
       "con": {
-        "value": 16,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        },
-        "max": null
+        "value": 18
       },
       "int": {
-        "value": 11,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        },
-        "max": null
+        "value": 10
       },
       "wis": {
-        "value": 16,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        },
-        "max": null
+        "value": 12
       },
       "cha": {
-        "value": 18,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        },
-        "max": null
+        "value": 8
       }
     },
     "attributes": {
       "ac": {
-        "flat": 12,
-        "calc": "natural",
-        "formula": ""
+        "flat": 15,
+        "calc": "flat",
+        "formula": "hide armor"
       },
       "hp": {
-        "value": 75,
-        "max": 75,
-        "temp": 0,
-        "tempmax": 0,
-        "formula": "10d8 + 30"
+        "value": 105,
+        "min": 0,
+        "max": 105,
+        "formula": "14d8+42"
       },
-      "init": {
-        "ability": "",
-        "bonus": "0",
-        "roll": {
-          "mode": 0
-        }
-      },
-      "movement": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "swim": 0,
-        "walk": 30,
-        "units": "ft",
-        "hover": false
-      },
-      "senses": {
-        "darkvision": 0,
-        "blindsight": 0,
-        "tremorsense": 0,
-        "truesight": 0,
-        "units": "ft",
+      "speed": {
+        "value": "30 ft.",
         "special": ""
       },
-      "spellcasting": "",
-      "exhaustion": 0,
-      "hd": {
-        "spent": 0
-      },
-      "death": {
-        "success": 0,
-        "failure": 0
-      }
+      "cr": 5,
+      "spellcasting": "wis"
     },
     "details": {
       "biography": {
-        "value": "",
-        "public": ""
+        "value": "<p>A sailor who died centuries ago near the isle of Solstice, his body possessed by the spirit of one of Auril's dead frost druids. He appears as a tanned, dark-haired man in his thirties \u2014 until he dies, when his true age catches up to him instantly.</p>\n<p>Sephek is not lucid. He does not negotiate, explain himself, or respond to reason. He is a mechanism, not a person \u2014 the enforcement of a single belief: <strong>once chosen for sacrifice, there is no escape.</strong> When someone selected for sacrifice is rescued or flees, Sephek finds them and finishes what Auril \"already claimed.\" Anyone who helps them escape dies too.</p>\n<p><strong>DM \u2014 Encounter context:</strong> Sephek stalks the party to Ramshackle in Lonelywood after they interfered with a sacrifice at the Twenty Stones of Thruun (the unnamed woman Savaa Rubyeye was sacrificing). He isolates and attacks whoever is easiest to catch alone \u2014 ambush, not a fair fight. Designed as a tough SOLO fight against one party member for 2-3 rounds before others can wake and reach the room. Once the rest of the party arrives, this should not be a prolonged grind \u2014 he's meant to be beaten once backup shows up, not a full-party boss fight.</p>\n<p><strong>During combat, if fighting the party (not just his isolated target), he only repeats:</strong> <em>\"She was chosen. You interfered. She was chosen. You interfered.\"</em> He says nothing else. He does not explain, threaten, or monologue beyond this.</p>\n<p><strong>On death:</strong> A translucent, frost-blue spirit exits his body through his mouth and eyes, drifting up and away into the night sky. His corpse instantly ages \u2014 desiccates, hollows, and cracks like something that has been dead for centuries, because it has.</p>"
       },
-      "alignment": "Neutral Evil",
+      "alignment": "neutral evil",
+      "race": "Human",
       "type": {
         "value": "undead",
         "subtype": "",
         "swarm": "",
         "custom": ""
       },
-      "cr": 3,
-      "spellLevel": 0,
+      "environment": "",
+      "cr": 5,
+      "spellLevel": 9,
       "source": {
-        "custom": "",
-        "book": "ROTF",
-        "page": "",
-        "license": "",
-        "rules": "2014",
-        "revision": 1
+        "book": "Icewind Dale: Rime of the Frostmaiden",
+        "page": "289"
+      }
+    },
+    "skills": {
+      "nat": {
+        "value": 1
+      },
+      "per": {
+        "value": 1
+      },
+      "sur": {
+        "value": 1
       }
     },
     "traits": {
       "size": "med",
       "di": {
         "value": [
-          "cold"
-        ],
-        "bypasses": [],
-        "custom": ""
+          "poison"
+        ]
       },
       "dr": {
-        "value": [],
-        "bypasses": [],
-        "custom": ""
+        "value": [
+          "cold"
+        ]
       },
       "dv": {
-        "value": [],
-        "bypasses": [],
-        "custom": ""
+        "value": []
       },
       "ci": {
         "value": [
-          "charmed",
-          "frightened"
-        ],
-        "custom": ""
+          "exhaustion",
+          "poisoned"
+        ]
       },
       "languages": {
         "value": [
           "common"
-        ],
-        "custom": ""
+        ]
       }
     },
-    "skills": {
-      "acr": {
-        "value": 0,
-        "ability": "dex",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
+    "spells": {
+      "spell1": {
+        "value": 4,
+        "override": null
       },
-      "ani": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
+      "spell2": {
+        "value": 3,
+        "override": null
       },
-      "arc": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
+      "spell3": {
+        "value": 3,
+        "override": null
       },
-      "ath": {
-        "value": 0,
-        "ability": "str",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
+      "spell4": {
+        "value": 3,
+        "override": null
       },
-      "dec": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "his": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ins": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "itm": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "inv": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "med": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "nat": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "prc": {
+      "spell5": {
         "value": 1,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "prf": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "per": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "rel": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "slt": {
-        "value": 0,
-        "ability": "dex",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ste": {
-        "value": 0,
-        "ability": "dex",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "sur": {
-        "value": 1,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      }
-    },
-    "resources": {
-      "legact": {
-        "value": 0,
-        "max": 0
-      },
-      "legres": {
-        "value": 0,
-        "max": 0
-      },
-      "lair": {
-        "value": false,
-        "initiative": null
-      }
-    },
-    "bonuses": {
-      "mwak": {
-        "attack": "",
-        "damage": ""
-      },
-      "rwak": {
-        "attack": "",
-        "damage": ""
-      },
-      "msak": {
-        "attack": "",
-        "damage": ""
-      },
-      "rsak": {
-        "attack": "",
-        "damage": ""
-      },
-      "abilities": {
-        "check": "",
-        "save": "",
-        "skill": ""
-      },
-      "spell": {
-        "dc": ""
+        "override": null
       }
     },
     "currency": {
@@ -355,54 +129,7 @@
       "ep": 0,
       "sp": 0,
       "cp": 0
-    },
-    "spells": {
-      "spell0": {
-        "value": 0,
-        "override": null
-      },
-      "spell1": {
-        "value": 0,
-        "override": null
-      },
-      "spell2": {
-        "value": 0,
-        "override": null
-      },
-      "spell3": {
-        "value": 0,
-        "override": null
-      },
-      "spell4": {
-        "value": 0,
-        "override": null
-      },
-      "spell5": {
-        "value": 0,
-        "override": null
-      },
-      "spell6": {
-        "value": 0,
-        "override": null
-      },
-      "spell7": {
-        "value": 0,
-        "override": null
-      },
-      "spell8": {
-        "value": 0,
-        "override": null
-      },
-      "spell9": {
-        "value": 0,
-        "override": null
-      },
-      "pact": {
-        "value": 0,
-        "override": null
-      }
-    },
-    "tools": {}
+    }
   },
   "prototypeToken": {
     "name": "Sephek Kaltro",
@@ -413,7 +140,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/rotf/assets/images/token-sephek-kaltro.webp",
+      "src": "icons/svg/mystery-man.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -430,14 +157,16 @@
     "bar1": {
       "attribute": "attributes.hp"
     },
-    "flags": {},
-    "randomImg": false,
+    "bar2": {
+      "attribute": null
+    },
     "light": {
       "negative": false,
       "priority": 0,
       "alpha": 0.5,
       "angle": 360,
       "bright": 0,
+      "color": null,
       "coloration": 1,
       "dim": 0,
       "attenuation": 0.5,
@@ -461,6 +190,7 @@
       "range": 0,
       "angle": 360,
       "visionMode": "basic",
+      "color": null,
       "attenuation": 0.1,
       "brightness": 0,
       "saturation": 0,
@@ -472,757 +202,616 @@
     },
     "ring": {
       "enabled": false,
-      "colors": {},
+      "colors": {
+        "ring": null,
+        "background": null
+      },
       "effects": 1,
       "subject": {
-        "scale": 1
+        "scale": 1,
+        "texture": null
       }
-    }
+    },
+    "flags": {},
+    "randomImg": false
   },
   "items": [
     {
-      "_id": "SeInnateSpell01",
-      "name": "Innate Spellcasting",
-      "type": "feat",
-      "img": "icons/svg/mystery-man.svg",
-      "system": {
-        "description": {
-          "value": "<p>Sephek can innately cast misty step up to three times per day, requiring no components. His innate spellcasting ability is Charisma.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "",
-          "book": "ROTF",
-          "page": "",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "uses": {
-          "max": "",
-          "recovery": [],
-          "spent": 0
-        },
-        "type": {
-          "value": "",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [
-          "trait"
-        ],
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "utility",
-            "activation": {
-              "type": "passive",
-              "value": null,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "sort": 0
-          }
-        },
-        "enchant": {},
-        "prerequisites": {
-          "level": null
-        },
-        "identifier": "innate-spellcasting"
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.364",
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_key": "!actors.items!ROTFSephek00001.SeInnateSpell01"
-    },
-    {
-      "_id": "SeColdRegen002",
       "name": "Cold Regeneration",
       "type": "feat",
-      "img": "icons/svg/mystery-man.svg",
+      "_id": "UlQhNByIGMLEZdof",
+      "_key": "!actors.items!SephekKaltroAct1.UlQhNByIGMLEZdof",
+      "img": "icons/magic/water/snowflake-ice-blue.webp",
       "system": {
         "description": {
-          "value": "<p>If the temperature is 0 degrees Fahrenheit or lower, Sephek regains 5 hit points at the start of his turn. If he takes fire damage, this trait doesn't function at the start of his next turn. Sephek dies only if he starts his turn with 0 hit points and doesn't regenerate.</p>",
-          "chat": ""
+          "value": "<p>Sephek regains 10 hit points at the start of his turn if he has at least 1 hit point. He dies only if he starts his turn with 0 hit points and doesn't regenerate.</p>"
         },
-        "source": {
-          "custom": "",
-          "book": "ROTF",
-          "page": "",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
         },
         "uses": {
+          "value": null,
           "max": "",
           "recovery": [],
-          "spent": 0
+          "prompt": true
         },
         "type": {
-          "value": "",
+          "value": "monster",
           "subtype": ""
         },
-        "requirements": "",
-        "properties": [
-          "trait"
-        ],
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "utility",
-            "activation": {
-              "type": "passive",
-              "value": null,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "sort": 0
-          }
-        },
-        "enchant": {},
-        "prerequisites": {
-          "level": null
-        },
-        "identifier": "cold-regeneration"
+        "activities": {}
       },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
       "_stats": {
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!ROTFSephek00001.SeColdRegen002"
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
     },
     {
-      "_id": "SeMultiattack3",
+      "name": "Ambush Predator",
+      "type": "feat",
+      "_id": "XekGBpZqXbaDvWQH",
+      "_key": "!actors.items!SephekKaltroAct1.XekGBpZqXbaDvWQH",
+      "img": "icons/magic/perception/eye-slit-glow-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p>Sephek has advantage on attack rolls against any creature he has surprised. On the first round of combat, if his target is surprised, this attack cannot be a miss on a roll of 8 or higher.</p>"
+        },
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "recoverAll"
+            }
+          ],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
       "name": "Multiattack",
       "type": "feat",
-      "img": "icons/svg/mystery-man.svg",
+      "_id": "7o855UsxIS1JDVYL",
+      "_key": "!actors.items!SephekKaltroAct1.7o855UsxIS1JDVYL",
+      "img": "icons/skills/melee/strike-weapons-blue.webp",
       "system": {
         "description": {
-          "value": "<p>Sephek attacks twice with a weapon.</p>",
-          "chat": ""
+          "value": "<p>Sephek makes two attacks with his ice weapons.</p>"
         },
-        "source": {
-          "custom": "",
-          "book": "ROTF",
-          "page": "",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
         },
         "uses": {
+          "value": null,
           "max": "",
           "recovery": [],
-          "spent": 0
+          "prompt": true
         },
         "type": {
-          "value": "",
+          "value": "monster",
           "subtype": ""
         },
-        "requirements": "",
-        "properties": [
-          "trait"
-        ],
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "attack",
-            "activation": {
-              "type": "passive",
-              "value": null,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "sort": 0
-          }
-        },
-        "enchant": {},
-        "prerequisites": {
-          "level": null
-        },
-        "identifier": "multiattack"
+        "activities": {}
       },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
       "_stats": {
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!ROTFSephek00001.SeMultiattack3"
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
     },
     {
-      "_id": "SeIceLongswd04",
       "name": "Ice Longsword",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "_id": "AqnLca69fN0HRhfC",
+      "_key": "!actors.items!SephekKaltroAct1.AqnLca69fN0HRhfC",
+      "img": "icons/weapons/swords/sword-guard-blue.webp",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) two-handed, plus 5 (2d4) cold damage.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "",
-          "book": "ROTF",
-          "page": "",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
+          "value": ""
         },
         "quantity": 1,
         "weight": {
-          "value": 0,
+          "value": 3,
           "units": "lb"
         },
         "price": {
           "value": 0,
           "denomination": "gp"
         },
+        "attuned": false,
         "attunement": "",
         "equipped": true,
         "rarity": "",
         "identified": true,
-        "damage": {
-          "base": {
-            "number": 1,
-            "denomination": 8,
-            "bonus": "",
-            "types": [
-              "slashing"
-            ],
-            "custom": {
-              "enabled": false,
-              "formula": ""
-            },
-            "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
-            }
-          },
-          "versatile": {
-            "number": null,
-            "denomination": null,
-            "bonus": "",
-            "types": [],
-            "custom": {
-              "enabled": false,
-              "formula": ""
-            },
-            "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
-            }
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": 1
           }
         },
-        "properties": [],
-        "proficient": 1,
+        "range": {
+          "value": 5,
+          "long": null,
+          "reach": 5,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "damage": {
+          "base": {
+            "formula": "1d8+4",
+            "types": [
+              "cold"
+            ],
+            "denomination": 8
+          }
+        },
         "type": {
-          "value": "natural",
+          "value": "martialM",
           "baseItem": ""
         },
+        "properties": [
+          "ver"
+        ],
+        "proficient": null,
+        "mastery": "",
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
         "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
+          "AfQX72XB6EBYIpRc": {
+            "_id": "AfQX72XB6EBYIpRc",
             "type": "attack",
+            "name": "",
+            "img": "",
+            "sort": 0,
             "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
+              "type": "",
+              "value": null,
               "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
-              "value": "",
               "units": "",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": "5",
-              "units": "ft",
+              "value": "",
               "special": "",
               "override": false
             },
             "target": {
               "template": {
-                "count": "",
-                "contiguous": false,
                 "type": "",
                 "size": "",
                 "width": "",
-                "height": "",
                 "units": ""
               },
               "affects": {
-                "count": "1",
-                "type": "creature",
+                "type": "",
+                "count": "",
                 "choice": false,
                 "special": ""
               },
-              "prompt": true,
+              "prompt": true
+            },
+            "range": {
+              "value": null,
+              "long": null,
+              "units": "",
+              "special": "",
               "override": false
             },
             "uses": {
-              "spent": 0,
+              "value": null,
               "max": "",
-              "recovery": []
+              "recovery": [],
+              "spent": 0,
+              "prompt": true
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "effects": [],
+            "damage": {
+              "includeBase": true,
+              "parts": []
             },
             "attack": {
-              "ability": "str",
+              "ability": "",
               "bonus": "",
               "critical": {
-                "threshold": null
+                "threshold": null,
+                "damage": ""
               },
               "flat": false,
               "type": {
-                "value": "melee",
-                "classification": "weapon"
+                "value": "",
+                "classification": ""
               }
             },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "includeBase": true,
-              "parts": [
-                {
-                  "number": 2,
-                  "denomination": 4,
-                  "bonus": "",
-                  "types": [
-                    "cold"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": null,
-                    "formula": ""
-                  }
-                }
-              ]
-            },
-            "sort": 0
+            "ammunition": null,
+            "attackMode": "oneHanded",
+            "attackRollPerTarget": false,
+            "fumbleThreshold": null,
+            "midiProperties": {},
+            "visibility": {
+              "chatBubble": false,
+              "message": "all"
+            }
           }
-        },
-        "uses": {
-          "max": "",
-          "recovery": [],
-          "spent": 0
-        },
-        "enchant": {},
-        "identifier": "ice-longsword"
+        }
       },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
       "_stats": {
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!ROTFSephek00001.SeIceLongswd04"
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
     },
     {
-      "_id": "SeIceDagger05",
       "name": "Ice Dagger",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "_id": "mpBQhCWLyYnwrDcw",
+      "_key": "!actors.items!SephekKaltroAct1.mpBQhCWLyYnwrDcw",
+      "img": "icons/weapons/daggers/dagger-simple-blue.webp",
       "system": {
         "description": {
-          "value": "<p>Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 5 (2d4) cold damage.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "",
-          "book": "ROTF",
-          "page": "",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
+          "value": ""
         },
         "quantity": 1,
         "weight": {
-          "value": 0,
+          "value": 3,
           "units": "lb"
         },
         "price": {
           "value": 0,
           "denomination": "gp"
         },
+        "attuned": false,
         "attunement": "",
         "equipped": true,
         "rarity": "",
         "identified": true,
-        "damage": {
-          "base": {
-            "number": 1,
-            "denomination": 4,
-            "bonus": "",
-            "types": [
-              "piercing"
-            ],
-            "custom": {
-              "enabled": false,
-              "formula": ""
-            },
-            "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
-            }
-          },
-          "versatile": {
-            "number": null,
-            "denomination": null,
-            "bonus": "",
-            "types": [],
-            "custom": {
-              "enabled": false,
-              "formula": ""
-            },
-            "scaling": {
-              "mode": "",
-              "number": null,
-              "formula": ""
-            }
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": 1
           }
         },
-        "properties": [],
-        "proficient": 1,
+        "range": {
+          "value": 20,
+          "long": null,
+          "reach": 5,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": [],
+          "prompt": true
+        },
+        "damage": {
+          "base": {
+            "formula": "1d4+4",
+            "types": [
+              "cold"
+            ],
+            "denomination": 4
+          }
+        },
         "type": {
-          "value": "natural",
+          "value": "simpleM",
           "baseItem": ""
         },
+        "properties": [
+          "fin",
+          "thr"
+        ],
+        "proficient": null,
+        "mastery": "",
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
         "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
+          "4zuofo5T3HHXW8sq": {
+            "_id": "4zuofo5T3HHXW8sq",
             "type": "attack",
+            "name": "",
+            "img": "",
+            "sort": 0,
             "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
+              "type": "",
+              "value": null,
               "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
             },
             "duration": {
-              "concentration": false,
-              "value": "",
               "units": "",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": "5",
-              "units": "ft",
+              "value": "",
               "special": "",
               "override": false
             },
             "target": {
               "template": {
-                "count": "",
-                "contiguous": false,
                 "type": "",
                 "size": "",
                 "width": "",
-                "height": "",
                 "units": ""
               },
               "affects": {
-                "count": "1",
-                "type": "creature",
+                "type": "",
+                "count": "",
                 "choice": false,
                 "special": ""
               },
-              "prompt": true,
+              "prompt": true
+            },
+            "range": {
+              "value": null,
+              "long": null,
+              "units": "",
+              "special": "",
               "override": false
             },
             "uses": {
-              "spent": 0,
+              "value": null,
               "max": "",
-              "recovery": []
+              "recovery": [],
+              "spent": 0,
+              "prompt": true
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "effects": [],
+            "damage": {
+              "includeBase": true,
+              "parts": []
             },
             "attack": {
-              "ability": "str",
+              "ability": "",
               "bonus": "",
               "critical": {
-                "threshold": null
+                "threshold": null,
+                "damage": ""
               },
               "flat": false,
               "type": {
-                "value": "ranged",
-                "classification": "weapon"
+                "value": "",
+                "classification": ""
               }
             },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "includeBase": true,
-              "parts": [
-                {
-                  "number": 2,
-                  "denomination": 4,
-                  "bonus": "",
-                  "types": [
-                    "cold"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": null,
-                    "formula": ""
-                  }
-                }
-              ]
-            },
-            "sort": 0
+            "ammunition": null,
+            "attackMode": "oneHanded",
+            "attackRollPerTarget": false,
+            "fumbleThreshold": null,
+            "midiProperties": {},
+            "visibility": {
+              "chatBubble": false,
+              "message": "all"
+            }
           }
-        },
-        "uses": {
-          "max": "",
-          "recovery": [],
-          "spent": 0
-        },
-        "enchant": {},
-        "identifier": "ice-dagger"
+        }
       },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
       "_stats": {
         "coreVersion": "14.364",
         "systemId": "dnd5e",
         "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!ROTFSephek00001.SeIceDagger05"
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "name": "Frozen Grasp (Recharge 5-6)",
+      "type": "feat",
+      "_id": "E1IpWud25t4GAQFU",
+      "_key": "!actors.items!SephekKaltroAct1.E1IpWud25t4GAQFU",
+      "img": "icons/magic/water/orb-ice-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Sephek touches one creature within 5 feet. The target must succeed on a DC 15 Constitution saving throw or take 4d8 cold damage and have its speed reduced to 0 until the end of its next turn.</p>"
+        },
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "recoverAll"
+            }
+          ],
+          "prompt": true
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activities": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
     }
   ],
   "effects": [],
-  "ownership": {
-    "default": 0
-  },
   "flags": {},
   "_stats": {
     "coreVersion": "14.364",
     "systemId": "dnd5e",
     "systemVersion": "5.3.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
     "createdTime": null,
     "modifiedTime": null,
     "lastModifiedBy": null
   },
-  "_key": "!actors!ROTFSephek00001"
+  "_key": "!actors!SephekKaltroAct1"
 }
