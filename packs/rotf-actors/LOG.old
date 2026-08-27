@@ -1,15 +1,5 @@
-2026/08/20-01:32:53.328817 7efc077fe6c0 Recovering log #7
-2026/08/20-01:32:53.331503 7efc077fe6c0 Delete type=0 #7
-2026/08/20-01:32:53.331518 7efc077fe6c0 Delete type=3 #6
-2026/08/20-01:32:53.409060 7efc067fc6c0 Level-0 table #11: started
-2026/08/20-01:32:53.414486 7efc067fc6c0 Level-0 table #11: 489042 bytes OK
-2026/08/20-01:32:53.414757 7efc067fc6c0 Delete type=0 #9
-2026/08/20-01:32:53.414870 7efc067fc6c0 Manual compaction at level-0 from '!actors!1E4951D41C65C2F4' @ 72057594037927935 : 1 .. '!actors.items.effects!mQnsXanewsPiV7QE.z1mx84ONwkXKUZd7.6pbotGIvqQkraPva' @ 0 : 0; will stop at (end)
-2026/08/20-01:32:53.414884 7efc067fc6c0 Manual compaction at level-1 from '!actors!1E4951D41C65C2F4' @ 72057594037927935 : 1 .. '!actors.items.effects!mQnsXanewsPiV7QE.z1mx84ONwkXKUZd7.6pbotGIvqQkraPva' @ 0 : 0; will stop at '!actors.items.effects!mQnsXanewsPiV7QE.z1mx84ONwkXKUZd7.6pbotGIvqQkraPva' @ 1042 : 1
-2026/08/20-01:32:53.414886 7efc067fc6c0 Compacting 1@1 + 1@2 files
-2026/08/20-01:32:53.421772 7efc067fc6c0 Generated table #12@1: 639 keys, 489042 bytes
-2026/08/20-01:32:53.421781 7efc067fc6c0 Compacted 1@1 + 1@2 files => 489042 bytes
-2026/08/20-01:32:53.421960 7efc067fc6c0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/08/20-01:32:53.422006 7efc067fc6c0 Delete type=2 #5
-2026/08/20-01:32:53.422081 7efc067fc6c0 Delete type=2 #11
-2026/08/20-01:32:53.422132 7efc067fc6c0 Manual compaction at level-1 from '!actors.items.effects!mQnsXanewsPiV7QE.z1mx84ONwkXKUZd7.6pbotGIvqQkraPva' @ 1042 : 1 .. '!actors.items.effects!mQnsXanewsPiV7QE.z1mx84ONwkXKUZd7.6pbotGIvqQkraPva' @ 0 : 0; will stop at (end)
+2026/08/27-01:02:54.870580 7f546effd6c0 Delete type=3 #1
+2026/08/27-01:02:55.003844 7f546dffb6c0 Level-0 table #5: started
+2026/08/27-01:02:55.013241 7f546dffb6c0 Level-0 table #5: 489637 bytes OK
+2026/08/27-01:02:55.013692 7f546dffb6c0 Delete type=0 #3
+2026/08/27-01:02:55.013842 7f546dffb6c0 Manual compaction at level-0 from '!actors!1E4951D41C65C2F4' @ 72057594037927935 : 1 .. '!actors.items.effects!mQnsXanewsPiV7QE.z1mx84ONwkXKUZd7.6pbotGIvqQkraPva' @ 0 : 0; will stop at (end)
