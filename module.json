@@ -2,7 +2,7 @@
   "id": "rotf",
   "title": "Icewind Dale: Rime of the Frostmaiden",
   "description": "A full Foundry VTT module for Icewind Dale: Rime of the Frostmaiden. Includes actors, journals, roll tables, scenes, and assets for running the complete campaign.",
-  "version": "1.0.29",
+  "version": "1.0.31",
   "authors": [
     {
       "name": "Szoradrin"
@@ -10,7 +10,7 @@
   ],
   "compatibility": {
     "minimum": "14",
-    "verified": "14.364"
+    "verified": "14.366"
   },
   "system": [
     "dnd5e"
