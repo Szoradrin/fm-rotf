@@ -1,14 +1,14 @@
 # MODULE-STATE.yaml — Rime of the Frostmaiden Foundry Module
 # Source of truth for what has been built, what quality it is, and what track it belongs to.
 # Three tracks: RAW (book), THIRD_PARTY (authorized supplements), HOMEBREW (Reed's ideas — design must precede build)
-# Updated: Checkpoint — 2026-09-23 (release 1.0.32)
+# Updated: Rime of the Frostmaiden S23 — 2026-09-23 (release 1.0.33)
 
 meta:
   module_id: rotf
   module_title: "Icewind Dale: Rime of the Frostmaiden"
   repo: Szoradrin/fm-rotf
-  current_release: "1.0.32"
-  foundry_version: "14.366"  # module.json verified; Foundry stable is now 14.367 — bump on next content release
+  current_release: "1.0.33"
+  foundry_version: "14.368"  # verified against foundryvtt.com/releases 2026-09-23
   system: dnd5e
   system_version: "5.3.3"
   sqyre: https://icewind-dale-rime-of-the-frostma-5d8b5fc8.us.sqyre.app/game
@@ -21,11 +21,11 @@ build_rules:
   - Release requires Reed approval
 
 # ==============================================================================
-# ACTORS — 98 total
+# ACTORS — 117 total
 # ==============================================================================
 
 actors:
-  total: 98
+  total: 117
   quality_issues:
     - 33 actors have string damage denominations (Gate 4 failure) — actor rebuild pending
     - Most actors use mystery-man placeholder tokens — token art pass pending
@@ -48,7 +48,9 @@ actors:
     rotf_npcs: [avarice, bjornhild-solvigsdottir, gunvald-halraggson, isarr-kronenstrom,
       sephek-kaltro, vellynne-harpell, auril-first-form, auril-second-form, auril-third-form,
       arveiaturace, dzaans-simulacrum, nass-lantomirs-ghost, xardorok-sunblight, kadroth,
-      grandolpha-muzgardt, spellix-romwod, prisoner-237, hethyl-arkorran, crannoc-siever]
+      grandolpha-muzgardt, spellix-romwod, prisoner-237, hethyl-arkorran, crannoc-siever,
+      huarwar-mulphoon, fel-suparra, knight-of-the-black-sword, yajath, thoob, gargle, gurgle, skelm]
+    # 1.0.33: avarice REBUILT on TRAZZM Drow Evoker chassis; Knights (huarwar, fel, knight, yajath, thoob) on Kadroth/Cultist chassis; gargoyles on Ghoul chassis; skelm (raven, fiend)
     # kadroth, hethyl-arkorran, crannoc-siever REBUILT 1.0.32 from TRAZZM Cultist Fanatic chassis (V14/5.3.3 correct)
     # NPCs using standard stat blocks (no unique DDB entry):
     # duvessa-shane = noble, markham-southwell = veteran, naerth-maxildanarr = spy
@@ -73,11 +75,11 @@ actors:
     - kingsport  # DDB slug unknown — Reed to find
 
 # ==============================================================================
-# JOURNALS — 9 total
+# JOURNALS — 11 total
 # ==============================================================================
 
 journals:
-  total: 9
+  total: 11
 
   track_RAW:
     built:
@@ -118,11 +120,11 @@ journals:
           should be replaced with a generic DM hook or removed.
 
 # ==============================================================================
-# SCENES — 8 total
+# SCENES — 9 total
 # ==============================================================================
 
 scenes:
-  total: 8
+  total: 9
   track_RAW:
     built:
       - scene-dougans-hole         # town profile
@@ -192,37 +194,10 @@ outstanding:
     blocker: Reed's time
 
 # ==============================================================================
-# CAMPAIGN STATE (Reed's game — not part of shareable module)
+# CAMPAIGN STATE
 # ==============================================================================
-
-campaign:
-  party_level: 6  # confirmed from sheets 2026-09-23; Rurik's sheet still showed 5 — confirm at table
-  current_location: "Lonelywood — Ramshackle. Sephek Kaltro killed and looted. Party resting, then heading to Caer-Dineval (Black Swords)."
-  last_session: "Checkpoint 2026-09-23"
-  party_detail_files: "callinl/ai-ops/foundry-modules/rime-of-the-frostmaiden/party/*.md"
-
-  party:
-    - {name: Srai, race: Lizardfolk, class: "Fighter 6 (Rune Knight)", notes: "sheet display name 'Shai'; chef; birth mother Tazmikella"}
-    - {name: Rhystal, race: White Dragonborn, class: "Druid 6 (Circle of the Stars)", notes: "Emerald Enclave, contact Talen Stonebrook, Bryn Shander"}
-    - {name: Yoog, race: Bugbear, class: "Barbarian 6 (Wild Heart)"}
-    - {name: The Great Ak, race: "Moose-taur (homebrew)", class: "Ranger 6 (Beast Master)"}
-    - {name: Rurik Lutgehr, race: Dwarf, class: "Bard 4 / Cleric 1", notes: "surname corrected from 'Ironfist'"}
-  former_members:
-    - {name: Dezmyr Shadowdusk, status: "NO LONGER IN PARTY — do not carry threads forward"}
-
-  completed_quests:
-    - The Mead Must Flow (Good Mead) — Olivessa Untapoor won speaker election
-    - A Beautiful Mine (Termalaine)
-    - Mountain Climb (Kelvin's Cairn)
-    - The Unseen (Caer-Konig) — satisfies Knights of the Black Sword alliance condition
-    - Foaming Mugs (Bryn Shander)
-    - Black Cabin (Macreadus dead, Summer Star in party possession)
-    - Holed Up (Dougan's Hole)
-    - The White Moose / Elven Tomb (Lonelywood) — Ravisin + Karra + Venn + awakened dire wolf + awakened snow leopard
-    - Cold-Hearted Killer — Sephek Kaltro killed at the Ramshackle
-  # CORRECTION: previous version listed Black Swords as completed. It has NOT been run. It is next.
-
-  next_up: "Black Swords (Caer-Dineval) -> Sunblight Fortress (full fight) -> Vellynne on the road -> Bryn Shander dragon showdown -> Arveiaturace cliffhanger. Full arc: ai-ops/.../ROTF-STORY-STATE.yaml"
+# Campaign/table state and player requests are private — see
+# callinl/ai-ops/foundry-modules/rime-of-the-frostmaiden/ (Rime of the Frostmaiden track).
 
 # ==============================================================================
 # CHANGELOG
@@ -231,7 +206,25 @@ campaign:
 
 changelog:
   - date: 2026-09-23
-    session: "Checkpoint (session number to be confirmed by Reed)"
+    session: Rime of the Frostmaiden S23
+    agent: sage
+    track: rime-of-the-frostmaiden
+    release: "1.0.33"
+    built:
+      - "Avarice rebuilt on TRAZZM Drow Evoker chassis — 10th-level caster (slots 4/3/3/3/2), 15 embedded spells, Knock/Bigby's Hand/Rary's Telepathic Bond via cast activities (manual slot tracking), Staff of Frost (10 charges, dawn 1d6+4), Banishing Rebuke, Icy Doom"
+      - "New Knights of the Black Sword: Huarwar Mulphoon, Fel Suparra (2024 Cultist Fanatic), generic Knight of the Black Sword + Yajath + Thoob (2024 Cultist). All with Icy Doom, Common + Infernal"
+      - "Kadroth: book fixes — Icy Doom, darkvision 60, fire resistance, Infernal"
+      - "Gargle + Gurgle (2024 Gargoyle, Ghoul chassis), Skelm (2024 Raven as fiend)"
+      - "journal-caer-dineval: Hethyl corrected to book (prophecy then death, no map); hook corrected to Speaker's Quest; new 'Keep Roster & Rulings' page"
+      - "compatibility.verified 14.368 (current v14 stable, verified)"
+      - "Campaign state + player requests moved out of this public repo to private ai-ops (ROTF-CAMPAIGN-STATE.yaml)"
+      - "All 8 build gates green: 117 actors, 11 journals, 9 scenes, 6 tables, 1 item"
+    lessons:
+      - "TRAZZM exemplars are not uniformly clean: Drow Evoker has a stray skills.value list; trazzm-spells-2024 Fire Shield has string denominations — the generator normalizes both"
+      - "Copying a spellcasting chassis: keep item IDs intact (unique per actor is enough) or cachedFor links from spell to cast activity break"
+  - date: 2026-09-23
+    session: "Checkpoint — S22 (number confirmed by Reed in S23)"
+    agent: sage  # backfilled S23
     release: "1.0.32"
     built:
       - "1.0.23–1.0.29: Awakened Dire Wolf + Awakened Snow Leopard (CR3, Ravisin encounter); Veilmantle of the Last Warden item; new rotf-items pack; fixed 68 string damage denominations across 31 actors"
@@ -264,46 +257,3 @@ changelog:
       - Scenes: Dougan's Hole, Frost Giant Ice Lodge, Twenty Stones
       - 21 new actors (Dejarr family, Savaa, Creed ranks, Norsu, etc)
       - Full _id/_key pipeline fix — all 111 docs verified
-
-# ==============================================================================
-# PLAYER REQUESTS — "Special Sauce" (Srai Hulud / Reed's player)
-# ==============================================================================
-# These are campaign-specific homebrew requests. Each needs design sign-off
-# before implementation. Track: HOMEBREW — design first, build second.
-
-player_requests:
-  srai_hulud:
-    note: "Srai likes special sauce — custom mechanics, item merges, RP processes"
-
-    requests:
-    - id: shai-rune-casting-process
-      what: Custom Rune Knight rune-casting process — Srai wants a special RP mechanic for activating runes
-      track: HOMEBREW
-      design_status: PENDING — idea stated, not yet designed
-      action_needed: Design session with Reed — what does the process look like, what are the mechanics
-
-    - id: shai-copper-rune-toolkit
-      what: Copper chat about runes + toolkits — Srai is RPing his own toolkits, wants that supported
-      track: HOMEBREW
-      design_status: PENDING — Reed flagged as important to Shai even though not standard
-      action_needed: Understand what toolkit RP he wants, how it interacts with rune mechanics
-      note: "Reed: not something I'd normally want to deal with but it's important to him"
-
-    - id: shai-maul-merge
-      what: >
-        Merge psychic-attuned hammer effects INTO Muzawarayn Maul — one awesome combined item
-      track: HOMEBREW
-      design_status: PENDING — needs balance check before implementation
-      action_needed: >
-        Pull current stats on both items. Design the merged item. Verify balance for level 5-6 party.
-        Then build as a custom magic item actor/item in Foundry.
-
-    - id: shai-shield-merge
-      what: >
-        Add Sentinel Shield effects TO Turtle Bone Shield — merge two items into one
-      track: HOMEBREW
-      design_status: PENDING — needs balance check
-      action_needed: >
-        Pull Sentinel Shield stats (adv on initiative, adv on Perception, eye carved into it).
-        Design merged Turtle Bone Shield. Verify balance. Build in Foundry.
-      note: Sentinel Shield is a DMG item — RAW stats available, no DDB pull needed

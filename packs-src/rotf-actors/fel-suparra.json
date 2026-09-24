@@ -1,5 +1,5 @@
 {
-  "name": "Kadroth",
+  "name": "Fel Suparra",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
   "system": {
@@ -534,13 +534,13 @@
     },
     "details": {
       "biography": {
-        "value": "<p>A vainglorious tiefling cult fanatic who leads the Knights of the Black Sword's day-to-day operations at the Keep at Caer-Dineval. Kadroth falsely claims to have Levistus's ear — the archdevil communicates with the cult only through Hethyl, and secretly despises Kadroth's self-importance. If the party attacks any cultist OTHER than Kadroth, the alliance with Levistus breaks; Kadroth himself is fair game.</p><p><strong>DM:</strong> Kadroth turns away visitors to the castle by posing as part of Speaker Crannoc Siever's own staff, claiming the Speaker is too ill for visitors. If the party has satisfied one of the Knights' three alliance conditions (most likely: meddled in Nildar or Durth Sunblight's affairs, per The Unseen), Levistus orders the cult to welcome them instead of resisting.</p>",
+        "value": "<p>Knight of the Black Sword (cult fanatic). Tiefling; Huarwar's friend and mentor, most responsible for pulling him away from his mother and up through the cult's ranks. Stationed at the gatehouse (C6).</p><p><strong>DM:</strong> Harming her breaks the Levistus alliance.</p>",
         "public": ""
       },
       "alignment": "Lawful Evil",
-      "ideal": "Levistus rewards absolute devotion. My devotion will be rewarded.",
-      "bond": "I answer only to Levistus — everyone else in this castle serves at my pleasure.",
-      "flaw": "I believe I have the archdevil's ear. I do not.",
+      "ideal": "",
+      "bond": "",
+      "flaw": "",
       "race": "Tiefling",
       "type": {
         "value": "humanoid"
@@ -623,7 +623,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Kadroth",
+    "name": "Fel Suparra",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,
@@ -717,7 +717,7 @@
   "items": [
     {
       "_id": "mmPactBlade00000",
-      "name": "Kadroth's Blade",
+      "name": "Pact Blade",
       "type": "weapon",
       "system": {
         "type": {
@@ -965,7 +965,7 @@
         "p7W6V9dOCsYphtv6": 3
       },
       "sort": 0,
-      "_key": "!actors.items!KadrothBlackSwrd1.mmPactBlade00000"
+      "_key": "!actors.items!FelSuparraKnight.mmPactBlade00000"
     },
     {
       "_id": "mmSpellcasting00",
@@ -1453,7 +1453,7 @@
         "p7W6V9dOCsYphtv6": 3
       },
       "sort": 1,
-      "_key": "!actors.items!KadrothBlackSwrd1.mmSpellcasting00"
+      "_key": "!actors.items!FelSuparraKnight.mmSpellcasting00"
     },
     {
       "_id": "mmSpiritualWeapo",
@@ -1644,7 +1644,7 @@
         "p7W6V9dOCsYphtv6": 3
       },
       "sort": 2,
-      "_key": "!actors.items!KadrothBlackSwrd1.mmSpiritualWeapo"
+      "_key": "!actors.items!FelSuparraKnight.mmSpiritualWeapo"
     },
     {
       "name": "Spiritual Weapon",
@@ -1888,7 +1888,7 @@
           },
           "showIcon": 1,
           "folder": null,
-          "_key": "!actors.items.effects!KadrothBlackSwrd1.z817Et9IPt6qHawH.dnd5espellchange"
+          "_key": "!actors.items.effects!FelSuparraKnight.z817Et9IPt6qHawH.dnd5espellchange"
         }
       ],
       "folder": null,
@@ -1918,7 +1918,7 @@
         "exportSource": null
       },
       "_id": "z817Et9IPt6qHawH",
-      "_key": "!actors.items!KadrothBlackSwrd1.z817Et9IPt6qHawH"
+      "_key": "!actors.items!FelSuparraKnight.z817Et9IPt6qHawH"
     },
     {
       "name": "Light",
@@ -2151,7 +2151,7 @@
           },
           "showIcon": 1,
           "folder": null,
-          "_key": "!actors.items.effects!KadrothBlackSwrd1.7Hk3xmtV1lhTEMu6.dnd5espellchange"
+          "_key": "!actors.items.effects!FelSuparraKnight.7Hk3xmtV1lhTEMu6.dnd5espellchange"
         }
       ],
       "folder": null,
@@ -2177,7 +2177,7 @@
         "exportSource": null
       },
       "_id": "7Hk3xmtV1lhTEMu6",
-      "_key": "!actors.items!KadrothBlackSwrd1.7Hk3xmtV1lhTEMu6"
+      "_key": "!actors.items!FelSuparraKnight.7Hk3xmtV1lhTEMu6"
     },
     {
       "name": "Thaumaturgy",
@@ -2379,7 +2379,7 @@
           },
           "showIcon": 1,
           "folder": null,
-          "_key": "!actors.items.effects!KadrothBlackSwrd1.XLyCWW9vPAQwvaGr.dnd5espellchange"
+          "_key": "!actors.items.effects!FelSuparraKnight.XLyCWW9vPAQwvaGr.dnd5espellchange"
         }
       ],
       "folder": null,
@@ -2409,7 +2409,7 @@
         "exportSource": null
       },
       "_id": "XLyCWW9vPAQwvaGr",
-      "_key": "!actors.items!KadrothBlackSwrd1.XLyCWW9vPAQwvaGr"
+      "_key": "!actors.items!FelSuparraKnight.XLyCWW9vPAQwvaGr"
     },
     {
       "name": "Command",
@@ -2682,7 +2682,7 @@
           "start": null,
           "showIcon": 1,
           "folder": null,
-          "_key": "!actors.items.effects!KadrothBlackSwrd1.mqq4Svm7zmM0e6Sy.mWzi4MGxzubOsQ6B"
+          "_key": "!actors.items.effects!FelSuparraKnight.mqq4Svm7zmM0e6Sy.mWzi4MGxzubOsQ6B"
         },
         {
           "name": "Drop",
@@ -2762,7 +2762,7 @@
           "start": null,
           "showIcon": 1,
           "folder": null,
-          "_key": "!actors.items.effects!KadrothBlackSwrd1.mqq4Svm7zmM0e6Sy.xm7vT6G54E5z3cX9"
+          "_key": "!actors.items.effects!FelSuparraKnight.mqq4Svm7zmM0e6Sy.xm7vT6G54E5z3cX9"
         },
         {
           "name": "Flee",
@@ -2842,7 +2842,7 @@
           "start": null,
           "showIcon": 1,
           "folder": null,
-          "_key": "!actors.items.effects!KadrothBlackSwrd1.mqq4Svm7zmM0e6Sy.Y5m87aLK6TrcvCVw"
+          "_key": "!actors.items.effects!FelSuparraKnight.mqq4Svm7zmM0e6Sy.Y5m87aLK6TrcvCVw"
         },
         {
           "name": "Grovel",
@@ -2922,7 +2922,7 @@
           "start": null,
           "showIcon": 1,
           "folder": null,
-          "_key": "!actors.items.effects!KadrothBlackSwrd1.mqq4Svm7zmM0e6Sy.wVGRMabfUQDSQqPr"
+          "_key": "!actors.items.effects!FelSuparraKnight.mqq4Svm7zmM0e6Sy.wVGRMabfUQDSQqPr"
         },
         {
           "name": "Halt",
@@ -3002,7 +3002,7 @@
           "start": null,
           "showIcon": 1,
           "folder": null,
-          "_key": "!actors.items.effects!KadrothBlackSwrd1.mqq4Svm7zmM0e6Sy.40tHs0eKT1rDyIUZ"
+          "_key": "!actors.items.effects!FelSuparraKnight.mqq4Svm7zmM0e6Sy.40tHs0eKT1rDyIUZ"
         },
         {
           "_id": "dnd5espellchange",
@@ -3047,7 +3047,7 @@
           },
           "showIcon": 1,
           "folder": null,
-          "_key": "!actors.items.effects!KadrothBlackSwrd1.mqq4Svm7zmM0e6Sy.dnd5espellchange"
+          "_key": "!actors.items.effects!FelSuparraKnight.mqq4Svm7zmM0e6Sy.dnd5espellchange"
         }
       ],
       "folder": null,
@@ -3094,7 +3094,7 @@
         "1cBqnIOdEDUMw3j9": 3
       },
       "_id": "mqq4Svm7zmM0e6Sy",
-      "_key": "!actors.items!KadrothBlackSwrd1.mqq4Svm7zmM0e6Sy"
+      "_key": "!actors.items!FelSuparraKnight.mqq4Svm7zmM0e6Sy"
     },
     {
       "name": "Hold Person",
@@ -3469,7 +3469,7 @@
           "showIcon": 2,
           "start": null,
           "folder": null,
-          "_key": "!actors.items.effects!KadrothBlackSwrd1.LJaFo9D2QAQQV7bB.PklwZi3SKQ3JU2M2"
+          "_key": "!actors.items.effects!FelSuparraKnight.LJaFo9D2QAQQV7bB.PklwZi3SKQ3JU2M2"
         },
         {
           "_id": "dnd5espellchange",
@@ -3514,7 +3514,7 @@
           },
           "showIcon": 1,
           "folder": null,
-          "_key": "!actors.items.effects!KadrothBlackSwrd1.LJaFo9D2QAQQV7bB.dnd5espellchange"
+          "_key": "!actors.items.effects!FelSuparraKnight.LJaFo9D2QAQQV7bB.dnd5espellchange"
         }
       ],
       "folder": null,
@@ -3561,12 +3561,12 @@
         "1cBqnIOdEDUMw3j9": 3
       },
       "_id": "LJaFo9D2QAQQV7bB",
-      "_key": "!actors.items!KadrothBlackSwrd1.LJaFo9D2QAQQV7bB"
+      "_key": "!actors.items!FelSuparraKnight.LJaFo9D2QAQQV7bB"
     },
     {
       "name": "Icy Doom",
       "type": "feat",
-      "_id": "MxoKbXHC0U9CUvkO",
+      "_id": "ETH1hTGPqd0OPmRB",
       "img": "icons/magic/water/snowflake-ice-blue-white.webp",
       "system": {
         "activities": {},
@@ -3636,7 +3636,7 @@
         "lastModifiedBy": null,
         "exportSource": null
       },
-      "_key": "!actors.items!KadrothBlackSwrd1.MxoKbXHC0U9CUvkO"
+      "_key": "!actors.items!FelSuparraKnight.ETH1hTGPqd0OPmRB"
     }
   ],
   "effects": [],
@@ -3659,7 +3659,7 @@
     "default": 0,
     "1cBqnIOdEDUMw3j9": 3
   },
-  "_id": "KadrothBlackSwrd1",
+  "_id": "FelSuparraKnight",
   "sort": 0,
-  "_key": "!actors!KadrothBlackSwrd1"
+  "_key": "!actors!FelSuparraKnight"
 }
