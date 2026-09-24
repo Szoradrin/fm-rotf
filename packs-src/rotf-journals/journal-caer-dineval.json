@@ -1,0 +1,177 @@
+{
+  "_id": "CaerDinevalJrn01",
+  "_key": "!journal!CaerDinevalJrn01",
+  "name": "Caer-Dineval",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Overview",
+      "type": "text",
+      "_id": "CDOverview00001",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Caer-Dineval</h1><p><em>Friendliness \u2744\u2744 &nbsp; Services \u2744 &nbsp; Comfort \u2744</em></p><p>In generations past, travelers to Caer-Dineval had to follow the rocky shore of Lac Dinneshere until, after several hours, they spied a small fortress (the \u201ccaer\u201d for which the town is named) jutting up from the prominence where it overlooks the lake. A ferry out of Easthaven made the arduous trek unnecessary for merchants and other travelers, but the ferry was discontinued two months ago, cutting off Caer-Dineval (and its eastward neighbor, Caer-Konig) from the rest of Ten-Towns except by the overland route. Town residents are furious that the ferry service has stopped, mainly because they have not received deliveries of mead from Good Mead, and the taverns have run dry.</p><p>As if things weren't bad enough, the town's harbor has frozen over, and the town's speaker, Crannoc Siever, has taken to his bed and is apparently too sick to make public appearances or press the Council of Speakers to get the ferry from Easthaven running again.</p><table><thead><tr><th>Detail</th><th></th></tr></thead><tbody><tr><td><strong>Population</strong></td><td>100</td></tr><tr><td><strong>Leader</strong></td><td>Speaker Crannoc Siever (lawful neutral human commoner) \u2014 known as a bully who shouts and uses theatrics, reportedly ill for months and rarely makes public appearances</td></tr><tr><td><strong>Available Quest</strong></td><td>Black Swords</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!CaerDinevalJrn01.CDOverview00001"
+    },
+    {
+      "sort": 200000,
+      "name": "Black Swords",
+      "type": "text",
+      "_id": "CDBlackSwords01",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Black Swords</h1><p>The characters don't get this quest in the customary way \u2014 the residents of Caer-Dineval aren't counting on adventurers to help them. The quest falls into the party's lap if they visit the Keep. Reasons they might: looking for a good night's rest in Caer-Dineval, or a lead connecting to a killing they've heard about elsewhere.</p><p>Speaker Crannoc Siever resides in the castle and is also a prisoner. Devil-worshiping cultists calling themselves the <strong>Knights of the Black Sword</strong> have taken over and confined Crannoc to his quarters (area C14) while spreading stories about the speaker's ill health to conceal their presence and restrict access to the castle. The cultists keep the speaker alive in case they need him to make a public appearance, and can use him as a hostage if the Ten-Towners take up arms against them. These devil worshipers keep a low profile while seeking out new members to join their ranks.</p><h2>Knights of the Black Sword</h2><p>The Knights of the Black Sword are a secret society of cultists devoted to <strong>Levistus</strong>, the archdevil who rules Stygia, the sixth layer of the Nine Hells, from the confines of an ice prison from which he cannot escape.</p><p>Most of the cultists are Icewind Dale natives who would have perished in the wilderness had Levistus not intervened on their behalf. After agreeing to follow him, they were guided safely back to civilization by a chardalyn amulet whose inner radiance protects the wearer against the cold. Once its wearer reaches Ten-Towns, the amulet loses its inner radiance, but the cultists keep them as signs of their devotion to the archduke of Stygia.</p><p>The Knights have members scattered throughout Ten-Towns and answer to Levistus, who speaks to them infrequently using a powerful form of cross-planar telepathy. Levistus has recently called upon them to help another of his disciples \u2014 an albino tiefling wizard named <strong>Avarice</strong> \u2014 achieve her goals. Even though they find her demanding and difficult to live with, they dare not defy her.</p><p>Levistus has warned the Knights that duergar are plotting the destruction of Ten-Towns. He believes the duergar are acting on behalf of Asmodeus, Lord of the Hells and his infernal jailer \u2014 but he has NOT shared this suspicion with the cult. The cult's oldest living member, <strong>Hethyl Arkorran</strong> (a peg-legged shield dwarf who lost her right foot to frostbite), hates duergar as most dwarves do. She has convinced the other cult members to forge alliances with anyone willing to oppose the duergar, including stray bands of adventurers.</p><p>The Caer (the castle itself) serves as the cult's headquarters. The cult's presence is the worst-kept secret in Caer-Dineval, though few locals ever speak of it.</p><h3>Cult Behavior</h3><p>The Knights take orders from Levistus, who speaks to them telepathically. The contact is one-way only, although a vainglorious tiefling cult fanatic named <strong>Kadroth</strong> falsely claims to have the archdevil's ear.</p><p>The cultists shun contact with outsiders and, posing as members of Speaker Crannoc's staff, turn away all visitors to the castle. If the time is right, however, they welcome characters with open arms. That time comes when Levistus instructs the cultists, in no uncertain terms, to form an alliance with the party. For that to happen, <strong>one of the following must be true</strong>:</p><ul><li>One of the characters has the Runaway Author secret (Appendix B)</li><li>The characters found and killed the group of duergar hiding in Dinev's Rest</li><li><strong>The characters meddled in the affairs of Nildar Sunblight (or his older brother Durth) \u2014 see \u201cThe Unseen,\u201d Chapter 2</strong></li></ul><p>Once the cultists are told the characters' goals align with theirs, they do everything in their power to make the characters feel safe and happy \u2014 short of giving up their stronghold or their leverage over Speaker Crannoc.</p><p>Levistus tells the cultists to <strong>terminate the alliance</strong> if any of the following comes to pass:</p><ul><li>The characters attack any member of the cult other than Kadroth, whom Levistus secretly despises</li><li>The characters harm Avarice, or inhibit her efforts to plunder the lost city of Ythryn</li><li>The characters give up their fight against the duergar menace threatening Ten-Towns</li></ul><h3>Approaching the Caer</h3><p>A sturdy stone castle devoid of warmth and ostentation squats atop the cliffs overlooking the town and the frozen harbor. Four cylindrical guard towers connected by icy battlements and parapets. Doors inside the castle aren't locked unless noted otherwise. Most of the castle is lit by torches regardless of time of day.</p><p>Castle defenders: twelve cultists of various races and genders residing in the guard towers, and two cult fanatics \u2014 Huarwar Mulphoon (human) and Fel Suparra (tiefling) \u2014 who normally guard the gatehouse. The castle's small size means one cult member can sound an alarm simply by yelling.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!CaerDinevalJrn01.CDBlackSwords01"
+    },
+    {
+      "sort": 300000,
+      "name": "Key NPCs",
+      "type": "text",
+      "_id": "CDKeyNPCs000001",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Key NPCs</h1><h2>Kadroth</h2><p>A vainglorious tiefling cult fanatic who leads day-to-day operations at the castle. Falsely claims a direct line to Levistus \u2014 he does not actually have one. Levistus secretly despises him. He is the only cult member the party can safely attack without breaking the alliance.</p><h2>Hethyl Arkorran \u2014 Area C13, Soothsayer's Room</h2><p>A venerable shield dwarf with a wooden peg where her right foot should be. The cult's oldest member and true soothsayer \u2014 <strong>a noncombatant, too old to harm anyone</strong>. She receives Levistus's telepathic messages. Already suspects duergar are plotting against Ten-Towns; this is confirmed for her once she learns the party has already crossed paths with Nildar Sunblight's people.</p><p><strong>DM \u2014 what she shares once trust is established:</strong> duergar under Xardorok Sunblight are building something dangerous at Sunblight Fortress, and the timeline is short. This is the party's hook into Chapter 3.</p><h2>Speaker Crannoc Siever \u2014 Area C14, Speaker's Bedchamber</h2><p>A 49-year-old unmarried human, lawful neutral, known as a bully who shouts and uses theatrics. Not deathly ill, despite the cult's propaganda. Under house arrest in his own bedchamber, guarded by a single cultist (Yajath). His captors arrived posing as neutral arbiters sent to resolve a fishing dispute with Easthaven and Caer-Konig. He knows only that the one calling the shots is a tiefling named Kadroth, who answers to someone named Levistus.</p><p>His personal guards were slain; his other servants are held in the castle's cistern (area C24) as leverage. Only his cook, Karou Salafan, was left free.</p><p><strong>Once freed:</strong> won't be happy until he regains control of the castle and his captors are punished. Lets the party rest at the castle henceforth. A blowhard and firebrand who enjoys living like a king behind his walls.</p><h2>Avarice \u2014 Area C21, Avarice's Quarters</h2><p>An albino tiefling wizard of the Arcane Brotherhood, staying at the castle as a guest of the cult. Her raven familiar is named Skelm. Her two gargoyles, Gargle and Gurgle, are currently away spying on her wizardly rivals.</p><p>Levistus has told her not to antagonize this specific party \u2014 she needs their help reaching the lost Netherese city of Ythryn. She is cagey about why she's there and won't discuss it, but tries to be hospitable. If she stops feeling safe, she simply leaves without a fight. If harmed, her gargoyles retaliate later as the party leaves the keep.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!CaerDinevalJrn01.CDKeyNPCs000001"
+    },
+    {
+      "sort": 400000,
+      "name": "Outcome",
+      "type": "text",
+      "_id": "CDOutcome000001",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Outcome</h1><h2>Dark Alliance</h2><p>Characters who forge a friendly relationship with the Knights of the Black Sword can use the Caer as a base of operations, coming and going for as long as the alliance lasts. The northeast guard tower is set aside for them to stay in. Avarice tries to minimize her contact with the party during this time.</p><h2>Routing the Cultists</h2><p>If the characters rout the cultists and release Speaker Crannoc Siever, the speaker asks them to call out the town militia so the castle can be refortified. Henceforth, the speaker lets the characters rest at the castle whenever they need to.</p><h2>The Real Hook \u2014 Sunblight Fortress</h2><p>Whichever path the party takes through Black Swords, the key handoff is the same: Hethyl (or the freed Crannoc) gives the party a concrete, urgent lead \u2014 duergar under <strong>Xardorok Sunblight</strong> are close to finishing a dangerous construct at <strong>Sunblight Fortress</strong>, out in the Spine of the World. This is the party's clean motivation into Chapter 3.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!CaerDinevalJrn01.CDOutcome000001"
+    }
+  ]
+}
