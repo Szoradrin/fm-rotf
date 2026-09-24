@@ -1,0 +1,33 @@
+name: Build packs
+on:
+  push:
+    branches: [main]
+    paths: ['packs-src/**', 'tools/build.py']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: build-packs
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install fvtt-cli if missing
+        run: test -x node_modules/.bin/fvtt || npm install
+      - name: Run all 8 build gates
+        run: python3 tools/build.py
+      - name: Commit compiled packs
+        run: |
+          git config user.name callinl
+          git config user.email 34778068+callinl@users.noreply.github.com
+          git add packs/
+          git diff --cached --quiet || git commit -m "Build packs from packs-src [automated]"
+          git push
