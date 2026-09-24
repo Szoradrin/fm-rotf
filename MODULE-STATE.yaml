@@ -1,14 +1,14 @@
 # MODULE-STATE.yaml — Rime of the Frostmaiden Foundry Module
 # Source of truth for what has been built, what quality it is, and what track it belongs to.
 # Three tracks: RAW (book), THIRD_PARTY (authorized supplements), HOMEBREW (Reed's ideas — design must precede build)
-# Updated: Session 21 — 2026-07-29
+# Updated: Checkpoint — 2026-09-23 (release 1.0.32)
 
 meta:
   module_id: rotf
   module_title: "Icewind Dale: Rime of the Frostmaiden"
   repo: Szoradrin/fm-rotf
-  current_release: "1.0.22"
-  foundry_version: "14.364"
+  current_release: "1.0.32"
+  foundry_version: "14.366"  # module.json verified; Foundry stable is now 14.367 — bump on next content release
   system: dnd5e
   system_version: "5.3.3"
   sqyre: https://icewind-dale-rime-of-the-frostma-5d8b5fc8.us.sqyre.app/game
@@ -48,7 +48,8 @@ actors:
     rotf_npcs: [avarice, bjornhild-solvigsdottir, gunvald-halraggson, isarr-kronenstrom,
       sephek-kaltro, vellynne-harpell, auril-first-form, auril-second-form, auril-third-form,
       arveiaturace, dzaans-simulacrum, nass-lantomirs-ghost, xardorok-sunblight, kadroth,
-      grandolpha-muzgardt, spellix-romwod, prisoner-237]
+      grandolpha-muzgardt, spellix-romwod, prisoner-237, hethyl-arkorran, crannoc-siever]
+    # kadroth, hethyl-arkorran, crannoc-siever REBUILT 1.0.32 from TRAZZM Cultist Fanatic chassis (V14/5.3.3 correct)
     # NPCs using standard stat blocks (no unique DDB entry):
     # duvessa-shane = noble, markham-southwell = veteran, naerth-maxildanarr = spy
     # Kingsport — DDB slug unknown, still missing
@@ -88,11 +89,12 @@ journals:
       - journal-creed-of-auril     # NOTE: this is THIRD_PARTY content in RAW slot — fix track label
       - journal-bremen             # Overview, Lake Monster, Cora's Loss, Cult of Auril
       - journal-lonelywood         # Overview, White Moose, Elven Tomb, Cult of Auril
+      - journal-lonelywood-supplement  # Ramshackle reward, Nimsy dinner, Sephek night attack, Nimsy confirmation
+      - journal-caer-dineval       # 1.0.32 — Overview, Black Swords, Key NPCs, Outcome (book-sourced)
     still_needed:
       - good-mead                  # party has been here, journal missing
       - targos
       - termalaine
-      - caer-dineval
       - caer-konig
       - easthaven
 
@@ -133,7 +135,7 @@ scenes:
     still_needed:
       - good-mead-town             # map-1.12-good-mead-player.webp exists
       - verbeeg-lair               # map-1.13-verbeeg-lair-player.webp exists
-      - caer-dineval-keep          # map-1.4-caer-dineval-keep.webp — confirm in assets
+      - caer-dineval-keep          # 1.0.32: EMPTY SHELL exists (scene-caer-dineval.json, no map) — Reed importing map manually
       - easthaven                  # map-1.9-easthaven.webp — confirm in assets
 
   track_HOMEBREW:
@@ -194,74 +196,33 @@ outstanding:
 # ==============================================================================
 
 campaign:
-  party_level: 5-6
-  current_location: Bremen → heading to Bryn Shander → Lonelywood
-  last_session: Session 21 — 2026-07-29
+  party_level: 6  # confirmed from sheets 2026-09-23; Rurik's sheet still showed 5 — confirm at table
+  current_location: "Lonelywood — Ramshackle. Sephek Kaltro killed and looted. Party resting, then heading to Caer-Dineval (Black Swords)."
+  last_session: "Checkpoint 2026-09-23"
+  party_detail_files: "callinl/ai-ops/foundry-modules/rime-of-the-frostmaiden/party/*.md"
 
   party:
-    - name: Srai Hulud
-      race: Lizardfolk
-      class: Fighter 5 (Rune Knight)
-      notes: chef, birth mother Tazmikella (Ancient Copper Dragon), has party sled dog
-    - name: Rhystal
-      race: White Dragonborn
-      class: Druid 5 (Circle of the Seas)
-      notes: Emerald Enclave, contact is Talen Stonebrook in Bryn Shander
-    - name: Yoog
-      race: Bugbear
-      class: Barbarian 5 (Wild Heart)
-    - name: AK the Great
-      race: Moose-taur (homebrew centaur variant)
-      class: Ranger
-      notes: personal moment at White Moose quest — both moose speak Common/Druidic
-    - name: Rurik Ironfist
-      race: Dwarf
-      class: Bard
-    - name: Dezmyr Shadowdusk
-      race: Shadar-kai
-      class: Warlock 3 / Paladin 2
-      notes: Reed's brother, patron told him to find this group, hasn't revealed this
+    - {name: Srai, race: Lizardfolk, class: "Fighter 6 (Rune Knight)", notes: "sheet display name 'Shai'; chef; birth mother Tazmikella"}
+    - {name: Rhystal, race: White Dragonborn, class: "Druid 6 (Circle of the Stars)", notes: "Emerald Enclave, contact Talen Stonebrook, Bryn Shander"}
+    - {name: Yoog, race: Bugbear, class: "Barbarian 6 (Wild Heart)"}
+    - {name: The Great Ak, race: "Moose-taur (homebrew)", class: "Ranger 6 (Beast Master)"}
+    - {name: Rurik Lutgehr, race: Dwarf, class: "Bard 4 / Cleric 1", notes: "surname corrected from 'Ironfist'"}
+  former_members:
+    - {name: Dezmyr Shadowdusk, status: "NO LONGER IN PARTY — do not carry threads forward"}
 
   completed_quests:
-    - The Mead Must Flow (Good Mead)
-    - Good Mead Speaker Election — Olivessa Untapoor won
+    - The Mead Must Flow (Good Mead) — Olivessa Untapoor won speaker election
     - A Beautiful Mine (Termalaine)
     - Mountain Climb (Kelvin's Cairn)
-    - The Unseen (Caer-Konig)
+    - The Unseen (Caer-Konig) — satisfies Knights of the Black Sword alliance condition
     - Foaming Mugs (Bryn Shander)
-    - Black Swords (Caer-Dineval)
     - Black Cabin (Macreadus dead, Summer Star in party possession)
-    - Holed Up (Dougan's Hole — Dejarr kids rescued, Norsu, winter wolves)
+    - Holed Up (Dougan's Hole)
+    - The White Moose / Elven Tomb (Lonelywood) — Ravisin + Karra + Venn + awakened dire wolf + awakened snow leopard
+    - Cold-Hearted Killer — Sephek Kaltro killed at the Ramshackle
+  # CORRECTION: previous version listed Black Swords as completed. It has NOT been run. It is next.
 
-  active_story_threads:
-    - Grove in Bryn Shander dying (blue-white ice signature — Auril) — introduced Session 7, unresolved
-    - Summer Star needs unicorn horn to activate
-    - Shandar's body on road — Naerth Maxildanarr will notice
-    - Dezmyr's patron — not yet revealed to party
-    - Ravisin destroying groves across the region — Bremen lake monster + White Moose connection
-    - Karra and Venn (awakened white moose) at elven tomb — Ravisin joining round 2
-
-  sleeping_threats:
-    - Chardalyn dragon (Xardorok Sunblight) — party has no idea
-    - Zhentarim in Targos — party doesn't know extent
-    - Cult of Auril everywhere — party just starting to see it
-    - Easthaven Ferry map (Chapter 3 trigger) — not yet found
-
-  loot_awarded_session21:
-    - Dire Wolf Pelt x1: 35 gp
-    - Grell Parts (per creature): 25 gp each
-    - Remorhaz Parts x30: 450 gp
-    - Mammoth Tusks x2: 350 gp
-    - Mammoth Leather ~50 yards: 200 gp
-    - Total: ~1060 gp
-
-  homebrew_npcs:
-    - name: Talen Stonebrook (working name — Reed to confirm)
-      role: Emerald Enclave druid, Bryn Shander, Rhystal's contact
-      race: Wood elf (Sage-invented)
-      note: Name and race invented by Sage. Grove concept is Reed's Session 7 homebrew.
-      actor: packs-src/rotf-actors/talen-stonebrook.json
-      token: assets/images/token-talen-stonebrook.png (Pepper/ChatGPT art)
+  next_up: "Black Swords (Caer-Dineval) -> Sunblight Fortress (full fight) -> Vellynne on the road -> Bryn Shander dragon showdown -> Arveiaturace cliffhanger. Full arc: ai-ops/.../ROTF-STORY-STATE.yaml"
 
 # ==============================================================================
 # CHANGELOG
@@ -269,6 +230,18 @@ campaign:
 # Newest first.
 
 changelog:
+  - date: 2026-09-23
+    session: "Checkpoint (session number to be confirmed by Reed)"
+    release: "1.0.32"
+    built:
+      - "1.0.23–1.0.29: Awakened Dire Wolf + Awakened Snow Leopard (CR3, Ravisin encounter); Veilmantle of the Last Warden item; new rotf-items pack; fixed 68 string damage denominations across 31 actors"
+      - "1.0.30: Sephek Kaltro custom portrait (token-sephek-kaltro-custom.webp) — Reed rebuilding Sephek's actions manually in Foundry"
+      - "1.0.31: compatibility.verified bumped to 14.366"
+      - "1.0.32: Kadroth, Hethyl Arkorran, Crannoc Siever actors (TRAZZM Cultist Fanatic chassis, all nested _key/effect/token/originText refs scrubbed); journal-caer-dineval (4 pages, book-sourced); scene-caer-dineval empty shell linked to journal"
+      - "All 8 build gates green: 109 actors, 11 journals, 9 scenes, 6 tables, 1 item"
+    lessons:
+      - "Release tags must be plain semver (1.0.32), never v-prefixed — workflow substitutes tag into module.json version and Foundry rejects 'v1.0.x'"
+      - "Deep-copying a TRAZZM exemplar leaves stale actor IDs in nested effect _keys, prototypeToken, folder, and flags.core.originText — scrub all of them"
   - date: 2026-07-29
     session: Session 21
     release: "1.0.22"
@@ -302,6 +275,7 @@ player_requests:
   srai_hulud:
     note: "Srai likes special sauce — custom mechanics, item merges, RP processes"
 
+    requests:
     - id: shai-rune-casting-process
       what: Custom Rune Knight rune-casting process — Srai wants a special RP mechanic for activating runes
       track: HOMEBREW
