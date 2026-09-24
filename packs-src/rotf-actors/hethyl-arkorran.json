@@ -1,7 +1,7 @@
 {
   "name": "Hethyl Arkorran",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/rotf/assets/images/art-01-015-hethyl.webp",
   "system": {
     "currency": {
       "pp": 0,
@@ -534,7 +534,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>A venerable shield dwarf with a wooden peg where her right foot should be \u2014 lost to frostbite years ago. Hethyl is the Knights of the Black Sword's oldest living member and true soothsayer, though she is a <strong>noncombatant</strong> \u2014 too old to harm anyone. She receives Levistus's one-way telepathic messages and relays his will to the cult, though Kadroth vainly believes that role is his.</p><p>Hethyl already suspects duergar are plotting against Ten-Towns and has convinced the other cult members to forge alliances with anyone willing to oppose them, including stray bands of adventurers. She is blunt and heartless in manner, not cruel for its own sake \u2014 she simply does not soften the truth.</p><p><strong>DM \u2014 what she knows and will share, once trust is established:</strong> duergar under Xardorok Sunblight are building something dangerous at Sunblight Fortress, and the timeline is short. This is the party's hook into Chapter 3.</p>",
+        "value": "<p>A venerable shield dwarf with a wooden peg where her right foot should be — lost to frostbite years ago. Hethyl is the Knights of the Black Sword's oldest living member and true soothsayer, though she is a <strong>noncombatant</strong> — too old to harm anyone. She receives Levistus's one-way telepathic messages and relays his will to the cult, though Kadroth vainly believes that role is his.</p><p>Hethyl already suspects duergar are plotting against Ten-Towns and has convinced the other cult members to forge alliances with anyone willing to oppose them, including stray bands of adventurers. She is blunt and heartless in manner, not cruel for its own sake — she simply does not soften the truth.</p><p><strong>DM — what she knows and will share, once trust is established:</strong> duergar under Xardorok Sunblight are building something dangerous at Sunblight Fortress, and the timeline is short. This is the party's hook into Chapter 3.</p>",
         "public": ""
       },
       "alignment": "Lawful Neutral",
@@ -630,7 +630,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/rotf/assets/images/art-01-015-hethyl.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

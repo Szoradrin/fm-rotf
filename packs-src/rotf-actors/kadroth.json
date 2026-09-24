@@ -1,7 +1,7 @@
 {
   "name": "Kadroth",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/rotf/assets/images/art-01-014-kadroth.webp",
   "system": {
     "currency": {
       "pp": 0,
@@ -631,7 +631,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/rotf/assets/images/token-kadroth.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
