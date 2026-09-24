@@ -1,0 +1,115 @@
+{
+  "name": "Caer-Dineval",
+  "navigation": true,
+  "navName": "Caer-Dineval",
+  "thumb": "",
+  "width": 1000,
+  "height": 1000,
+  "padding": 0.25,
+  "initial": {
+    "x": null,
+    "y": null,
+    "scale": null
+  },
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0.2,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": false,
+  "fog": {
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    },
+    "mode": 0
+  },
+  "environment": {
+    "darknessLevel": 0.2,
+    "darknessLock": false,
+    "globalLight": {
+      "enabled": true,
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "cycle": false,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "drawings": [],
+  "tokens": [],
+  "lights": [],
+  "sounds": [],
+  "templates": [],
+  "tiles": [],
+  "walls": [],
+  "notes": [],
+  "regions": [],
+  "playlist": null,
+  "playlistSound": null,
+  "journal": "CaerDinevalJrn01",
+  "journalEntryPage": "CDOverview00001",
+  "weather": "",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "shiftX": 0,
+  "shiftY": 0,
+  "levels": [
+    {
+      "_id": "CaerDinevalScn01Lvl01",
+      "_key": "!scenes.levels!CaerDinevalScn01.CaerDinevalScn01Lvl01",
+      "name": "Caer-Dineval",
+      "background": {
+        "src": null,
+        "color": "#000000"
+      }
+    }
+  ],
+  "initialLevel": "CaerDinevalScn01Lvl01",
+  "transition": {
+    "type": null,
+    "duration": 1500,
+    "activeOnly": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "CaerDinevalScn01",
+  "_key": "!scenes!CaerDinevalScn01"
+}
