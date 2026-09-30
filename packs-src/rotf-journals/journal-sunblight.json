@@ -1,0 +1,253 @@
+{
+  "_id": "SunblightJrnl001",
+  "_key": "!journal!SunblightJrnl001",
+  "name": "Xardorok's Fortress (Sunblight)",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Overview & How It Plays",
+      "type": "text",
+      "_id": "SBOverview000001",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Xardorok's Fortress (Sunblight)</h1>\n<p><em>Plan for the campaign arc: Keep &rarr; here &rarr; the road back &rarr; Bryn Shander. Book-sourced; adaptations are marked.</em></p>\n<h2>The approach and the takeoff</h2>\n<p>The fortress sits in the Spine of the World. The party crosses the peaks (mountain travel rules), climbs above the clouds, and faces a sheer wall over a hundred feet high, studded with arrow slits with lights and clanking behind them. A 5-foot-wide stair climbs 150 feet to a frost-covered shelf at the entrance (X1).</p>\n<p><strong>As they start up the stair:</strong> sheets of ice crack off the walls, great ice doors 300+ feet above swing open, and the <strong>chardalyn dragon</strong> (dark ice, golden glowing eyes) roars, launches, turns north, and flies toward Ten-Towns. It stays at least 250 ft away and ignores them. They can't catch it. It left by a shaft from the forge level (X26) to the summit; the doors stay open until it returns or someone shuts them with the levers in X13 and X15.</p>\n<p><strong>The decision:</strong> keep climbing, or go back to Ten-Towns. <em>[Your arc: they climb.]</em> The clock in the <em>Dragon Clock</em> page starts now.</p>\n<h2>How the party learns what that dragon means</h2>\n<p>Nothing is left to guesswork by the time they get here. Layer these in:</p>\n<ul>\n<li><strong>Hethyl (keep):</strong> Xardorok has a plan for the systematic destruction of Ten-Towns, findable in his fortress.</li>\n<li><strong>Dinev's Rest dying line:</strong> a duergar names Xardorok and says he'll burn them all.</li>\n<li><strong>The Speaker's Quest (Crannoc, once free):</strong> duergar are building a construct to lay waste to Ten-Towns.</li>\n<li><strong>Grandolpha (X8):</strong> Xardorok programmed the dragon on a fixed flight plan; it can be seen in his war room.</li>\n<li><strong>X4 war room:</strong> the chardalyn figurine on the map table flies the exact route when the lever is pulled. <strong>That route ends at Bryn Shander.</strong></li>\n<li><strong>Seeing it fly north</strong> is the last piece: north is Ten-Towns.</li></ul>\n<h2>Objectives and advancement</h2>\n<p>Three objectives: <strong>find the flight plan (X4)</strong>, <strong>free the myconid sovereign Pleurota (X19)</strong>, <strong>destroy the red dragon's heart (X24)</strong>. The book levels the party for killing Xardorok, or for any two objectives, but caps this chapter at 6th level. <em>Your party is already 6th, so treat these as milestones, not level-ups.</em> 7th level comes from helping kill the dragon in Bryn Shander.</p>\n<h2>Where is Xardorok?</h2>\n<p>Roll d20 or choose: 1-5 on his throne (X19); 6-10 barking orders at the forge (X24/X25); 11-15 praying before Deep Duerra's statue (X29); 16-20 overseeing the torture of Nefrun (X34). He fights enlarged. Retreat routes: from X19 via X22's elevator toward X8 (Grandolpha); from X24 to X29; from X34 via the secret door to X30's elevator toward X8. In Deep Duerra's temple he gains <em>Psychic Conquest</em> (+1d10 psychic on weapon hits, healing equal to it). Putting out the flame on the statue's head ends it.</p>\n<p>Xardorok is warlock-mad on chardalyn, paranoid, and thinks his patron is Deep Duerra. The patron is really <strong>Asmodeus</strong>. He keeps his sons Durth and Nildar far from him so they can't take his throne.</p>\n<h2>The Muzgardt conspiracy (an ally, sort of)</h2>\n<p>Grandolpha Muzgardt, matriarch of a Gracklstugh clan that brews mushroom ale, is here because Xardorok wants to make her his fourth wife. She's plotting to overthrow him and will let the party do the work. Her loyalists: the X1/X6 guard (<strong>Dreck</strong>), her three cook-bodyguards (X8), two guards in X21, one guard on each forge tower, and ten of the fifteen lower barracks guards (X33). Tell them you're on Grandolpha's side and the loyalists turn on their kin; if they fight it out, five survive and will help kill Xardorok, but the deal ends when he dies. If Xardorok is gravely hurt and she can finish him safely, she will.</p>\n<h2>Fortress features</h2>\n<ul>\n<li><strong>Smoky haze:</strong> everywhere (unless noted) is lightly obscured; a long rest here regains one fewer Hit Die. Strong wind for 1 minute clears an area for 1 hour.</li>\n<li><strong>Heat and light:</strong> most rooms have coal braziers and are dim; duergar see in the dark.</li>\n<li><strong>Ceilings:</strong> tunnels 10 ft flat; rooms 15 ft vaulted; larger forge-level spaces 30 ft.</li>\n<li><strong>Two elevators:</strong> X6-X13-X22 and X12-X15-X30. Each car pauses 1 minute per floor and takes 1 minute between levels. Disable one wherever its wheel mechanism is exposed.</li></ul>\n<h2>Pacing suggestion <em>(mine, not the book's)</em></h2>\n<p><strong>Session 1:</strong> stair, takeoff, Command Level (X1-X12), find the flight plan (X4), decide whether to befriend Grandolpha. <strong>Session 2:</strong> Forge Level, free Pleurota, destroy the heart, Xardorok. Skip the rest unless they ask. Each session is about 3 hours, so cut the lower barracks, prisoners, and vault if time runs short.</p>\n<h2>Fallout</h2>\n<p>The dragon won't return until Ten-Towns is destroyed. If Xardorok is alive and the forge intact when it returns, he repairs it (+1d6 HP per hour of work). <strong>If Xardorok dies or the heart is destroyed, the dragon can't be repaired.</strong> If Xardorok dies and neither son lives, the clan collapses; Grandolpha, if alive, absorbs it, executes his surviving sons, and takes the fortress, with no designs on Ten-Towns. If the party helped her, she lets them keep treasure but tells them to leave at once. If both Xardorok and Grandolpha survive, the feud deepens and she waits for him to be weakened.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!SunblightJrnl001.SBOverview000001"
+    },
+    {
+      "sort": 200000,
+      "name": "The Dragon Clock",
+      "type": "text",
+      "_id": "SBDragonClock001",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>The Dragon Clock</h1><p><em>Hours after takeoff, if nobody interferes. The arrival times are my arithmetic from the book's flight times and how long it spends at each town. The book invites you to adjust both freely. The dragon follows its route exactly and never deviates.</em></p><table><thead><tr><th>Town</th><th>Arrives</th><th>Spends</th><th>What happens</th></tr></thead><tbody><tr><td><strong>Dougan's Hole</strong></td><td>2 h</td><td>30 min</td><td>Levelled except the Twenty Stones (Xardorok wants to study them). 25 killed; survivors, incl. Speaker Durmoot, flee to Bryn Shander.</td></tr><tr><td><strong>Good Mead</strong></td><td>3 h</td><td>1 h</td><td>Mead Hall spared, the rest levelled. 25 killed; survivors follow the Eastway to Bryn Shander.</td></tr><tr><td><strong>Easthaven</strong></td><td>5 h 30 m</td><td>8 h</td><td>First real resistance: militia wounds it (<strong>-10 HP</strong>). Half the buildings go; Town Hall and ferry spared. 250 killed incl. most of the militia; Captain Arlaggath slain by two invisible duergar; Speaker Waylen killed by six duergar if present. ~500 flee on foot to Bryn Shander.</td></tr><tr><td><strong>Caer-Dineval</strong></td><td>14 h 30 m</td><td>1 h</td><td>Lands between castle and town, levels everything but the castle (spared to trap the Knights). <strong>Everyone outside is killed</strong> by the dragon or by the six duergar from Dinev's Rest. <em>Your party already dealt with those six.</em> Speaker Crannoc survives if still in the castle.</td></tr><tr><td><strong>Caer-Konig</strong></td><td>16 h 30 m</td><td>1 h 30 m</td><td>Levelled; Speaker Trovus is passed out drunk, so no resistance. 50 killed. <strong>Jarthra Farzassh leads evacuees to Caer-Dineval's castle and is denied entry</strong>; she and others are murdered by the duergar in town. Only ~50 reach Bryn Shander.</td></tr><tr><td><strong>Termalaine</strong></td><td>20 h</td><td>6 h</td><td>Residents hide in the mines; militia wiped out; <strong>-5 HP</strong>. 20 die in homes, 30 in a duergar-triggered mine collapse. Half of ~500 survivors flee toward Targos/Bryn Shander.</td></tr><tr><td><strong>Lonelywood</strong></td><td>26 h 30 m</td><td>2 h</td><td>Empty: residents already fled to the woods or by boat to Targos. No casualties. No damage.</td></tr><tr><td><strong>Bremen</strong></td><td>30 h</td><td>2 h</td><td>It sinks boats on the lake, then levels the town. 100 killed incl. <strong>Speaker Shalescar and Cora Mulphoon (Huarwar's mother)</strong>; <strong>-5 HP</strong> from the militia. ~50 flee to Bryn Shander.</td></tr><tr><td><strong>Targos</strong></td><td>32 h 30 m</td><td>8 h</td><td>Warned early, well defended, but duergar saboteurs undermine it. 500 killed; <strong>-15 HP</strong>, the most any town does. Speaker Maxildanarr slips away to a Zhentarim safe house in Bryn Shander.</td></tr><tr><td><strong>Bryn Shander</strong></td><td>41 h</td><td>12 h</td><td>Packed with refugees. Strafes from the air for 6 h, then lands and hunts survivors for 6 h. Then flies 3 h 30 m back to the fortress for repairs (if Xardorok lives).</td></tr></tbody></table><p>Flight legs used: fortress to Dougan's Hole 2 h; Dougan's Hole to Good Mead 30 m; to Easthaven 1 h 30 m; to Caer-Dineval 1 h; to Caer-Konig 1 h; to Termalaine 2 h; to Lonelywood 30 m; to Bremen 1 h 30 m; to Targos 30 m; to Bryn Shander 30 m.</p><h2>Why Bryn Shander</h2><ul><li><strong>It's last on the route</strong> and Xardorok planned it that way: every other town's survivors run there, and its walls do nothing against an air attack. The more people pile in, the easier it is to annihilate them.</li><li><strong>The refugee roads point there.</strong> On the way back they'll meet survivors from several towns all going the same way.</li><li><strong>Vellynne says so.</strong> She reaches them on the road back and names Bryn Shander as the likely final stand. <em>Note:</em> if they studied the flight plan at X4 they may propose a different town. That's fine; you can let them wait at an earlier one.</li><li><strong>The X4 flight plan</strong> tells them the exact order.</li></ul><h2>The road back: Vellynne Harpell</h2><p>As they head back, three dogsleds arrive, each pulled by six wolf-sized dogs. Vellynne Harpell (Arcane Brotherhood, snowy owl familiar) rides one with two Icewind kobold zombies; four Icewind kobolds drive the other two. She came looking for adventurers to help with a personal quest and has heard of their deeds. She offers the sleds to get them back and is happy to fight the dragon (&ldquo;a wizard never passes up a chance to test her magic against the mightiest foes&rdquo;). If they won't ride with the kobolds, she ditches the kobolds. She'll put her own mission (The Codicil of White) on hold until the dragon is dealt with.</p><h2>Where it leads</h2><p>The fight at Bryn Shander is the next chapter's showdown. <strong>Killing the dragon takes them to 7th level.</strong> The book says to lure them to earlier-chapter places if they aren't 7th by then, but yours will be. <em>[Your arc: Arveiaturace arrives afterward, they retreat, and the game freezes for winter.]</em></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!SunblightJrnl001.SBDragonClock001"
+    },
+    {
+      "sort": 300000,
+      "name": "Command Level (X1-X12)",
+      "type": "text",
+      "_id": "SBCommandLevel01",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Command Level (X1-X12)</h1><p>Living quarters for Xardorok and his sons, plus dining and training halls.</p><h3>X1. Entrance</h3><p>A 10-ft stone double door, barred from inside (lever in X6, or <em>knock</em>), then an iron portcullis (winch in X6, or <em>knock</em>). A duergar in X6 watches the ledge through an arrow slit (three-quarters cover) and turns invisible on seeing them. It's <strong>Dreck</strong>, a Grandolpha loyalist who hopes they'll remove Xardorok. If they struggle with the door or portcullis, he quietly opens both without revealing himself.</p><h3>X2. Vestibule</h3><p>Empty room, narrow opening at the far end, arrow slit in the west wall. A guard in X3 watches through it. If she sees or hears intruders she shouts &ldquo;To arms!&rdquo; in Undercommon. The nine guards in X3 take a round to rally, then pour out.</p><h3>X3. Upper Barracks</h3><p>Stone table and benches, braziers, featureless doors. One female guard at the arrow slit; eight more resting in side rooms (three bunks each). <strong>Secret door</strong> in the east wall (DC 15 Perception) leads through a 5-ft tunnel to a matching door into X4. <em>Guard names:</em> Bruvo, Duerreth, Dwargyn, Fisketta, Gurn, Harmok, Jarjun, Jonkin, Kolbrak, Lurgash, Mrod, Mursk, Narla, Qualkin, Rovaalt, Skarda, Skorn, Throd, Ulkinn, Vygardt, Zorzula, Zulkrod.</p><h3>X4. War Room (objective: flight plan)</h3><p>Doors north and south, corner braziers, a stone table carved as an accurate map of Ten-Towns. A 6-inch <strong>chardalyn dragon figurine</strong> on an iron rod rides a groove across the map. <strong>Pulling the lever on the table's west side flies it along the dragon's preset course</strong>; anyone watching closely reads the route (see the Dragon Clock). The figurine can be snapped off (50 gp) but carrying it over 1 hour gives a random indefinite madness. <strong>Secret door</strong> behind the southwest brazier (DC 15 Perception) leads by tunnel to X3.</p><h3>X5. Xardorok's Quarters</h3><p>Stone bed with soot-stained furs, a scowling duergar bas-relief above it, a padlocked iron trunk. <strong>Closet shrine:</strong> a 2-ft chardalyn statuette of Deep Duerra (DC 20 Religion to identify) among seven mind flayer skulls. The trunk key sits under it. The first non-Xardorok to touch it makes a DC 16 Wisdom save or takes 4d8 psychic (half on a save) with a vision of having their brain eaten; after that it's safe to handle. Carrying it over 1 hour causes madness. <strong>Trunk:</strong> bolted down; DC 20 thieves' tools or <em>knock</em>. <strong>Trapped:</strong> removing everything lets the false bottom rise and the stone face belch poison gas that fills the room for 10 minutes (DC 14 Con save, 4d10 poison, half on a save). <strong>Contents:</strong> obsidian sandals (250 gp), gemstone-sewn smoking jacket (500), malachite beard comb with seven garnets (750), platinum-and-star-sapphire hookah (2,500), and a scroll of numbers: <strong>1-3-6, 2-5-2, 9-7-5, 4-3-4, 8-2-7, 5-6-3, 7-1-4, 2-9-9</strong> (the combinations for the X37 chests, in order).</p><h3>X6. Guard Post</h3><p>Winch for the portcullis, lever for the outer doors, arrow slits, and the elevator shaft (up 100 ft to X13, down 100 ft to X22). <strong>Dreck</strong>, invisible and huddled in the southwest corner, is noticed by anyone with passive Perception 14+ (cold breath). Pledged to Grandolpha; fights only in self-defense.</p><h3>X7. Captain's Office</h3><p>Empty desk, cold braziers. Its owner, the former captain of the guard, is being tortured in X34.</p><h3>X8. Private Dining Hall</h3><p>Hexagonal table, six chairs, three braziers. <strong>Grandolpha Muzgardt</strong> is eating; beside her, a <strong>chardalyn dragonet</strong> (pseudodragon stats, a construct, Xardorok's gift, understands Draconic and Dwarvish but can't speak). Three duergar cooks are her bodyguards. She calls them off and invites the party to dine: a cooked intellect devourer under a layer of ash, plus vile mushroom brew. She has no stake in the conquest. If threatened she laughs. If asked, she says: Xardorok is probably at the forge (X24); the dragon's route is in X4; he's capturing Underdark monsters to loose on the dale; he holds a myconid sovereign and uses its spores to raise corpses; he's proposed an alliance and she's considering it; she thinks she can turn most of his duergar with time, and several have pledged. <strong>In combat:</strong> she casts stoneskin first; once her guards engage she withdraws and uses faerie fire; the dragonet defends her to the death. <em>Slaad host:</em> if a PC has a tadpole, it erupting at dinner is perfect timing; she suggests letting it grow (2d12 hours to a slaad) so Xardorok can deal with it.</p><h3>X9. Portcullis</h3><p>A short hall ending in a portcullis (lever on the west wall) over a wide shaft: 100 ft down to X26, 120 ft up to the ice doors. Needs magic or climbing gear.</p><h3>X10. Durth's Quarters</h3><p>Plain stone bed, stone trunk, four unlit braziers. <strong>Durth Sunblight</strong> (eldest son, a duergar mind master) is here only if he fled his Easthaven hideout or stole the town hall chardalyn. He shrinks to Tiny and hides under the bed at noises. The trunk is his <strong>intelligent mimic</strong> (speaks Undercommon); it attacks anyone who disturbs it, and Durth joins on round 2. <em>[Reed: did the party meet Durth?]</em></p><h3>X11. Nildar's Quarters</h3><p>Same layout; heads of a crag cat, grick, male drow, kuo-toa, troglodyte, wolf, peryton, and female grimlock on the walls (Nildar claimed them, mostly didn't kill them). <strong>Nildar</strong> is here sulking and plotting revenge if the party forced him from his post <em>(they did, in The Unseen)</em>; his pet <strong>ogre zombie</strong> stands in the northeast corner if it escaped with him. His trunk holds wine, a drinking horn, and a charcoal sketch of his late mother.</p><h3>X12. Training Room</h3><p>Corner braziers, arrow slits south, harmless dummies, and four suits of plate armor. <strong>Touching or damaging any suit animates all four</strong> (animated armor); they attack everything in the room, can't leave it, and go dormant when no targets remain. The west elevator shaft (up 100 ft to X15, down 100 ft to X30) runs through it.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!SunblightJrnl001.SBCommandLevel01"
+    },
+    {
+      "sort": 400000,
+      "name": "Ice Gate Level (X13-X15)",
+      "type": "text",
+      "_id": "SBIceGateLevel01",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Ice Gate Level (X13-X15)</h1><p>The mechanism that opens the ice doors the dragon uses. Closing them blocks the route in and out.</p><h3>X13. Western Gear Room</h3><p>Machinery fills the east half. Two duergar (one by the north double door, one by the lever on the east wall) are hostile to non-duergar and <strong>grow to Large on their first turn</strong>. Two <strong>duergar hammerers</strong> lurk in small rooms to the west; roll their initiative after all others have acted, and they join on their first turn. The wheel near the east wall opens the western half of the ice door when the east lever is pulled. Elevator shaft: 100 ft down to X6, 200 ft to X22.</p><h3>X14. Workshop</h3><p>Stone tables and cabinets, a half-finished exoskeletal construct. Two <strong>duergar mechanics</strong> (one male, one female) turn invisible at sounds of combat in X13, hide, and fight only in self-defense. Loot: two sets of smith's tools and one set of tinker's tools.</p><h3>X15. Eastern Gear Room</h3><p>Mirror of X13 with machinery in the west half. One duergar guard by the west-wall lever, who <strong>grows to Large before fighting</strong>. The lever opens the eastern half of the ice door. Elevator shaft: 100 ft down to X12, 200 ft to X30.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!SunblightJrnl001.SBIceGateLevel01"
+    },
+    {
+      "sort": 500000,
+      "name": "Forge Level, Part 1 (X16-X26)",
+      "type": "text",
+      "_id": "SBForgeLevel0001",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Forge Level, Part 1 (X16-X26)</h1><p>The lowest level and the warmest: the forge, the iron mines, and a tunnel to the Underdark.</p><h3>X16. Northwest Cavern</h3><p>Unlit, 30-ft jagged ceiling. Four duergar (two enlarged) are restraining a hooded <strong>umber hulk</strong> captured in the Underdark. If challenged, the enlarged pair unhood it and all four go invisible; the umber hulk attacks the party. If the party kills the hulk, the duergar attack. A 10-ft-wide, miles-long tunnel leads to the Underdark (out of scope).</p><h3>X17. Duergar Mines</h3><p>Iron veins, narrow tunnels, stacked equipment. No duergar working now, but <strong>three rust monsters</strong> scrounge here and attack anyone with metal armor, shields, or weapons.</p><h3>X18. Guarded Corridor</h3><p>A corridor between two double doors with a dozen arrow slits. Four duergar guards (two per side) carry heavy crossbows (+2 to hit, 1d10 piercing). They answer noise from X19.</p><h3>X19. Chardalyn Throne (objective: free Pleurota)</h3><p>30-ft hall; dais against the south wall; a crude black crystal throne; corner braziers. If Xardorok is here he sits on it: soot-stained, gray-bearded, with a jagged chardalyn crown and spiked chardalyn gauntlet. Against the east wall slumps <strong>Pleurota</strong>, a myconid sovereign captured about a tenday ago, one arm torn off, spores floating around it. <strong>Thonot Krob</strong> (quaggoth thonot) and <strong>four quaggoth spore servants</strong> are harvesting her spores in jugs to raise dead quaggoths; they fight to the death. If Krob falls, a spore servant pours its jug over his body to raise him as a new servant. Noise draws four duergar from X18 and four quaggoths from X20; all duergar, Xardorok included, Enlarge first. <strong>If Xardorok is losing</strong>, he retreats to X22 and the elevator toward X8 to rally Grandolpha, who goes along but won't fight and lets the party kill him (or finishes him herself if he's gravely wounded and it's safe). <strong>Throne:</strong> 1 hour of contact gives random indefinite madness, permanent if not cured within 24 hours (only <em>wish</em> or divine intervention ends it). Each servant's jug holds enough spores for one fresh corpse.</p><h3>X20. Quaggoth Den</h3><p>Filthy, bone-strewn, ten moss-and-fur beds. Four quaggoths gnaw bones here unless drawn to X19; they attack on sight. They follow Krob, who obeys Xardorok. The mechanical noise behind the west wall is X22's elevator.</p><h3>X21. Treacherous Guards</h3><p>Two duergar watch the doors to X22 unless drawn to X19. <strong>Both are Grandolpha loyalists</strong> who let the party pass and are 50% likely to know where Xardorok is.</p><h3>X22. Western Elevator</h3><p>Base of the west elevator shaft: up 100 ft to X6, 200 ft to X13. A large stone wheel turns constantly.</p><h3>X23. Outer Gate</h3><p>A 15-ft iron gate in a 20-ft wall between X16 and X24; padlocked on the east side. Forewoman Thontara carries the key. DC 20 thieves' tools (disadvantage when reaching through from X16) or <em>knock</em>. Any breach attempt alerts the forge tower guards.</p><h3>X24-X26. The Forge (objective: destroy the heart)</h3><p>A smoky cavern, ceiling 20-40 ft. <strong>X24:</strong> a 10-ft pyramid forge with a deep pulsing heartbeat; touching it (first time in a turn, or starting a turn in contact) deals 3d6 fire. Through the vents: a large beating heart. DC 15 Arcana identifies it as a <strong>red dragon's heart kept alive by magic</strong>. The forge gives it three-quarters cover. <strong>Large object: AC 13, 27 HP, vulnerable to cold, immune to fire and psychic.</strong> At 0 HP it stops beating and the forge is inoperable. <strong>X25:</strong> the iron assembly platform where the dragon was built (5-ft crawlspace below); Xardorok stands here barking orders if present. A clean-up crew: forewoman <strong>Thontara</strong> (horn as loudspeaker; the X23 gate key is in a compartment in her left boot heel) and six quaggoths. <strong>X26:</strong> the bottom of the dragon's shaft, 200 ft up to the ice doors (magic or climbing gear); a 5-ft bin holds leftover dragon fragments and any chardalyn stolen from the Easthaven town hall. <strong>Four 20-ft guard towers</strong> overlook the forge, three duergar each (12); <strong>one per tower is a Grandolpha loyalist</strong> who helps if the party is winning and stays out if Xardorok is. The rest throw javelins, grow Large, and switch to war picks in melee. A fight here calls <strong>three duergar hammerers from X28</strong>. If losing, Xardorok retreats to Deep Duerra's temple (X29) for a last stand.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!SunblightJrnl001.SBForgeLevel0001"
+    },
+    {
+      "sort": 600000,
+      "name": "Forge Level, Part 2 (X27-X37)",
+      "type": "text",
+      "_id": "SBLowerForge0001",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>Forge Level, Part 2 (X27-X37)</h1><p>Cells, the temple, barracks, and the treasure vault.</p><h3>X27. Giant Lizard Pens</h3><p>Six arched cells, each holding a saddled giant lizard (duergar mounts). Hostile to non-duergar but can't attack through closed gates; the gates are latched, not locked.</p><h3>X28. Dungeon</h3><p>A dark corridor with narrow iron doors barred from outside. Three <strong>duergar hammerers</strong> patrol it unless drawn to the forge, and attack anyone they don't know. Two cells hold prisoners: <strong>Pekoe Quint</strong> (tapping), a doppelganger posing as a Dougan's Hole trapper who says he was abducted and questioned about the town's defenses. A Wisdom (Insight) check beating his Deception senses something is off. He wants cold-weather clothes, sticks with the party to Ten-Towns, then slips away to a new disguise. He won't harm them unless given reason. <strong>Kapanuk Talltree Thuunlakalaga</strong> (banging), an unarmed goliath warrior, lost in a blizzard, ambushed and interrogated (he knew nothing). His greataxe is in the X29 northeast room. If freed he invites them to his kin at Wyrmdoom Crag for a heroes' feast. Other cells are empty (add prisoners freely).</p><h3>X29. Deep Duerra's Temple</h3><p>A 7-ft statue of a female duergar in a scale robe, the top of its head sheared off to hold a flaming brazier. Chained to its base: a mind flayer (9 HP, AC 11, CR 0) whose tentacles and psionic brain tissue <strong>Klondorn</strong> removed. It keeps Magic Resistance and telepathy. <strong>F'yorl</strong> was captured in the Underdark and will share this telepathically. Xardorok, if here, kneels in Dwarvish prayer. <strong>Deep Duerra</strong> is a lawful evil god of conquest and psionics (symbol: mind flayer skull); she stole psi from the mind flayers and enslaved a colony. DC 20 Religion identifies her (dwarves have advantage). <strong>Psychic Conquest</strong> applies to Xardorok here; snuffing the brazier's flame (an action) ends it. Rooms NW (cold-weather clothing, a dozen snowshoes) and NE (six war picks, nine warhammers, a dozen javelins, ten heavy crossbows, Kapanuk's greataxe). <strong>Secret door</strong> in the east wall (DC 15 Perception) leads by tunnel to X34.</p><h3>X30. Eastern Elevator</h3><p>Base of the east shaft: up 100 ft to X12, 200 ft to X15. A <strong>duergar hammerer</strong> guards it and attacks on sight.</p><h3>X31. Devil in Disguise</h3><p>Stacks of granite tablets. <strong>Klondorn</strong>, long-bearded priest of Deep Duerra and Xardorok's trusted advisor, is a <strong>barbed devil</strong> sent by Asmodeus, disguised by a hat of disguise (his miter). Xardorok doesn't know. If threatened he throws off the miter and attacks; at 0 HP he vanishes in black smoke to the Nine Hells, leaving the hat. The ninety-two 50-lb tablets are his Infernal manifesto: Asmodeus, posing as Deep Duerra, is using the duergar. Anyone who reads Infernal learns this.</p><h3>X32. Trapped Hall</h3><p>A short corridor between double doors lined with twelve humming 8-ft black boxes. Entering or starting a turn inside triggers lightning: DC 15 Dex save, 4d8 lightning (half on a save). <strong>Only the lever in X36 disables it.</strong></p><h3>X33. Lower Barracks</h3><p>Six duergar drink at three tables (copper kegs of Darklake Stout, Clan Muzgardt's best) and nine rest in side rooms: <strong>fifteen guards, ten of them Grandolpha loyalists.</strong> Claim her side and the loyalists turn on their kin; if the two factions are left to fight, five loyalists survive and will help kill Xardorok, then the alliance ends.</p><h3>X34. Torture Chamber</h3><p>Ten upright iron sarcophagi (iron maidens: a shackled Small or Medium creature takes 2d10 piercing when the lid shuts and again at the start of each of its turns; DC 20 Strength to break out). Two <strong>duergar mind masters</strong> in black hoods torture <strong>Nefrun</strong>, former captain of the guard (7 HP, unarmed), who's falsely accused of plotting a coup and suspects Klondorn turned Xardorok against her. Freed, she tries to prove her loyalty to Xardorok, even if that means betraying her rescuers. Her gear lies by the chair. Xardorok, if here, won't fight to the death: he exits by the secret door to X30 and rides the elevator to X8. A torture closet holds the usual tools.</p><h3>X35. Guest Quarters</h3><p>Two beds (one with a yeti hide, Xardorok's gift), two chests, ten kegs of Darklake Stout. Grandolpha's room. The chests are empty.</p><h3>X36. Duergar Hammerers</h3><p>Two pillars, a lowered portcullis to X37, an alcove with a lever. Two <strong>duergar hammerers</strong> attack anyone they don't recognize. The portcullis rises if Xardorok's gauntlet is pressed into a hand-shaped indentation in a chardalyn plaque in the north wall, with <em>knock</em>, or by a DC 25 Athletics check (which <strong>drops the portcullises over the vault's alcoves</strong>). The south alcove lever disables the X32 trap.</p><h3>X37. Treasure Vault</h3><p>Eight alcoves, each with a three-tumbler combination chest. The scroll in X5 has all eight combinations; otherwise DC 20 thieves' tools (1 minute) or <em>knock</em>. <strong>1:</strong> twelve gourds of fire-lichen liquor (10 gp each). <strong>2:</strong> gold drow mask (750 gp) on 350 gp. <strong>3:</strong> silver spider chalice with obsidian eyes (250 gp). <strong>4:</strong> gray spider-silk robe with darkmantle eyes, wrapped around a <em>wand of web</em>. <strong>5:</strong> a piwafwi (works as a cloak of elvenkind; loses its magic after an hour of unbroken sunlight). <strong>6:</strong> amber headdress with three purple pearls (2,500 gp). <strong>7:</strong> 50-lb Demogorgon statuette (DC 14 Cha save or short-term madness; once per creature). <strong>8:</strong> a yellow-mold-encrusted svirfneblin skeleton (spores released when opened) with a moonstone false eye (75 gp).</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!SunblightJrnl001.SBLowerForge0001"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "name": "Keep at Caer-Dineval",
+  "name": "Sunblight: Forge Level",
   "navigation": true,
-  "navName": "The Keep",
+  "navName": "Sunblight: Forge",
   "thumb": "",
   "padding": 0.25,
   "initial": {
@@ -70,8 +70,8 @@
   "regions": [],
   "playlist": null,
   "playlistSound": null,
-  "journal": "CaerDinevalJrn01",
-  "journalEntryPage": "CDAreaGuide00001",
+  "journal": "SunblightJrnl001",
+  "journalEntryPage": "SBForgeLevel0001",
   "weather": "",
   "folder": null,
   "flags": {},
@@ -90,16 +90,16 @@
   "shiftY": 0,
   "levels": [
     {
-      "_id": "MIDAtzcykw64ozcL",
-      "_key": "!scenes.levels!CaerDinevalKeep1.MIDAtzcykw64ozcL",
-      "name": "Caer-Dineval",
+      "_id": "SunblightForgeScLvl01",
+      "_key": "!scenes.levels!SunblightForgeSc.SunblightForgeScLvl01",
+      "name": "Sunblight: Forge Level",
       "background": {
         "src": null,
         "color": "#000000"
       }
     }
   ],
-  "initialLevel": "MIDAtzcykw64ozcL",
+  "initialLevel": "SunblightForgeScLvl01",
   "transition": {
     "type": null,
     "duration": 1500,
@@ -108,7 +108,7 @@
   "ownership": {
     "default": 0
   },
-  "_id": "CaerDinevalKeep1",
-  "_key": "!scenes!CaerDinevalKeep1",
-  "sort": 1
+  "_id": "SunblightForgeSc",
+  "_key": "!scenes!SunblightForgeSc",
+  "sort": 4
 }
