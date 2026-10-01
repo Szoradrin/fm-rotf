@@ -630,7 +630,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/rotf/assets/images/art-01-015-hethyl.webp",
+      "src": "modules/rotf/assets/images/token-hethyl-arkorran.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

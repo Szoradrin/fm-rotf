@@ -1,7 +1,7 @@
 {
   "name": "Karou Salafan",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/rotf/assets/images/token-karou-salafan.webp",
   "system": {
     "currency": {
       "pp": 0,
@@ -628,7 +628,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/rotf/assets/images/token-karou-salafan.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
