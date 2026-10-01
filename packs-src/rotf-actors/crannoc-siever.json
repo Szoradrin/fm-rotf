@@ -1,7 +1,7 @@
 {
   "name": "Crannoc Siever",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/rotf/assets/images/token-crannoc-siever.webp",
   "system": {
     "currency": {
       "pp": 0,
@@ -534,7 +534,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Speaker of Caer-Dineval, a 49-year-old unmarried man. Known as a bully who shouts and uses theatrics to make his point \u2014 but he is not deathly ill, despite the Knights of the Black Sword's propaganda claiming otherwise. He has been under house arrest in his own bedchamber (the Keep at Caer-Dineval, area C14) for the past two weeks, guarded by a single cultist.</p><p>Crannoc's captors arrived posing as neutral arbiters sent by the Council of Speakers to help resolve a fishing dispute with Easthaven and Caer-Konig. He knows the one calling the shots is a tiefling named Kadroth, who answers to someone named Levistus \u2014 nothing more.</p><p>The cultists slew his personal guards but kept his servants alive as leverage, holding most of them in the castle's cistern (area C24); only his cook, Karou Salafan, was left free to keep him fed.</p><p><strong>DM:</strong> Once freed, Crannoc won't be happy until he regains control of the castle and his captors are punished. He lets characters rest at the castle henceforth, treating his home as theirs \u2014 but is a blowhard and firebrand who enjoys living like a king behind his walls.</p>",
+        "value": "<p>Speaker of Caer-Dineval, a 49-year-old unmarried man. Known as a bully who shouts and uses theatrics to make his point — but he is not deathly ill, despite the Knights of the Black Sword's propaganda claiming otherwise. He has been under house arrest in his own bedchamber (the Keep at Caer-Dineval, area C14) for the past two weeks, guarded by a single cultist.</p><p>Crannoc's captors arrived posing as neutral arbiters sent by the Council of Speakers to help resolve a fishing dispute with Easthaven and Caer-Konig. He knows the one calling the shots is a tiefling named Kadroth, who answers to someone named Levistus — nothing more.</p><p>The cultists slew his personal guards but kept his servants alive as leverage, holding most of them in the castle's cistern (area C24); only his cook, Karou Salafan, was left free to keep him fed.</p><p><strong>DM:</strong> Once freed, Crannoc won't be happy until he regains control of the castle and his captors are punished. He lets characters rest at the castle henceforth, treating his home as theirs — but is a blowhard and firebrand who enjoys living like a king behind his walls.</p>",
         "public": ""
       },
       "alignment": "Lawful Neutral",
@@ -628,7 +628,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/rotf/assets/images/token-crannoc-siever.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
