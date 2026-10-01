@@ -1,5 +1,5 @@
-2026/10/01-00:59:38.915939 7fb37cfbd6c0 Delete type=3 #1
-2026/10/01-00:59:38.925399 7fb36f7fe6c0 Level-0 table #5: started
-2026/10/01-00:59:38.927157 7fb36f7fe6c0 Level-0 table #5: 99910 bytes OK
-2026/10/01-00:59:38.927807 7fb36f7fe6c0 Delete type=0 #3
-2026/10/01-00:59:38.927925 7fb36f7fe6c0 Manual compaction at level-0 from '!journal!BremenJournal001' @ 72057594037927935 : 1 .. '!journal.pages!SunblightJrnl001.SBOverview000001' @ 0 : 0; will stop at (end)
+2026/10/01-01:13:29.077244 7fab957be6c0 Delete type=3 #1
+2026/10/01-01:13:29.086033 7fab877fe6c0 Level-0 table #5: started
+2026/10/01-01:13:29.156285 7fab877fe6c0 Level-0 table #5: 99910 bytes OK
+2026/10/01-01:13:29.166147 7fab877fe6c0 Delete type=0 #3
+2026/10/01-01:13:29.166250 7fab877fe6c0 Manual compaction at level-0 from '!journal!BremenJournal001' @ 72057594037927935 : 1 .. '!journal.pages!SunblightJrnl001.SBOverview000001' @ 0 : 0; will stop at (end)
