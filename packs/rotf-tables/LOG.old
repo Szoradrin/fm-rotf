@@ -1,5 +1,5 @@
-2026/10/01-00:42:45.649350 7fa8c2fbd6c0 Delete type=3 #1
-2026/10/01-00:42:45.654843 7fa8c1fbb6c0 Level-0 table #5: started
-2026/10/01-00:42:45.655540 7fa8c1fbb6c0 Level-0 table #5: 12917 bytes OK
-2026/10/01-00:42:45.655926 7fa8c1fbb6c0 Delete type=0 #3
-2026/10/01-00:42:45.656001 7fa8c1fbb6c0 Manual compaction at level-0 from '!tables!AurilCultEncTable01' @ 72057594037927935 : 1 .. '!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0020' @ 0 : 0; will stop at (end)
+2026/10/01-00:43:35.612748 7f079efbd6c0 Delete type=3 #1
+2026/10/01-00:43:35.615876 7f079dfbb6c0 Level-0 table #5: started
+2026/10/01-00:43:35.616536 7f079dfbb6c0 Level-0 table #5: 12917 bytes OK
+2026/10/01-00:43:35.616876 7f079dfbb6c0 Delete type=0 #3
+2026/10/01-00:43:35.616932 7f079dfbb6c0 Manual compaction at level-0 from '!tables!AurilCultEncTable01' @ 72057594037927935 : 1 .. '!tables.results!RotFCh2WildernessEnc01.RotFCh2Result0020' @ 0 : 0; will stop at (end)
