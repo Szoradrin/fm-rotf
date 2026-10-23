@@ -1,14 +1,15 @@
 # MODULE-STATE.yaml — Rime of the Frostmaiden Foundry Module
 # Source of truth for what has been built, what quality it is, and what track it belongs to.
 # Three tracks: RAW (book), THIRD_PARTY (authorized supplements), HOMEBREW (Reed's ideas — design must precede build)
-# Updated: Rime of the Frostmaiden S23 — 2026-09-23 (release 1.0.33)
+# Updated: Rime of the Frostmaiden S24 — 2026-10-23 (release 1.0.47)
+# NOTE: releases 1.0.34–1.0.46 were not individually logged here; sections below last fully refreshed at 1.0.33 except where marked.
 
 meta:
   module_id: rotf
   module_title: "Icewind Dale: Rime of the Frostmaiden"
   repo: Szoradrin/fm-rotf
-  current_release: "1.0.33"
-  foundry_version: "14.368"  # verified against foundryvtt.com/releases 2026-09-23
+  current_release: "1.0.47"
+  foundry_version: "14.368"  # verified against foundryvtt.com/releases 2026-09-23 (not re-verified S24)
   system: dnd5e
   system_version: "5.3.3"
   sqyre: https://icewind-dale-rime-of-the-frostma-5d8b5fc8.us.sqyre.app/game
@@ -21,16 +22,17 @@ build_rules:
   - Release requires Reed approval
 
 # ==============================================================================
-# ACTORS — 117 total
+# ACTORS — 145 source files in packs-src/rotf-actors as of 1.0.47 (S24 count)
 # ==============================================================================
 
 actors:
-  total: 117
+  total: 145  # S24 directory count; category lists below last refreshed at 1.0.33 + S24 additions
   quality_issues:
     - 33 actors have string damage denominations (Gate 4 failure) — actor rebuild pending
     - Most actors use mystery-man placeholder tokens — token art pass pending
     - Items/activities skeletal on pre-Session 21 actors — action buttons don't work
     - Full rebuild plan in Szoradrin/fm-template/exemplars/ACTOR-REBUILD-DIAGNOSIS.md
+    - "S24: duergar.json hp formula '4d8 + 4' should be '4d8+8' — fix pending"
 
   track_RAW:
     standard_monsters: [berserker, druid, duergar, frost-giant, giant-goat, gnoll, goat,
@@ -50,6 +52,10 @@ actors:
       arveiaturace, dzaans-simulacrum, nass-lantomirs-ghost, xardorok-sunblight, kadroth,
       grandolpha-muzgardt, spellix-romwod, prisoner-237, hethyl-arkorran, crannoc-siever,
       huarwar-mulphoon, fel-suparra, knight-of-the-black-sword, yajath, thoob, gargle, gurgle, skelm]
+    sunblight_s24: [xardorok-sunblight, grandolpha-muzgardt, klondorn, thonot-krob, quaggoth,
+      quaggoth-spore-servant, pleurota, fyorl, pekoe-quint, chardalyn-dragonet, rust-monster,
+      animated-armor, giant-lizard, umber-hulk, intelligent-mimic, kapanuk-talltree-thuunlakalaga,
+      dreck, thontara, nefrun]  # 1.0.47 — compact generator, flat attack bonuses = book numbers
     # 1.0.33: avarice REBUILT on TRAZZM Drow Evoker chassis; Knights (huarwar, fel, knight, yajath, thoob) on Kadroth/Cultist chassis; gargoyles on Ghoul chassis; skelm (raven, fiend)
     # kadroth, hethyl-arkorran, crannoc-siever REBUILT 1.0.32 from TRAZZM Cultist Fanatic chassis (V14/5.3.3 correct)
     # NPCs using standard stat blocks (no unique DDB entry):
@@ -60,7 +66,7 @@ actors:
     source: "Creed of Auril (Samuel Dillon, DMs Guild) — authorized Session 20"
     built: [spite-of-auril, tempest-of-auril]  # rebuilt clean Session 21
     still_needed: [darkhand-of-auril, coldwind-of-auril, icebringer-of-auril, nix-mater]
-    note: "Savaa Rubyeye uses icebringer chassis — build icebringer first"
+    note: "Savaa Rubyeye uses icebringer chassis — build icebringer first. S24: darkhand-of-auril.json and coldwind-of-auril.json now exist in packs-src (added in an unlogged 1.0.34–1.0.46 release) — verify."
 
   track_HOMEBREW:
     note: "Design must be decided before any build work starts"
@@ -69,7 +75,8 @@ actors:
         status: BUILT — actor exists in packs-src
         design_status: PARTIALLY DECIDED — wood elf Emerald Enclave druid, Bryn Shander contact
         concern: Name invented by Sage, not Reed. Needs Reed to confirm or rename.
-    pending_design: []
+    pending_design:
+      - sahnar  # sahnar.json exists; design discussion with Reed pending (S24)
 
   actors_still_needed_RAW:
     - kingsport  # DDB slug unknown — Reed to find
@@ -167,6 +174,7 @@ outstanding:
     why: Actions/items don't work in Foundry — activities skeletal, weapon chassis missing
     blocker: Pipeline design conversation with Reed first
     diagnosis: Szoradrin/fm-template/exemplars/ACTOR-REBUILD-DIAGNOSIS.md
+    s24_note: "Sunblight roster built in 1.0.47 (19 actors, compact generator). Remaining: duergar hp fix, token art, Sunblight journal roster page."
 
   p2_creed_actors:
     what: Build Darkhand, Coldwind, Icebringer (Savaa), Nix Mater from Creed PDF
@@ -205,6 +213,21 @@ outstanding:
 # Newest first.
 
 changelog:
+  - date: 2026-10-23
+    timestamp: "2026-10-23T01:30-06:00"  # approximate save time
+    session: Rime of the Frostmaiden S24
+    agent: sage
+    track: rime-of-the-frostmaiden
+    release: "1.0.47"
+    built:
+      - "Sunblight actor batch (19): Xardorok Sunblight, Grandolpha Muzgardt, Klondorn (2024 barbed devil), Thonot Krob, Quaggoth, Quaggoth Spore Servant, Pleurota, F'yorl, Pekoe Quint, Chardalyn Dragonet, Rust Monster, Animated Armor, Giant Lizard, Umber Hulk, Intelligent Mimic, Kapanuk Talltree Thuunlakalaga, Dreck, Thontara, Nefrun"
+      - "Merged via PR #1 (squash 6af1baa); release 1.0.47 published by Reed"
+      - "Durth intentionally omitted (Reed)"
+    lessons:
+      - "claude.ai cloud sessions: REST writes blocked by proxy; GitHub MCP connector works for text only — module work moving to local Claude Code (callinl/ai-ops/handoffs/2026-10-23-local-ai-ops-desktop.md)"
+      - "Verify transcribed files by comparing GitHub blob SHA against local git hash-object"
+    gaps:
+      - "Releases 1.0.34–1.0.46 (S23 batch work incl. 1.0.38 Caer-Dineval/Sunblight journals and scene shells) not individually logged here"
   - date: 2026-09-23
     session: Rime of the Frostmaiden S23
     agent: sage
