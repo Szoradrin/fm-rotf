@@ -1,7 +1,7 @@
 # MODULE-STATE.yaml — Rime of the Frostmaiden Foundry Module
 # Source of truth for what has been built, what quality it is, and what track it belongs to.
 # Three tracks: RAW (book), THIRD_PARTY (authorized supplements), HOMEBREW (Reed's ideas — design must precede build)
-# Updated: Rime of the Frostmaiden S24 — 2026-10-23 (release 1.0.47)
+# Updated: Rime of the Frostmaiden S25 — 2026-11-04 (release 1.0.47; S25 release pending)
 # NOTE: releases 1.0.34–1.0.46 were not individually logged here; sections below last fully refreshed at 1.0.33 except where marked.
 
 meta:
@@ -76,7 +76,7 @@ actors:
         design_status: PARTIALLY DECIDED — wood elf Emerald Enclave druid, Bryn Shander contact
         concern: Name invented by Sage, not Reed. Needs Reed to confirm or rename.
     pending_design:
-      - sahnar  # sahnar.json exists; design discussion with Reed pending (S24)
+      - sahnar  # sahnar.json exists; portrait and animation done; actor/design still to finalize (S25)
 
   actors_still_needed_RAW:
     - kingsport  # DDB slug unknown — Reed to find
@@ -169,6 +169,19 @@ tables:
 # ==============================================================================
 
 outstanding:
+  p0_sunblight_assets:
+    tokens:
+      status: "Prompts generated; images to upload to assets/images/ and wire in one release. Only Xardorok, Grandolpha and Kapanuk have real tokens in 1.0.47."
+      files: [token-klondorn, token-thontara, token-nefrun, token-dreck, token-pekoe-quint,
+        token-thonot-krob, token-pleurota, token-fyorl, token-chardalyn-dragonet, token-quaggoth,
+        token-quaggoth-spore-servant, token-intelligent-mimic, token-umber-hulk, token-rust-monster,
+        token-animated-armor, token-giant-lizard]
+    maps:
+      status: "Split into 3 labeled level images (X1-X37 versions); Reed sets them in the scenes by hand."
+      files: [sunblight-command-level, sunblight-ice-gate-level, sunblight-forge-level]
+      grid: "About 85-90 px per 10 ft square"
+    duergar_hp: "duergar.json still needs 4d8+8 (26). Fixed by hand in Reed's world only."
+
   p1_actor_rebuild:
     what: Rebuild all actors against TRAZZM exemplar chassis
     why: Actions/items don't work in Foundry — activities skeletal, weapon chassis missing
@@ -213,6 +226,14 @@ outstanding:
 # Newest first.
 
 changelog:
+  - date: 2026-11-04
+    timestamp: "2026-11-04T17:40-07:00"  # approximate save time
+    session: Rime of the Frostmaiden S25
+    agent: sage
+    track: rime-of-the-frostmaiden
+    release: null
+    change: "State catch-up only: recorded Sunblight token and map assets, the pending duergar HP fix, and Sahnar's status. No pack content changed."
+    why: "Bring module state up to date before tonight's build."
   - date: 2026-10-23
     timestamp: "2026-10-23T01:30-06:00"  # approximate save time
     session: Rime of the Frostmaiden S24
