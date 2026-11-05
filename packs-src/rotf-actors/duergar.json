@@ -64,7 +64,7 @@
         "max": 26,
         "temp": 0,
         "tempmax": 0,
-        "formula": "4d8 + 4"
+        "formula": "4d8+8"
       },
       "init": {
         "ability": "",

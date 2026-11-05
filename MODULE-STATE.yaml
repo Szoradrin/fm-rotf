@@ -1,14 +1,14 @@
 # MODULE-STATE.yaml — Rime of the Frostmaiden Foundry Module
 # Source of truth for what has been built, what quality it is, and what track it belongs to.
 # Three tracks: RAW (book), THIRD_PARTY (authorized supplements), HOMEBREW (Reed's ideas — design must precede build)
-# Updated: Rime of the Frostmaiden S25 — 2026-11-04 (release 1.0.47; S25 release pending)
+# Updated: Rime of the Frostmaiden S25 — 2026-11-04 (release 1.0.48)
 # NOTE: releases 1.0.34–1.0.46 were not individually logged here; sections below last fully refreshed at 1.0.33 except where marked.
 
 meta:
   module_id: rotf
   module_title: "Icewind Dale: Rime of the Frostmaiden"
   repo: Szoradrin/fm-rotf
-  current_release: "1.0.47"
+  current_release: "1.0.48"
   foundry_version: "14.368"  # verified against foundryvtt.com/releases 2026-09-23 (not re-verified S24)
   system: dnd5e
   system_version: "5.3.3"
@@ -32,7 +32,6 @@ actors:
     - Most actors use mystery-man placeholder tokens — token art pass pending
     - Items/activities skeletal on pre-Session 21 actors — action buttons don't work
     - Full rebuild plan in Szoradrin/fm-template/exemplars/ACTOR-REBUILD-DIAGNOSIS.md
-    - "S24: duergar.json hp formula '4d8 + 4' should be '4d8+8' — fix pending"
 
   track_RAW:
     standard_monsters: [berserker, druid, duergar, frost-giant, giant-goat, gnoll, goat,
@@ -131,7 +130,12 @@ journals:
 # ==============================================================================
 
 scenes:
-  total: 9
+  total: 17  # 1.0.48 directory count; lists below were not fully refreshed
+  easthaven_battle_maps_1_0_48:  # map background only; no grid, walls, lights or tokens (Reed sets those by hand)
+    - Easthaven - Frozen Harbor and Ferry
+    - Easthaven - Eastway Bridge and Gate
+    - Easthaven - Town Hall and Market Square
+    - Easthaven - Fishing Docks and Market
   track_RAW:
     built:
       - scene-dougans-hole         # town profile
@@ -180,14 +184,13 @@ outstanding:
       status: "Split into 3 labeled level images (X1-X37 versions); Reed sets them in the scenes by hand."
       files: [sunblight-command-level, sunblight-ice-gate-level, sunblight-forge-level]
       grid: "About 85-90 px per 10 ft square"
-    duergar_hp: "duergar.json still needs 4d8+8 (26). Fixed by hand in Reed's world only."
 
   p1_actor_rebuild:
     what: Rebuild all actors against TRAZZM exemplar chassis
     why: Actions/items don't work in Foundry — activities skeletal, weapon chassis missing
     blocker: Pipeline design conversation with Reed first
     diagnosis: Szoradrin/fm-template/exemplars/ACTOR-REBUILD-DIAGNOSIS.md
-    s24_note: "Sunblight roster built in 1.0.47 (19 actors, compact generator). Remaining: duergar hp fix, token art, Sunblight journal roster page."
+    s24_note: "Sunblight roster built in 1.0.47 (19 actors, compact generator). Remaining: token art, Sunblight journal roster page."
 
   p2_creed_actors:
     what: Build Darkhand, Coldwind, Icebringer (Savaa), Nix Mater from Creed PDF
@@ -226,6 +229,15 @@ outstanding:
 # Newest first.
 
 changelog:
+  - date: 2026-11-04
+    timestamp: "2026-11-04T18:26:04-07:00"
+    session: Rime of the Frostmaiden S25
+    agent: sage
+    track: rime-of-the-frostmaiden
+    release: "1.0.48"
+    change: "Added four gridless Easthaven battle map scenes (map background only). Fixed duergar.json HP formula to 4d8+8."
+    why: "Reed asked for one scene per map for tonight, with the grid and everything else left to him."
+    refs: [packs-src/rotf-scenes/scene-easthaven-frozen-harbor-and-ferry.json, packs-src/rotf-scenes/scene-easthaven-eastway-bridge-and-gate.json, packs-src/rotf-scenes/scene-easthaven-town-hall-and-market-square.json, packs-src/rotf-scenes/scene-easthaven-fishing-docks-and-market.json, packs-src/rotf-actors/duergar.json]
   - date: 2026-11-04
     timestamp: "2026-11-04T17:40-07:00"  # approximate save time
     session: Rime of the Frostmaiden S25
