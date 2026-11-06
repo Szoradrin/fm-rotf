@@ -1,7 +1,7 @@
 # MODULE-STATE.yaml — Rime of the Frostmaiden Foundry Module
 # Source of truth for what has been built, what quality it is, and what track it belongs to.
 # Three tracks: RAW (book), THIRD_PARTY (authorized supplements), HOMEBREW (Reed's ideas — design must precede build)
-# Updated: Rime of the Frostmaiden S25 — 2026-11-04 (release 1.0.48)
+# Updated: Rime of the Frostmaiden — 2026-11-05 token audit (release 1.0.48)
 # NOTE: releases 1.0.34–1.0.46 were not individually logged here; sections below last fully refreshed at 1.0.33 except where marked.
 
 meta:
@@ -9,7 +9,7 @@ meta:
   module_title: "Icewind Dale: Rime of the Frostmaiden"
   repo: Szoradrin/fm-rotf
   current_release: "1.0.48"
-  foundry_version: "14.368"  # verified against foundryvtt.com/releases 2026-09-23 (not re-verified S24)
+  foundry_version: "14.369"  # Reed's install, 2026-11-04. module.json compatibility.verified is still 14.368; bump it in the next release.
   system: dnd5e
   system_version: "5.3.3"
   sqyre: https://icewind-dale-rime-of-the-frostma-5d8b5fc8.us.sqyre.app/game
@@ -29,7 +29,7 @@ actors:
   total: 145  # S24 directory count; category lists below last refreshed at 1.0.33 + S24 additions
   quality_issues:
     - 33 actors have string damage denominations (Gate 4 failure) — actor rebuild pending
-    - Most actors use mystery-man placeholder tokens — token art pass pending
+    - "Tokens, audited 2026-11-05 across 145 actors: 78 use a token file (some shared or generic), 56 use the mystery-man placeholder, 10 use book art, 1 uses a core icon. No actor points at a missing file."
     - Items/activities skeletal on pre-Session 21 actors — action buttons don't work
     - Full rebuild plan in Szoradrin/fm-template/exemplars/ACTOR-REBUILD-DIAGNOSIS.md
 
@@ -175,7 +175,11 @@ tables:
 outstanding:
   p0_sunblight_assets:
     tokens:
-      status: "Prompts generated; images to upload to assets/images/ and wire in one release. Only Xardorok, Grandolpha and Kapanuk have real tokens in 1.0.47."
+      status: "Audited 2026-11-05 at 1.0.48. Own token: Xardorok, Grandolpha. Generic token: Kapanuk (token-goliath-warrior). Book art: Klondorn (art-03-003-klondorn). Placeholder: the other 15. None of the images below are in assets/images/ yet, and the 16 prompts aren't saved in D:/AI-Ops."
+      already_in_assets_not_wired:
+        placeholder_actor_has_a_token: {vellynne-harpell: token-vellynne-harpell, nass-lantomir-ghost: token-nass-lantomir, dzaans-simulacrum: token-dzaan-simulacrum, icewind-kobold: token-icewind-kobold}
+        book_art_actor_has_a_token: {arveiaturace: token-arveiaturace, bjornhild-solvigsdottir: token-bjornhild-solvigsdottir, auril-first-form: token-auril-first-form, auril-second-form: token-auril-second-form, auril-third-form: token-auril-third-form}
+        no_actor_yet: [token-jarund-elkhardt, token-kingsport, token-prisoner-237, token-spellix-romwod]
       files: [token-klondorn, token-thontara, token-nefrun, token-dreck, token-pekoe-quint,
         token-thonot-krob, token-pleurota, token-fyorl, token-chardalyn-dragonet, token-quaggoth,
         token-quaggoth-spore-servant, token-intelligent-mimic, token-umber-hulk, token-rust-monster,
@@ -229,6 +233,14 @@ outstanding:
 # Newest first.
 
 changelog:
+  - date: 2026-11-05
+    timestamp: "2026-11-05T22:55-07:00"
+    session: Rime of the Frostmaiden, after game session 25
+    agent: sage
+    track: rime-of-the-frostmaiden
+    release: null
+    change: "State correction only: recorded the real token status from an audit of every actor, corrected Kapanuk (generic token, not his own), and set foundry_version to Reed's 14.369. No pack content changed."
+    why: "Reed asked for the records to match what's actually in the module."
   - date: 2026-11-04
     timestamp: "2026-11-04T18:26:04-07:00"
     session: Rime of the Frostmaiden S25
