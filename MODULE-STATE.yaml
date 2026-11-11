@@ -233,6 +233,14 @@ outstanding:
 # Newest first.
 
 changelog:
+  - date: 2026-11-11
+    session: Rime of the Frostmaiden, before game session 26
+    agent: sage
+    track: rime-of-the-frostmaiden
+    release: null
+    change: "Repo clean-up (Reed approved): added .gitignore and took node_modules out of git; left archive/ out of the release zip; removed the unregistered packs/rotf-actors-cult; moved IMAGE_MANIFEST.md to docs/ marked stale; wrote a README that maps every folder. Campaign files moved into campaign/ on 2026-11-10."
+    why: "Reed asked for the repo audited and organized correctly."
+    known_issue: "packs-src/rotf-tables/rolltable-cult-of-auril-encounters.json links to 'rime-of-the-frostmaiden.rotf-actors-cult', an old module ID and a pack that isn't registered, so those 6 results were already broken. Not changed."
   - date: 2026-11-05
     timestamp: "2026-11-05T22:55-07:00"
     session: Rime of the Frostmaiden, after game session 25

@@ -5,9 +5,9 @@
 ./reference/*
 ./docs/*
 ./campaign/*
+./archive/*
 ./tools/*
 ./MODULE-STATE.yaml
-./IMAGE_MANIFEST.md
 ./README.md
 ./package.json
 ./package-lock.json

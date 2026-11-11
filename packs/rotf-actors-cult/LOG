@@ -1,5 +1,0 @@
-2026/06/19-03:23:09.000568 7f6c75fbd6c0 Delete type=3 #1
-2026/06/19-03:23:09.003450 7f6c74fbb6c0 Level-0 table #5: started
-2026/06/19-03:23:09.005404 7f6c74fbb6c0 Level-0 table #5: 13622 bytes OK
-2026/06/19-03:23:09.006074 7f6c74fbb6c0 Delete type=0 #3
-2026/06/19-03:23:09.006130 7f6c74fbb6c0 Manual compaction at level-0 from '!actors!AurilCultCldWnd001' @ 72057594037927935 : 1 .. '!actors.items!AurilCultTempst001.TempestItem000006' @ 0 : 0; will stop at (end)
