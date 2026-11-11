@@ -1,0 +1,470 @@
+# ROTF-STORY-STATE.yaml
+#
+# THE WHAT vs THE HOW — read this first.
+# THE WHAT = the story. Plot, character arcs, villains, stakes. This file.
+# THE HOW  = the module. Actors, journals, scenes. MODULE-STATE.yaml in Szoradrin/fm-rotf.
+# THE TO-DO = Jira project ROTF.
+#
+# This file is a narrative document first, a log second. Rewrite fully each update.
+
+meta:
+  last_updated: "2026-11-04 — S25: new arc from Reed's Campaign Continuation Plan (CAMPAIGN-PLAN.md, this folder). Chapter 4 re-read on D&D Beyond 2026-11-04."
+  note: >
+    Major correction session. Several plot assumptions in the previous version of this file
+    were invented/guessed rather than sourced from the book, and were corrected today by
+    reading the actual Caer-Dineval, Caer-Konig (The Unseen), Chapter 3 (Sunblight), and
+    Chapter 4 (Destruction's Light) pages directly on D&D Beyond. This file now reflects
+    the real book mechanics, adapted to Reed's table.
+
+latest_status:
+  as_of: "Game session 25 — 2026-11-04 (after the Easthaven battle)"
+  session_numbering: "Session numbers count game sessions. One game session can span several Claude Code sessions. Older S-numbers in these files were counted per work session, so don't read them as game sessions."
+  where_we_are: >
+    The party went through Sunblight on Oct 28 and found the X4 flight plan. Xardorok is
+    alive, Pleurota was not freed, and the red dragon heart was not destroyed. In game session
+    25 (Nov 4) the party fought the chardalyn dragon at Easthaven's gate and pulled it out of
+    town. They got it under 100 HP and it fled back toward Sunblight. Its exact HP and the
+    aftermath in Easthaven are not recorded yet. What happened at Black Swords / Caer-Dineval
+    is not recorded here yet (Reed to supply).
+  party_level: "6 (Rurik's sheet still showed 5; confirm at table)"
+  full_party_sheets: "campaign/party/*.md"
+  module_release: "1.0.48 — four Easthaven battle scenes, duergar HP fix"
+  corrections_applied: "Rurik's surname is Lutgehr (not Ironfist); Rhystal is Circle of the Stars (not Seas); all party members level 6"
+
+# ==============================================================================
+# REED'S ENDGAME GOAL
+# ==============================================================================
+
+reed_campaign_goal:
+  timeline: "Game session 25 (Nov 4) covers the Easthaven battle. Next known date: about Dec 23 or January."
+  desired_ending_beat: >
+    End the arc on a cliffhanger: Arveiaturace (the ancient white dragon) appears near Bryn
+    Shander and notices the adventurers. Not an automatic fight; her purpose is not decided.
+  guidance: >
+    Quality over speed. No overland travel filler — Reed has explicitly said he does not
+    want extra wilderness/travel scenes between story beats unless they add something.
+    Party just arrives where they need to be next.
+
+current_plan:
+  source: "CAMPAIGN-PLAN.md in this folder (Reed, 2026-11-04). It overrides anything below that conflicts with it."
+  sequence:
+    - "PLAYED, game session 25: battle the chardalyn dragon in Easthaven. It retreated toward Sunblight after substantial damage."
+    - "Next session: pursue it to Sunblight, interrupt repairs, destroy it for good, resolve the fortress."
+    - "Return to Bryn Shander as heroes. The dragon never reaches the town, and the town survives."
+    - "Vellynne Harpell introduces the Ythryn storyline."
+    - "Arveiaturace appears as the arc's cliffhanger. Not automatically a fight."
+    - "Continue toward Auril's island, the Reghed Glacier, and Ythryn."
+
+# Older arc record, kept for its book notes. Where it conflicts with current_plan, current_plan wins.
+confirmed_arc_to_ending:
+  - beat: "Finish Elven Tomb fight (Ravisin) — DONE"
+  - beat: "Lonelywood wrap-up: Ramshackle reward, Nimsy dinner, Sephek ambush, Nimsy's confirmation"
+    detail: "Fully built in journal-lonelywood-supplement.json. Sephek dies, Nimsy confirms wound match to Caer-Dineval murder. This is the party's motivation to go to Caer-Dineval. NO overland travel scene — they just arrive."
+  - beat: "Black Swords (Caer-Dineval) — OUTCOME NOT RECORDED (party reached Sunblight by Oct 28; Reed to say what happened here)"
+    detail: >
+      SOURCED FROM BOOK TODAY. The quest location is a single castle/keep — "The Keep at
+      Caer-Dineval" — rooms C1-C24, sitting on cliffs over the town and frozen harbor.
+      Speaker Crannoc Siever is held under house arrest in C14 (his own bedchamber), guarded
+      by one cultist (Yajath). The Knights of the Black Sword control the keep and have been
+      posing as his staff, turning away visitors.
+
+      KEY MECHANIC: the Knights answer to Levistus (archdevil, Stygia) via one-way telepathy.
+      Levistus has ordered them to ally with any party who satisfies ONE of three conditions:
+        1. Has the "Runaway Author" secret (appendix B) — N/A for this party
+        2. Found and killed duergar hiding in Dinev's Rest — N/A, not run
+        3. Meddled in the affairs of Nildar Sunblight or his older brother Durth (see "The
+           Unseen", chapter 2) — TRUE. Party completed The Unseen in Caer-Konig, which
+           involved Nildar Sunblight's duergar raiding the town for chardalyn.
+      Because condition 3 is already satisfied, THE KNIGHTS WILL STAND DOWN AND WELCOME THE
+      PARTY when they arrive/are recognized — no forced combat at the gate. This is a real
+      book mechanic, not DM invention.
+
+      Key NPCs actually in the keep:
+        - Kadroth: vainglorious tiefling cult fanatic. FALSELY claims a direct line to
+          Levistus — he does not actually have one. Levistus secretly despises him. If the
+          party kills/harms any cultist OTHER than Kadroth, the alliance breaks. Kadroth
+          himself is fair game.
+        - Hethyl Arkorran: shield dwarf, peg leg (lost foot to frostbite), the cult's oldest
+          member and true soothsayer/backbone. NONCOMBATANT — "too old to harm anyone."
+          Blunt, heartless in manner but not cruel for its own sake. Located in C13.
+          SHE IS THE INFO SOURCE — see below.
+        - Avarice: albino tiefling wizard, Arcane Brotherhood, private quarters in C21.
+          Raven familiar named Skelm (NOT the gargoyles). Two gargoyles (Gargle and Gurgle)
+          are currently AWAY spying on her wizardly rivals — not present in the keep.
+          Levistus already told her not to antagonize this specific party since she needs
+          them to help her reach Ythryn (lost Netherese city) and recover the wizard
+          Iriolarthas's spellbook. She's cagey, won't discuss why she's there, but is not
+          hostile. If she stops feeling safe she simply leaves — she is not a fight-to-the-
+          death enemy. If harmed, her gargoyles retaliate later as the party leaves the keep.
+
+      WHAT THE PARTY LEARNS — new reveal, not a confirmation (Reed's party has NOT
+      previously connected any dots about a duergar plot — that thread was only ever
+      light foreshadowing via chardalyn shards and the name "Nildar Sunblight" during
+      The Unseen; nobody has told them it's an active threat until now):
+        Hethyl already suspects duergar are plotting against Ten-Towns (this is canon —
+        she convinced the cult to forge alliances against the duergar). When she learns
+        the party already tangled with Nildar Sunblight's people, that's confirmation for
+        her. She (or the book's built-in alternate path: a Ten-Towns speaker, e.g. Crannoc
+        himself once freed) can hand the party the real hook — the book's actual mechanism
+        is the "Speaker's Quest": a speaker informs the party that duergar have infiltrated
+        Ten-Towns for chardalyn and are building "a mighty construct that will lay waste to
+        Ten-Towns," names the warlord XARDOROK SUNBLIGHT, and provides a map to his mountain
+        fortress (captured/interrogated duergar prisoner as the source of the location).
+        This can be voiced through Hethyl and/or newly-freed Crannoc — both work, use
+        whichever lands better at the table.
+
+      S23 BOOK CORRECTIONS (read on D&D Beyond 2026-09-23) — these override anything above:
+        - Allied Knights will NOT give up Crannoc (their leverage). Yajath (C14) is a cultist, so
+          attacking him breaks the alliance — alliance vs. rescue is a real choice.
+        - Hethyl delivers four prophecies (Xardorok will conquer the dale; fortress in the Spine with a
+          forge powered by a red dragon heart; his plan is findable in the fortress; they die if they face
+          him too soon) and then DIES of natural causes. She gives NO map.
+        - The map comes from a speaker (ch. 3 Speaker's Quest; Crannoc once free), the Easthaven ferry,
+          or a compelled duergar. Six duergar hide in Dinev's Rest in town.
+        - Full run sheet: campaign/runsheets/S23-black-swords.md
+      Outcome (book): if the party frees Crannoc and routs/allies with the cultists, Crannoc
+      restores order, lets the party rest at the castle whenever needed. If Kadroth and
+      Hethyl are both removed/dead, Avarice steps up to fill the power vacuum (long-term
+      background thread, not needed for this campaign's remaining scope).
+
+  - beat: "Sunblight Fortress — PLAYED OCT 28 (X4 plan found; Xardorok alive; Pleurota not freed; heart intact)"
+    detail: >
+      Sequestered in the Spine of the World. Home to Xardorok Sunblight, his two living sons,
+      and the rest of the Sunblight duergar clan. Xardorok believes his patron is Deep Duerra
+      (duergar god of conquest) — he is WRONG. It's actually Asmodeus (Lord of the Nine Hells)
+      impersonating Deep Duerra. This matches/confirms the existing Levistus-hides-Asmodeus-
+      connection thread already established for the Knights.
+
+      CRITICAL BOOK MECHANIC — "Running This Chapter" states directly: "By the time they
+      arrive, Xardorok has already finished his construct and set it loose." THE DRAGON HAS
+      ALREADY LAUNCHED REGARDLESS OF PARTY TIMING — not a coincidence tied to arrival, baked
+      into the chapter's structure. Arriving at Sunblight always means "too late to stop the
+      launch," full stop, no matter what the party does or how fast they get there.
+
+      REED'S DECISION (confirmed, corrects an earlier assistant error that wrongly said the
+      fortress would be skipped): the party DOES fight the fortress. This is the mechanical,
+      spend-real-session-time CLIMAX of the duergar thread — 2-3 sessions of real dungeon
+      crawl: duergar patrols, invisible scouts, Xardorok's sons, and Xardorok himself as a
+      genuine boss fight. Even though the dragon is already gone/launched, killing Xardorok
+      still matters — it's a real, earned win ("we stopped HIM, even though we were too late
+      to stop IT"), not a hollow victory. Beef up Xardorok and the fortress roster for a
+      level-6 party of 5 (see leveling plan below).
+
+      "Fortress Fallout" (book, for reference): the dragon won't return to the fortress until
+      it destroys Ten-Towns. If Xardorok dies and his forge is intact, the dragon is
+      unrepairable.
+
+      OCT 28 OUTCOME (Reed, 2026-11-04; supersedes the kill-Xardorok plan above): the party
+      found the X4 flight plan. Xardorok was NOT killed, Pleurota (X19) was NOT freed, and the
+      red dragon heart (X24) was NOT destroyed. A living Xardorok can repair the dragon, so
+      the repair route stays open. Durth (Xardorok's son, duergar mind master, room X10) was
+      left out; use the Duergar Mind Master actor if needed.
+
+  - beat: "Vellynne Harpell — SUPERSEDED: current_plan introduces her after the dragon is destroyed (see open_reconcile)"
+    detail: >
+      SOURCED FROM BOOK TODAY. Vellynne (Arcane Brotherhood wizard, Host Tower/Luskan) has
+      heard of the party's earlier deeds and has been actively searching for them. She
+      intercepts them with three dog-sleds (two Icewind kobold zombies, four Icewind kobolds,
+      wolf-stock dogs) and offers them a ride back to Ten-Towns. Her real motive: she wants
+      to earn their trust so they'll later help her get the Codicil of White (the actual
+      chapter-5 endgame hook — held in reserve past the winter break, not resolved now).
+      She does NOT care about Ten-Towns' fate for its own sake but is happy to help fight the
+      dragon to "test her magic against the mightiest foes."
+      This is a clean, book-native way to introduce Vellynne now without derailing the
+      ending — she's someone who helps them get back fast, not someone with a demanding
+      subplot right now.
+      If the party doesn't know where to go, SHE suggests Bryn Shander as the town most
+      likely to make a final stand.
+
+  - beat: "Race back to Ten-Towns — SUPERSEDED: the fight is at Easthaven and the dragon never reaches Bryn Shander (route and rules: dragon_scourge below)"
+    detail: >
+      SOURCED FROM BOOK TODAY. The dragon has a fixed flight path (book's "Dragon Flight
+      Times" table) hitting: Dougan's Hole, Good Mead, Easthaven, Caer-Dineval, Caer-Konig,
+      Termalaine, Lonelywood, Bremen, Targos, Bryn Shander, then back to Sunblight.
+      BRYN SHANDER IS SECOND-TO-LAST — confirmed BOOK CANON as the intended climax target,
+      not just Reed's preference. Book explicitly states: "the dragon is saving Bryn Shander
+      for last, because Xardorok knows that refugees from the smaller towns have nowhere else
+      to go but there. Bryn Shander's walls provide no defense from the sky, and the closer
+      Ten-Towners huddle together, the easier it becomes for the dragon to annihilate them."
+      This also lines up perfectly with Rhystal's unresolved personal thread (Talen's grove,
+      Bryn Shander) — using it as the climax town serves both the book's intended structure
+      AND Reed's character-arc needs simultaneously.
+      Mechanically: the party's best move (per book) is not to chase the dragon in the air —
+      it's faster than any overland or flight speed they'll have — but to get ahead of it and
+      wait at Bryn Shander. Vellynne's sleds solve exactly this problem.
+
+  - beat: "ARVEIATURACE CLIFFHANGER — EARLIER DESIGN, SUPERSEDED by current_plan (she appears; no required fight; purpose undecided)"
+    detail: >
+      Sequence: the party KILLS the chardalyn dragon at Bryn Shander first -- this is a real,
+      earned win, not a hollow one. Before they can celebrate or fully recover, Arveiaturace
+      (ancient white dragon, allied with Auril) appears in the wreckage, drawn by the
+      violence and raw magic of the fight that just happened -- not because the construct
+      dragon survived or died, just because of the scale of what just occurred.
+
+      She attacks. The party is already resource-depleted from two fights in a row (Sunblight
+      Fortress + the chardalyn dragon) when she shows up, so this is not a fair fight, and
+      it's not supposed to be. Reed will beef her up for the scene on top of her already
+      being a near-unbeatable threat for a level 7 party.
+
+      CRITICAL TONE NOTE: she does NOT defeat the party through overwhelming force in a
+      dramatic curbstomp, and she does NOT negotiate (dragons don't negotiate with "lower
+      life forms," per Reed). Instead: she is CONTEMPTUOUS, not threatened. She doesn't
+      consider the party worth the effort of a real fight. The party is forced to retreat --
+      not because she crushes them, but because continuing to fight her is clearly suicidal
+      and she makes that obvious rather than proving it by killing anyone. She may blast Bryn
+      Shander a bit more just because she can, then simply leaves -- "not worth my time" is
+      the whole beat.
+
+      FREEZE THE GAME immediately after the party retreats / she departs. Do not resolve
+      anything further -- no aftermath scene, no dialogue with her, no negotiation. The
+      cliffhanger IS the freeze: they won one fight, got no time to celebrate, and got
+      reminded there's something in this world far above their weight class.
+
+      STORY WEIGHT: per the book, Arveiaturace has no real plot-mechanical consequences tied
+      to this encounter -- she's flavor/a set-piece, not a gear in the main plot. The real
+      next-arc content is Vellynne's Codicil of White / Ythryn hook (chapter 5+), which is
+      unaffected by whether Arveiaturace is killed, flees, or just leaves on her own. Do NOT
+      feel obligated to manufacture follow-up consequences for her when the campaign resumes
+      unless Reed wants them -- the emotional beat (relief, then dread) is the entire payoff.
+    status: "Superseded 2026-11-04. Kept for tone notes only."
+
+leveling_plan_confirmed_with_reed:
+  current_level: 6  # updated S23; Rurik to confirm at table
+  party_size: 5  # one more than the book assumes (4) -- extra action economy/HP buffer, table has been running bigger fights accordingly
+  progression:
+    - {trigger: "After the Ramshackle arc wraps (post-Sephek, pre-Caer-Dineval)", new_level: 6}
+    - {trigger: "Black Swords + first Sunblight visit played at", level: 6}
+    - {trigger: "Easthaven battle played at", level: 6}
+    - {trigger: "Dragon destroyed at Sunblight", new_level: 7, note: "Carried over from Reed's earlier level 7 on the dragon's death, which matches the book's 'contribute to the dragon's destruction'. The new plan doesn't state a level; confirm."}
+    - {trigger: "Later arc (Vellynne/Codicil of White/Ythryn)", level: 7}
+  open_decision: >
+    The book's Sunblight level-up (any 2 of: X4 plan, free Pleurota, destroy the heart) versus
+    level 7 when the dragon is destroyed. After Oct 28 the party has 1 of the 3. Reed's call.
+
+confirmed_arc_summary_note: >
+  See current_plan near the top of this file and CAMPAIGN-PLAN.md. Sunblight was played Oct 28
+  (X4 plan found, Xardorok alive, Pleurota not freed, heart intact).
+
+# ==============================================================================
+# THE REAL PLOT OF RIME OF THE FROSTMAIDEN (book reference)
+# ==============================================================================
+
+book_structure:
+  root_cause: "Auril, neutral evil goddess of winter, cast the Everlasting Rime. She is cold indifference, not an active mastermind."
+  chapters:
+    - "1. Ten-Towns — sandbox, side quests (WHERE MOST PLAY HAS HAPPENED)"
+    - "2. Icewind Dale — wilderness sandbox (includes The Unseen, Caer-Konig)"
+    - "3. Sunblight — Xardorok Sunblight builds the chardalyn dragon. SOURCED TODAY. Dragon is ALREADY launched by the time characters arrive, no matter what — this is baked into the chapter, not situational."
+    - "4. Destruction's Light — the dragon attacks Ten-Towns in a fixed order, saving Bryn Shander for last. SOURCED TODAY."
+    - "5. Auril's Abode — Vellynne Harpell reveals the Codicil of White, Island of Solstice. HELD IN RESERVE past the winter break."
+    - "6. Caves of Hunger — brutal survival chapter, journey to the island. HELD IN RESERVE."
+    - "7. Doom of Ythryn — buried Netherese flying city, a LICH (Iriolarthas), imprisoned illithid brain. HELD IN RESERVE — this is what's waiting if the campaign resumes after the break."
+  key_villains:
+    - {name: "Xardorok Sunblight", role: "Duergar warlord, believes his patron is Deep Duerra but is actually being used by Asmodeus. Building/has built the chardalyn dragon."}
+    - {name: "The Chardalyn Dragon", role: "Cursed black crystal construct animated by dark magic. NOT a real dragon. Already launched, following a fixed attack path, saving Bryn Shander for last."}
+    - {name: Auril, role: "Root cause. True final antagonist if the campaign ever goes that far."}
+  key_allies:
+    - {name: "Vellynne Harpell", role: "Wizard of the Arcane Brotherhood (Host Tower, Luskan). MEETS PARTY ON THE ROAD back from Sunblight per book canon — intercepts with sleds, offers a ride, wants their trust for her own Codicil of White quest later. Pragmatic, doesn't care about Ten-Towns for its own sake, will happily help fight the dragon to test her magic."}
+
+# ==============================================================================
+# THE CULT OF AURIL — clarified philosophy
+# ==============================================================================
+
+cult_of_auril_design_philosophy:
+  core_decision: >
+    The cult does NOT resolve as its own plot thread. There is no "defeat the cult" ending
+    within this campaign's remaining scope. It exists as MOTIVATION and ATMOSPHERE.
+  reeds_homebrew_twist_on_sacrifice: >
+    Sacrifice victims in this campaign are WILLING, not lottery-selected against their will.
+    Being chosen is treated as an honor. This is Reed's addition.
+  sephek_kaltro_redesigned_motive: >
+    Sephek kills people who WERE chosen, willingly, but lost their nerve and tried to escape
+    — or were rescued by someone who didn't believe. He hunts escapees and finishes what
+    Auril "already claimed." Kills the rescuer too.
+  auril_alignment_confirmed: "Neutral evil — cold indifference, not active malice or a giver of orders."
+
+# ==============================================================================
+# IMMEDIATE STORY THREAD IN PROGRESS RIGHT NOW (as of 2026-11-04, before tonight's game)
+# ==============================================================================
+
+current_scene:
+  location: "Easthaven, at the gate; the chardalyn dragon has fled toward Sunblight"
+  status: >
+    The party fought the dragon at the gate and pulled it out of town. It fled at under 100 HP.
+    Next is the pursuit to Sunblight. The Easthaven aftermath is not recorded yet.
+
+easthaven_battle:
+  phases: ["Dragon arrival", "Battle across Easthaven", "Dragon retreat", "Aftermath"]
+  outcome_session_25: "Fought at the gate; the party pulled the dragon out of town. It fled to Sunblight at under 100 HP. Exact HP not recorded."
+  dragon_as_tuned: "AC 18, HP 236, from Reed's compendium edit before import. Radiant Breath stays 7d8."
+  retreat_trigger: "Played: it fled at under 100 HP, as Reed ran it at the table. This replaced the book's 30-damage rule for this fight."
+  retreat_path: "Directly toward Sunblight, across Lac Dinneshere toward the Spine of the World. The party sees which way it goes."
+  ending: "Planned: Easthaven survives, with damage depending on the battle. Town damage not recorded yet. The pursuit and fortress assault come next."
+  repairs: "Homebrew: a visible countdown at Sunblight that the party can disrupt. The book's rate is 1d6 HP per hour of work."
+
+open_reconcile:
+  - "Three towns: the plan says three are already devastated. On the book's route only Dougan's Hole and Good Mead come before Easthaven. Reed to name the third, or change the count."
+  - "Vellynne: Reed's earlier note has the party on her dogsleds now; the plan introduces her after the dragon is destroyed."
+  - "Vistel: the plan names Vistel as the Emerald Enclave character. The party's Enclave druid in these files is Rhystal. Assumed to be Rhystal; confirm. The contact's name is also open (Bal vs. Talen Stonebrook)."
+  - "Dragon's HP when it fled: Reed to supply the exact number. Repairs at Sunblight count up from it."
+  - "Black Swords / Caer-Dineval outcome: not recorded."
+
+dragon_scourge:
+  source: "Reed's notes, checked against book Ch.4 on D&D Beyond 2026-11-04; times and rules match. The book allows adjusting the timeline. Book default only where current_plan differs."
+  route_hours_after_takeoff:
+    - {town: "Dougan's Hole", arrive: 2, leave: 2.5, note: "spares the Twenty Stones of Thruun"}
+    - {town: "Good Mead", arrive: 3, leave: 4, note: "spares the Mead Hall"}
+    - {town: "Easthaven", arrive: 5.5, leave: 13.5, note: "half the town"}
+    - {town: "Caer-Dineval", arrive: 14.5, leave: 15.5, note: "all but the castle"}
+    - {town: "Caer-Konig", arrive: 16.5, leave: 18}
+    - {town: "Termalaine", arrive: 20, leave: 26}
+    - {town: "Lonelywood", arrive: 26.5, leave: 28.5}
+    - {town: "Bremen", arrive: 30, leave: 32}
+    - {town: "Targos", arrive: 32.5, leave: 40.5}
+    - {town: "Bryn Shander", arrive: 41, leave: 53, note: "6h strafing, then 6h landed hunting survivors"}
+    - {town: "Sunblight (return)", arrive: 56.5}
+  rules:
+    - "30+ damage without destroying it sends it to the next town. At Bryn Shander it returns to Sunblight instead."
+    - "It heals only through Xardorok's repairs (1d6 HP per hour in the forge). Xardorok is alive."
+    - "Radiant Breath: 120 ft x 5 ft line, recharge 5-6, DC 16 Dex, 7d8 radiant."
+    - "Map 4.1: don't show players unless they studied the X4 plan. They did (Oct 28)."
+  sled_ruling:
+    source: "Reed's estimate; the book gives no sled speed"
+    dogs: "Need a short rest after every hour pulling"
+    legs: "Sunblight to Dougan's Hole about 12-15 hours; Dougan's Hole to Easthaven about 8-9 more"
+    interception: "First realistic interception is Easthaven (the dragon is there 8h) or later"
+  timing_note: >
+    The sled ruling and book clock put the party at Easthaven about hour 20-24, after the dragon's
+    book departure at hour 13.5. The plan establishes the Easthaven interception, and the book
+    allows adjusting the timeline, so the plan's interception stands.
+
+planned_next_beats_in_order:
+  - step: "Easthaven aftermath (not recorded yet). The battle was played in game session 25."
+  - step: "Pursue to Sunblight, interrupt repairs, destroy the dragon, resolve the fortress."
+  - step: "Return to Bryn Shander as heroes; refugees and shortages; Rhystal reconnects with the Enclave contact."
+  - step: "Vellynne Harpell introduces the Ythryn storyline."
+  - step: "Arveiaturace appears. End of arc."
+
+# ==============================================================================
+# CHARACTER ARCS
+# ==============================================================================
+
+character_arcs:
+  - name: Rhystal
+    arc: >
+      Emerald Enclave druid. Contact is TALEN in Bryn Shander. Personal thread: Talen's
+      dying grove (blue-white ice — Auril's intentional killing). This thread picks up
+      on the return to Bryn Shander after Sunblight, when Rhystal reconnects with the contact;
+      the town is not attacked. Rhystal has also had private, unshared dreams — fragments of another life
+      bleeding through sleep — since early campaign (pre-Session 7). Undeveloped, worth
+      returning to if a quiet moment arises before the ending.
+  - name: "AK the Great"
+    arc: "Moose-taur ranger. Personal beat already happening now — two awakened moose already killed at the Elven Tomb fight."
+  - name: Srai Hulud
+    arc: >
+      Fighter/Rune Knight, chef, birth mother Ancient Copper Dragon Tazmikella. Wants custom
+      rune-casting RP process, toolkit RP with Copper, wants to merge psychic-attuned hammer
+      into Muzawarayn Maul, wants to merge Sentinel Shield effects into Turtle Bone Shield.
+      Tracked in Jira ROTF-27. All PENDING design, not built.
+  - name: "Dezmyr Shadowdusk"
+    arc: "NO LONGER IN THE PARTY. Confirmed gone. Do not carry his threads forward."
+  - name: Yoog
+    arc: "Bugbear barbarian. No major personal thread flagged yet."
+  - name: "Rurik Lutgehr"
+    arc: "Dwarf bard. Freed the entire party from frost giant captivity at campaign start — the party's true origin story."
+
+# ==============================================================================
+# CAMPAIGN ORIGIN
+# ==============================================================================
+
+origin_story: >
+  The party began as prisoners of a frost giant. Rurik Lutgehr picked the locks and freed
+  everyone, cell by cell. They fled north into the worst winter in living memory, arriving
+  first at Dougan's Hole, then Bryn Shander. From there: Foaming Mugs (Bryn Shander), A
+  Beautiful Mine (Termalaine), Black Cabin (Macreadus, the Summer Star device — needs a
+  unicorn horn to activate), then Good Mead.
+
+good_mead_full_detail: >
+  Party arrived at Good Mead for "The Mead Must Flow" — town speaker already dead, election
+  underway. Olivessa Untapoor ran reluctantly against a dwarf candidate secretly meeting with
+  Targos (Zhentarim territory) to stage a fake "thug attack" for his own electoral benefit.
+  Party uncovered the plot, killed the dwarf and his crew on the road. Party then covered
+  the actual staged attack night themselves, beat back the real Zhentarim thugs. Olivessa won,
+  became a genuine hero-speaker. Nobody in Good Mead knows the party killed the dwarf's crew.
+  Targos speaker (Zhentarim) will eventually notice his agent never returned — SLEEPING THREAD.
+
+# ==============================================================================
+# CHAPTER 1 STARTER QUESTS — FULL STATUS
+# ==============================================================================
+
+chapter_1_quests:
+  - {town: "Bryn Shander", quest: "Foaming Mugs", status: "DONE — first quest of the campaign"}
+  - {town: "Caer-Dineval", quest: "Black Swords", status: "OUTCOME NOT RECORDED — Reed to supply"}
+  - {town: "Caer-Konig", quest: "The Unseen", status: "DONE — duergar (Nildar Sunblight, Xardorok's younger son), chardalyn shards found. NO direct book handoff to Sunblight from this quest — it resolves as a local problem. The Unseen's real narrative payoff is satisfying the Knights' 'meddled with Nildar/Durth' condition for Black Swords."}
+  - {town: "Dougan's Hole", quest: "Holed Up", status: "DONE"}
+  - {town: Easthaven, quest: "Toil and Trouble", status: "SKIPPED by Reed's decision"}
+  - {town: "Good Mead", quest: "The Mead Must Flow", status: "DONE"}
+  - {town: Lonelywood, quest: "The White Moose", status: "DONE — Elven Tomb fight complete"}
+  - {town: Targos, quest: "Mountain Climb", status: "DONE — Kelvin's Cairn climber rescue"}
+  - {town: Termalaine, quest: "A Beautiful Mine", status: "DONE"}
+  - {town: Bremen, quest: "Lake Monster", status: "SKIPPED — narrative value extracted via Ravisin thread"}
+  - {town: "(floating)", quest: "Cold-Hearted Killer", status: "DONE — Sephek Kaltro killed at the Ramshackle"}
+  - {town: "(floating)", quest: "Nature Spirits", status: "SKIPPED — low stakes filler"}
+
+# ==============================================================================
+# CULT OF AURIL — regional presence
+# ==============================================================================
+
+cult_presence:
+  - {location: "Twenty Stones of Thruun, Dougan's Hole", status: "Party's first cult contact — interrupted Savaa Rubyeye mid-sacrifice on a willing victim (the same woman later killed by Sephek in Caer-Dineval)."}
+  - {location: "Good Mead", status: "Rumored sightings of Savaa passing through, unconfirmed"}
+  - {location: "Bryn Shander", status: "~50 cultists laying low. Sheriff Markham + priestess Mishann actively resisting."}
+  - {location: "Lonelywood", status: "Ravisin (unaffiliated loner cultist) being resolved tonight"}
+  - {location: "Caer-Dineval", status: "Knights of the Black Sword — devoted to Levistus, run the town's keep, hold Speaker Crannoc. Full mechanics above."}
+
+# ==============================================================================
+# PARTY ROSTER
+# ==============================================================================
+
+party:
+  - {name: "Srai Hulud", race: Lizardfolk, class: "Fighter 5 (Rune Knight)", notes: "Chef, birth mother Tazmikella (Ancient Copper Dragon), has a sled dog"}
+  - {name: Rhystal, race: "White Dragonborn", class: "Druid 5 (Circle of the Stars)", notes: "Emerald Enclave, contact Talen in Bryn Shander — thread pays off at the ending"}
+  - {name: Yoog, race: Bugbear, class: "Barbarian 5 (Wild Heart)"}
+  - {name: "AK the Great", race: "Moose-taur (homebrew)", class: Ranger, notes: "Personal beat happening now at White Moose fight"}
+  - {name: "Rurik Lutgehr", race: Dwarf, class: Bard, notes: "Freed the whole party from frost giant captivity — the origin story"}
+  - name: "Dezmyr Shadowdusk"
+    status: "NO LONGER IN THE PARTY — confirmed gone. Do not carry his threads forward."
+
+# ==============================================================================
+# LOOT LOG
+# ==============================================================================
+
+loot_log:
+  - date: "2026-07-29"
+    total_gp: 1060
+    items: "Dire Wolf Pelt, Grell Parts, Remorhaz Parts x30, Mammoth Tusks x2, Mammoth Leather ~50yd"
+  - date: "2026-08-26 (in progress)"
+    items: "Veilmantle of the Last Warden — rare cloak, sarcophagus loot at Elven Tomb"
+
+# ==============================================================================
+# WHAT WAS BUILT IN GITHUB THIS SESSION (2026-08-26)
+# ==============================================================================
+
+built_this_session:
+  - "Awakened Dire Wolf actor (CR3) — compiled and released, module v1.0.29"
+  - "Awakened Snow Leopard actor (CR3, reskinned tiger) — compiled and released, module v1.0.29"
+  - "Veilmantle of the Last Warden item — compiled and released in new rotf-items pack, module v1.0.29"
+  - "Fixed 68 damage denomination strings across 31 actors (Gate 4 build issue)"
+  - "Read and verified actual book source for Black Swords (Caer-Dineval), Chapter 3 Sunblight, Chapter 4 Destruction's Light — corrected several invented/guessed plot assumptions from prior session"
+  - "Ravisin actor being edited directly by Reed in Foundry — not reflected in packs-src, do not overwrite"
+  - "Ramshackle map: Reed's player is rebuilding with Dungeon Alchemist, layered V14 setup — Reed importing manually, NOT a Sage/GitHub task"
+
+# ==============================================================================
+# HOW TO USE THIS FILE
+# ==============================================================================
+# Read this FIRST, before HANDOFF.md or MODULE-STATE.yaml, when picking up ANY session.
+# This file is deliberately session-independent. Full rewrite each update, not append-only.
+# When correcting plot assumptions, always prefer reading the actual book source
+# (D&D Beyond) over carrying forward a previous session's guess — several corrections
+# were needed this session because earlier assumptions were never actually verified
+# against the book.

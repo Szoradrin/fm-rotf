@@ -1,0 +1,96 @@
+# ROTF-CAMPAIGN-STATE.yaml — Reed's table state for Rime of the Frostmaiden
+# Lives in Szoradrin/fm-rotf/campaign/, which the release zip leaves out, so it never installs into Foundry.
+# Moved here from callinl/ai-ops on 2026-11-10 (Reed: game files belong with the game, not in AI-Ops).
+# Track: Rime of the Frostmaiden. Story arc lives in ROTF-STORY-STATE.yaml.
+
+# ==============================================================================
+# CAMPAIGN STATE (Reed's game — not part of shareable module)
+# ==============================================================================
+
+campaign:
+  party_level: 6  # confirmed from sheets 2026-09-23; Rurik's sheet still showed 5 — confirm at table
+  current_location: "Easthaven, at the gate. The chardalyn dragon has fled toward Sunblight."
+  last_session: "Game session 25: 2026-11-04 (battle for Easthaven). Previous game: 2026-10-28 (Sunblight)."
+  session_numbering: "Session numbers count game sessions. One game session can span several Claude Code sessions."
+  party_detail_files: "campaign/party/*.md"
+
+  party:
+    - {name: Srai, race: Lizardfolk, class: "Fighter 6 (Rune Knight)", notes: "sheet display name 'Shai'; chef; birth mother Tazmikella"}
+    - {name: Rhystal, race: White Dragonborn, class: "Druid 6 (Circle of the Stars)", notes: "Emerald Enclave, contact Talen Stonebrook, Bryn Shander"}
+    - {name: Yoog, race: Bugbear, class: "Barbarian 6 (Wild Heart)"}
+    - {name: The Great Ak, race: "Moose-taur (homebrew)", class: "Ranger 6 (Beast Master)"}
+    - {name: Rurik Lutgehr, race: Dwarf, class: "Bard 4 / Cleric 1", notes: "surname corrected from 'Ironfist'"}
+  former_members:
+    - {name: Dezmyr Shadowdusk, status: "NO LONGER IN PARTY — do not carry threads forward"}
+
+  completed_quests:
+    - The Mead Must Flow (Good Mead) — Olivessa Untapoor won speaker election
+    - A Beautiful Mine (Termalaine)
+    - Mountain Climb (Kelvin's Cairn)
+    - The Unseen (Caer-Konig) — satisfies Knights of the Black Sword alliance condition
+    - Foaming Mugs (Bryn Shander)
+    - Black Cabin (Macreadus dead, Summer Star in party possession)
+    - Holed Up (Dougan's Hole)
+    - The White Moose / Elven Tomb (Lonelywood) — Ravisin + Karra + Venn + awakened dire wolf + awakened snow leopard
+    - Cold-Hearted Killer — Sephek Kaltro killed at the Ramshackle
+  # Black Swords (Caer-Dineval): outcome not recorded; Reed to supply before it is listed here.
+
+  sunblight_oct_28:
+    x4_flight_plan_found: true
+    pleurota_freed: false
+    dragon_heart_destroyed: false
+    xardorok_killed: false
+
+  easthaven_battle_session_25:
+    fought_at: "The gate. The party pulled the dragon out of town."
+    dragon_hp_when_it_fled: "Under 100; exact number not recorded"
+    dragon_fled_to: "Sunblight"
+
+  next_up: "Pursue the dragon -> destroy it at Sunblight -> Bryn Shander heroes' welcome -> Vellynne and Ythryn -> Arveiaturace cliffhanger. Full plan: campaign/CAMPAIGN-PLAN.md"
+
+  table_npcs:
+    - {name: Sahnar, role: "The Elven Tomb mummy, now barkeep at the Ramshackle (player request)", status: "Portrait and animation done; actor/design still to finalize"}
+
+
+# ==============================================================================
+# PLAYER REQUESTS — "Special Sauce" (Srai Hulud / Reed's player)
+# ==============================================================================
+# These are campaign-specific homebrew requests. Each needs design sign-off
+# before implementation. Track: HOMEBREW — design first, build second.
+
+player_requests:
+  srai_hulud:
+    note: "Srai likes special sauce — custom mechanics, item merges, RP processes"
+
+    requests:
+    - id: shai-rune-casting-process
+      what: Custom Rune Knight rune-casting process — Srai wants a special RP mechanic for activating runes
+      track: HOMEBREW
+      design_status: PENDING — idea stated, not yet designed
+      action_needed: Design session with Reed — what does the process look like, what are the mechanics
+
+    - id: shai-copper-rune-toolkit
+      what: Copper chat about runes + toolkits — Srai is RPing his own toolkits, wants that supported
+      track: HOMEBREW
+      design_status: PENDING — Reed flagged as important to Shai even though not standard
+      action_needed: Understand what toolkit RP he wants, how it interacts with rune mechanics
+      note: "Reed: not something I'd normally want to deal with but it's important to him"
+
+    - id: shai-maul-merge
+      what: >
+        Merge psychic-attuned hammer effects INTO Muzawarayn Maul — one awesome combined item
+      track: HOMEBREW
+      design_status: PENDING — needs balance check before implementation
+      action_needed: >
+        Pull current stats on both items. Design the merged item. Verify balance for level 5-6 party.
+        Then build as a custom magic item actor/item in Foundry.
+
+    - id: shai-shield-merge
+      what: >
+        Add Sentinel Shield effects TO Turtle Bone Shield — merge two items into one
+      track: HOMEBREW
+      design_status: PENDING — needs balance check
+      action_needed: >
+        Pull Sentinel Shield stats (adv on initiative, adv on Perception, eye carved into it).
+        Design merged Turtle Bone Shield. Verify balance. Build in Foundry.
+      note: Sentinel Shield is a DMG item — RAW stats available, no DDB pull needed

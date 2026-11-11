@@ -4,6 +4,7 @@
 *.vscode*
 ./reference/*
 ./docs/*
+./campaign/*
 ./tools/*
 ./MODULE-STATE.yaml
 ./IMAGE_MANIFEST.md

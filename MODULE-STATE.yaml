@@ -224,8 +224,8 @@ outstanding:
 # ==============================================================================
 # CAMPAIGN STATE
 # ==============================================================================
-# Campaign/table state and player requests are private — see
-# callinl/ai-ops/foundry-modules/rime-of-the-frostmaiden/ (Rime of the Frostmaiden track).
+# Campaign/table state and player requests live in campaign/ in this repo
+# (left out of the release zip by .github/zip-exclude.lst). Start with campaign/HANDOFF.md.
 
 # ==============================================================================
 # CHANGELOG
