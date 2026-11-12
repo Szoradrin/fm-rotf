@@ -1,5 +1,5 @@
-2026/11/05-01:24:37.564187 7b34cb7be6c0 Delete type=3 #1
-2026/11/05-01:24:37.568777 7b34ca7bc6c0 Level-0 table #5: started
-2026/11/05-01:24:37.569422 7b34ca7bc6c0 Level-0 table #5: 9566 bytes OK
-2026/11/05-01:24:37.569737 7b34ca7bc6c0 Delete type=0 #3
-2026/11/05-01:24:37.569799 7b34ca7bc6c0 Manual compaction at level-0 from '!scenes!BremenTownScene1' @ 72057594037927935 : 1 .. '!scenes.levels!TwentyStonesOfTh.defaultLevel0000' @ 0 : 0; will stop at (end)
+2026/11/12-01:31:44.585874 7a971b3fe6c0 Delete type=3 #1
+2026/11/12-01:31:44.597933 7a9719bfb6c0 Level-0 table #5: started
+2026/11/12-01:31:44.599304 7a9719bfb6c0 Level-0 table #5: 41994 bytes OK
+2026/11/12-01:31:44.599586 7a9719bfb6c0 Delete type=0 #3
+2026/11/12-01:31:44.599667 7a9719bfb6c0 Manual compaction at level-0 from '!scenes!BremenTownScene1' @ 72057594037927935 : 1 .. '!scenes.tokens!SunblightFortrs1.SbAITok000000028' @ 0 : 0; will stop at (end)
