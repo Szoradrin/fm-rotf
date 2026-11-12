@@ -9,7 +9,7 @@ x2.5 to 4175x2355. 10 ft = 100 px, so the 5 ft grid is 50 px.
 
 Usage: python tools/gen_sunblight_scenes.py   (then python tools/build.py)
 """
-import copy, json, os
+import copy, json, math, os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ACT = os.path.join(ROOT, "packs-src", "rotf-actors")
@@ -17,6 +17,10 @@ SCN = os.path.join(ROOT, "packs-src", "rotf-scenes")
 S = 2.5            # source px -> scene px
 GRID = 50          # px per 5 ft
 W, H = 4175, 2355
+PAD = 0.25
+# Token x/y are canvas coordinates, which include the scene padding (Foundry: ceil(pad*size/grid)*grid)
+PAD_X = math.ceil(PAD * W / GRID) * GRID   # 1050
+PAD_Y = math.ceil(PAD * H / GRID) * GRID   # 600
 IMG = "modules/rotf/assets/images/map-3.1-sunblight-{}-level.webp"
 JOURNAL = "SunblightJrnl001"
 
@@ -129,7 +133,7 @@ def tokens_for(scene_id, code, level_ids, only=None):
         t.update({
             "_id": tid, "_key": f"!scenes.tokens!{scene_id}.{tid}",
             "name": name or a["name"], "actorId": a["_id"], "actorLink": False,
-            "x": round(x * S - w * GRID / 2), "y": round(y * S - t.get("height", 1) * GRID / 2),
+            "x": PAD_X + round(x * S - w * GRID / 2), "y": PAD_Y + round(y * S - t.get("height", 1) * GRID / 2),
             "elevation": LEVELS[lv][2], "level": level_ids[lv], "hidden": hidden,
             "locked": False, "sort": n,
         })
@@ -152,7 +156,7 @@ def level(lid, scene_id, code):
     }
 
 def dungeon(d):
-    d.update({"width": W, "height": H, "padding": 0.25, "tokenVision": True})
+    d.update({"width": W, "height": H, "padding": PAD, "tokenVision": True})
     d["grid"].update({"size": GRID, "distance": 5, "units": "ft"})
     d["fog"]["mode"] = 1
     d["environment"]["darknessLevel"] = 0.2      # braziers everywhere; globalLight stays on
@@ -177,7 +181,8 @@ d.update({"_id": SID, "_key": f"!scenes!{SID}", "name": "Sunblight Fortress (3 l
           "navName": "Sunblight", "journal": JOURNAL, "journalEntryPage": None, "sort": 1,
           "initialLevel": LIDS["C"]})
 d["levels"] = [level(LIDS[c], SID, c) for c in ("F", "C", "I")]
-d["tokens"] = tokens_for(SID, "A", LIDS)
+# 1.0.50: Reed places the NPCs by hand; the book positions stay in P for reference.
+d["tokens"] = []
 write("scene-sunblight-fortress.json", dungeon(d))
 
 print(f"{len(P)} tokens:", {c: sum(1 for p in P if p[0] == c) for c in LEVELS})
