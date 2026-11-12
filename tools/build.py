@@ -20,7 +20,7 @@ FVTT = os.path.join(ROOT, "node_modules/.bin/fvtt")
 PACKS = {
     "rotf-actors":  ("actors",  [("items", "actors.items")]),
     "rotf-journals":("journal", [("pages", "journal.pages")]),
-    "rotf-scenes":  ("scenes",  [("levels", "scenes.levels")]),
+    "rotf-scenes":  ("scenes",  [("levels", "scenes.levels"), ("tokens", "scenes.tokens")]),
     "rotf-tables":  ("tables",  [("results", "tables.results")]),
     "rotf-items":   ("items",   []),
 }
