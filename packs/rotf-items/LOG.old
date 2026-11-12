@@ -1,5 +1,5 @@
-2026/11/12-01:31:44.958340 75517dbfd6c0 Delete type=3 #1
-2026/11/12-01:31:44.961534 75515ffff6c0 Level-0 table #5: started
-2026/11/12-01:31:44.962486 75515ffff6c0 Level-0 table #5: 1760 bytes OK
-2026/11/12-01:31:44.962860 75515ffff6c0 Delete type=0 #3
-2026/11/12-01:31:44.962924 75515ffff6c0 Manual compaction at level-0 from '!items!VeilmantleLastW1' @ 72057594037927935 : 1 .. '!items!VeilmantleLastW1' @ 0 : 0; will stop at (end)
+2026/11/12-01:49:04.309805 7f592afbd6c0 Delete type=3 #1
+2026/11/12-01:49:04.312069 7f5929fbb6c0 Level-0 table #5: started
+2026/11/12-01:49:04.312600 7f5929fbb6c0 Level-0 table #5: 1760 bytes OK
+2026/11/12-01:49:04.312829 7f5929fbb6c0 Delete type=0 #3
+2026/11/12-01:49:04.312875 7f5929fbb6c0 Manual compaction at level-0 from '!items!VeilmantleLastW1' @ 72057594037927935 : 1 .. '!items!VeilmantleLastW1' @ 0 : 0; will stop at (end)
