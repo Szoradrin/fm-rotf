@@ -53,11 +53,8 @@ Dragon route, timing and rules are in `ROTF-STORY-STATE.yaml` under `dragon_scou
 ## Open items
 - **Module compatibility:** bump `compatibility.verified` to 14.369 in the next release (Reed chose after the game).
 - **Token art:** audited 2026-11-05 (full list in `MODULE-STATE.yaml`). Of the 19 Sunblight actors, only Xardorok and Grandolpha have their own token; Kapanuk has a generic one, Klondorn has book art, and 15 are placeholders. The 16 prompts aren't saved in `D:\AI-Ops`, and no images have been uploaded. Nine actors have a token file in the module that isn't wired in yet (Vellynne, Nass, Dzaan's simulacrum, Icewind kobold, Arveiaturace, Bjornhild, three Auril forms).
-- **Delete five `write-test-s24` branches** (can be done locally now).
-- **Retire the PAT referenced in `foundry-modules/START-PROMPT.md`;** confirm it is revoked in GitHub.
 - Reed DM decisions carried over: Yajath charm/sneak; Hethyl's 4th prophecy; Dinev's Rest. These may already be settled by play; see "Not recorded" above.
 - STANDARDS-SCENES update pending.
-- `MODULE-STATE.yaml` releases 1.0.34–1.0.46 were never individually logged; catch up from git history.
 - Campaign files now live in this public repo by Reed's choice (2026-11-10: players don't read the repo), so the old campaign block in git history doesn't need scrubbing.
 - Confirm Rurik's actual level at the table.
 - Jira ROTF: 25 open tickets, all Backlog, none updated since Aug 12; several are out of date (for example ROTF-28). Reconcile when Reed wants it.
